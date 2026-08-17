@@ -1,0 +1,33 @@
+[project]
+name = "interpretability-graph"
+version = "0.1.0"
+description = "Local Gemma-2B attribution graphs (Anthropic circuit tracing) with 2-color edge encoding"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.optional-dependencies]
+# Full Gemma attribution stack (GPU recommended)
+gemma = [
+    "circuit-tracer @ git+https://github.com/safety-research/circuit-tracer.git",
+]
+# Supernode decoder-cosine verification (downloads GemmaScope transcoder weights)
+verify = [
+    "numpy",
+    "pyyaml",
+    "huggingface_hub",
+]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+interpretability-graph = "interpretability_graph.__main__:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[tool.hatch.build.targets.wheel]
+packages = ["interpretability_graph"]
