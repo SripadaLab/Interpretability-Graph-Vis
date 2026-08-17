@@ -1,0 +1,126 @@
+
+.gridsnap-container {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  .grid-item {
+    position: absolute;
+    outline: 1px solid transparent;
+    /* Keep SVG/canvas paint inside the tile so neighbors stay clickable. */
+    overflow: hidden;
+
+    .panel-close {
+      position: absolute;
+      top: 6px;
+      right: 6px;
+      z-index: 1000;
+      width: 22px;
+      height: 22px;
+      padding: 0;
+      border: 1px solid #D0CEC4;
+      border-radius: 4px;
+      background: rgba(255, 255, 255, 0.95);
+      color: #666;
+      font-size: 16px;
+      line-height: 1;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06);
+      pointer-events: auto;
+    }
+
+    .panel-close:hover {
+      background: #1a1a1a;
+      border-color: #1a1a1a;
+      color: #fff;
+    }
+  }
+
+  /* Toolbar above graph SVGs that previously intercepted panel tab clicks. */
+  .grid-item.is-toolbar {
+    overflow: visible;
+    z-index: 50;
+  }
+
+  .dragging {
+    opacity: .5;
+    z-index: 100;
+  }
+
+  .resize-handle,
+  .move-handle {
+    position: absolute;
+    bottom: 0;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    user-select: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    display: none;
+    pointer-events: none;
+    z-index: 100000000;
+
+    .grid-item:hover & {
+      display: flex;
+      pointer-events: auto;
+    }
+  }
+
+  .resize-handle {
+    right: 0;
+    cursor: se-resize;
+  }
+
+  .move-handle {
+    right: 20px;
+    cursor: move;
+  }
+
+  .preview {
+    position: absolute;
+    background: yellow;
+    opacity: .3;
+    pointer-events: none;
+    z-index: 10;
+  }
+
+  .grid-contents{
+    width: 100% !important;
+    height: 100% !important;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .grid-contents.button-container {
+    overflow: visible;
+  }
+}
+
+.gridsnap:not(.is-edit-mode) {
+    .resize-handle, .move-handle {
+        display: none !important;
+    }
+}
+
+
+
+
+.gridsnap-container .grid-item.is-hidden-panel {
+  display: none !important;
+}
+
+.gridsnap-container.dragging{
+    .grid-item{
+        outline: 3px solid #000;
+    }
+    .grid-contents{
+        pointer-events: none;
+    }
+}
