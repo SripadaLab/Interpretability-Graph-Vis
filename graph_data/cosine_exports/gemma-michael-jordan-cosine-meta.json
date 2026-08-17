@@ -1,0 +1,8 @@
+{
+  "slug": "gemma-michael-jordan",
+  "prompt": "<bos>Michael Jordan plays the sport of",
+  "method": "cosine similarity of concat[unit(W_enc) || unit(W_dec)]",
+  "n": 1174,
+  "max_nodes": "all",
+  "unthresholded": true
+}

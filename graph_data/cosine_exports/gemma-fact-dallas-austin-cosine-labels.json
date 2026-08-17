@@ -1,0 +1,6283 @@
+{
+  "slug": "gemma-fact-dallas-austin",
+  "prompt": "<bos>Fact: The capital of the state containing Dallas is",
+  "method": "cosine similarity of concat[unit(W_enc) || unit(W_dec)]",
+  "n": 697,
+  "max_nodes": "all",
+  "unthresholded": true,
+  "nodes": [
+    {
+      "node_id": "0_11976_4",
+      "layer": "0",
+      "feature": 11976,
+      "ctx_idx": 4,
+      "influence": 0.7000870108604431,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_4250_10",
+      "layer": "5",
+      "feature": 504250,
+      "ctx_idx": 10,
+      "influence": 0.6999022960662842,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8008_1",
+      "layer": "0",
+      "feature": 8008,
+      "ctx_idx": 1,
+      "influence": 0.6997173428535461,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6958_3",
+      "layer": "0",
+      "feature": 6958,
+      "ctx_idx": 3,
+      "influence": 0.6995322108268738,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_13648_2",
+      "layer": "6",
+      "feature": 613648,
+      "ctx_idx": 2,
+      "influence": 0.6993468999862671,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12601_1",
+      "layer": "0",
+      "feature": 12601,
+      "ctx_idx": 1,
+      "influence": 0.6991614103317261,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11835_2",
+      "layer": "0",
+      "feature": 11835,
+      "ctx_idx": 2,
+      "influence": 0.6989759206771851,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_9865_9",
+      "layer": "6",
+      "feature": 609865,
+      "ctx_idx": 9,
+      "influence": 0.6987903714179993,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_12544_10",
+      "layer": "9",
+      "feature": 912544,
+      "ctx_idx": 10,
+      "influence": 0.6986048221588135,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_6392_10",
+      "layer": "22",
+      "feature": 2206392,
+      "ctx_idx": 10,
+      "influence": 0.6984184980392456,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_8677_10",
+      "layer": "4",
+      "feature": 408677,
+      "ctx_idx": 10,
+      "influence": 0.6982321739196777,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_10547_8",
+      "layer": "7",
+      "feature": 710547,
+      "ctx_idx": 8,
+      "influence": 0.6974848508834839,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_12449_9",
+      "layer": "4",
+      "feature": 412449,
+      "ctx_idx": 9,
+      "influence": 0.6972976922988892,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2415_4",
+      "layer": "0",
+      "feature": 2415,
+      "ctx_idx": 4,
+      "influence": 0.6971103549003601,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_10829_10",
+      "layer": "3",
+      "feature": 310829,
+      "ctx_idx": 10,
+      "influence": 0.6969220638275146,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1847_8",
+      "layer": "0",
+      "feature": 1847,
+      "ctx_idx": 8,
+      "influence": 0.6967334747314453,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_14500_10",
+      "layer": "25",
+      "feature": 2514500,
+      "ctx_idx": 10,
+      "influence": 0.6965447068214417,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_1609_1",
+      "layer": "1",
+      "feature": 101609,
+      "ctx_idx": 1,
+      "influence": 0.6963558197021484,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5590_1",
+      "layer": "0",
+      "feature": 5590,
+      "ctx_idx": 1,
+      "influence": 0.6961666345596313,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_12003_7",
+      "layer": "1",
+      "feature": 112003,
+      "ctx_idx": 7,
+      "influence": 0.695976972579956,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8488_4",
+      "layer": "0",
+      "feature": 8488,
+      "ctx_idx": 4,
+      "influence": 0.6957871317863464,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_15801_10",
+      "layer": "3",
+      "feature": 315801,
+      "ctx_idx": 10,
+      "influence": 0.695597231388092,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_4516_1",
+      "layer": "6",
+      "feature": 604516,
+      "ctx_idx": 1,
+      "influence": 0.6954070329666138,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_3135_1",
+      "layer": "1",
+      "feature": 103135,
+      "ctx_idx": 1,
+      "influence": 0.6952167749404907,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_7136_2",
+      "layer": "3",
+      "feature": 307136,
+      "ctx_idx": 2,
+      "influence": 0.6950265169143677,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_13483_8",
+      "layer": "4",
+      "feature": 413483,
+      "ctx_idx": 8,
+      "influence": 0.6944551467895508,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_13917_10",
+      "layer": "5",
+      "feature": 513917,
+      "ctx_idx": 10,
+      "influence": 0.6942642331123352,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_4426_9",
+      "layer": "5",
+      "feature": 504426,
+      "ctx_idx": 9,
+      "influence": 0.6940733790397644,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8163_8",
+      "layer": "0",
+      "feature": 8163,
+      "ctx_idx": 8,
+      "influence": 0.6938822865486145,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_4895_7",
+      "layer": "1",
+      "feature": 104895,
+      "ctx_idx": 7,
+      "influence": 0.6936911344528198,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "12_2082_9",
+      "layer": "12",
+      "feature": 1202082,
+      "ctx_idx": 9,
+      "influence": 0.6934998631477356,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_13152_8",
+      "layer": "2",
+      "feature": 213152,
+      "ctx_idx": 8,
+      "influence": 0.6933084726333618,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1695_3",
+      "layer": "0",
+      "feature": 1695,
+      "ctx_idx": 3,
+      "influence": 0.6931169629096985,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_11453_8",
+      "layer": "3",
+      "feature": 311453,
+      "ctx_idx": 8,
+      "influence": 0.6929253935813904,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_16326_10",
+      "layer": "25",
+      "feature": 2516326,
+      "ctx_idx": 10,
+      "influence": 0.692733645439148,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_13619_10",
+      "layer": "22",
+      "feature": 2213619,
+      "ctx_idx": 10,
+      "influence": 0.6925417184829712,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "14_4758_10",
+      "layer": "14",
+      "feature": 1404758,
+      "ctx_idx": 10,
+      "influence": 0.6923497319221497,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_16128_7",
+      "layer": "0",
+      "feature": 16128,
+      "ctx_idx": 7,
+      "influence": 0.6921576261520386,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_423_4",
+      "layer": "0",
+      "feature": 423,
+      "ctx_idx": 4,
+      "influence": 0.6919654607772827,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_11734_8",
+      "layer": "3",
+      "feature": 311734,
+      "ctx_idx": 8,
+      "influence": 0.6917731761932373,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_10827_2",
+      "layer": "5",
+      "feature": 510827,
+      "ctx_idx": 2,
+      "influence": 0.6915807127952576,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_7822_10",
+      "layer": "2",
+      "feature": 207822,
+      "ctx_idx": 10,
+      "influence": 0.6911945343017578,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "12_2799_9",
+      "layer": "12",
+      "feature": 1202799,
+      "ctx_idx": 9,
+      "influence": 0.6910012364387512,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_4919_8",
+      "layer": "1",
+      "feature": 104919,
+      "ctx_idx": 8,
+      "influence": 0.6908078193664551,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15089_9",
+      "layer": "0",
+      "feature": 15089,
+      "ctx_idx": 9,
+      "influence": 0.6906140446662903,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_3441_10",
+      "layer": "9",
+      "feature": 903441,
+      "ctx_idx": 10,
+      "influence": 0.6904202103614807,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_7767_9",
+      "layer": "17",
+      "feature": 1707767,
+      "ctx_idx": 9,
+      "influence": 0.6902258396148682,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_13909_1",
+      "layer": "4",
+      "feature": 413909,
+      "ctx_idx": 1,
+      "influence": 0.6900314092636108,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_3783_10",
+      "layer": "3",
+      "feature": 303783,
+      "ctx_idx": 10,
+      "influence": 0.6898368000984192,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_7590_10",
+      "layer": "23",
+      "feature": 2307590,
+      "ctx_idx": 10,
+      "influence": 0.6896417737007141,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4993_1",
+      "layer": "0",
+      "feature": 4993,
+      "ctx_idx": 1,
+      "influence": 0.6894456148147583,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "14_3704_10",
+      "layer": "14",
+      "feature": 1403704,
+      "ctx_idx": 10,
+      "influence": 0.6892489790916443,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14244_1",
+      "layer": "0",
+      "feature": 14244,
+      "ctx_idx": 1,
+      "influence": 0.6890522837638855,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_6167_4",
+      "layer": "2",
+      "feature": 206167,
+      "ctx_idx": 4,
+      "influence": 0.6888553500175476,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_10748_10",
+      "layer": "1",
+      "feature": 110748,
+      "ctx_idx": 10,
+      "influence": 0.6886582374572754,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_5184_8",
+      "layer": "3",
+      "feature": 305184,
+      "ctx_idx": 8,
+      "influence": 0.6884608268737793,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_15363_8",
+      "layer": "5",
+      "feature": 515363,
+      "ctx_idx": 8,
+      "influence": 0.6882632970809937,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_924_10",
+      "layer": "7",
+      "feature": 700924,
+      "ctx_idx": 10,
+      "influence": 0.6880654692649841,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8057_7",
+      "layer": "0",
+      "feature": 8057,
+      "ctx_idx": 7,
+      "influence": 0.6878675818443298,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_10792_7",
+      "layer": "3",
+      "feature": 310792,
+      "ctx_idx": 7,
+      "influence": 0.6876695156097412,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_11172_5",
+      "layer": "8",
+      "feature": 811172,
+      "ctx_idx": 5,
+      "influence": 0.6874711513519287,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_3886_10",
+      "layer": "9",
+      "feature": 903886,
+      "ctx_idx": 10,
+      "influence": 0.6872726678848267,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_7403_10",
+      "layer": "1",
+      "feature": 107403,
+      "ctx_idx": 10,
+      "influence": 0.6870738863945007,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_411_10",
+      "layer": "19",
+      "feature": 1900411,
+      "ctx_idx": 10,
+      "influence": 0.6868749856948853,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_7986_2",
+      "layer": "7",
+      "feature": 707986,
+      "ctx_idx": 2,
+      "influence": 0.6864762902259827,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13282_5",
+      "layer": "0",
+      "feature": 13282,
+      "ctx_idx": 5,
+      "influence": 0.6860770583152771,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8817_7",
+      "layer": "0",
+      "feature": 8817,
+      "ctx_idx": 7,
+      "influence": 0.6858772039413452,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_7133_4",
+      "layer": "1",
+      "feature": 107133,
+      "ctx_idx": 4,
+      "influence": 0.685677170753479,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15343_4",
+      "layer": "0",
+      "feature": 15343,
+      "ctx_idx": 4,
+      "influence": 0.685477077960968,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_12206_2",
+      "layer": "4",
+      "feature": 412206,
+      "ctx_idx": 2,
+      "influence": 0.6852766871452332,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_8397_1",
+      "layer": "1",
+      "feature": 108397,
+      "ctx_idx": 1,
+      "influence": 0.6850760579109192,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14964_6",
+      "layer": "0",
+      "feature": 14964,
+      "ctx_idx": 6,
+      "influence": 0.6848753094673157,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5369_1",
+      "layer": "0",
+      "feature": 5369,
+      "ctx_idx": 1,
+      "influence": 0.6846744418144226,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2509_8",
+      "layer": "0",
+      "feature": 2509,
+      "ctx_idx": 8,
+      "influence": 0.68447345495224,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_7805_5",
+      "layer": "3",
+      "feature": 307805,
+      "ctx_idx": 5,
+      "influence": 0.684272289276123,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_7076_7",
+      "layer": "2",
+      "feature": 207076,
+      "ctx_idx": 7,
+      "influence": 0.6840711236000061,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_14137_1",
+      "layer": "1",
+      "feature": 114137,
+      "ctx_idx": 1,
+      "influence": 0.6838697791099548,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14725_1",
+      "layer": "0",
+      "feature": 14725,
+      "ctx_idx": 1,
+      "influence": 0.6836683750152588,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9022_4",
+      "layer": "0",
+      "feature": 9022,
+      "ctx_idx": 4,
+      "influence": 0.6834669709205627,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7020_3",
+      "layer": "0",
+      "feature": 7020,
+      "ctx_idx": 3,
+      "influence": 0.6832652688026428,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1138_4",
+      "layer": "0",
+      "feature": 1138,
+      "ctx_idx": 4,
+      "influence": 0.6830631494522095,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_14575_1",
+      "layer": "2",
+      "feature": 214575,
+      "ctx_idx": 1,
+      "influence": 0.6828609704971313,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6116_8",
+      "layer": "0",
+      "feature": 6116,
+      "ctx_idx": 8,
+      "influence": 0.6826581954956055,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_5729_2",
+      "layer": "4",
+      "feature": 405729,
+      "ctx_idx": 2,
+      "influence": 0.6824549436569214,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_5905_8",
+      "layer": "4",
+      "feature": 405905,
+      "ctx_idx": 8,
+      "influence": 0.6822515726089478,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_13483_1",
+      "layer": "9",
+      "feature": 913483,
+      "ctx_idx": 1,
+      "influence": 0.6820480823516846,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15147_7",
+      "layer": "0",
+      "feature": 15147,
+      "ctx_idx": 7,
+      "influence": 0.6818445920944214,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_902_1",
+      "layer": "2",
+      "feature": 200902,
+      "ctx_idx": 1,
+      "influence": 0.6816407442092896,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14519_9",
+      "layer": "0",
+      "feature": 14519,
+      "ctx_idx": 9,
+      "influence": 0.6814367771148682,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_305_4",
+      "layer": "0",
+      "feature": 305,
+      "ctx_idx": 4,
+      "influence": 0.6812326908111572,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_15292_7",
+      "layer": "6",
+      "feature": 615292,
+      "ctx_idx": 7,
+      "influence": 0.6810286641120911,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_3742_10",
+      "layer": "24",
+      "feature": 2403742,
+      "ctx_idx": 10,
+      "influence": 0.6808236241340637,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_2819_9",
+      "layer": "9",
+      "feature": 902819,
+      "ctx_idx": 9,
+      "influence": 0.6804128289222717,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3636_4",
+      "layer": "0",
+      "feature": 3636,
+      "ctx_idx": 4,
+      "influence": 0.6802064180374146,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "11_3544_9",
+      "layer": "11",
+      "feature": 1103544,
+      "ctx_idx": 9,
+      "influence": 0.679793655872345,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_16263_8",
+      "layer": "8",
+      "feature": 816263,
+      "ctx_idx": 8,
+      "influence": 0.6795871257781982,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_249_8",
+      "layer": "0",
+      "feature": 249,
+      "ctx_idx": 8,
+      "influence": 0.6793805360794067,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_6292_5",
+      "layer": "2",
+      "feature": 206292,
+      "ctx_idx": 5,
+      "influence": 0.6791739463806152,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9022_8",
+      "layer": "0",
+      "feature": 9022,
+      "ctx_idx": 8,
+      "influence": 0.6789670586585999,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_15537_8",
+      "layer": "1",
+      "feature": 115537,
+      "ctx_idx": 8,
+      "influence": 0.6787598133087158,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "12_12601_10",
+      "layer": "12",
+      "feature": 1212601,
+      "ctx_idx": 10,
+      "influence": 0.6785522699356079,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_5302_10",
+      "layer": "21",
+      "feature": 2105302,
+      "ctx_idx": 10,
+      "influence": 0.6783443689346313,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5761_3",
+      "layer": "0",
+      "feature": 5761,
+      "ctx_idx": 3,
+      "influence": 0.6781362891197205,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_14137_9",
+      "layer": "1",
+      "feature": 114137,
+      "ctx_idx": 9,
+      "influence": 0.677718460559845,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_15276_9",
+      "layer": "20",
+      "feature": 2015276,
+      "ctx_idx": 9,
+      "influence": 0.6775081157684326,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_8189_8",
+      "layer": "4",
+      "feature": 408189,
+      "ctx_idx": 8,
+      "influence": 0.6772976517677307,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_6028_1",
+      "layer": "4",
+      "feature": 406028,
+      "ctx_idx": 1,
+      "influence": 0.6770870685577393,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4823_4",
+      "layer": "0",
+      "feature": 4823,
+      "ctx_idx": 4,
+      "influence": 0.676876425743103,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "14_13624_7",
+      "layer": "14",
+      "feature": 1413624,
+      "ctx_idx": 7,
+      "influence": 0.676665723323822,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_7178_10",
+      "layer": "3",
+      "feature": 307178,
+      "ctx_idx": 10,
+      "influence": 0.6762435436248779,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_8335_9",
+      "layer": "9",
+      "feature": 908335,
+      "ctx_idx": 9,
+      "influence": 0.6760319471359253,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_485_3",
+      "layer": "0",
+      "feature": 485,
+      "ctx_idx": 3,
+      "influence": 0.6758203506469727,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_1898_2",
+      "layer": "4",
+      "feature": 401898,
+      "ctx_idx": 2,
+      "influence": 0.6753966808319092,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_2267_9",
+      "layer": "6",
+      "feature": 602267,
+      "ctx_idx": 9,
+      "influence": 0.6751838326454163,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4879_3",
+      "layer": "0",
+      "feature": 4879,
+      "ctx_idx": 3,
+      "influence": 0.6749705672264099,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_4114_8",
+      "layer": "9",
+      "feature": 904114,
+      "ctx_idx": 8,
+      "influence": 0.6747570633888245,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13542_3",
+      "layer": "0",
+      "feature": 13542,
+      "ctx_idx": 3,
+      "influence": 0.6745434403419495,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_355_8",
+      "layer": "3",
+      "feature": 300355,
+      "ctx_idx": 8,
+      "influence": 0.6743295192718506,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5215_9",
+      "layer": "0",
+      "feature": 5215,
+      "ctx_idx": 9,
+      "influence": 0.6741146445274353,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_9559_6",
+      "layer": "3",
+      "feature": 309559,
+      "ctx_idx": 6,
+      "influence": 0.6738996505737305,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4325_2",
+      "layer": "0",
+      "feature": 4325,
+      "ctx_idx": 2,
+      "influence": 0.6736845970153809,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4420_8",
+      "layer": "0",
+      "feature": 4420,
+      "ctx_idx": 8,
+      "influence": 0.6734693050384521,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_842_2",
+      "layer": "4",
+      "feature": 400842,
+      "ctx_idx": 2,
+      "influence": 0.6732539534568787,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6882_4",
+      "layer": "0",
+      "feature": 6882,
+      "ctx_idx": 4,
+      "influence": 0.6730383634567261,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_4662_9",
+      "layer": "6",
+      "feature": 604662,
+      "ctx_idx": 9,
+      "influence": 0.6728224754333496,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_5511_2",
+      "layer": "4",
+      "feature": 405511,
+      "ctx_idx": 2,
+      "influence": 0.6726064085960388,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_13201_8",
+      "layer": "3",
+      "feature": 313201,
+      "ctx_idx": 8,
+      "influence": 0.6723896861076355,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2616_1",
+      "layer": "0",
+      "feature": 2616,
+      "ctx_idx": 1,
+      "influence": 0.6721729040145874,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_11784_10",
+      "layer": "21",
+      "feature": 2111784,
+      "ctx_idx": 10,
+      "influence": 0.6719561815261841,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6116_4",
+      "layer": "0",
+      "feature": 6116,
+      "ctx_idx": 4,
+      "influence": 0.671739399433136,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_12122_2",
+      "layer": "1",
+      "feature": 112122,
+      "ctx_idx": 2,
+      "influence": 0.6715222001075745,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_13939_4",
+      "layer": "1",
+      "feature": 113939,
+      "ctx_idx": 4,
+      "influence": 0.6713048219680786,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_12843_2",
+      "layer": "3",
+      "feature": 312843,
+      "ctx_idx": 2,
+      "influence": 0.671086847782135,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_16340_7",
+      "layer": "0",
+      "feature": 16340,
+      "ctx_idx": 7,
+      "influence": 0.6708688139915466,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_9699_8",
+      "layer": "4",
+      "feature": 409699,
+      "ctx_idx": 8,
+      "influence": 0.6706506013870239,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_15870_1",
+      "layer": "2",
+      "feature": 215870,
+      "ctx_idx": 1,
+      "influence": 0.6702134609222412,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11670_1",
+      "layer": "0",
+      "feature": 11670,
+      "ctx_idx": 1,
+      "influence": 0.6699948310852051,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_3256_10",
+      "layer": "9",
+      "feature": 903256,
+      "ctx_idx": 10,
+      "influence": 0.6697757840156555,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3461_1",
+      "layer": "0",
+      "feature": 3461,
+      "ctx_idx": 1,
+      "influence": 0.6695566773414612,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_9757_2",
+      "layer": "4",
+      "feature": 409757,
+      "ctx_idx": 2,
+      "influence": 0.6693375110626221,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_5695_9",
+      "layer": "6",
+      "feature": 605695,
+      "ctx_idx": 9,
+      "influence": 0.6691180467605591,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_3290_9",
+      "layer": "6",
+      "feature": 603290,
+      "ctx_idx": 9,
+      "influence": 0.668898344039917,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4089_4",
+      "layer": "0",
+      "feature": 4089,
+      "ctx_idx": 4,
+      "influence": 0.6686780452728271,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_8663_10",
+      "layer": "6",
+      "feature": 608663,
+      "ctx_idx": 10,
+      "influence": 0.6684573888778687,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11385_5",
+      "layer": "0",
+      "feature": 11385,
+      "ctx_idx": 5,
+      "influence": 0.6682363152503967,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_137_9",
+      "layer": "9",
+      "feature": 900137,
+      "ctx_idx": 9,
+      "influence": 0.6677935123443604,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_7929_9",
+      "layer": "7",
+      "feature": 707929,
+      "ctx_idx": 9,
+      "influence": 0.6675719618797302,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_10202_10",
+      "layer": "16",
+      "feature": 1610202,
+      "ctx_idx": 10,
+      "influence": 0.6666803359985352,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5215_1",
+      "layer": "0",
+      "feature": 5215,
+      "ctx_idx": 1,
+      "influence": 0.6664568781852722,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_5925_8",
+      "layer": "2",
+      "feature": 205925,
+      "ctx_idx": 8,
+      "influence": 0.6662330031394958,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_4854_8",
+      "layer": "6",
+      "feature": 604854,
+      "ctx_idx": 8,
+      "influence": 0.6660091280937195,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_13250_7",
+      "layer": "17",
+      "feature": 1713250,
+      "ctx_idx": 7,
+      "influence": 0.6657852530479431,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8540_1",
+      "layer": "0",
+      "feature": 8540,
+      "ctx_idx": 1,
+      "influence": 0.6655607223510742,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_96_3",
+      "layer": "0",
+      "feature": 96,
+      "ctx_idx": 3,
+      "influence": 0.6653358936309814,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2251_4",
+      "layer": "0",
+      "feature": 2251,
+      "ctx_idx": 4,
+      "influence": 0.6651108264923096,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_16267_3",
+      "layer": "2",
+      "feature": 216267,
+      "ctx_idx": 3,
+      "influence": 0.6648853421211243,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_7489_1",
+      "layer": "5",
+      "feature": 507489,
+      "ctx_idx": 1,
+      "influence": 0.6646597385406494,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10470_7",
+      "layer": "0",
+      "feature": 10470,
+      "ctx_idx": 7,
+      "influence": 0.6644341349601746,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_11604_9",
+      "layer": "20",
+      "feature": 2011604,
+      "ctx_idx": 9,
+      "influence": 0.6642082333564758,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_11099_10",
+      "layer": "21",
+      "feature": 2111099,
+      "ctx_idx": 10,
+      "influence": 0.663982093334198,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_389_7",
+      "layer": "0",
+      "feature": 389,
+      "ctx_idx": 7,
+      "influence": 0.6637559533119202,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_12991_10",
+      "layer": "22",
+      "feature": 2212991,
+      "ctx_idx": 10,
+      "influence": 0.6633033156394958,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_437_1",
+      "layer": "0",
+      "feature": 437,
+      "ctx_idx": 1,
+      "influence": 0.6630763411521912,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_7559_10",
+      "layer": "18",
+      "feature": 1807559,
+      "ctx_idx": 10,
+      "influence": 0.6628493070602417,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8614_4",
+      "layer": "0",
+      "feature": 8614,
+      "ctx_idx": 4,
+      "influence": 0.6626213192939758,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_8047_8",
+      "layer": "4",
+      "feature": 408047,
+      "ctx_idx": 8,
+      "influence": 0.6623929738998413,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6217_4",
+      "layer": "0",
+      "feature": 6217,
+      "ctx_idx": 4,
+      "influence": 0.6621643900871277,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_3099_10",
+      "layer": "7",
+      "feature": 703099,
+      "ctx_idx": 10,
+      "influence": 0.661935031414032,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_4384_8",
+      "layer": "4",
+      "feature": 404384,
+      "ctx_idx": 8,
+      "influence": 0.6617054343223572,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_11080_10",
+      "layer": "2",
+      "feature": 211080,
+      "ctx_idx": 10,
+      "influence": 0.6614755392074585,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_12873_5",
+      "layer": "3",
+      "feature": 312873,
+      "ctx_idx": 5,
+      "influence": 0.6612456440925598,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3329_3",
+      "layer": "0",
+      "feature": 3329,
+      "ctx_idx": 3,
+      "influence": 0.6610156297683716,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_6884_10",
+      "layer": "7",
+      "feature": 706884,
+      "ctx_idx": 10,
+      "influence": 0.6607851386070251,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_7089_9",
+      "layer": "5",
+      "feature": 507089,
+      "ctx_idx": 9,
+      "influence": 0.660323977470398,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12186_1",
+      "layer": "0",
+      "feature": 12186,
+      "ctx_idx": 1,
+      "influence": 0.6600921750068665,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "12_12910_9",
+      "layer": "12",
+      "feature": 1212910,
+      "ctx_idx": 9,
+      "influence": 0.6598602533340454,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_3264_10",
+      "layer": "25",
+      "feature": 2503264,
+      "ctx_idx": 10,
+      "influence": 0.6596282124519348,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_16267_3",
+      "layer": "0",
+      "feature": 16267,
+      "ctx_idx": 3,
+      "influence": 0.6593946814537048,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9635_3",
+      "layer": "0",
+      "feature": 9635,
+      "ctx_idx": 3,
+      "influence": 0.6589274406433105,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7812_1",
+      "layer": "0",
+      "feature": 7812,
+      "ctx_idx": 1,
+      "influence": 0.6586935520172119,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_10441_2",
+      "layer": "4",
+      "feature": 410441,
+      "ctx_idx": 2,
+      "influence": 0.6584595441818237,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_14177_2",
+      "layer": "3",
+      "feature": 314177,
+      "ctx_idx": 2,
+      "influence": 0.6582248210906982,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8773_9",
+      "layer": "0",
+      "feature": 8773,
+      "ctx_idx": 9,
+      "influence": 0.6579896211624146,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "15_5255_10",
+      "layer": "15",
+      "feature": 1505255,
+      "ctx_idx": 10,
+      "influence": 0.6577541828155518,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_6756_1",
+      "layer": "7",
+      "feature": 706756,
+      "ctx_idx": 1,
+      "influence": 0.657518744468689,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_15801_8",
+      "layer": "4",
+      "feature": 415801,
+      "ctx_idx": 8,
+      "influence": 0.6572830677032471,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_13403_8",
+      "layer": "7",
+      "feature": 713403,
+      "ctx_idx": 8,
+      "influence": 0.6570473909378052,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_16088_9",
+      "layer": "2",
+      "feature": 216088,
+      "ctx_idx": 9,
+      "influence": 0.6568111777305603,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4816_7",
+      "layer": "0",
+      "feature": 4816,
+      "ctx_idx": 7,
+      "influence": 0.6565747261047363,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_6343_10",
+      "layer": "17",
+      "feature": 1706343,
+      "ctx_idx": 10,
+      "influence": 0.6563377380371094,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_702_2",
+      "layer": "4",
+      "feature": 400702,
+      "ctx_idx": 2,
+      "influence": 0.6561006903648376,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8163_1",
+      "layer": "0",
+      "feature": 8163,
+      "ctx_idx": 1,
+      "influence": 0.6558634042739868,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10345_1",
+      "layer": "0",
+      "feature": 10345,
+      "ctx_idx": 1,
+      "influence": 0.6556260585784912,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14300_5",
+      "layer": "0",
+      "feature": 14300,
+      "ctx_idx": 5,
+      "influence": 0.6553887128829956,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13336_4",
+      "layer": "0",
+      "feature": 13336,
+      "ctx_idx": 4,
+      "influence": 0.6551510691642761,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_15523_7",
+      "layer": "2",
+      "feature": 215523,
+      "ctx_idx": 7,
+      "influence": 0.6549134254455566,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_13890_10",
+      "layer": "19",
+      "feature": 1913890,
+      "ctx_idx": 10,
+      "influence": 0.6546751856803894,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15746_8",
+      "layer": "0",
+      "feature": 15746,
+      "ctx_idx": 8,
+      "influence": 0.6544367671012878,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_11017_8",
+      "layer": "3",
+      "feature": 311017,
+      "ctx_idx": 8,
+      "influence": 0.654198169708252,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_11910_10",
+      "layer": "21",
+      "feature": 2111910,
+      "ctx_idx": 10,
+      "influence": 0.6539595127105713,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4956_1",
+      "layer": "0",
+      "feature": 4956,
+      "ctx_idx": 1,
+      "influence": 0.6537207365036011,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5480_4",
+      "layer": "0",
+      "feature": 5480,
+      "ctx_idx": 4,
+      "influence": 0.6534817814826965,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_478_1",
+      "layer": "0",
+      "feature": 478,
+      "ctx_idx": 1,
+      "influence": 0.6532426476478577,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_12247_2",
+      "layer": "3",
+      "feature": 312247,
+      "ctx_idx": 2,
+      "influence": 0.6530031561851501,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_7634_5",
+      "layer": "3",
+      "feature": 307634,
+      "ctx_idx": 5,
+      "influence": 0.6527628898620605,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_13294_10",
+      "layer": "4",
+      "feature": 413294,
+      "ctx_idx": 10,
+      "influence": 0.6525225043296814,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3553_4",
+      "layer": "0",
+      "feature": 3553,
+      "ctx_idx": 4,
+      "influence": 0.6522820591926575,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_2267_10",
+      "layer": "5",
+      "feature": 502267,
+      "ctx_idx": 10,
+      "influence": 0.6520415544509888,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13976_3",
+      "layer": "0",
+      "feature": 13976,
+      "ctx_idx": 3,
+      "influence": 0.6518009901046753,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12605_1",
+      "layer": "0",
+      "feature": 12605,
+      "ctx_idx": 1,
+      "influence": 0.6515604257583618,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4175_1",
+      "layer": "0",
+      "feature": 4175,
+      "ctx_idx": 1,
+      "influence": 0.6513187289237976,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_11172_8",
+      "layer": "8",
+      "feature": 811172,
+      "ctx_idx": 8,
+      "influence": 0.6510769724845886,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_5903_9",
+      "layer": "4",
+      "feature": 405903,
+      "ctx_idx": 9,
+      "influence": 0.6508349776268005,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2327_4",
+      "layer": "0",
+      "feature": 2327,
+      "ctx_idx": 4,
+      "influence": 0.6503501534461975,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_2588_9",
+      "layer": "8",
+      "feature": 802588,
+      "ctx_idx": 9,
+      "influence": 0.6501067280769348,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_13939_2",
+      "layer": "3",
+      "feature": 313939,
+      "ctx_idx": 2,
+      "influence": 0.6498628854751587,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_185_9",
+      "layer": "9",
+      "feature": 900185,
+      "ctx_idx": 9,
+      "influence": 0.6496187448501587,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_854_8",
+      "layer": "0",
+      "feature": 854,
+      "ctx_idx": 8,
+      "influence": 0.6493744850158691,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_12243_1",
+      "layer": "1",
+      "feature": 112243,
+      "ctx_idx": 1,
+      "influence": 0.6491296887397766,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_6784_10",
+      "layer": "4",
+      "feature": 406784,
+      "ctx_idx": 10,
+      "influence": 0.6488845348358154,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_13570_7",
+      "layer": "4",
+      "feature": 413570,
+      "ctx_idx": 7,
+      "influence": 0.6486386656761169,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_7956_10",
+      "layer": "8",
+      "feature": 807956,
+      "ctx_idx": 10,
+      "influence": 0.6483926773071289,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_3588_7",
+      "layer": "2",
+      "feature": 203588,
+      "ctx_idx": 7,
+      "influence": 0.6481465101242065,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_6087_8",
+      "layer": "4",
+      "feature": 406087,
+      "ctx_idx": 8,
+      "influence": 0.6478998064994812,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "11_10566_10",
+      "layer": "11",
+      "feature": 1110566,
+      "ctx_idx": 10,
+      "influence": 0.6476532220840454,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_11479_1",
+      "layer": "1",
+      "feature": 111479,
+      "ctx_idx": 1,
+      "influence": 0.6471594572067261,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_14835_10",
+      "layer": "3",
+      "feature": 314835,
+      "ctx_idx": 10,
+      "influence": 0.6469125747680664,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6051_2",
+      "layer": "0",
+      "feature": 6051,
+      "ctx_idx": 2,
+      "influence": 0.6466655135154724,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9739_2",
+      "layer": "0",
+      "feature": 9739,
+      "ctx_idx": 2,
+      "influence": 0.6464177966117859,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_76_8",
+      "layer": "0",
+      "feature": 76,
+      "ctx_idx": 8,
+      "influence": 0.6459217667579651,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_3135_4",
+      "layer": "1",
+      "feature": 103135,
+      "ctx_idx": 4,
+      "influence": 0.6456731557846069,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_15998_8",
+      "layer": "4",
+      "feature": 415998,
+      "ctx_idx": 8,
+      "influence": 0.6454244256019592,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_2426_10",
+      "layer": "9",
+      "feature": 902426,
+      "ctx_idx": 10,
+      "influence": 0.6449261903762817,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_1260_10",
+      "layer": "24",
+      "feature": 2401260,
+      "ctx_idx": 10,
+      "influence": 0.6444266438484192,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6619_7",
+      "layer": "0",
+      "feature": 6619,
+      "ctx_idx": 7,
+      "influence": 0.6441760659217834,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_13508_9",
+      "layer": "17",
+      "feature": 1713508,
+      "ctx_idx": 9,
+      "influence": 0.643925130367279,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_65_8",
+      "layer": "0",
+      "feature": 65,
+      "ctx_idx": 8,
+      "influence": 0.6436738967895508,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_3044_10",
+      "layer": "4",
+      "feature": 403044,
+      "ctx_idx": 10,
+      "influence": 0.6434217095375061,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_3205_9",
+      "layer": "3",
+      "feature": 303205,
+      "ctx_idx": 9,
+      "influence": 0.6431693434715271,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_4236_10",
+      "layer": "25",
+      "feature": 2504236,
+      "ctx_idx": 10,
+      "influence": 0.6429169774055481,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_16333_8",
+      "layer": "0",
+      "feature": 16333,
+      "ctx_idx": 8,
+      "influence": 0.64266437292099,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10082_7",
+      "layer": "0",
+      "feature": 10082,
+      "ctx_idx": 7,
+      "influence": 0.6421575546264648,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12341_8",
+      "layer": "0",
+      "feature": 12341,
+      "ctx_idx": 8,
+      "influence": 0.6419039964675903,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12920_5",
+      "layer": "0",
+      "feature": 12920,
+      "ctx_idx": 5,
+      "influence": 0.6416503190994263,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13523_10",
+      "layer": "0",
+      "feature": 13523,
+      "ctx_idx": 10,
+      "influence": 0.6411423087120056,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9860_4",
+      "layer": "0",
+      "feature": 9860,
+      "ctx_idx": 4,
+      "influence": 0.640887975692749,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_15810_10",
+      "layer": "3",
+      "feature": 315810,
+      "ctx_idx": 10,
+      "influence": 0.6406335830688477,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_436_10",
+      "layer": "17",
+      "feature": 1700436,
+      "ctx_idx": 10,
+      "influence": 0.6403788328170776,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9044_4",
+      "layer": "0",
+      "feature": 9044,
+      "ctx_idx": 4,
+      "influence": 0.6401228904724121,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_11350_4",
+      "layer": "4",
+      "feature": 411350,
+      "ctx_idx": 4,
+      "influence": 0.6398666501045227,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_15819_1",
+      "layer": "9",
+      "feature": 915819,
+      "ctx_idx": 1,
+      "influence": 0.6396102905273438,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14308_8",
+      "layer": "0",
+      "feature": 14308,
+      "ctx_idx": 8,
+      "influence": 0.6393531560897827,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14691_3",
+      "layer": "0",
+      "feature": 14691,
+      "ctx_idx": 3,
+      "influence": 0.6390945911407471,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_12427_1",
+      "layer": "3",
+      "feature": 312427,
+      "ctx_idx": 1,
+      "influence": 0.6388355493545532,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9025_7",
+      "layer": "0",
+      "feature": 9025,
+      "ctx_idx": 7,
+      "influence": 0.638576328754425,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_426_4",
+      "layer": "2",
+      "feature": 200426,
+      "ctx_idx": 4,
+      "influence": 0.6383166909217834,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7714_8",
+      "layer": "0",
+      "feature": 7714,
+      "ctx_idx": 8,
+      "influence": 0.6380570530891418,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5744_7",
+      "layer": "0",
+      "feature": 5744,
+      "ctx_idx": 7,
+      "influence": 0.6377973556518555,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3523_3",
+      "layer": "0",
+      "feature": 3523,
+      "ctx_idx": 3,
+      "influence": 0.6375376582145691,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_961_2",
+      "layer": "1",
+      "feature": 100961,
+      "ctx_idx": 2,
+      "influence": 0.6372770071029663,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9135_7",
+      "layer": "0",
+      "feature": 9135,
+      "ctx_idx": 7,
+      "influence": 0.6370158195495605,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2724_1",
+      "layer": "0",
+      "feature": 2724,
+      "ctx_idx": 1,
+      "influence": 0.6367540955543518,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12312_1",
+      "layer": "0",
+      "feature": 12312,
+      "ctx_idx": 1,
+      "influence": 0.6364922523498535,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12371_4",
+      "layer": "0",
+      "feature": 12371,
+      "ctx_idx": 4,
+      "influence": 0.6362300515174866,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13439_4",
+      "layer": "0",
+      "feature": 13439,
+      "ctx_idx": 4,
+      "influence": 0.635967493057251,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9379_5",
+      "layer": "0",
+      "feature": 9379,
+      "ctx_idx": 5,
+      "influence": 0.6357048749923706,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "12_8580_10",
+      "layer": "12",
+      "feature": 1208580,
+      "ctx_idx": 10,
+      "influence": 0.6354414820671082,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_3152_8",
+      "layer": "1",
+      "feature": 103152,
+      "ctx_idx": 8,
+      "influence": 0.6351777911186218,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13344_1",
+      "layer": "0",
+      "feature": 13344,
+      "ctx_idx": 1,
+      "influence": 0.6349140405654907,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_3099_9",
+      "layer": "7",
+      "feature": 703099,
+      "ctx_idx": 9,
+      "influence": 0.6346501111984253,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_4888_10",
+      "layer": "9",
+      "feature": 904888,
+      "ctx_idx": 10,
+      "influence": 0.6343858242034912,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_16128_10",
+      "layer": "25",
+      "feature": 2516128,
+      "ctx_idx": 10,
+      "influence": 0.6341213583946228,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_9621_10",
+      "layer": "23",
+      "feature": 2309621,
+      "ctx_idx": 10,
+      "influence": 0.6338558793067932,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_1182_10",
+      "layer": "3",
+      "feature": 301182,
+      "ctx_idx": 10,
+      "influence": 0.6335901021957397,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "10_3837_10",
+      "layer": "10",
+      "feature": 1003837,
+      "ctx_idx": 10,
+      "influence": 0.6333240270614624,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10408_8",
+      "layer": "0",
+      "feature": 10408,
+      "ctx_idx": 8,
+      "influence": 0.6330576539039612,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_1321_2",
+      "layer": "3",
+      "feature": 301321,
+      "ctx_idx": 2,
+      "influence": 0.632790744304657,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10983_7",
+      "layer": "0",
+      "feature": 10983,
+      "ctx_idx": 7,
+      "influence": 0.6322550773620605,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_3333_4",
+      "layer": "5",
+      "feature": 503333,
+      "ctx_idx": 4,
+      "influence": 0.6319866180419922,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6078_1",
+      "layer": "0",
+      "feature": 6078,
+      "ctx_idx": 1,
+      "influence": 0.6317169666290283,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_4857_10",
+      "layer": "19",
+      "feature": 1904857,
+      "ctx_idx": 10,
+      "influence": 0.6314473152160645,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9348_3",
+      "layer": "0",
+      "feature": 9348,
+      "ctx_idx": 3,
+      "influence": 0.6311774849891663,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5351_3",
+      "layer": "0",
+      "feature": 5351,
+      "ctx_idx": 3,
+      "influence": 0.6309073567390442,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "13_9438_10",
+      "layer": "13",
+      "feature": 1309438,
+      "ctx_idx": 10,
+      "influence": 0.6306359767913818,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6074_8",
+      "layer": "0",
+      "feature": 6074,
+      "ctx_idx": 8,
+      "influence": 0.6303642392158508,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_3479_10",
+      "layer": "2",
+      "feature": 203479,
+      "ctx_idx": 10,
+      "influence": 0.6298201084136963,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_12149_5",
+      "layer": "1",
+      "feature": 112149,
+      "ctx_idx": 5,
+      "influence": 0.629546582698822,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14536_3",
+      "layer": "0",
+      "feature": 14536,
+      "ctx_idx": 3,
+      "influence": 0.6292720437049866,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_302_4",
+      "layer": "0",
+      "feature": 302,
+      "ctx_idx": 4,
+      "influence": 0.6289971470832825,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_11293_2",
+      "layer": "3",
+      "feature": 311293,
+      "ctx_idx": 2,
+      "influence": 0.6287214756011963,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_5433_10",
+      "layer": "20",
+      "feature": 2005433,
+      "ctx_idx": 10,
+      "influence": 0.6284457445144653,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_14032_10",
+      "layer": "3",
+      "feature": 314032,
+      "ctx_idx": 10,
+      "influence": 0.6281690001487732,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1847_9",
+      "layer": "0",
+      "feature": 1847,
+      "ctx_idx": 9,
+      "influence": 0.6278920769691467,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_10118_10",
+      "layer": "20",
+      "feature": 2010118,
+      "ctx_idx": 10,
+      "influence": 0.6276151537895203,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_14267_3",
+      "layer": "1",
+      "feature": 114267,
+      "ctx_idx": 3,
+      "influence": 0.6273380517959595,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_9927_10",
+      "layer": "24",
+      "feature": 2409927,
+      "ctx_idx": 10,
+      "influence": 0.6270598769187927,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_16187_1",
+      "layer": "0",
+      "feature": 16187,
+      "ctx_idx": 1,
+      "influence": 0.6267815232276917,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_2402_1",
+      "layer": "1",
+      "feature": 102402,
+      "ctx_idx": 1,
+      "influence": 0.6265020370483398,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_2883_10",
+      "layer": "20",
+      "feature": 2002883,
+      "ctx_idx": 10,
+      "influence": 0.6262223720550537,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_268_2",
+      "layer": "0",
+      "feature": 268,
+      "ctx_idx": 2,
+      "influence": 0.6259418725967407,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_9774_10",
+      "layer": "7",
+      "feature": 709774,
+      "ctx_idx": 10,
+      "influence": 0.625661313533783,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8642_1",
+      "layer": "0",
+      "feature": 8642,
+      "ctx_idx": 1,
+      "influence": 0.6253805756568909,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_49_7",
+      "layer": "0",
+      "feature": 49,
+      "ctx_idx": 7,
+      "influence": 0.6250993013381958,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_14018_7",
+      "layer": "4",
+      "feature": 414018,
+      "ctx_idx": 7,
+      "influence": 0.6248170733451843,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_3604_8",
+      "layer": "1",
+      "feature": 103604,
+      "ctx_idx": 8,
+      "influence": 0.6245346665382385,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_10789_10",
+      "layer": "6",
+      "feature": 610789,
+      "ctx_idx": 10,
+      "influence": 0.6242523193359375,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4965_2",
+      "layer": "0",
+      "feature": 4965,
+      "ctx_idx": 2,
+      "influence": 0.623969554901123,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13009_8",
+      "layer": "0",
+      "feature": 13009,
+      "ctx_idx": 8,
+      "influence": 0.6236867308616638,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6217_7",
+      "layer": "0",
+      "feature": 6217,
+      "ctx_idx": 7,
+      "influence": 0.6231191754341125,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8768_3",
+      "layer": "0",
+      "feature": 8768,
+      "ctx_idx": 3,
+      "influence": 0.6228352189064026,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_4051_10",
+      "layer": "7",
+      "feature": 704051,
+      "ctx_idx": 10,
+      "influence": 0.6225510835647583,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13096_6",
+      "layer": "0",
+      "feature": 13096,
+      "ctx_idx": 6,
+      "influence": 0.6222668886184692,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_11236_8",
+      "layer": "3",
+      "feature": 311236,
+      "ctx_idx": 8,
+      "influence": 0.6219821572303772,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_7870_5",
+      "layer": "4",
+      "feature": 407870,
+      "ctx_idx": 5,
+      "influence": 0.6216971278190613,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_14496_2",
+      "layer": "2",
+      "feature": 214496,
+      "ctx_idx": 2,
+      "influence": 0.6214118003845215,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_3099_9",
+      "layer": "8",
+      "feature": 803099,
+      "ctx_idx": 9,
+      "influence": 0.6211260557174683,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_12217_8",
+      "layer": "4",
+      "feature": 412217,
+      "ctx_idx": 8,
+      "influence": 0.6208398342132568,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10138_1",
+      "layer": "0",
+      "feature": 10138,
+      "ctx_idx": 1,
+      "influence": 0.6205524802207947,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_5668_10",
+      "layer": "24",
+      "feature": 2405668,
+      "ctx_idx": 10,
+      "influence": 0.6202649474143982,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9026_8",
+      "layer": "0",
+      "feature": 9026,
+      "ctx_idx": 8,
+      "influence": 0.6199767589569092,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_940_5",
+      "layer": "3",
+      "feature": 300940,
+      "ctx_idx": 5,
+      "influence": 0.6196885704994202,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_15482_8",
+      "layer": "3",
+      "feature": 315482,
+      "ctx_idx": 8,
+      "influence": 0.6194002032279968,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7451_3",
+      "layer": "0",
+      "feature": 7451,
+      "ctx_idx": 3,
+      "influence": 0.6191116571426392,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3018_3",
+      "layer": "0",
+      "feature": 3018,
+      "ctx_idx": 3,
+      "influence": 0.6188223361968994,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_1931_10",
+      "layer": "3",
+      "feature": 301931,
+      "ctx_idx": 10,
+      "influence": 0.6185329556465149,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_8364_10",
+      "layer": "4",
+      "feature": 408364,
+      "ctx_idx": 10,
+      "influence": 0.6182430982589722,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_13937_2",
+      "layer": "4",
+      "feature": 413937,
+      "ctx_idx": 2,
+      "influence": 0.6176632642745972,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_15133_10",
+      "layer": "20",
+      "feature": 2015133,
+      "ctx_idx": 10,
+      "influence": 0.6173726916313171,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "10_14174_1",
+      "layer": "10",
+      "feature": 1014174,
+      "ctx_idx": 1,
+      "influence": 0.6170817017555237,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_12025_10",
+      "layer": "25",
+      "feature": 2512025,
+      "ctx_idx": 10,
+      "influence": 0.6167899370193481,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_16032_2",
+      "layer": "3",
+      "feature": 316032,
+      "ctx_idx": 2,
+      "influence": 0.616497814655304,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_6786_10",
+      "layer": "17",
+      "feature": 1706786,
+      "ctx_idx": 10,
+      "influence": 0.6162053346633911,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_7674_2",
+      "layer": "8",
+      "feature": 807674,
+      "ctx_idx": 2,
+      "influence": 0.6159119606018066,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_2973_4",
+      "layer": "1",
+      "feature": 102973,
+      "ctx_idx": 4,
+      "influence": 0.6153244972229004,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11888_1",
+      "layer": "0",
+      "feature": 11888,
+      "ctx_idx": 1,
+      "influence": 0.6150299906730652,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1847_1",
+      "layer": "0",
+      "feature": 1847,
+      "ctx_idx": 1,
+      "influence": 0.6147352457046509,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14790_7",
+      "layer": "0",
+      "feature": 14790,
+      "ctx_idx": 7,
+      "influence": 0.6144391298294067,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7633_4",
+      "layer": "0",
+      "feature": 7633,
+      "ctx_idx": 4,
+      "influence": 0.6141429543495178,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11221_4",
+      "layer": "0",
+      "feature": 11221,
+      "ctx_idx": 4,
+      "influence": 0.6135503053665161,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_13502_8",
+      "layer": "1",
+      "feature": 113502,
+      "ctx_idx": 8,
+      "influence": 0.6132537722587585,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2932_8",
+      "layer": "0",
+      "feature": 2932,
+      "ctx_idx": 8,
+      "influence": 0.6129563450813293,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9637_1",
+      "layer": "0",
+      "feature": 9637,
+      "ctx_idx": 1,
+      "influence": 0.6126587986946106,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14742_7",
+      "layer": "0",
+      "feature": 14742,
+      "ctx_idx": 7,
+      "influence": 0.6123610734939575,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_11734_10",
+      "layer": "3",
+      "feature": 311734,
+      "ctx_idx": 10,
+      "influence": 0.6120632886886597,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_10989_8",
+      "layer": "2",
+      "feature": 210989,
+      "ctx_idx": 8,
+      "influence": 0.6114673614501953,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4435_7",
+      "layer": "0",
+      "feature": 4435,
+      "ctx_idx": 7,
+      "influence": 0.6111686825752258,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_12132_8",
+      "layer": "6",
+      "feature": 612132,
+      "ctx_idx": 8,
+      "influence": 0.610869824886322,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "13_7558_10",
+      "layer": "13",
+      "feature": 1307558,
+      "ctx_idx": 10,
+      "influence": 0.610571026802063,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6687_3",
+      "layer": "0",
+      "feature": 6687,
+      "ctx_idx": 3,
+      "influence": 0.6102707386016846,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_10152_10",
+      "layer": "25",
+      "feature": 2510152,
+      "ctx_idx": 10,
+      "influence": 0.6099704504013062,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9497_7",
+      "layer": "0",
+      "feature": 9497,
+      "ctx_idx": 7,
+      "influence": 0.609670102596283,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8322_7",
+      "layer": "0",
+      "feature": 8322,
+      "ctx_idx": 7,
+      "influence": 0.6093693375587463,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6361_4",
+      "layer": "0",
+      "feature": 6361,
+      "ctx_idx": 4,
+      "influence": 0.6090683937072754,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_166_4",
+      "layer": "2",
+      "feature": 200166,
+      "ctx_idx": 4,
+      "influence": 0.6087673902511597,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_9538_8",
+      "layer": "1",
+      "feature": 109538,
+      "ctx_idx": 8,
+      "influence": 0.6084660887718201,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8098_1",
+      "layer": "0",
+      "feature": 8098,
+      "ctx_idx": 1,
+      "influence": 0.6081646680831909,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2841_10",
+      "layer": "0",
+      "feature": 2841,
+      "ctx_idx": 10,
+      "influence": 0.6075599789619446,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_15561_2",
+      "layer": "4",
+      "feature": 415561,
+      "ctx_idx": 2,
+      "influence": 0.6072567105293274,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_16170_1",
+      "layer": "0",
+      "feature": 16170,
+      "ctx_idx": 1,
+      "influence": 0.6069505214691162,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4739_10",
+      "layer": "0",
+      "feature": 4739,
+      "ctx_idx": 10,
+      "influence": 0.6063372492790222,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11563_8",
+      "layer": "0",
+      "feature": 11563,
+      "ctx_idx": 8,
+      "influence": 0.6060299277305603,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2858_2",
+      "layer": "0",
+      "feature": 2858,
+      "ctx_idx": 2,
+      "influence": 0.6057212948799133,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7648_2",
+      "layer": "0",
+      "feature": 7648,
+      "ctx_idx": 2,
+      "influence": 0.6054122447967529,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_3404_8",
+      "layer": "1",
+      "feature": 103404,
+      "ctx_idx": 8,
+      "influence": 0.6051031351089478,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_15366_10",
+      "layer": "20",
+      "feature": 2015366,
+      "ctx_idx": 10,
+      "influence": 0.60479336977005,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_5981_4",
+      "layer": "1",
+      "feature": 105981,
+      "ctx_idx": 4,
+      "influence": 0.6044835448265076,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_12158_4",
+      "layer": "1",
+      "feature": 112158,
+      "ctx_idx": 4,
+      "influence": 0.60417240858078,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_4052_7",
+      "layer": "2",
+      "feature": 204052,
+      "ctx_idx": 7,
+      "influence": 0.6038597822189331,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5074_3",
+      "layer": "0",
+      "feature": 5074,
+      "ctx_idx": 3,
+      "influence": 0.6035467982292175,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10643_3",
+      "layer": "0",
+      "feature": 10643,
+      "ctx_idx": 3,
+      "influence": 0.6032334566116333,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_4662_10",
+      "layer": "6",
+      "feature": 604662,
+      "ctx_idx": 10,
+      "influence": 0.6029193997383118,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_10829_4",
+      "layer": "1",
+      "feature": 110829,
+      "ctx_idx": 4,
+      "influence": 0.602604866027832,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_15979_1",
+      "layer": "1",
+      "feature": 115979,
+      "ctx_idx": 1,
+      "influence": 0.6022895574569702,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_13967_5",
+      "layer": "3",
+      "feature": 313967,
+      "ctx_idx": 5,
+      "influence": 0.6019741892814636,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4254_1",
+      "layer": "0",
+      "feature": 4254,
+      "ctx_idx": 1,
+      "influence": 0.6016585826873779,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10614_3",
+      "layer": "0",
+      "feature": 10614,
+      "ctx_idx": 3,
+      "influence": 0.6013427376747131,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_12246_7",
+      "layer": "1",
+      "feature": 112246,
+      "ctx_idx": 7,
+      "influence": 0.6010267734527588,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1071_4",
+      "layer": "0",
+      "feature": 1071,
+      "ctx_idx": 4,
+      "influence": 0.6007108092308044,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7465_1",
+      "layer": "0",
+      "feature": 7465,
+      "ctx_idx": 1,
+      "influence": 0.6003941297531128,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1117_3",
+      "layer": "0",
+      "feature": 1117,
+      "ctx_idx": 3,
+      "influence": 0.6000774502754211,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6116_1",
+      "layer": "0",
+      "feature": 6116,
+      "ctx_idx": 1,
+      "influence": 0.5997607111930847,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_10508_9",
+      "layer": "5",
+      "feature": 510508,
+      "ctx_idx": 9,
+      "influence": 0.5994439125061035,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_2502_10",
+      "layer": "25",
+      "feature": 2502502,
+      "ctx_idx": 10,
+      "influence": 0.5991256833076477,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_15380_4",
+      "layer": "2",
+      "feature": 215380,
+      "ctx_idx": 4,
+      "influence": 0.5988072752952576,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6786_8",
+      "layer": "0",
+      "feature": 6786,
+      "ctx_idx": 8,
+      "influence": 0.5981698036193848,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_10440_4",
+      "layer": "2",
+      "feature": 210440,
+      "ctx_idx": 4,
+      "influence": 0.5978506803512573,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_5741_1",
+      "layer": "7",
+      "feature": 705741,
+      "ctx_idx": 1,
+      "influence": 0.5975311398506165,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_403_8",
+      "layer": "0",
+      "feature": 403,
+      "ctx_idx": 8,
+      "influence": 0.597209632396698,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_5807_10",
+      "layer": "21",
+      "feature": 2105807,
+      "ctx_idx": 10,
+      "influence": 0.5968877673149109,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_1466_9",
+      "layer": "9",
+      "feature": 901466,
+      "ctx_idx": 9,
+      "influence": 0.5965654850006104,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7968_7",
+      "layer": "0",
+      "feature": 7968,
+      "ctx_idx": 7,
+      "influence": 0.5962428450584412,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8519_8",
+      "layer": "0",
+      "feature": 8519,
+      "ctx_idx": 8,
+      "influence": 0.5959200859069824,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10249_2",
+      "layer": "0",
+      "feature": 10249,
+      "ctx_idx": 2,
+      "influence": 0.5955957174301147,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_15734_8",
+      "layer": "3",
+      "feature": 315734,
+      "ctx_idx": 8,
+      "influence": 0.5952706336975098,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_5892_9",
+      "layer": "3",
+      "feature": 305892,
+      "ctx_idx": 9,
+      "influence": 0.594944179058075,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14457_3",
+      "layer": "0",
+      "feature": 14457,
+      "ctx_idx": 3,
+      "influence": 0.5946177244186401,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10740_7",
+      "layer": "0",
+      "feature": 10740,
+      "ctx_idx": 7,
+      "influence": 0.5942908525466919,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_2267_10",
+      "layer": "6",
+      "feature": 602267,
+      "ctx_idx": 10,
+      "influence": 0.5939640402793884,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13498_4",
+      "layer": "0",
+      "feature": 13498,
+      "ctx_idx": 4,
+      "influence": 0.5936368107795715,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_6563_1",
+      "layer": "1",
+      "feature": 106563,
+      "ctx_idx": 1,
+      "influence": 0.5933089852333069,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6133_1",
+      "layer": "0",
+      "feature": 6133,
+      "ctx_idx": 1,
+      "influence": 0.5929803252220154,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2115_1",
+      "layer": "0",
+      "feature": 2115,
+      "ctx_idx": 1,
+      "influence": 0.5919886231422424,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_1112_10",
+      "layer": "23",
+      "feature": 2301112,
+      "ctx_idx": 10,
+      "influence": 0.5916571617126465,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4825_2",
+      "layer": "0",
+      "feature": 4825,
+      "ctx_idx": 2,
+      "influence": 0.5913244485855103,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_7767_10",
+      "layer": "17",
+      "feature": 1707767,
+      "ctx_idx": 10,
+      "influence": 0.5909914970397949,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_2762_1",
+      "layer": "9",
+      "feature": 902762,
+      "ctx_idx": 1,
+      "influence": 0.5906562805175781,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_8027_8",
+      "layer": "1",
+      "feature": 108027,
+      "ctx_idx": 8,
+      "influence": 0.5903205871582031,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2912_3",
+      "layer": "0",
+      "feature": 2912,
+      "ctx_idx": 3,
+      "influence": 0.5899838805198669,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "13_7058_10",
+      "layer": "13",
+      "feature": 1307058,
+      "ctx_idx": 10,
+      "influence": 0.5896462202072144,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "14_3824_10",
+      "layer": "14",
+      "feature": 1403824,
+      "ctx_idx": 10,
+      "influence": 0.5893077254295349,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3412_4",
+      "layer": "0",
+      "feature": 3412,
+      "ctx_idx": 4,
+      "influence": 0.5889688730239868,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15093_3",
+      "layer": "0",
+      "feature": 15093,
+      "ctx_idx": 3,
+      "influence": 0.5886300802230835,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_430_2",
+      "layer": "3",
+      "feature": 300430,
+      "ctx_idx": 2,
+      "influence": 0.5882910490036011,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15147_4",
+      "layer": "0",
+      "feature": 15147,
+      "ctx_idx": 4,
+      "influence": 0.5879517793655396,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_10747_10",
+      "layer": "17",
+      "feature": 1710747,
+      "ctx_idx": 10,
+      "influence": 0.5876120924949646,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "15_1735_10",
+      "layer": "15",
+      "feature": 1501735,
+      "ctx_idx": 10,
+      "influence": 0.586932361125946,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_12614_8",
+      "layer": "2",
+      "feature": 212614,
+      "ctx_idx": 8,
+      "influence": 0.5865917801856995,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_16382_4",
+      "layer": "2",
+      "feature": 216382,
+      "ctx_idx": 4,
+      "influence": 0.5862510800361633,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5292_4",
+      "layer": "0",
+      "feature": 5292,
+      "ctx_idx": 4,
+      "influence": 0.5859102010726929,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_4052_7",
+      "layer": "3",
+      "feature": 304052,
+      "ctx_idx": 7,
+      "influence": 0.5855691432952881,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6421_1",
+      "layer": "0",
+      "feature": 6421,
+      "ctx_idx": 1,
+      "influence": 0.5852278470993042,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7564_4",
+      "layer": "0",
+      "feature": 7564,
+      "ctx_idx": 4,
+      "influence": 0.5848859548568726,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_16041_10",
+      "layer": "18",
+      "feature": 1816041,
+      "ctx_idx": 10,
+      "influence": 0.5845426321029663,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_11172_10",
+      "layer": "8",
+      "feature": 811172,
+      "ctx_idx": 10,
+      "influence": 0.5841991305351257,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9697_4",
+      "layer": "0",
+      "feature": 9697,
+      "ctx_idx": 4,
+      "influence": 0.5838545560836792,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1847_4",
+      "layer": "0",
+      "feature": 1847,
+      "ctx_idx": 4,
+      "influence": 0.583509624004364,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_2947_9",
+      "layer": "2",
+      "feature": 202947,
+      "ctx_idx": 9,
+      "influence": 0.5831633806228638,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_11325_1",
+      "layer": "2",
+      "feature": 211325,
+      "ctx_idx": 1,
+      "influence": 0.5828170776367188,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_1781_2",
+      "layer": "3",
+      "feature": 301781,
+      "ctx_idx": 2,
+      "influence": 0.5824689865112305,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_5645_8",
+      "layer": "1",
+      "feature": 105645,
+      "ctx_idx": 8,
+      "influence": 0.582118570804596,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_893_2",
+      "layer": "4",
+      "feature": 400893,
+      "ctx_idx": 2,
+      "influence": 0.581064760684967,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_1045_10",
+      "layer": "7",
+      "feature": 701045,
+      "ctx_idx": 10,
+      "influence": 0.5807125568389893,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7376_1",
+      "layer": "0",
+      "feature": 7376,
+      "ctx_idx": 1,
+      "influence": 0.5803599953651428,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1700_4",
+      "layer": "0",
+      "feature": 1700,
+      "ctx_idx": 4,
+      "influence": 0.5800072550773621,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_10295_5",
+      "layer": "2",
+      "feature": 210295,
+      "ctx_idx": 5,
+      "influence": 0.5796543955802917,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8155_4",
+      "layer": "0",
+      "feature": 8155,
+      "ctx_idx": 4,
+      "influence": 0.5793015360832214,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6440_7",
+      "layer": "0",
+      "feature": 6440,
+      "ctx_idx": 7,
+      "influence": 0.5789467692375183,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_5835_10",
+      "layer": "23",
+      "feature": 2305835,
+      "ctx_idx": 10,
+      "influence": 0.5785919427871704,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6485_7",
+      "layer": "0",
+      "feature": 6485,
+      "ctx_idx": 7,
+      "influence": 0.5782366394996643,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_13009_8",
+      "layer": "2",
+      "feature": 213009,
+      "ctx_idx": 8,
+      "influence": 0.5778807401657104,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_762_10",
+      "layer": "25",
+      "feature": 2500762,
+      "ctx_idx": 10,
+      "influence": 0.5775230526924133,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_691_4",
+      "layer": "7",
+      "feature": 700691,
+      "ctx_idx": 4,
+      "influence": 0.5771631002426147,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_15654_2",
+      "layer": "1",
+      "feature": 115654,
+      "ctx_idx": 2,
+      "influence": 0.5764415860176086,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_14119_8",
+      "layer": "4",
+      "feature": 414119,
+      "ctx_idx": 8,
+      "influence": 0.5760806202888489,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_12393_7",
+      "layer": "5",
+      "feature": 512393,
+      "ctx_idx": 7,
+      "influence": 0.5753586292266846,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_4662_5",
+      "layer": "6",
+      "feature": 604662,
+      "ctx_idx": 5,
+      "influence": 0.5749970078468323,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_15816_9",
+      "layer": "1",
+      "feature": 115816,
+      "ctx_idx": 9,
+      "influence": 0.5739075541496277,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_9794_10",
+      "layer": "24",
+      "feature": 2409794,
+      "ctx_idx": 10,
+      "influence": 0.5735434889793396,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13140_3",
+      "layer": "0",
+      "feature": 13140,
+      "ctx_idx": 3,
+      "influence": 0.5731770992279053,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_4384_7",
+      "layer": "4",
+      "feature": 404384,
+      "ctx_idx": 7,
+      "influence": 0.5724441409111023,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_13009_8",
+      "layer": "1",
+      "feature": 113009,
+      "ctx_idx": 8,
+      "influence": 0.5720769166946411,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_751_10",
+      "layer": "17",
+      "feature": 1700751,
+      "ctx_idx": 10,
+      "influence": 0.5717069506645203,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7692_1",
+      "layer": "0",
+      "feature": 7692,
+      "ctx_idx": 1,
+      "influence": 0.5713357925415039,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7766_7",
+      "layer": "0",
+      "feature": 7766,
+      "ctx_idx": 7,
+      "influence": 0.5709640979766846,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13765_8",
+      "layer": "0",
+      "feature": 13765,
+      "ctx_idx": 8,
+      "influence": 0.5705908536911011,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12914_1",
+      "layer": "0",
+      "feature": 12914,
+      "ctx_idx": 1,
+      "influence": 0.5698438286781311,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "15_11961_10",
+      "layer": "15",
+      "feature": 1511961,
+      "ctx_idx": 10,
+      "influence": 0.5690942406654358,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12200_1",
+      "layer": "0",
+      "feature": 12200,
+      "ctx_idx": 1,
+      "influence": 0.5679617524147034,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_3852_10",
+      "layer": "18",
+      "feature": 1803852,
+      "ctx_idx": 10,
+      "influence": 0.5675819516181946,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9987_7",
+      "layer": "0",
+      "feature": 9987,
+      "ctx_idx": 7,
+      "influence": 0.5672014355659485,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3484_4",
+      "layer": "0",
+      "feature": 3484,
+      "ctx_idx": 4,
+      "influence": 0.5668207406997681,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_462_1",
+      "layer": "7",
+      "feature": 700462,
+      "ctx_idx": 1,
+      "influence": 0.5664398074150085,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_3824_4",
+      "layer": "4",
+      "feature": 403824,
+      "ctx_idx": 4,
+      "influence": 0.5660586953163147,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9424_4",
+      "layer": "0",
+      "feature": 9424,
+      "ctx_idx": 4,
+      "influence": 0.5656775236129761,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_373_1",
+      "layer": "3",
+      "feature": 300373,
+      "ctx_idx": 1,
+      "influence": 0.565295934677124,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_3304_9",
+      "layer": "5",
+      "feature": 503304,
+      "ctx_idx": 9,
+      "influence": 0.5649139881134033,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_1734_2",
+      "layer": "1",
+      "feature": 101734,
+      "ctx_idx": 2,
+      "influence": 0.5645308494567871,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_744_2",
+      "layer": "3",
+      "feature": 300744,
+      "ctx_idx": 2,
+      "influence": 0.564147412776947,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_4322_8",
+      "layer": "4",
+      "feature": 404322,
+      "ctx_idx": 8,
+      "influence": 0.5637639164924622,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1998_10",
+      "layer": "0",
+      "feature": 1998,
+      "ctx_idx": 10,
+      "influence": 0.5633795857429504,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_14970_10",
+      "layer": "2",
+      "feature": 214970,
+      "ctx_idx": 10,
+      "influence": 0.5629909038543701,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_6473_2",
+      "layer": "3",
+      "feature": 306473,
+      "ctx_idx": 2,
+      "influence": 0.5626006126403809,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_14857_9",
+      "layer": "4",
+      "feature": 414857,
+      "ctx_idx": 9,
+      "influence": 0.5622087717056274,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2204_4",
+      "layer": "0",
+      "feature": 2204,
+      "ctx_idx": 4,
+      "influence": 0.5614206194877625,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_4999_7",
+      "layer": "4",
+      "feature": 404999,
+      "ctx_idx": 7,
+      "influence": 0.5610247850418091,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9689_1",
+      "layer": "0",
+      "feature": 9689,
+      "ctx_idx": 1,
+      "influence": 0.5606271624565125,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_15286_10",
+      "layer": "3",
+      "feature": 315286,
+      "ctx_idx": 10,
+      "influence": 0.5602293610572815,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15942_3",
+      "layer": "0",
+      "feature": 15942,
+      "ctx_idx": 3,
+      "influence": 0.5594327449798584,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_6316_10",
+      "layer": "21",
+      "feature": 2106316,
+      "ctx_idx": 10,
+      "influence": 0.5590338706970215,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_2687_10",
+      "layer": "25",
+      "feature": 2502687,
+      "ctx_idx": 10,
+      "influence": 0.5586327314376831,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3284_4",
+      "layer": "0",
+      "feature": 3284,
+      "ctx_idx": 4,
+      "influence": 0.5582305192947388,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_12105_5",
+      "layer": "3",
+      "feature": 312105,
+      "ctx_idx": 5,
+      "influence": 0.5578275322914124,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_13497_10",
+      "layer": "16",
+      "feature": 1613497,
+      "ctx_idx": 10,
+      "influence": 0.5574245452880859,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_4310_4",
+      "layer": "2",
+      "feature": 204310,
+      "ctx_idx": 4,
+      "influence": 0.55702143907547,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14641_7",
+      "layer": "0",
+      "feature": 14641,
+      "ctx_idx": 7,
+      "influence": 0.5566182136535645,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "9_3056_1",
+      "layer": "9",
+      "feature": 903056,
+      "ctx_idx": 1,
+      "influence": 0.5562139749526978,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9026_4",
+      "layer": "0",
+      "feature": 9026,
+      "ctx_idx": 4,
+      "influence": 0.5558096766471863,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_9338_10",
+      "layer": "8",
+      "feature": 809338,
+      "ctx_idx": 10,
+      "influence": 0.5554026365280151,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_13984_4",
+      "layer": "3",
+      "feature": 313984,
+      "ctx_idx": 4,
+      "influence": 0.5549906492233276,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_5236_10",
+      "layer": "20",
+      "feature": 2005236,
+      "ctx_idx": 10,
+      "influence": 0.5545771718025208,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1575_7",
+      "layer": "0",
+      "feature": 1575,
+      "ctx_idx": 7,
+      "influence": 0.5541635751724243,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_15223_10",
+      "layer": "16",
+      "feature": 1615223,
+      "ctx_idx": 10,
+      "influence": 0.5537478923797607,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_15627_10",
+      "layer": "24",
+      "feature": 2415627,
+      "ctx_idx": 10,
+      "influence": 0.5533308982849121,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_15420_10",
+      "layer": "2",
+      "feature": 215420,
+      "ctx_idx": 10,
+      "influence": 0.5529137849807739,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12005_4",
+      "layer": "0",
+      "feature": 12005,
+      "ctx_idx": 4,
+      "influence": 0.551642894744873,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14322_3",
+      "layer": "0",
+      "feature": 14322,
+      "ctx_idx": 3,
+      "influence": 0.5512174963951111,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_76_9",
+      "layer": "1",
+      "feature": 100076,
+      "ctx_idx": 9,
+      "influence": 0.55079185962677,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_8636_7",
+      "layer": "3",
+      "feature": 308636,
+      "ctx_idx": 7,
+      "influence": 0.5503649711608887,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3729_4",
+      "layer": "0",
+      "feature": 3729,
+      "ctx_idx": 4,
+      "influence": 0.5499377846717834,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6929_8",
+      "layer": "0",
+      "feature": 6929,
+      "ctx_idx": 8,
+      "influence": 0.54951012134552,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_1119_1",
+      "layer": "2",
+      "feature": 201119,
+      "ctx_idx": 1,
+      "influence": 0.5486541390419006,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_1321_10",
+      "layer": "1",
+      "feature": 101321,
+      "ctx_idx": 10,
+      "influence": 0.5482259392738342,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_1208_2",
+      "layer": "4",
+      "feature": 401208,
+      "ctx_idx": 2,
+      "influence": 0.5477956533432007,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_709_10",
+      "layer": "24",
+      "feature": 2400709,
+      "ctx_idx": 10,
+      "influence": 0.5473644137382507,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_5342_1",
+      "layer": "1",
+      "feature": 105342,
+      "ctx_idx": 1,
+      "influence": 0.5469327569007874,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4823_1",
+      "layer": "0",
+      "feature": 4823,
+      "ctx_idx": 1,
+      "influence": 0.5465001463890076,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_691_5",
+      "layer": "7",
+      "feature": 700691,
+      "ctx_idx": 5,
+      "influence": 0.5460637211799622,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_4423_7",
+      "layer": "2",
+      "feature": 204423,
+      "ctx_idx": 7,
+      "influence": 0.545626163482666,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12294_4",
+      "layer": "0",
+      "feature": 12294,
+      "ctx_idx": 4,
+      "influence": 0.5451876521110535,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_10336_10",
+      "layer": "21",
+      "feature": 2110336,
+      "ctx_idx": 10,
+      "influence": 0.5447490215301514,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13654_4",
+      "layer": "0",
+      "feature": 13654,
+      "ctx_idx": 4,
+      "influence": 0.5443103313446045,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_5291_2",
+      "layer": "4",
+      "feature": 405291,
+      "ctx_idx": 2,
+      "influence": 0.5438706278800964,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_10254_10",
+      "layer": "20",
+      "feature": 2010254,
+      "ctx_idx": 10,
+      "influence": 0.5434306263923645,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_2799_9",
+      "layer": "6",
+      "feature": 602799,
+      "ctx_idx": 9,
+      "influence": 0.5425488948822021,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_14254_8",
+      "layer": "0",
+      "feature": 14254,
+      "ctx_idx": 8,
+      "influence": 0.5421075820922852,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_9757_1",
+      "layer": "4",
+      "feature": 409757,
+      "ctx_idx": 1,
+      "influence": 0.5416638851165771,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8489_1",
+      "layer": "0",
+      "feature": 8489,
+      "ctx_idx": 1,
+      "influence": 0.5412201285362244,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11568_7",
+      "layer": "0",
+      "feature": 11568,
+      "ctx_idx": 7,
+      "influence": 0.5407742261886597,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6601_7",
+      "layer": "0",
+      "feature": 6601,
+      "ctx_idx": 7,
+      "influence": 0.5403282046318054,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_10308_9",
+      "layer": "3",
+      "feature": 310308,
+      "ctx_idx": 9,
+      "influence": 0.5394328236579895,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_5021_10",
+      "layer": "16",
+      "feature": 1605021,
+      "ctx_idx": 10,
+      "influence": 0.5389834642410278,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_7407_4",
+      "layer": "2",
+      "feature": 207407,
+      "ctx_idx": 4,
+      "influence": 0.5385330319404602,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3436_3",
+      "layer": "0",
+      "feature": 3436,
+      "ctx_idx": 3,
+      "influence": 0.5380812287330627,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5716_3",
+      "layer": "0",
+      "feature": 5716,
+      "ctx_idx": 3,
+      "influence": 0.5371708273887634,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "15_2519_10",
+      "layer": "15",
+      "feature": 1502519,
+      "ctx_idx": 10,
+      "influence": 0.5367130637168884,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15890_3",
+      "layer": "0",
+      "feature": 15890,
+      "ctx_idx": 3,
+      "influence": 0.5362551212310791,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_187_10",
+      "layer": "18",
+      "feature": 1800187,
+      "ctx_idx": 10,
+      "influence": 0.535797119140625,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_3228_7",
+      "layer": "2",
+      "feature": 203228,
+      "ctx_idx": 7,
+      "influence": 0.5353377461433411,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4274_8",
+      "layer": "0",
+      "feature": 4274,
+      "ctx_idx": 8,
+      "influence": 0.5348782539367676,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8002_8",
+      "layer": "0",
+      "feature": 8002,
+      "ctx_idx": 8,
+      "influence": 0.5344185829162598,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_15445_8",
+      "layer": "2",
+      "feature": 215445,
+      "ctx_idx": 8,
+      "influence": 0.533958911895752,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_7671_10",
+      "layer": "4",
+      "feature": 407671,
+      "ctx_idx": 10,
+      "influence": 0.5330357551574707,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_6026_10",
+      "layer": "20",
+      "feature": 2006026,
+      "ctx_idx": 10,
+      "influence": 0.5316449999809265,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_9975_10",
+      "layer": "25",
+      "feature": 2509975,
+      "ctx_idx": 10,
+      "influence": 0.5311790108680725,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6056_4",
+      "layer": "0",
+      "feature": 6056,
+      "ctx_idx": 4,
+      "influence": 0.5307106375694275,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_4662_4",
+      "layer": "6",
+      "feature": 604662,
+      "ctx_idx": 4,
+      "influence": 0.530241072177887,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_592_8",
+      "layer": "0",
+      "feature": 592,
+      "ctx_idx": 8,
+      "influence": 0.5297713279724121,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_7671_4",
+      "layer": "4",
+      "feature": 407671,
+      "ctx_idx": 4,
+      "influence": 0.5292997360229492,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_328_8",
+      "layer": "1",
+      "feature": 100328,
+      "ctx_idx": 8,
+      "influence": 0.5283480882644653,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_12801_4",
+      "layer": "2",
+      "feature": 212801,
+      "ctx_idx": 4,
+      "influence": 0.5278704762458801,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_6087_7",
+      "layer": "4",
+      "feature": 406087,
+      "ctx_idx": 7,
+      "influence": 0.5273915529251099,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8316_4",
+      "layer": "0",
+      "feature": 8316,
+      "ctx_idx": 4,
+      "influence": 0.5269122123718262,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11577_1",
+      "layer": "0",
+      "feature": 11577,
+      "ctx_idx": 1,
+      "influence": 0.5254651308059692,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5640_4",
+      "layer": "0",
+      "feature": 5640,
+      "ctx_idx": 4,
+      "influence": 0.5249806046485901,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_13037_4",
+      "layer": "1",
+      "feature": 113037,
+      "ctx_idx": 4,
+      "influence": 0.5244939923286438,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6440_4",
+      "layer": "0",
+      "feature": 6440,
+      "ctx_idx": 4,
+      "influence": 0.5240073800086975,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11645_9",
+      "layer": "0",
+      "feature": 11645,
+      "ctx_idx": 9,
+      "influence": 0.5235182046890259,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_8221_8",
+      "layer": "1",
+      "feature": 108221,
+      "ctx_idx": 8,
+      "influence": 0.5230258107185364,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_9162_1",
+      "layer": "1",
+      "feature": 109162,
+      "ctx_idx": 1,
+      "influence": 0.5225324630737305,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_3536_10",
+      "layer": "18",
+      "feature": 1803536,
+      "ctx_idx": 10,
+      "influence": 0.5205478668212891,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_9522_10",
+      "layer": "16",
+      "feature": 1609522,
+      "ctx_idx": 10,
+      "influence": 0.5200474262237549,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4687_9",
+      "layer": "0",
+      "feature": 4687,
+      "ctx_idx": 9,
+      "influence": 0.5195467472076416,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12680_7",
+      "layer": "0",
+      "feature": 12680,
+      "ctx_idx": 7,
+      "influence": 0.5190456509590149,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_11220_10",
+      "layer": "22",
+      "feature": 2211220,
+      "ctx_idx": 10,
+      "influence": 0.51854407787323,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "13_8341_10",
+      "layer": "13",
+      "feature": 1308341,
+      "ctx_idx": 10,
+      "influence": 0.5180414319038391,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_4717_10",
+      "layer": "25",
+      "feature": 2504717,
+      "ctx_idx": 10,
+      "influence": 0.5175380706787109,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_10356_5",
+      "layer": "3",
+      "feature": 310356,
+      "ctx_idx": 5,
+      "influence": 0.517034113407135,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2115_4",
+      "layer": "0",
+      "feature": 2115,
+      "ctx_idx": 4,
+      "influence": 0.5165262818336487,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_10717_4",
+      "layer": "1",
+      "feature": 110717,
+      "ctx_idx": 4,
+      "influence": 0.5160179138183594,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2850_4",
+      "layer": "0",
+      "feature": 2850,
+      "ctx_idx": 4,
+      "influence": 0.5155085921287537,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3290_8",
+      "layer": "0",
+      "feature": 3290,
+      "ctx_idx": 8,
+      "influence": 0.5144873261451721,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_114_10",
+      "layer": "20",
+      "feature": 2000114,
+      "ctx_idx": 10,
+      "influence": 0.5139734148979187,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "15_2107_9",
+      "layer": "15",
+      "feature": 1502107,
+      "ctx_idx": 9,
+      "influence": 0.511904776096344,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3820_6",
+      "layer": "0",
+      "feature": 3820,
+      "ctx_idx": 6,
+      "influence": 0.5108588933944702,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_7870_10",
+      "layer": "4",
+      "feature": 407870,
+      "ctx_idx": 10,
+      "influence": 0.5103326439857483,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_15276_10",
+      "layer": "20",
+      "feature": 2015276,
+      "ctx_idx": 10,
+      "influence": 0.5098010301589966,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10317_1",
+      "layer": "0",
+      "feature": 10317,
+      "ctx_idx": 1,
+      "influence": 0.5092688202857971,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "11_3448_10",
+      "layer": "11",
+      "feature": 1103448,
+      "ctx_idx": 10,
+      "influence": 0.5087348818778992,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_10960_7",
+      "layer": "2",
+      "feature": 210960,
+      "ctx_idx": 7,
+      "influence": 0.5081968307495117,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11938_1",
+      "layer": "0",
+      "feature": 11938,
+      "ctx_idx": 1,
+      "influence": 0.5076556205749512,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_2288_10",
+      "layer": "23",
+      "feature": 2302288,
+      "ctx_idx": 10,
+      "influence": 0.5071131587028503,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_5821_10",
+      "layer": "17",
+      "feature": 1705821,
+      "ctx_idx": 10,
+      "influence": 0.5065663456916809,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_12740_2",
+      "layer": "3",
+      "feature": 312740,
+      "ctx_idx": 2,
+      "influence": 0.5060170888900757,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10754_7",
+      "layer": "0",
+      "feature": 10754,
+      "ctx_idx": 7,
+      "influence": 0.505466639995575,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_9026_1",
+      "layer": "0",
+      "feature": 9026,
+      "ctx_idx": 1,
+      "influence": 0.5043655037879944,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13727_7",
+      "layer": "0",
+      "feature": 13727,
+      "ctx_idx": 7,
+      "influence": 0.5027046203613281,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_9041_9",
+      "layer": "4",
+      "feature": 409041,
+      "ctx_idx": 9,
+      "influence": 0.5021450519561768,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_9457_9",
+      "layer": "2",
+      "feature": 209457,
+      "ctx_idx": 9,
+      "influence": 0.5015813112258911,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13004_2",
+      "layer": "0",
+      "feature": 13004,
+      "ctx_idx": 2,
+      "influence": 0.5010172128677368,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8872_7",
+      "layer": "0",
+      "feature": 8872,
+      "ctx_idx": 7,
+      "influence": 0.5004507303237915,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_3015_10",
+      "layer": "23",
+      "feature": 2303015,
+      "ctx_idx": 10,
+      "influence": 0.4998832643032074,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_4679_10",
+      "layer": "25",
+      "feature": 2504679,
+      "ctx_idx": 10,
+      "influence": 0.4993148446083069,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_14975_10",
+      "layer": "21",
+      "feature": 2114975,
+      "ctx_idx": 10,
+      "influence": 0.49874255061149597,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "12_10631_10",
+      "layer": "12",
+      "feature": 1210631,
+      "ctx_idx": 10,
+      "influence": 0.4975889325141907,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_5483_10",
+      "layer": "16",
+      "feature": 1605483,
+      "ctx_idx": 10,
+      "influence": 0.4964311718940735,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_12678_9",
+      "layer": "16",
+      "feature": 1612678,
+      "ctx_idx": 9,
+      "influence": 0.4958511292934418,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3331_4",
+      "layer": "0",
+      "feature": 3331,
+      "ctx_idx": 4,
+      "influence": 0.4934936463832855,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3978_4",
+      "layer": "0",
+      "feature": 3978,
+      "ctx_idx": 4,
+      "influence": 0.49289777874946594,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_12880_8",
+      "layer": "2",
+      "feature": 212880,
+      "ctx_idx": 8,
+      "influence": 0.49230068922042847,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_394_4",
+      "layer": "0",
+      "feature": 394,
+      "ctx_idx": 4,
+      "influence": 0.49109572172164917,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1290_8",
+      "layer": "0",
+      "feature": 1290,
+      "ctx_idx": 8,
+      "influence": 0.4904850125312805,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_4886_10",
+      "layer": "25",
+      "feature": 2504886,
+      "ctx_idx": 10,
+      "influence": 0.4898739755153656,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_5011_8",
+      "layer": "3",
+      "feature": 305011,
+      "ctx_idx": 8,
+      "influence": 0.4892624318599701,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_1026_10",
+      "layer": "18",
+      "feature": 1801026,
+      "ctx_idx": 10,
+      "influence": 0.48864737153053284,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1903_1",
+      "layer": "0",
+      "feature": 1903,
+      "ctx_idx": 1,
+      "influence": 0.48802998661994934,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "5_3992_1",
+      "layer": "5",
+      "feature": 503992,
+      "ctx_idx": 1,
+      "influence": 0.48741042613983154,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_10935_2",
+      "layer": "0",
+      "feature": 10935,
+      "ctx_idx": 2,
+      "influence": 0.4867880940437317,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4651_4",
+      "layer": "0",
+      "feature": 4651,
+      "ctx_idx": 4,
+      "influence": 0.4861651062965393,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "6_4012_7",
+      "layer": "6",
+      "feature": 604012,
+      "ctx_idx": 7,
+      "influence": 0.48554033041000366,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_9416_10",
+      "layer": "18",
+      "feature": 1809416,
+      "ctx_idx": 10,
+      "influence": 0.48491233587265015,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_7507_10",
+      "layer": "20",
+      "feature": 2007507,
+      "ctx_idx": 10,
+      "influence": 0.48427584767341614,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_14044_2",
+      "layer": "3",
+      "feature": 314044,
+      "ctx_idx": 2,
+      "influence": 0.4823310673236847,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13004_10",
+      "layer": "0",
+      "feature": 13004,
+      "ctx_idx": 10,
+      "influence": 0.4810180962085724,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4982_2",
+      "layer": "0",
+      "feature": 4982,
+      "ctx_idx": 2,
+      "influence": 0.48035797476768494,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11482_8",
+      "layer": "0",
+      "feature": 11482,
+      "ctx_idx": 8,
+      "influence": 0.47969189286231995,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_6300_7",
+      "layer": "1",
+      "feature": 106300,
+      "ctx_idx": 7,
+      "influence": 0.47835224866867065,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_3080_1",
+      "layer": "1",
+      "feature": 103080,
+      "ctx_idx": 1,
+      "influence": 0.4776810109615326,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_15944_4",
+      "layer": "1",
+      "feature": 115944,
+      "ctx_idx": 4,
+      "influence": 0.47700291872024536,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_3491_8",
+      "layer": "2",
+      "feature": 203491,
+      "ctx_idx": 8,
+      "influence": 0.4756413996219635,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_6491_10",
+      "layer": "16",
+      "feature": 1606491,
+      "ctx_idx": 10,
+      "influence": 0.474958598613739,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_15063_7",
+      "layer": "2",
+      "feature": 215063,
+      "ctx_idx": 7,
+      "influence": 0.4728940725326538,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7344_1",
+      "layer": "0",
+      "feature": 7344,
+      "ctx_idx": 1,
+      "influence": 0.47220098972320557,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_5999_10",
+      "layer": "24",
+      "feature": 2405999,
+      "ctx_idx": 10,
+      "influence": 0.47150686383247375,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12698_1",
+      "layer": "0",
+      "feature": 12698,
+      "ctx_idx": 1,
+      "influence": 0.47081074118614197,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13795_2",
+      "layer": "0",
+      "feature": 13795,
+      "ctx_idx": 2,
+      "influence": 0.4694141149520874,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "15_4494_4",
+      "layer": "15",
+      "feature": 1504494,
+      "ctx_idx": 4,
+      "influence": 0.4687090814113617,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12958_2",
+      "layer": "0",
+      "feature": 12958,
+      "ctx_idx": 2,
+      "influence": 0.46799978613853455,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "8_7467_9",
+      "layer": "8",
+      "feature": 807467,
+      "ctx_idx": 9,
+      "influence": 0.46728649735450745,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_187_9",
+      "layer": "18",
+      "feature": 1800187,
+      "ctx_idx": 9,
+      "influence": 0.4665731191635132,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_31_10",
+      "layer": "22",
+      "feature": 2200031,
+      "ctx_idx": 10,
+      "influence": 0.46585506200790405,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12082_8",
+      "layer": "0",
+      "feature": 12082,
+      "ctx_idx": 8,
+      "influence": 0.465117871761322,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_5132_1",
+      "layer": "2",
+      "feature": 205132,
+      "ctx_idx": 1,
+      "influence": 0.4643794596195221,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_15734_4",
+      "layer": "0",
+      "feature": 15734,
+      "ctx_idx": 4,
+      "influence": 0.46363431215286255,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_997_1",
+      "layer": "0",
+      "feature": 997,
+      "ctx_idx": 1,
+      "influence": 0.4628886282444,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_13541_10",
+      "layer": "23",
+      "feature": 2313541,
+      "ctx_idx": 10,
+      "influence": 0.4621410667896271,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_7477_9",
+      "layer": "19",
+      "feature": 1907477,
+      "ctx_idx": 9,
+      "influence": 0.4591306746006012,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_6741_4",
+      "layer": "0",
+      "feature": 6741,
+      "ctx_idx": 4,
+      "influence": 0.45760029554367065,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_13145_1",
+      "layer": "0",
+      "feature": 13145,
+      "ctx_idx": 1,
+      "influence": 0.4560665786266327,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_12918_10",
+      "layer": "23",
+      "feature": 2312918,
+      "ctx_idx": 10,
+      "influence": 0.45529496669769287,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "15_15087_9",
+      "layer": "15",
+      "feature": 1515087,
+      "ctx_idx": 9,
+      "influence": 0.45451846718788147,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_6028_2",
+      "layer": "4",
+      "feature": 406028,
+      "ctx_idx": 2,
+      "influence": 0.45215529203414917,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_583_10",
+      "layer": "25",
+      "feature": 2500583,
+      "ctx_idx": 10,
+      "influence": 0.4505655765533447,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_8734_4",
+      "layer": "2",
+      "feature": 208734,
+      "ctx_idx": 4,
+      "influence": 0.44735339283943176,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_16258_10",
+      "layer": "24",
+      "feature": 2416258,
+      "ctx_idx": 10,
+      "influence": 0.4457237124443054,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_5965_9",
+      "layer": "2",
+      "feature": 205965,
+      "ctx_idx": 9,
+      "influence": 0.4449048638343811,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_11838_4",
+      "layer": "2",
+      "feature": 211838,
+      "ctx_idx": 4,
+      "influence": 0.44407764077186584,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_4298_10",
+      "layer": "16",
+      "feature": 1604298,
+      "ctx_idx": 10,
+      "influence": 0.4407412111759186,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_2439_10",
+      "layer": "19",
+      "feature": 1902439,
+      "ctx_idx": 10,
+      "influence": 0.43989527225494385,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_691_10",
+      "layer": "7",
+      "feature": 700691,
+      "ctx_idx": 10,
+      "influence": 0.43904781341552734,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_16302_10",
+      "layer": "25",
+      "feature": 2516302,
+      "ctx_idx": 10,
+      "influence": 0.4364795386791229,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_7178_10",
+      "layer": "17",
+      "feature": 1707178,
+      "ctx_idx": 10,
+      "influence": 0.43561017513275146,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "17_9905_9",
+      "layer": "17",
+      "feature": 1709905,
+      "ctx_idx": 9,
+      "influence": 0.4347359240055084,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_37_10",
+      "layer": "19",
+      "feature": 1900037,
+      "ctx_idx": 10,
+      "influence": 0.4338579773902893,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_3598_8",
+      "layer": "0",
+      "feature": 3598,
+      "ctx_idx": 8,
+      "influence": 0.43297356367111206,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "3_9559_5",
+      "layer": "3",
+      "feature": 309559,
+      "ctx_idx": 5,
+      "influence": 0.4311988651752472,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_11528_8",
+      "layer": "2",
+      "feature": 211528,
+      "ctx_idx": 8,
+      "influence": 0.42941346764564514,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_12613_4",
+      "layer": "0",
+      "feature": 12613,
+      "ctx_idx": 4,
+      "influence": 0.4285155236721039,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5626_9",
+      "layer": "0",
+      "feature": 5626,
+      "ctx_idx": 9,
+      "influence": 0.42760494351387024,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_13841_10",
+      "layer": "23",
+      "feature": 2313841,
+      "ctx_idx": 10,
+      "influence": 0.4266915023326874,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_7671_5",
+      "layer": "4",
+      "feature": 407671,
+      "ctx_idx": 5,
+      "influence": 0.4257677495479584,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_15366_10",
+      "layer": "23",
+      "feature": 2315366,
+      "ctx_idx": 10,
+      "influence": 0.42483818531036377,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8722_3",
+      "layer": "0",
+      "feature": 8722,
+      "ctx_idx": 3,
+      "influence": 0.4239064157009125,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_6617_10",
+      "layer": "23",
+      "feature": 2306617,
+      "ctx_idx": 10,
+      "influence": 0.42296499013900757,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11124_4",
+      "layer": "0",
+      "feature": 11124,
+      "ctx_idx": 4,
+      "influence": 0.42008844017982483,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8939_4",
+      "layer": "0",
+      "feature": 8939,
+      "ctx_idx": 4,
+      "influence": 0.415065735578537,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_15013_10",
+      "layer": "24",
+      "feature": 2415013,
+      "ctx_idx": 10,
+      "influence": 0.4140278398990631,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_11444_10",
+      "layer": "23",
+      "feature": 2311444,
+      "ctx_idx": 10,
+      "influence": 0.4129623770713806,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_3551_10",
+      "layer": "22",
+      "feature": 2203551,
+      "ctx_idx": 10,
+      "influence": 0.41189461946487427,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_5916_10",
+      "layer": "20",
+      "feature": 2005916,
+      "ctx_idx": 10,
+      "influence": 0.41081565618515015,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_6795_10",
+      "layer": "21",
+      "feature": 2106795,
+      "ctx_idx": 10,
+      "influence": 0.40972626209259033,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_553_10",
+      "layer": "25",
+      "feature": 2500553,
+      "ctx_idx": 10,
+      "influence": 0.40642011165618896,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_13193_10",
+      "layer": "23",
+      "feature": 2313193,
+      "ctx_idx": 10,
+      "influence": 0.40530917048454285,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_4323_4",
+      "layer": "0",
+      "feature": 4323,
+      "ctx_idx": 4,
+      "influence": 0.4041958153247833,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_8885_4",
+      "layer": "0",
+      "feature": 8885,
+      "ctx_idx": 4,
+      "influence": 0.4030778408050537,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_1437_10",
+      "layer": "18",
+      "feature": 1801437,
+      "ctx_idx": 10,
+      "influence": 0.40192002058029175,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_15694_10",
+      "layer": "24",
+      "feature": 2415694,
+      "ctx_idx": 10,
+      "influence": 0.39842233061790466,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_4259_10",
+      "layer": "25",
+      "feature": 2504259,
+      "ctx_idx": 10,
+      "influence": 0.3948002755641937,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_7477_10",
+      "layer": "19",
+      "feature": 1907477,
+      "ctx_idx": 10,
+      "influence": 0.3935295343399048,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "1_1000_4",
+      "layer": "1",
+      "feature": 101000,
+      "ctx_idx": 4,
+      "influence": 0.39219769835472107,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_5495_10",
+      "layer": "18",
+      "feature": 1805495,
+      "ctx_idx": 10,
+      "influence": 0.3894942104816437,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_1961_4",
+      "layer": "0",
+      "feature": 1961,
+      "ctx_idx": 4,
+      "influence": 0.3881274461746216,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "2_7173_4",
+      "layer": "2",
+      "feature": 207173,
+      "ctx_idx": 4,
+      "influence": 0.38675159215927124,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_7118_4",
+      "layer": "0",
+      "feature": 7118,
+      "ctx_idx": 4,
+      "influence": 0.38534387946128845,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_1445_10",
+      "layer": "19",
+      "feature": 1901445,
+      "ctx_idx": 10,
+      "influence": 0.3824743628501892,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_11375_10",
+      "layer": "0",
+      "feature": 11375,
+      "ctx_idx": 10,
+      "influence": 0.3795418441295624,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_5660_4",
+      "layer": "0",
+      "feature": 5660,
+      "ctx_idx": 4,
+      "influence": 0.3780505061149597,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_11718_10",
+      "layer": "22",
+      "feature": 2211718,
+      "ctx_idx": 10,
+      "influence": 0.37488996982574463,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_3064_10",
+      "layer": "22",
+      "feature": 2203064,
+      "ctx_idx": 10,
+      "influence": 0.3680788278579712,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_2848_5",
+      "layer": "0",
+      "feature": 2848,
+      "ctx_idx": 5,
+      "influence": 0.36632364988327026,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_6101_10",
+      "layer": "18",
+      "feature": 1806101,
+      "ctx_idx": 10,
+      "influence": 0.36451470851898193,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "0_16200_2",
+      "layer": "0",
+      "feature": 16200,
+      "ctx_idx": 2,
+      "influence": 0.36264416575431824,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "19_2695_10",
+      "layer": "19",
+      "feature": 1902695,
+      "ctx_idx": 10,
+      "influence": 0.3605407476425171,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_6931_9",
+      "layer": "4",
+      "feature": 406931,
+      "ctx_idx": 9,
+      "influence": 0.3583539128303528,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "18_8959_10",
+      "layer": "18",
+      "feature": 1808959,
+      "ctx_idx": 10,
+      "influence": 0.3561231195926666,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "7_6861_9",
+      "layer": "7",
+      "feature": 706861,
+      "ctx_idx": 9,
+      "influence": 0.35385453701019287,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "22_4999_10",
+      "layer": "22",
+      "feature": 2204999,
+      "ctx_idx": 10,
+      "influence": 0.35156142711639404,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "4_13154_9",
+      "layer": "4",
+      "feature": 413154,
+      "ctx_idx": 9,
+      "influence": 0.34076035022735596,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_13277_10",
+      "layer": "24",
+      "feature": 2413277,
+      "ctx_idx": 10,
+      "influence": 0.33203792572021484,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_6394_10",
+      "layer": "24",
+      "feature": 2406394,
+      "ctx_idx": 10,
+      "influence": 0.3290700316429138,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_15589_9",
+      "layer": "20",
+      "feature": 2015589,
+      "ctx_idx": 9,
+      "influence": 0.3256344497203827,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "25_13300_10",
+      "layer": "25",
+      "feature": 2513300,
+      "ctx_idx": 10,
+      "influence": 0.3221454322338104,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "16_25_9",
+      "layer": "16",
+      "feature": 1600025,
+      "ctx_idx": 9,
+      "influence": 0.31469932198524475,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "14_2268_9",
+      "layer": "14",
+      "feature": 1402268,
+      "ctx_idx": 9,
+      "influence": 0.31083938479423523,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "23_12237_10",
+      "layer": "23",
+      "feature": 2312237,
+      "ctx_idx": 10,
+      "influence": 0.3020104765892029,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "21_5943_10",
+      "layer": "21",
+      "feature": 2105943,
+      "ctx_idx": 10,
+      "influence": 0.29728037118911743,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "24_6044_10",
+      "layer": "24",
+      "feature": 2406044,
+      "ctx_idx": 10,
+      "influence": 0.2757318913936615,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    },
+    {
+      "node_id": "20_15589_10",
+      "layer": "20",
+      "feature": 2015589,
+      "ctx_idx": 10,
+      "influence": 0.25762853026390076,
+      "clerp": null,
+      "feature_type": "cross layer transcoder"
+    }
+  ]
+}

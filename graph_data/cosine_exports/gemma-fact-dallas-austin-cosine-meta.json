@@ -1,0 +1,8 @@
+{
+  "slug": "gemma-fact-dallas-austin",
+  "prompt": "<bos>Fact: The capital of the state containing Dallas is",
+  "method": "cosine similarity of concat[unit(W_enc) || unit(W_dec)]",
+  "n": 697,
+  "max_nodes": "all",
+  "unthresholded": true
+}
