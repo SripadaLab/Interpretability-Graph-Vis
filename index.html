@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<meta charset='utf-8'>
+<meta name='viewport' content='width=1200, initial-scale=1'>
+<link rel='stylesheet' href='./style.css'>
+<link rel='stylesheet' href='./lib/katex/katex.min.css'>
+<title>Attribution Graphs</title>
+<script>
+// GitHub project Pages: /repo (no slash) would resolve ./graph_data to the host root.
+if (!location.pathname.endsWith('/') && !/\.[a-zA-Z0-9]+$/.test(location.pathname)) {
+  location.replace(location.pathname + '/' + location.search + location.hash)
+}
+</script>
+
+<div class='tooltip tooltip-hidden'></div>
+<div class='nav'></div>
+<div class='cg'></div>
+
+<link rel='stylesheet' href='./attribution_graph/cg.css'>
+<link rel='stylesheet' href='./attribution_graph/gridsnap/gridsnap.css'>
+<link rel='stylesheet' href='./feature_examples/feature-examples.css'>
+
+<script src='./lib/d3.js'></script>
+<script src='./lib/jetpack.js'></script>
+<script src='./lib/npy.js'></script>
+<script src='./lib/dagre.min.js'></script>
+<script src='./lib/pako.min.js'></script>
+<script src='./lib/katex/katex.min.js'></script>
+
+<script src='./feature_examples/init-feature-examples-list.js?v=20260812b'></script>
+<script src='./feature_examples/init-feature-examples-logits.js?v=20260812b'></script>
+<script src='./feature_examples/init-feature-examples.js?v=20260817a'></script>
+
+<script src='./util.js?v=20260817a'></script>
+<script src='./attribution_graph/util-cg.js?v=20260812b'></script>
+<script src='./attribution_graph/edge-coloring.js?v=20260812b'></script>
+<script src='./attribution_graph/render-act-histogram.js?v=20260812b'></script>
+<script src='./attribution_graph/gridsnap/init-gridsnap.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-button-container.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-graph-stats.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-cluster-panel.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-link-graph.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-node-connections.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-clerp-list.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-feature-detail.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-feature-scatter.js?v=20260812b'></script>
+<script src='./attribution_graph/svd-spectrum.js?v=20260812b'></script>
+<script src='./attribution_graph/init-cg-subgraph.js?v=20260813e'></script>
+<script src='./attribution_graph/init-cg-svd-panel.js?v=20260817a'></script>
+<script src='./attribution_graph/init-cg.js?v=20260812b'></script>
+
+<script>
+window.init = async function(){
+  window.isLocalServing = true;
+  window.isStaticPages = true;
+  var {graphs} = await util.getFile('./data/graph-metadata.json', false)
+
+  window.visState = window.visState || {
+    slug: util.params.get('slug') || graphs[0].slug,
+    clickedId: util.params.get('clickedId')?.replace('null', ''),
+    isGridsnap: util.params.get('isGridsnap')?.replace('null', ''),
+  }
+
+  var currentGraph = graphs.find(g => g.slug === visState.slug)
+
+  if (currentGraph && typeof currentGraph.node_threshold === 'number') {
+    visState.pruningThreshold = util.params.get('pruningThreshold')
+      || currentGraph.node_threshold
+      || 1.0
+  } else {
+    visState.pruningThreshold = util.params.get('pruningThreshold') || 1.0
+  }
+
+  var navSel = d3.select('.nav').html('')
+    .style('display', 'flex')
+    .style('align-items', 'center')
+    .style('padding-bottom', '12px')
+    .style('justify-content', 'space-between')
+    .style('gap', '16px')
+    .style('flex-wrap', 'wrap')
+
+  var controlsContainer = navSel.append('div.controls-container')
+    .style('display', 'flex')
+    .style('align-items', 'center')
+    .style('flex', '1')
+    .style('gap', '18px')
+    .style('flex-wrap', 'wrap')
+
+  function optionLabel(d) {
+    var scanName = util.nameToPrettyPrint[d.scan] || d.scan
+    var prefix = d.title_prefix ? d.title_prefix + ' ' : ''
+    return prefix + scanName + ' — ' + d.prompt
+  }
+
+  var selectSel = controlsContainer.append('select.graph-prompt-select')
+    .style('min-width', '320px')
+    .style('max-width', '560px')
+    .on('click', async function() {
+      if (!window.isLocalServing) return;
+      var {graphs: newGraphs} = await util.getFile('./data/graph-metadata.json', false)
+      var uploaded = graphs.filter(g => g.uploaded)
+      graphs = newGraphs.slice()
+      uploaded.forEach(u => {
+        if (!graphs.some(g => g.slug === u.slug)) graphs.push(u)
+      })
+      refreshSelect()
+    })
+    .on('change', function() {
+      visState.slug = this.value
+      visState.clickedId = undefined
+      util.params.set('slug', this.value)
+      var newGraph = graphs.find(g => g.slug === this.value)
+      if (newGraph && typeof newGraph.node_threshold === 'number') {
+        visState.pruningThreshold = util.params.get('pruningThreshold') || newGraph.node_threshold || 1.0
+      } else {
+        visState.pruningThreshold = 1.0
+      }
+      render()
+    })
+
+  var debouncedRender = util.debounce(render, 300)
+  var sliderContainer
+
+  selectSel.appendMany('option', graphs)
+    .text(optionLabel)
+    .attr('value', d => d.slug)
+    .property('selected', d => d.slug === visState.slug)
+
+  function refreshSelect() {
+    selectSel.selectAll('option').remove()
+    selectSel.appendMany('option', graphs)
+      .text(optionLabel)
+      .attr('value', d => d.slug)
+      .property('selected', d => d.slug === visState.slug)
+  }
+
+  var uploadLabel = controlsContainer.append('label.upload-json')
+    .style('display', 'inline-flex')
+    .style('align-items', 'center')
+    .style('gap', '6px')
+    .style('cursor', 'pointer')
+    .style('font-size', '13px')
+    .style('padding', '5px 10px')
+    .style('border', '1px solid #ccc')
+    .style('border-radius', '5px')
+    .style('background', '#fff')
+    .attr('title', 'Upload an attribution graph JSON file to visualize')
+  uploadLabel.append('span').text('Upload JSON')
+  var fileInput = uploadLabel.append('input')
+    .at({type: 'file', accept: '.json,application/json'})
+    .style('display', 'none')
+  var uploadStatus = controlsContainer.append('span.upload-status')
+    .style('font-size', '12px')
+    .style('color', '#666')
+
+  function slugifyFilename(name) {
+    return (name || 'uploaded')
+      .replace(/\.json$/i, '')
+      .replace(/[^a-zA-Z0-9._-]+/g, '-')
+      .replace(/^-+|-+$/g, '')
+      .slice(0, 80) || ('upload-' + Date.now())
+  }
+
+  function normalizeUploadedGraph(raw, filename) {
+    if (!raw || typeof raw !== 'object') throw new Error('JSON root must be an object')
+    if (!Array.isArray(raw.nodes)) throw new Error('Missing nodes[] array')
+    if (!Array.isArray(raw.links) && !Array.isArray(raw.edges)) {
+      throw new Error('Missing links[] (or edges[]) array')
+    }
+    var data = JSON.parse(JSON.stringify(raw))
+    if (!data.links && data.edges) data.links = data.edges
+    data.metadata = data.metadata || {}
+    var slug = data.metadata.slug || slugifyFilename(filename)
+    if (graphs.some(g => g.slug === slug && !g.uploaded)) {
+      slug = slug + '-upload'
+    }
+    data.metadata.slug = slug
+    if (!data.metadata.prompt) data.metadata.prompt = filename || slug
+    if (!data.metadata.scan) data.metadata.scan = 'uploaded'
+    if (!Array.isArray(data.metadata.prompt_tokens) || !data.metadata.prompt_tokens.length) {
+      data.metadata.prompt_tokens = String(data.metadata.prompt || '').split(/\s+/).filter(Boolean)
+      if (!data.metadata.prompt_tokens.length) data.metadata.prompt_tokens = ['']
+    }
+    if (!data.qParams) data.qParams = {}
+    return data
+  }
+
+  fileInput.on('change', function() {
+    var file = this.files && this.files[0]
+    if (!file) return
+    uploadStatus.text('Loading…').style('color', '#666')
+    var reader = new FileReader()
+    reader.onerror = () => {
+      uploadStatus.text('Read failed').style('color', '#a23')
+    }
+    reader.onload = () => {
+      try {
+        var parsed = JSON.parse(reader.result)
+        var data = normalizeUploadedGraph(parsed, file.name)
+        var slug = data.metadata.slug
+        util.putFileCache(`./graph_data/${slug}.json`, data)
+
+        var entry = {
+          slug,
+          prompt: data.metadata.prompt,
+          scan: data.metadata.scan,
+          node_threshold: data.metadata.node_threshold != null ? data.metadata.node_threshold : 1.0,
+          title_prefix: data.metadata.title_prefix || 'Uploaded ·',
+          uploaded: true,
+        }
+        var existing = graphs.findIndex(g => g.slug === slug)
+        if (existing >= 0) graphs[existing] = entry
+        else graphs.push(entry)
+
+        visState.slug = slug
+        visState.clickedId = undefined
+        util.params.set('slug', slug)
+        visState.pruningThreshold = entry.node_threshold ?? 1.0
+        util.params.set('pruningThreshold', String(visState.pruningThreshold))
+        refreshSelect()
+        uploadStatus.text(file.name + ' · ' + data.nodes.length + ' nodes')
+          .style('color', '#2f6f36')
+        render()
+      } catch (err) {
+        console.error(err)
+        uploadStatus.text(err.message || 'Invalid JSON').style('color', '#a23')
+      }
+    }
+    reader.readAsText(file)
+    this.value = ''
+  })
+
+  function currentQParams() {
+    return Object.fromEntries(
+      ["pinnedIds", "expandedIds", "supernodes", "linkType", "clickedId", "sg_pos", "pruningThreshold", "expandEdges", "clerps"]
+        .map(k => [k, util.params.get(k)])
+        .filter(([k, v]) => v !== undefined && v !== 'null')
+    )
+  }
+
+  function downloadGraphJson(slug) {
+    var cached = window.__datacache?.[`./graph_data/${slug}.json`]
+    return Promise.resolve(cached)
+      .then(data => data || util.getFile(`./graph_data/${slug}.json`, false))
+      .then(data => {
+        if (!data) throw new Error('Graph not in cache')
+        var out = JSON.parse(JSON.stringify(data))
+        out.qParams = currentQParams()
+        var blob = new Blob([JSON.stringify(out)], {type: 'application/json'})
+        var a = document.createElement('a')
+        a.href = URL.createObjectURL(blob)
+        a.download = slug + '.json'
+        a.click()
+        URL.revokeObjectURL(a.href)
+      })
+  }
+
+  var saveButton = navSel.append('button.save-button')
+    .text('Save')
+    .style('display', window.isLocalServing ? 'block' : 'none')
+    .on('click', function() {
+      var slug = visState.slug;
+      if (!slug) return;
+      var entry = graphs.find(g => g.slug === slug)
+      var flash = (label, color) => {
+        saveButton.text(label).style("background-color", color)
+        setTimeout(() => saveButton.text("Save").attr("disabled", null).style("opacity", null).style("background-color", null), 2000)
+      }
+      if (entry?.uploaded || window.isStaticPages) {
+        downloadGraphJson(slug).then(() => flash("Downloaded!", "#e6f7e6")).catch(err => {
+          console.error(err)
+          flash("Error!", "#ffebee")
+        })
+        return
+      }
+      saveButton.text("Saving...").attr("disabled", true).style("opacity", 0.6);
+      fetch(`/save_graph/${slug}`, {
+        method: 'POST',
+        headers: {'Content-Type': 'application/json'},
+        body: JSON.stringify({
+          qParams: currentQParams(),
+          timestamp: new Date().toISOString()
+        })
+      })
+      .then(r => { if (!r.ok) throw new Error(r.statusText); return r.json() })
+      .then(() => flash("Saved!", "#e6f7e6"))
+      .catch(() => {
+        downloadGraphJson(slug).then(() => flash("Downloaded!", "#e6f7e6")).catch(err => {
+          console.error(err)
+          flash("Error!", "#ffebee")
+        })
+      })
+    })
+
+  function render() {
+    var m = graphs.find(g => g.slug == visState.slug)
+    if (!m) return
+
+    if (!sliderContainer) {
+      sliderContainer = controlsContainer.append('div.slider-container')
+        .style('display', 'flex')
+        .style('align-items', 'center')
+        .style('gap', '10px')
+
+      sliderContainer.append('span').text('Pruning:')
+
+      sliderContainer.append('input')
+        .attr('type', 'range')
+        .attr('min', 0)
+        .attr('max', 1)
+        .attr('step', 0.01)
+        .attr('value', visState.pruningThreshold ?? 1)
+        .on('input', function() {
+          visState.pruningThreshold = this.value
+          visState.clickedId = util.params.get('clickedId')?.replace('null', '')
+          util.params.set('pruningThreshold', this.value)
+          valueDisplay.text(parseFloat(this.value) >= 0.995 ? '1.0 (full)' : parseFloat(this.value).toFixed(2))
+          debouncedRender()
+        })
+
+      var valueDisplay = sliderContainer.append('span.value-display')
+        .style('min-width', '72px')
+        .text(parseFloat(visState.pruningThreshold ?? 1) >= 0.995
+          ? '1.0 (full)'
+          : parseFloat(visState.pruningThreshold ?? 1).toFixed(2))
+
+      sliderContainer.append('button.full-prune-btn')
+        .text('Full')
+        .attr('title', 'Show all loaded nodes (pruning = 1.0)')
+        .style('font-size', '12px')
+        .style('padding', '4px 10px')
+        .style('cursor', 'pointer')
+        .on('click', function() {
+          visState.pruningThreshold = 1
+          util.params.set('pruningThreshold', '1')
+          sliderContainer.select('input').property('value', 1)
+          valueDisplay.text('1.0 (full)')
+          render()
+        })
+    }
+
+    sliderContainer.select('input')
+      .attr('max', 1)
+      .property('value', visState.pruningThreshold ?? 1)
+    sliderContainer.select('.value-display')
+      .text(parseFloat(visState.pruningThreshold ?? 1) >= 0.995
+        ? '1.0 (full)'
+        : parseFloat(visState.pruningThreshold ?? 1).toFixed(2))
+    sliderContainer.style('display', 'flex')
+
+    if (visState.pruningThreshold === undefined) {
+      visState.pruningThreshold = 1
+    }
+
+    d3.select('.cg').html('')
+
+    var options = {
+      clickedId: visState.clickedId,
+      clickedIdCb: id => util.params.set('clickedId', id),
+      isGridsnap: visState.isGridsnap || true,
+      pruningThreshold: visState.pruningThreshold,
+    }
+
+    initCg(d3.select('.cg'), visState.slug, options)
+
+    selectSel.at({title: m.prompt})
+    document.title = 'Attribution Graph: ' + m.prompt
+  }
+  render()
+}
+
+window.init()
+</script>
