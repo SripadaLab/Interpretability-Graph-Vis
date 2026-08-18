@@ -422,11 +422,29 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
     return box
   }
 
-  function featureLabel(node) {
-    var t = (node.ppClerp || node.clerp || node.nodeId || '').trim()
-    if (!t) t = node.nodeId
-    if (t.length > 42) t = t.slice(0, 40) + '…'
-    return t
+  function featureIdOf(node, id) {
+    if (node && node.feature != null && node.feature !== '') return String(node.feature)
+    if (node && node.active_feature_idx != null && node.active_feature_idx !== '') {
+      return String(node.active_feature_idx)
+    }
+    var raw = (node && (node.nodeId || node.featureId || node.node_id)) || id || ''
+    var parts = String(raw).split('_')
+    if (parts.length >= 2 && parts[1] !== '') return parts[1]
+    return raw ? String(raw) : ''
+  }
+
+  function featureLabel(node, id) {
+    var feat = featureIdOf(node, id)
+    if (!feat) return id || ''
+    var clerp = node && (node.localClerp || node.clerp)
+    if (clerp) {
+      clerp = String(clerp).trim()
+      if (clerp && !/^\[group\s+\d+\]/i.test(clerp) && clerp !== feat) {
+        var t = '[' + feat + '] ' + clerp
+        return t.length > 48 ? t.slice(0, 46) + '…' : t
+      }
+    }
+    return '[' + feat + ']'
   }
 
   function downloadBlobCsv(matrix, nodes, slug) {
@@ -2721,8 +2739,14 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
     var body = wrap.append('div.svd-spectral-body')
 
     function featureLabel(node, id) {
-      if (!node) return id
-      return ((node.ppClerp || node.clerp || id) + '').trim() || id
+      var feat = featureIdOf(node, id)
+      if (!feat) return id || ''
+      var ctx = node && node.ctx_idx
+      if (ctx == null && id) {
+        var parts = String(id).split('_')
+        if (parts.length >= 3) ctx = parts[2]
+      }
+      return ctx != null && ctx !== '' ? '[' + feat + '] · t' + ctx : '[' + feat + ']'
     }
 
     function ensureAffinity(done) {

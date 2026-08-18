@@ -231,7 +231,14 @@ window.initCgClusterPanel = function ({visState, renderAll, data, cgSel}) {
             renderAll.clickedId()
           })
         row.append('span')
-          .text((m.ppClerp || m.clerp || m.nodeId || '').slice(0, 36))
+          .text((() => {
+            var feat = m.feature != null && m.feature !== ''
+              ? String(m.feature)
+              : String(m.featureId || m.nodeId || '').split('_')[1] || ''
+            var clerp = (m.localClerp || m.clerp || '').trim()
+            if (clerp && !/^\[group\s+\d+\]/i.test(clerp)) return ('[' + feat + '] ' + clerp).slice(0, 36)
+            return feat ? '[' + feat + ']' : String(m.nodeId || '').slice(0, 36)
+          })())
           .st({overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1})
         row.append('span')
           .text(m.layer === 'E' ? 'Emb' : ('L' + m.layer))
