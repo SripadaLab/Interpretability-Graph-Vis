@@ -422,15 +422,21 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
     return box
   }
 
-  function featureIdOf(node, id) {
-    if (node && node.feature != null && node.feature !== '') return String(node.feature)
-    if (node && node.active_feature_idx != null && node.active_feature_idx !== '') {
-      return String(node.active_feature_idx)
+  function parseLayerFeatureCtx(raw) {
+    var parts = String(raw == null ? '' : raw).split('_')
+    if (parts.length >= 2 && /^\d+$/.test(parts[1])) {
+      return {layer: parts[0], feature: parts[1], ctx: parts[2]}
     }
-    var raw = (node && (node.nodeId || node.featureId || node.node_id)) || id || ''
-    var parts = String(raw).split('_')
-    if (parts.length >= 2 && parts[1] !== '') return parts[1]
-    return raw ? String(raw) : ''
+    return null
+  }
+
+  function featureIdOf(node, id) {
+    var parsed = parseLayerFeatureCtx(id)
+      || parseLayerFeatureCtx(node && (node.node_id || node.nodeId || node.featureId || node.jsNodeId))
+    if (parsed) return parsed.feature
+    var feat = node && (node.feature != null ? node.feature : node.active_feature_idx)
+    if (feat != null && feat !== '' && !/^group\s+\d+$/i.test(String(feat))) return String(feat)
+    return ''
   }
 
   function featureLabel(node, id) {
@@ -2739,14 +2745,16 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
     var body = wrap.append('div.svd-spectral-body')
 
     function featureLabel(node, id) {
-      var feat = featureIdOf(node, id)
-      if (!feat) return id || ''
-      var ctx = node && node.ctx_idx
-      if (ctx == null && id) {
-        var parts = String(id).split('_')
-        if (parts.length >= 3) ctx = parts[2]
+      var parsed = parseLayerFeatureCtx(id)
+        || parseLayerFeatureCtx(node && (node.node_id || node.nodeId || node.featureId || node.jsNodeId))
+      if (parsed) {
+        return parsed.ctx != null && parsed.ctx !== ''
+          ? '[' + parsed.feature + '] · t' + parsed.ctx
+          : '[' + parsed.feature + ']'
       }
-      return ctx != null && ctx !== '' ? '[' + feat + '] · t' + ctx : '[' + feat + ']'
+      var feat = featureIdOf(node, id)
+      if (feat && !/^group\s+\d+$/i.test(feat)) return '[' + feat + ']'
+      return String(id || '—')
     }
 
     function ensureAffinity(done) {
@@ -2829,9 +2837,14 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
       body.html('')
       var groups = (spec.by_k[String(spectralK)] || []).map(g => g.slice())
       var idToNode = {}
-      ;(data.allNodes || data.nodes || []).forEach(n => {
-        idToNode[n.nodeId || n.node_id] = n
-      })
+      function indexNode(n) {
+        if (!n || n.isSuperNode) return
+        ;[n.node_id, n.nodeId, n.featureId, n.jsNodeId].forEach(k => {
+          if (k) idToNode[k] = n
+        })
+      }
+      ;(data.allNodes || []).forEach(indexNode)
+      ;(data.nodes || []).forEach(indexNode)
       var idToGroup = {}
       groups.forEach((g, gi) => {
         g.slice(1).forEach(id => { idToGroup[id] = gi })
