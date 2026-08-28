@@ -373,7 +373,7 @@ window.svdSpectrum = (function () {
             type: 'feature',
             node: t.node,
             nodeId: fid,
-            label: (t.node.ppClerp || t.node.clerp || fid || '').trim() || fid,
+            label: utilCg.featureIdLabel(t.node, fid),
             primaryMode: r,
             primaryAbs: abs,
             loadings: {},

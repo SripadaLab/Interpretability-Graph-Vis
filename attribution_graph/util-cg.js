@@ -560,7 +560,7 @@ window.utilCg = (function(){
         left = d3.clamp(20, (x-bb.width/2), window.innerWidth - bb.width - 20),
         top = innerHeight > y + 20 + bb.height ? y + 20 : y - bb.height - 20;
 
-    let tooltipHtml = !ev.metaKey ? (d.ppClerp || `F#${d.feature}`) : Object.keys(d)
+    let tooltipHtml = !ev.metaKey ? (d.ppClerp || featureIdLabel(d)) : Object.keys(d)
       .filter(str => typeof d[str] != 'object' && typeof d[str] != 'function' && !keysToSkip.has(str))
       .map(str => {
         var val = d[str]
@@ -641,6 +641,51 @@ window.utilCg = (function(){
     // TODO: is stream probe_location_idx no longer be saved out?
     // NOTE: For now, location is literally ProbePointLocation
     return `L${layer}`
+  }
+
+  /** Parse ``{layer}_{feature}_{ctx}`` from node_id / featureId. */
+  function parseLayerFeatureCtx(raw) {
+    var parts = String(raw == null ? '' : raw).split('_')
+    if (parts.length >= 2 && /^-?\d+$/.test(parts[1])) {
+      return {layer: parts[0], feature: parts[1], ctx: parts[2]}
+    }
+    return null
+  }
+
+  /**
+   * Full feature id for display: ``L11/389 · t1``.
+   * Layer + feature come from node_id (not the packed ``feature`` field).
+   */
+  function featureIdLabel(node, id) {
+    var raw = id
+      || (node && (node.node_id || node.nodeId || node.featureId || node.jsNodeId))
+      || ''
+    var parsed = parseLayerFeatureCtx(raw)
+    if (node && !parsed) {
+      parsed = parseLayerFeatureCtx(node.node_id)
+        || parseLayerFeatureCtx(node.nodeId)
+        || parseLayerFeatureCtx(node.featureId)
+        || parseLayerFeatureCtx(node.jsNodeId)
+    }
+    var layer = parsed && parsed.layer
+    if ((layer == null || layer === '') && node && node.layer != null && node.layer !== '') {
+      layer = node.layer
+    }
+    var feat = parsed && parsed.feature
+    if ((feat == null || feat === '') && node && node.feature != null && node.feature !== '') {
+      feat = String(node.feature)
+    }
+    var ctx = parsed && parsed.ctx
+    if ((ctx == null || ctx === '') && node && node.ctx_idx != null && node.ctx_idx !== '') {
+      ctx = node.ctx_idx
+    }
+    if (feat == null || feat === '' || /^group\s+\d+$/i.test(String(feat))) {
+      return raw || '—'
+    }
+    var loc = layerLocationLabel(layer, node && node.probe_location_idx)
+    var out = loc + '/' + feat
+    if (ctx != null && ctx !== '') out += ' · t' + ctx
+    return out
   }
 
   var memoize = fn => {
@@ -736,6 +781,8 @@ window.utilCg = (function(){
     togglePinned,
     toggleExpanded,
     layerLocationLabel,
+    parseLayerFeatureCtx,
+    featureIdLabel,
     keysToSkip,
     addFeatureTooltip,
     showTooltip,

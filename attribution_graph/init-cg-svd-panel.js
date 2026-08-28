@@ -423,11 +423,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
   }
 
   function parseLayerFeatureCtx(raw) {
-    var parts = String(raw == null ? '' : raw).split('_')
-    if (parts.length >= 2 && /^\d+$/.test(parts[1])) {
-      return {layer: parts[0], feature: parts[1], ctx: parts[2]}
-    }
-    return null
+    return utilCg.parseLayerFeatureCtx(raw)
   }
 
   function featureIdOf(node, id) {
@@ -440,17 +436,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
   }
 
   function featureLabel(node, id) {
-    var feat = featureIdOf(node, id)
-    if (!feat) return id || ''
-    var clerp = node && (node.localClerp || node.clerp)
-    if (clerp) {
-      clerp = String(clerp).trim()
-      if (clerp && !/^\[group\s+\d+\]/i.test(clerp) && clerp !== feat) {
-        var t = '[' + feat + '] ' + clerp
-        return t.length > 48 ? t.slice(0, 46) + '…' : t
-      }
-    }
-    return '[' + feat + ']'
+    return utilCg.featureIdLabel(node, id)
   }
 
   function downloadBlobCsv(matrix, nodes, slug) {
@@ -2745,16 +2731,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
     var body = wrap.append('div.svd-spectral-body')
 
     function featureLabel(node, id) {
-      var parsed = parseLayerFeatureCtx(id)
-        || parseLayerFeatureCtx(node && (node.node_id || node.nodeId || node.featureId || node.jsNodeId))
-      if (parsed) {
-        return parsed.ctx != null && parsed.ctx !== ''
-          ? '[' + parsed.feature + '] · t' + parsed.ctx
-          : '[' + parsed.feature + ']'
-      }
-      var feat = featureIdOf(node, id)
-      if (feat && !/^group\s+\d+$/i.test(feat)) return '[' + feat + ']'
-      return String(id || '—')
+      return utilCg.featureIdLabel(node, id)
     }
 
     function ensureAffinity(done) {

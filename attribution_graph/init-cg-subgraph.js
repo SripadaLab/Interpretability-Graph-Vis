@@ -241,9 +241,7 @@ window.initCgSubgraph = function ({visState, renderAll, data, cgSel, opts}) {
       
       memberNodes.forEach(d => {
         const nodeClerp = (d.localClerp || d.clerp || '').trim()
-        const feat = d.feature != null && d.feature !== ''
-          ? String(d.feature)
-          : String(d.featureId || d.nodeId || '').split('_')[1] || ''
+        const feat = utilCg.featureIdLabel(d)
         const extra = (nodeClerp && nodeClerp !== ppClerp) ? nodeClerp : feat
         d.ppClerp = extra ? `[${ppClerp}] ${extra}` : `[${ppClerp}]`
       })
