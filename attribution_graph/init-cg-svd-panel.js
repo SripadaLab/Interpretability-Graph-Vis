@@ -2997,9 +2997,9 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
       })
       var listSel = layout.append('div.svd-spectral-groups').st({
         minWidth: 0, maxWidth: '100%',
-        display: 'flex', flexDirection: 'column', gap: '6px',
+        display: 'block',
         maxHeight: wide ? 'min(72vh, 760px)' : '520px',
-        overflowY: 'auto', overflowX: 'hidden',
+        overflowY: 'scroll', overflowX: 'hidden',
         position: 'relative', zIndex: 2,
         paddingRight: '4px', boxSizing: 'border-box',
       })
@@ -3469,6 +3469,8 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             borderRadius: '5px', padding: '7px 9px',
             background: focused ? '#FAFAF8' : '#F3F2EC',
             opacity: focused ? 1 : 0.4,
+            flexShrink: 0,
+            marginBottom: '8px',
           })
         var hdr = card.append('div').st({
           display: 'flex', alignItems: 'center', gap: '6px', marginBottom: '4px',
@@ -3501,9 +3503,9 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             })
         }
 
-        var previewN = spectralFocusGroup === gi ? 10 : 5
         var expanded = !!spectralExpandedGroups[gi]
-        var shown = expanded ? members : members.slice(0, previewN)
+        var previewN = expanded ? members.length : (spectralFocusGroup === gi ? 8 : 0)
+        var shown = members.slice(0, previewN)
         var list = card.append('div').st({
           maxHeight: expanded ? '220px' : null,
           overflowY: expanded ? 'auto' : 'visible',
@@ -3521,11 +3523,11 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             })
             .on('click', () => { if (node) focusSvdFeature(node) })
         })
-        if (members.length > previewN) {
+        if (members.length && (expanded || members.length > previewN)) {
           card.append('div')
             .text(expanded
               ? 'show fewer'
-              : 'show all ' + members.length + ' · scroll')
+              : members.length + ' features · show all · scroll')
             .st({
               fontSize: '10px', color: '#0D7377', cursor: 'pointer',
               marginTop: '3px', userSelect: 'none',
