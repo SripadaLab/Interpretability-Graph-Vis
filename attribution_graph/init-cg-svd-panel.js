@@ -2969,15 +2969,39 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
         row.append('span').text(line)
       })
 
-      var layout = body.append('div').st({
-        display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'stretch',
+      var panelW = (wrap.node() && wrap.node().getBoundingClientRect().width) || 1100
+      var wide = panelW >= 920
+      var layout = body.append('div.svd-spectral-layout').st({
+        display: 'grid',
+        gridTemplateColumns: wide
+          ? 'minmax(0, 1fr) 190px minmax(260px, 360px)'
+          : 'minmax(0, 1fr)',
+        gap: '12px',
+        alignItems: 'start',
+        width: '100%',
       })
 
-      // —— Affinity matrix W ——
+      // Create all three columns first so the heatmap is sized to its column,
+      // not the full panel — otherwise the canvas overlaps the cards.
       var heatBox = layout.append('div.svd-spectral-affinity').st({
-        flex: '1 1 420px', minWidth: '300px', maxWidth: '720px',
+        minWidth: 0, maxWidth: '100%', overflow: 'hidden',
+        position: 'relative', zIndex: 0,
         border: '1px solid #E4E2D8', borderRadius: '6px', padding: '10px',
-        background: '#FBFAF5',
+        background: '#FBFAF5', boxSizing: 'border-box',
+      })
+      var eigBox = layout.append('div.svd-spectral-eigs').st({
+        minWidth: 0, maxWidth: '100%', overflow: 'hidden',
+        position: 'relative', zIndex: 1,
+        border: '1px solid #E4E2D8', borderRadius: '6px', padding: '10px',
+        background: '#FBFAF5', boxSizing: 'border-box',
+      })
+      var listSel = layout.append('div.svd-spectral-groups').st({
+        minWidth: 0, maxWidth: '100%',
+        display: 'flex', flexDirection: 'column', gap: '6px',
+        maxHeight: wide ? 'min(72vh, 760px)' : '520px',
+        overflowY: 'auto', overflowX: 'hidden',
+        position: 'relative', zIndex: 2,
+        paddingRight: '4px', boxSizing: 'border-box',
       })
       heatBox.append('div').text('Affinity matrix W (cluster-ordered)')
         .st({fontSize: '11px', fontWeight: 600, marginBottom: '2px'})
@@ -3102,14 +3126,16 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             wScale = Math.max(wScale, 1e-6)
 
             var heatPad = {top: 8, right: 8, bottom: 40, left: 48}
-            var heatOuter = heatBox.node().getBoundingClientRect().width || 480
-            var heatAvail = Math.floor(heatOuter - 20 - heatPad.left - heatPad.right)
-            var disp = Math.max(220, Math.min(heatAvail, 640, Math.max(220, nH * 12)))
+            var heatOuter = heatBox.node().getBoundingClientRect().width || 400
+            var heatAvail = Math.floor(heatOuter - 24 - heatPad.left - heatPad.right)
+            var disp = Math.max(160, Math.min(heatAvail, 520))
             var frame = heatHost.append('div').st({
               position: 'relative',
               width: (disp + heatPad.left + heatPad.right) + 'px',
               height: (disp + heatPad.top + heatPad.bottom) + 'px',
               maxWidth: '100%',
+              overflow: 'hidden',
+              boxSizing: 'border-box',
             })
             var cnv = frame.append('canvas').node()
             var pixN = Math.min(nH, 900)
@@ -3306,11 +3332,6 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
 
       // —— Eigenvalue / eigengap spectrum ——
       var evals = (spec.eigenvalues || []).map(Number).filter(isFinite)
-      var eigBox = layout.append('div').st({
-        flex: '0 1 200px', minWidth: '160px', maxWidth: '240px',
-        border: '1px solid #E4E2D8', borderRadius: '6px', padding: '10px',
-        background: '#FBFAF5',
-      })
       eigBox.append('div').text('Laplacian spectrum')
         .st({fontSize: '11px', fontWeight: 600, marginBottom: '2px'})
       eigBox.append('div')
@@ -3403,17 +3424,11 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
       }
 
       // —— Group cards ——
-      var listSel = layout.append('div.svd-spectral-groups').st({
-        flex: '1 1 300px', minWidth: '240px', maxWidth: '480px',
-        display: 'flex', flexDirection: 'column', gap: '6px',
-        maxHeight: '520px', overflowY: 'auto',
-        paddingRight: '2px',
-      })
       listSel.append('div')
-        .text('Groups at k=' + spectralK + ' · notes from layer / token / repeated feature IDs · click a header to isolate that block')
+        .text('Groups at k=' + spectralK + ' · ' + groups.length + ' groups · scroll for all · notes from layer / token / repeated feature IDs')
         .st({
           fontSize: '11px', fontWeight: 600, marginBottom: '2px',
-          position: 'sticky', top: 0, background: '#fff', zIndex: 1, paddingBottom: '4px',
+          position: 'sticky', top: 0, background: '#fff', zIndex: 3, paddingBottom: '4px',
         })
 
       var promptTokens = (data.metadata && data.metadata.prompt_tokens) || []
@@ -3486,7 +3501,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             })
         }
 
-        var previewN = spectralFocusGroup === gi ? 14 : 8
+        var previewN = spectralFocusGroup === gi ? 10 : 5
         var expanded = !!spectralExpandedGroups[gi]
         var shown = expanded ? members : members.slice(0, previewN)
         var list = card.append('div').st({

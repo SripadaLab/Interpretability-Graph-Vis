@@ -21,6 +21,22 @@
         overflow: auto !important;
     }
 
+    .svd-panel .svd-spectral-layout {
+        min-width: 0;
+    }
+
+    .svd-panel .svd-spectral-affinity {
+        overflow: hidden;
+        min-width: 0;
+    }
+
+    .svd-panel .svd-spectral-groups {
+        min-width: 0;
+        overflow-x: hidden;
+        overflow-y: auto;
+        -webkit-overflow-scrolling: touch;
+    }
+
     .svd-panel .svd-mode-graph .link-type-buttons div.active {
         background: #000;
         color: #fff;
