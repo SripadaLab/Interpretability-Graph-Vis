@@ -227,12 +227,13 @@ window.initCgClusterPanel = function ({visState, renderAll, data, cgSel}) {
       var previewN = 8
       var expanded = !!expandedClusters[label]
       var shown = expanded ? members : members.slice(0, previewN)
+      var scrolls = expanded && members.length > 40
       var memberList = card.append('div').st({
         display: 'flex',
         flexDirection: 'column',
         gap: '2px',
-        maxHeight: expanded ? '220px' : null,
-        overflowY: expanded ? 'auto' : 'visible',
+        maxHeight: scrolls ? '260px' : 'none',
+        overflowY: scrolls ? 'auto' : 'visible',
       })
       shown.forEach((m) => {
         var row = memberList.append('div')
@@ -266,7 +267,7 @@ window.initCgClusterPanel = function ({visState, renderAll, data, cgSel}) {
         card.append('div')
           .text(expanded
             ? 'show fewer'
-            : 'show all ' + members.length + ' · scroll')
+            : 'show all ' + members.length + (members.length > 40 ? ' · scroll' : ''))
           .st({
             fontSize: '10px', color: '#0D7377', cursor: 'pointer',
             marginTop: '4px', userSelect: 'none',

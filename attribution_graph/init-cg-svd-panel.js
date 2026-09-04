@@ -3506,13 +3506,20 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             })
         }
 
+        // Preview a few ids; expanding shows every member. Long lists go
+        // multi-column, and only scroll once even that would be unwieldy.
         var expanded = !!spectralExpandedGroups[gi]
-        var previewN = expanded ? members.length : (spectralFocusGroup === gi ? 8 : 0)
-        var shown = members.slice(0, previewN)
+        var previewN = spectralFocusGroup === gi ? 12 : 6
+        var shown = expanded ? members : members.slice(0, previewN)
+        var cols = shown.length > 12
+        var scrolls = expanded && shown.length > 60
         var list = card.append('div').st({
-          maxHeight: expanded ? '220px' : null,
-          overflowY: expanded ? 'auto' : 'visible',
-          paddingRight: expanded ? '4px' : 0,
+          display: cols ? 'grid' : 'block',
+          gridTemplateColumns: cols ? 'repeat(auto-fill, minmax(94px, 1fr))' : 'none',
+          columnGap: '10px',
+          maxHeight: scrolls ? '260px' : 'none',
+          overflowY: scrolls ? 'auto' : 'visible',
+          paddingRight: scrolls ? '4px' : '0px',
         })
         shown.forEach(id => {
           var node = idToNode[id]
@@ -3526,14 +3533,14 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             })
             .on('click', () => { if (node) focusSvdFeature(node) })
         })
-        if (members.length && (expanded || members.length > previewN)) {
+        if (members.length > previewN) {
           card.append('div')
             .text(expanded
               ? 'show fewer'
-              : members.length + ' features · show all · scroll')
+              : 'show all ' + members.length + (members.length > 60 ? ' · scroll' : ''))
             .st({
               fontSize: '10px', color: '#0D7377', cursor: 'pointer',
-              marginTop: '3px', userSelect: 'none',
+              marginTop: '4px', userSelect: 'none',
               borderBottom: '1px dotted #0D7377', display: 'inline-block',
             })
             .on('click', ev => {
@@ -3543,9 +3550,11 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             })
         }
         } catch (err) {
+          // One bad card must not swallow the rest of the groups.
           console.warn('spectral group card failed', gi, err)
+          if (card) card.remove()
           listSel.append('div.svd-spectral-card')
-            .text((grp && grp[0] ? grp[0] : 'group ' + (gi + 1)) + ' · could not render')
+            .text((grp && grp[0] ? grp[0] : 'group ' + (gi + 1)) + ' · ' + (err && err.message ? err.message : 'render error'))
             .st({fontSize: '10px', color: '#a23', padding: '7px 9px', border: '1px solid #E4E2D8'})
         }
       })
