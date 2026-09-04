@@ -2970,19 +2970,15 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
       })
 
       var panelW = (wrap.node() && wrap.node().getBoundingClientRect().width) || 1100
-      var wide = panelW >= 920
+      var wide = panelW >= 720
       var layout = body.append('div.svd-spectral-layout').st({
         display: 'grid',
-        gridTemplateColumns: wide
-          ? 'minmax(0, 1fr) 190px minmax(260px, 360px)'
-          : 'minmax(0, 1fr)',
+        gridTemplateColumns: wide ? 'minmax(0, 1fr) 200px' : 'minmax(0, 1fr)',
         gap: '12px',
         alignItems: 'start',
         width: '100%',
       })
 
-      // Create all three columns first so the heatmap is sized to its column,
-      // not the full panel — otherwise the canvas overlaps the cards.
       var heatBox = layout.append('div.svd-spectral-affinity').st({
         minWidth: 0, maxWidth: '100%', overflow: 'hidden',
         position: 'relative', zIndex: 0,
@@ -2994,14 +2990,6 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
         position: 'relative', zIndex: 1,
         border: '1px solid #E4E2D8', borderRadius: '6px', padding: '10px',
         background: '#FBFAF5', boxSizing: 'border-box',
-      })
-      var listSel = layout.append('div.svd-spectral-groups').st({
-        minWidth: 0, maxWidth: '100%',
-        display: 'block',
-        maxHeight: wide ? 'min(72vh, 760px)' : '520px',
-        overflowY: 'scroll', overflowX: 'hidden',
-        position: 'relative', zIndex: 2,
-        paddingRight: '4px', boxSizing: 'border-box',
       })
       heatBox.append('div').text('Affinity matrix W (cluster-ordered)')
         .st({fontSize: '11px', fontWeight: 600, marginBottom: '2px'})
@@ -3423,12 +3411,24 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
         eigBox.append('div').text('No eigenvalues stored.').st({fontSize: '11px', color: '#999'})
       }
 
-      // —— Group cards ——
-      listSel.append('div')
-        .text('Groups at k=' + spectralK + ' · ' + groups.length + ' groups · scroll for all · notes from layer / token / repeated feature IDs')
+      // —— Group cards (full width under the matrix, so none get clipped) ——
+      var groupSection = body.append('div.svd-spectral-group-section').st({
+        width: '100%', marginTop: '12px', overflow: 'visible',
+      })
+      var groupIntro = groupSection.append('div.svd-spectral-groups-head')
+      var listSel = groupSection.append('div.svd-spectral-groups').st({
+        display: 'grid',
+        gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))',
+        gap: '8px',
+        alignItems: 'start',
+        width: '100%',
+        overflow: 'visible',
+        boxSizing: 'border-box',
+      })
+      groupIntro.append('div')
+        .text('Groups at k=' + spectralK + ' · ' + groups.length + ' groups · notes from layer / token / repeated feature IDs')
         .st({
-          fontSize: '11px', fontWeight: 600, marginBottom: '2px',
-          position: 'sticky', top: 0, background: '#fff', zIndex: 3, paddingBottom: '4px',
+          fontSize: '12px', fontWeight: 600, margin: '4px 0 6px',
         })
 
       var promptTokens = (data.metadata && data.metadata.prompt_tokens) || []
@@ -3436,10 +3436,12 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
       var groupNotes = groups.map((grp, gi) => {
         var members = grp.slice(1)
         var noteMembers = members.map(id => idToNode[id] || {node_id: id, nodeId: id})
-        var note = utilCg.summarizeFeatureGroup(noteMembers, {
-          tokens: promptTokens,
-          totalN: clusteredN,
-        }) || {}
+        var note = (utilCg.summarizeFeatureGroup
+          ? utilCg.summarizeFeatureGroup(noteMembers, {
+            tokens: promptTokens,
+            totalN: clusteredN,
+          })
+          : {}) || {}
         note.label = grp[0]
         note.n = members.length
         return note
@@ -3447,11 +3449,11 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
       if (utilCg.summarizeSpectralPartition) {
         var overview = utilCg.summarizeSpectralPartition(groupNotes, spectralK)
         if (overview) {
-          listSel.append('div')
+          groupIntro.append('div')
             .text(overview)
             .st({
               fontSize: '10px', color: '#444', lineHeight: '1.4',
-              padding: '6px 8px', marginBottom: '4px',
+              padding: '6px 8px', marginBottom: '8px',
               background: '#FBFAF5', border: '1px solid #E4E2D8',
               borderRadius: '4px',
             })
@@ -3459,6 +3461,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
       }
 
       groups.forEach((grp, gi) => {
+        try {
         var members = grp.slice(1)
         var focused = spectralFocusGroup == null || spectralFocusGroup === gi
         var card = listSel.append('div.svd-spectral-card')
@@ -3538,6 +3541,12 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
               spectralExpandedGroups[gi] = !expanded
               redraw()
             })
+        }
+        } catch (err) {
+          console.warn('spectral group card failed', gi, err)
+          listSel.append('div.svd-spectral-card')
+            .text((grp && grp[0] ? grp[0] : 'group ' + (gi + 1)) + ' · could not render')
+            .st({fontSize: '10px', color: '#a23', padding: '7px 9px', border: '1px solid #E4E2D8'})
         }
       })
     }

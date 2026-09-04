@@ -31,16 +31,17 @@
     }
 
     .svd-panel .svd-spectral-groups {
-        display: block !important;
+        display: grid !important;
+        grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+        gap: 8px;
         min-width: 0;
-        overflow-x: hidden;
-        overflow-y: scroll !important;
-        -webkit-overflow-scrolling: touch;
+        overflow: visible !important;
+        max-height: none !important;
     }
 
     .svd-panel .svd-spectral-card {
-        flex-shrink: 0;
-        margin-bottom: 8px;
+        min-height: 0;
+        margin-bottom: 0;
     }
 
     .svd-panel .svd-mode-graph .link-type-buttons div.active {
