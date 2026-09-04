@@ -688,6 +688,261 @@ window.utilCg = (function(){
     return out
   }
 
+  function _countKeys(arr) {
+    var c = {}
+    arr.forEach(function (x) {
+      var k = String(x)
+      c[k] = (c[k] || 0) + 1
+    })
+    return Object.keys(c)
+      .map(function (k) { return {key: k, n: c[k], frac: c[k] / Math.max(arr.length, 1)} })
+      .sort(function (a, b) { return b.n - a.n })
+  }
+
+  function _tokenQuote(ctx, tokens) {
+    var i = +ctx
+    var raw = tokens && tokens[i]
+    if (raw == null) return 't' + i
+    var pretty = String(window.util && util.ppToken ? util.ppToken(raw) : raw)
+    var stripped = pretty.replace(/^\s+|\s+$/g, '')
+    var label = stripped
+    if (stripped === '') label = 'blank'
+    else if (stripped === '"' || stripped === "'" || stripped === '“' || stripped === '”') label = 'quote'
+    return '“' + label + '” (t' + i + ')'
+  }
+
+  function _isAnswerishToken(ctx, tokens) {
+    var i = +ctx
+    if (!tokens || !tokens.length || i !== tokens.length - 1) return false
+    var stripped = String(tokens[i] == null ? '' : tokens[i]).replace(/^\s+|\s+$/g, '')
+    return stripped === '' || stripped === '"' || stripped === "'" || stripped === '(' || stripped === '='
+  }
+
+  /**
+   * Structural read of a feature group: layer, token, and whether the same
+   * feature index repeats across positions. Used on spectral / cluster cards.
+   * Clerps are mentioned only when present; shipped graphs often have none.
+   */
+  function summarizeFeatureGroup(members, opts) {
+    opts = opts || {}
+    var tokens = opts.tokens || []
+    var totalN = +opts.totalN || 0
+    var list = (members || []).map(function (x) {
+      if (x && typeof x === 'object') return x
+      return {node_id: String(x), nodeId: String(x)}
+    })
+    var n = list.length
+    if (!n) return {headline: 'Empty group.', kind: 'empty'}
+
+    var layers = []
+    var ctxs = []
+    var featKeys = []
+    var clerps = []
+    list.forEach(function (m) {
+      var parsed = parseLayerFeatureCtx(m.node_id)
+        || parseLayerFeatureCtx(m.nodeId)
+        || parseLayerFeatureCtx(m.featureId)
+        || parseLayerFeatureCtx(m.jsNodeId)
+        || {}
+      var layer = parsed.layer != null && parsed.layer !== '' ? parsed.layer : m.layer
+      var feat = parsed.feature != null && parsed.feature !== '' ? parsed.feature : m.feature
+      var ctx = parsed.ctx != null && parsed.ctx !== '' ? parsed.ctx : m.ctx_idx
+      layers.push(layer)
+      if (ctx != null && ctx !== '') ctxs.push(+ctx)
+      if (feat != null && feat !== '' && !/^group\s+\d+$/i.test(String(feat))) {
+        var loc = layerLocationLabel(layer, m.probe_location_idx)
+        featKeys.push(loc + '/' + feat)
+      }
+      var cl = String(m.localClerp || m.clerp || '').trim()
+      if (cl && !/^\[group\s+\d+\]/i.test(cl)) clerps.push(cl)
+    })
+
+    var byLayer = _countKeys(layers)
+    var byCtx = _countKeys(ctxs)
+    var byFeat = _countKeys(featKeys)
+    var byClerp = _countKeys(clerps)
+    var nums = layers.map(Number).filter(Number.isFinite)
+    var layerMin = nums.length ? Math.min.apply(null, nums) : null
+    var layerMax = nums.length ? Math.max.apply(null, nums) : null
+    var topLayer = byLayer[0]
+    var topCtx = byCtx[0]
+    var repeats = byFeat.filter(function (f) {
+      return f.n >= 3 && (n <= 50 || f.n / n >= 0.12 || (f.n >= 4 && n <= 80))
+    })
+    var lastCtx = tokens.length ? tokens.length - 1 : (ctxs.length ? Math.max.apply(null, ctxs) : null)
+    var leftover = totalN > 0 && n / totalN >= 0.28
+      && (!topLayer || topLayer.frac < 0.7)
+      && (!topCtx || topCtx.frac < 0.7)
+      && !repeats.length
+    var split = topCtx && byCtx[1]
+      && topCtx.frac >= 0.35 && byCtx[1].frac >= 0.35
+      && topCtx.frac + byCtx[1].frac >= 0.8
+    var embN = layers.filter(function (l) {
+      return l === 'E' || l === 'e' || l === 'Emb'
+    }).length
+
+    var parts = []
+    var kind = 'mixed'
+    if (n === 1) {
+      kind = 'single'
+      parts.push(
+        'Single feature: '
+        + (featKeys[0] || 'one node')
+        + (topCtx ? ' on ' + _tokenQuote(topCtx.key, tokens) : '')
+        + '.'
+      )
+    } else if (leftover) {
+      kind = 'leftover'
+      parts.push('Leftover bin — the remainder after tighter cliques peel off.')
+    } else if (topLayer && topCtx && topLayer.frac >= 0.85 && topCtx.frac >= 0.85) {
+      kind = 'clique'
+      parts.push('Tight clique: almost all ' + layerLocationLabel(topLayer.key) + ' on ' + _tokenQuote(topCtx.key, tokens) + '.')
+    } else if (split) {
+      kind = 'split'
+      parts.push(
+        'Split between ' + _tokenQuote(topCtx.key, tokens)
+        + ' and ' + _tokenQuote(byCtx[1].key, tokens) + '.'
+      )
+    } else if (topCtx && topCtx.frac >= 0.7) {
+      kind = 'token'
+      parts.push(Math.round(topCtx.frac * 100) + '% on ' + _tokenQuote(topCtx.key, tokens) + '.')
+    } else if (repeats.length) {
+      kind = 'tiled'
+      parts.push(
+        'Same feature across tokens: '
+        + repeats.slice(0, 3).map(function (f) { return f.key + ' ×' + f.n }).join(', ')
+        + '.'
+      )
+    } else if (topLayer && topLayer.frac >= 0.7) {
+      kind = 'layer'
+      parts.push(Math.round(topLayer.frac * 100) + '% at ' + layerLocationLabel(topLayer.key) + '.')
+    }
+
+    if (embN === n) {
+      parts.push('All embeddings.')
+    } else if (embN && kind !== 'leftover') {
+      parts.push(embN + ' embedding' + (embN === 1 ? '' : 's') + '.')
+    }
+
+    if (kind !== 'clique' && kind !== 'single' && layerMin != null && layerMax != null) {
+      if (layerMin === layerMax) {
+        parts.push('All ' + layerLocationLabel(layerMin) + '.')
+      } else if (layerMax <= 2) {
+        parts.push('Early layers (L' + layerMin + '–L' + layerMax + ').')
+      } else if (layerMin >= 16) {
+        parts.push('Late layers (L' + layerMin + '–L' + layerMax + ').')
+      } else if (kind !== 'leftover') {
+        parts.push('Layers L' + layerMin + '–L' + layerMax + '.')
+      } else {
+        parts.push('Spread across L' + layerMin + '–L' + layerMax + '.')
+      }
+    }
+
+    if (topCtx && kind !== 'clique' && kind !== 'token' && kind !== 'split' && kind !== 'single') {
+      if (topCtx.frac >= 0.45) {
+        parts.push('Mostly ' + _tokenQuote(topCtx.key, tokens) + '.')
+      } else if (byCtx.length && byCtx.length <= 3) {
+        parts.push('Tokens: ' + byCtx.map(function (c) { return _tokenQuote(c.key, tokens) }).join(', ') + '.')
+      } else if (kind === 'leftover') {
+        parts.push('Mostly ' + _tokenQuote(topCtx.key, tokens) + '; mixed positions.')
+      }
+    }
+
+    if (topCtx && lastCtx != null && +topCtx.key === lastCtx && topCtx.frac >= 0.5) {
+      if (
+        (layerMin != null && layerMin >= 10)
+        || kind === 'token'
+        || kind === 'clique'
+        || _isAnswerishToken(topCtx.key, tokens)
+      ) {
+        parts.push('Last-token / pre-logit mass.')
+      }
+    }
+
+    if (kind === 'tiled' || (repeats.length && kind !== 'leftover' && kind !== 'clique')) {
+      if (kind !== 'tiled') {
+        parts.push(
+          'Repeated IDs: '
+          + repeats.slice(0, 3).map(function (f) { return f.key + ' ×' + f.n }).join(', ')
+          + '.'
+        )
+      }
+    }
+
+    if (leftover) {
+      parts.push('Few repeated feature IDs — not a tight community.')
+    }
+
+    if (clerps.length) {
+      function clipClerp(s) {
+        return s.length > 72 ? s.slice(0, 69) + '…' : s
+      }
+      if (n <= 6) {
+        parts.push(
+          'Clerp: '
+          + byClerp.slice(0, 4).map(function (c) {
+            return clipClerp(c.key) + (c.n > 1 ? ' ×' + c.n : '')
+          }).join('; ')
+          + '.'
+        )
+      } else if (byClerp[0] && byClerp[0].frac >= 0.25) {
+        parts.push(
+          'Clerp: ' + clipClerp(byClerp[0].key)
+          + (byClerp[0].n > 1 ? ' ×' + byClerp[0].n : '') + '.'
+        )
+      }
+    }
+
+    if (parts.length <= 1 && byCtx.length && kind !== 'clique' && kind !== 'token') {
+      parts.push(
+        'Heaviest tokens: '
+        + byCtx.slice(0, 2).map(function (c) {
+          return _tokenQuote(c.key, tokens) + ' ' + Math.round(c.frac * 100) + '%'
+        }).join(', ')
+        + '.'
+      )
+    }
+
+    if (!parts.length) {
+      parts.push(n + ' features; mixed layers and tokens.')
+    }
+
+    return {headline: parts.join(' '), kind: kind, n: n}
+  }
+
+  /** One-line read of a whole k-cut, from per-group summaries. */
+  function summarizeSpectralPartition(groupNotes, k) {
+    var list = groupNotes || []
+    if (!list.length) return ''
+    var leftover = list.filter(function (g) { return g.kind === 'leftover' })
+    var lastTok = list.filter(function (g) {
+      return g.kind === 'token' || g.kind === 'clique'
+    })
+    var tiled = list.filter(function (g) { return g.kind === 'tiled' || g.kind === 'split' })
+    var bits = ['At k=' + k + ',']
+    if (leftover.length) {
+      bits.push(
+        leftover.map(function (g, i) {
+          return (g.label || ('group ' + (i + 1))) + ' is a leftover bin (' + g.n + ')'
+        }).join(' / ') + '.'
+      )
+    }
+    var notable = lastTok.concat(tiled).slice(0, 4)
+    if (notable.length) {
+      bits.push(
+        'Tighter cuts: '
+        + notable.map(function (g) {
+          var h = (g.headline || '').split('.')[0]
+          return (g.label || 'group') + ' — ' + h
+        }).join('; ')
+        + '.'
+      )
+    } else if (!leftover.length) {
+      bits.push('Groups are small and mixed; raise or lower k to peel cliques.')
+    }
+    return bits.join(' ')
+  }
+
   var memoize = fn => {
     var cache = new Map()
     return (...args) => {
@@ -783,6 +1038,8 @@ window.utilCg = (function(){
     layerLocationLabel,
     parseLayerFeatureCtx,
     featureIdLabel,
+    summarizeFeatureGroup,
+    summarizeSpectralPartition,
     keysToSkip,
     addFeatureTooltip,
     showTooltip,

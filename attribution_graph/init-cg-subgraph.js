@@ -216,10 +216,19 @@ window.initCgSubgraph = function ({visState, renderAll, data, cgSel, opts}) {
           nodeIdToNode[d.nodeId] = d
         })
   
+        var groupNote = ''
+        if (utilCg.summarizeFeatureGroup) {
+          var note = utilCg.summarizeFeatureGroup(memberNodes, {
+            tokens: (data.metadata && data.metadata.prompt_tokens) || [],
+            totalN: (activeClusterMeta() && activeClusterMeta().m) || pinnedNodes.length,
+          })
+          groupNote = (note && note.headline) || ''
+        }
         var rv = {
           nodeId,
           featureId: `supernode-${i}`,
           ppClerp: label,
+          groupNote,
           layer: d3.mean(memberNodes, d => +d.layer),
           ctx_idx: d3.mean(memberNodes, d => d.ctx_idx),
           ppLayer: d3.extent(memberNodes, d => +d.layer).join('—'),
@@ -335,14 +344,31 @@ window.initCgSubgraph = function ({visState, renderAll, data, cgSel, opts}) {
         row.append('span').text(srcNow === 'spectral' ? 'groups (raw evecs)' : 'groups')
         var slider = row.append('input')
           .at({type: 'range', min: kMin, max: kMax, step: 1, value: computedK})
-          .st({width: '84px', cursor: 'pointer'})
-        var kLabel = row.append('span').text(computedK)
-          .st({fontWeight: 700, minWidth: '12px', textAlign: 'right', color: '#0D7377'})
-        slider.on('input', function () { kLabel.text(this.value) })
-        slider.on('change', function () {
-          computedK = +this.value
+          .st({width: '110px', cursor: 'pointer'})
+        var kNum = row.append('input')
+          .at({type: 'number', min: kMin, max: kMax, step: 1, value: computedK})
+          .st({
+            width: '40px', fontSize: '10px', fontWeight: 700, color: '#0D7377',
+            border: '1px solid #E4E2D8', borderRadius: '3px', padding: '0 3px',
+          })
+        row.append('span').text('/ ' + kMax)
+          .st({color: '#888', minWidth: '22px'})
+        function applyComputedK(next) {
+          next = Math.max(kMin, Math.min(kMax, Math.round(+next) || kMin))
+          computedK = next
+          slider.property('value', next)
+          kNum.property('value', next)
           subgraphState.supernodes = computedSupernodesForK()
           renderSubgraph()
+        }
+        slider.on('input', function () { kNum.property('value', this.value) })
+        slider.on('change', function () { applyComputedK(this.value) })
+        kNum.on('change', function () { applyComputedK(this.value) })
+        kNum.on('keydown', function (ev) {
+          if (ev.key === 'Enter') {
+            ev.preventDefault()
+            applyComputedK(this.value)
+          }
         })
       }
     }
@@ -500,6 +526,7 @@ window.initCgSubgraph = function ({visState, renderAll, data, cgSel, opts}) {
       .appendMany('div.supernode-container', selForceNodes)
       .translate(d => [d.x, d.y])
       .st({width: nodeWidth, height: nodeHeight})
+      .at({title: d => d.node.groupNote || d.node.ppClerp || ''})
       .call(utilCg.addFeatureEvents(visState, renderAll, ev => ev.shiftKey))
       .on('click.group', (ev, d) => {
         var {isActive, selectedNodeIds} = subgraphState.activeGrouping

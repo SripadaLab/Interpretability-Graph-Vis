@@ -5,6 +5,7 @@
 window.initCgClusterPanel = function ({visState, renderAll, data, cgSel}) {
   var sel = cgSel.select('.cluster-panel')
   if (sel.empty()) return
+  var expandedClusters = window.initCgClusterPanel._expanded || (window.initCgClusterPanel._expanded = {})
 
   function getSupernodes() {
     if (visState.subgraph?.supernodes?.length) return visState.subgraph.supernodes
@@ -195,6 +196,23 @@ window.initCgClusterPanel = function ({visState, renderAll, data, cgSel}) {
           (avgInfl ? ' · avg infl ' + avgInfl.toFixed(3) : ''))
         .st({fontSize: '10px', color: '#777', marginBottom: '6px', fontFamily: 'ui-monospace, monospace'})
 
+      if (utilCg.summarizeFeatureGroup && members.length) {
+        var note = utilCg.summarizeFeatureGroup(members, {
+          tokens: (data.metadata && data.metadata.prompt_tokens) || [],
+          totalN: (data.nodes || []).length,
+        })
+        if (note && note.headline) {
+          card.append('div')
+            .text(note.headline)
+            .st({
+              fontSize: '10px', color: '#444', lineHeight: '1.4',
+              marginBottom: '6px', padding: '5px 7px',
+              background: '#FBFAF5', borderRadius: '3px',
+              borderLeft: '3px solid #0D7377',
+            })
+        }
+      }
+
       var perCluster = sim && sim.per_cluster && sim.per_cluster[label]
       if (perCluster) {
         var cok = perCluster.in >= perCluster.out
@@ -206,8 +224,17 @@ window.initCgClusterPanel = function ({visState, renderAll, data, cgSel}) {
           })
       }
 
-      var memberList = card.append('div').st({display: 'flex', flexDirection: 'column', gap: '2px'})
-      members.slice(0, 8).forEach((m) => {
+      var previewN = 8
+      var expanded = !!expandedClusters[label]
+      var shown = expanded ? members : members.slice(0, previewN)
+      var memberList = card.append('div').st({
+        display: 'flex',
+        flexDirection: 'column',
+        gap: '2px',
+        maxHeight: expanded ? '220px' : null,
+        overflowY: expanded ? 'auto' : 'visible',
+      })
+      shown.forEach((m) => {
         var row = memberList.append('div')
           .st({
             display: 'flex',
@@ -235,10 +262,21 @@ window.initCgClusterPanel = function ({visState, renderAll, data, cgSel}) {
           .at({title: (m.localClerp || m.clerp || '')})
           .st({overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap', flex: 1})
       })
-      if (members.length > 8) {
+      if (members.length > previewN) {
         card.append('div')
-          .text('+' + (members.length - 8) + ' more')
-          .st({fontSize: '10px', color: '#999', marginTop: '4px'})
+          .text(expanded
+            ? 'show fewer'
+            : 'show all ' + members.length + ' · scroll')
+          .st({
+            fontSize: '10px', color: '#0D7377', cursor: 'pointer',
+            marginTop: '4px', userSelect: 'none',
+            borderBottom: '1px dotted #0D7377', display: 'inline-block',
+          })
+          .on('click', (ev) => {
+            ev.stopPropagation()
+            expandedClusters[label] = !expanded
+            render()
+          })
       }
     })
   }

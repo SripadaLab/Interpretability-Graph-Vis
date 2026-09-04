@@ -29,6 +29,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
   var heatGroupBy = 'token'
   var spectralK = null // k for spectral cluster viz (metadata.spectral_clusters)
   var spectralFocusGroup = null // null = all groups; else group index to emphasize
+  var spectralExpandedGroups = {} // gi -> show every member (scrollable)
   var spectralHeatShowAll = true // affinity W heatmap: all nodes vs top-by-influence preview
   var affinityNpy = null // cached npy parse for W
   var affinityNpyPath = null
@@ -2685,9 +2686,25 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
     ctrl.append('span').text('groups k').st({color: '#666', fontSize: '10px'})
     var slider = ctrl.append('input')
       .at({type: 'range', min: kMin, max: kMax, step: 1, value: spectralK})
-      .st({width: '120px', cursor: 'pointer'})
-    var kLabel = ctrl.append('span').text(String(spectralK))
-      .st({fontWeight: 700, color: '#0D7377', minWidth: '18px'})
+      .st({width: '160px', cursor: 'pointer'})
+    var kNum = ctrl.append('input')
+      .at({type: 'number', min: kMin, max: kMax, step: 1, value: spectralK})
+      .st({
+        width: '44px', fontSize: '11px', fontWeight: 700, color: '#0D7377',
+        border: '1px solid #E4E2D8', borderRadius: '3px', padding: '1px 4px',
+      })
+    ctrl.append('span').text('of ' + kMax)
+      .st({color: '#888', fontSize: '10px'})
+    function setSpectralK(next) {
+      next = Math.max(kMin, Math.min(kMax, Math.round(+next) || kMin))
+      spectralK = next
+      slider.property('value', next)
+      kNum.property('value', next)
+      if (spectralFocusGroup != null && spectralFocusGroup >= spectralK) {
+        spectralFocusGroup = null
+      }
+      redraw()
+    }
     var heatToggle = ctrl.append('div').st({display: 'flex'})
     ;[
       {all: false, label: 'Top 64'},
@@ -2719,13 +2736,13 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
         spectralFocusGroup = null
         redraw()
       })
-    slider.on('input', function () {
-      spectralK = +this.value
-      kLabel.text(String(spectralK))
-      if (spectralFocusGroup != null && spectralFocusGroup >= spectralK) {
-        spectralFocusGroup = null
+    slider.on('input', function () { setSpectralK(this.value) })
+    kNum.on('change', function () { setSpectralK(this.value) })
+    kNum.on('keydown', function (ev) {
+      if (ev.key === 'Enter') {
+        ev.preventDefault()
+        setSpectralK(this.value)
       }
-      redraw()
     })
 
     var body = wrap.append('div.svd-spectral-body')
@@ -3343,10 +3360,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
           .on('click', (ev, d) => {
             var nextK = Math.max(kMin, Math.min(kMax, d.i + 1))
             if (nextK === spectralK) return
-            spectralK = nextK
-            slider.property('value', spectralK)
-            kLabel.text(String(spectralK))
-            redraw()
+            setSpectralK(nextK)
           })
           .append('title')
           .text(d => 'λ' + (d.i + 1) + ' = ' + d.v.toFixed(4)
@@ -3381,10 +3395,7 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
             })
             .on('click', () => {
               if (bestAt === spectralK) return
-              spectralK = bestAt
-              slider.property('value', spectralK)
-              kLabel.text(String(spectralK))
-              redraw()
+              setSpectralK(bestAt)
             })
         }
       } else {
@@ -3393,17 +3404,44 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
 
       // —— Group cards ——
       var listSel = layout.append('div.svd-spectral-groups').st({
-        flex: '1 1 260px', minWidth: '220px', maxWidth: '420px',
+        flex: '1 1 300px', minWidth: '240px', maxWidth: '480px',
         display: 'flex', flexDirection: 'column', gap: '6px',
         maxHeight: '520px', overflowY: 'auto',
         paddingRight: '2px',
       })
       listSel.append('div')
-        .text('Groups at k=' + spectralK + ' · click a header to isolate that block in the heatmap · click a feature to select it')
+        .text('Groups at k=' + spectralK + ' · notes from layer / token / repeated feature IDs · click a header to isolate that block')
         .st({
           fontSize: '11px', fontWeight: 600, marginBottom: '2px',
           position: 'sticky', top: 0, background: '#fff', zIndex: 1, paddingBottom: '4px',
         })
+
+      var promptTokens = (data.metadata && data.metadata.prompt_tokens) || []
+      var clusteredN = spec.m || groups.reduce((s, g) => s + Math.max(0, g.length - 1), 0)
+      var groupNotes = groups.map((grp, gi) => {
+        var members = grp.slice(1)
+        var noteMembers = members.map(id => idToNode[id] || {node_id: id, nodeId: id})
+        var note = utilCg.summarizeFeatureGroup(noteMembers, {
+          tokens: promptTokens,
+          totalN: clusteredN,
+        }) || {}
+        note.label = grp[0]
+        note.n = members.length
+        return note
+      })
+      if (utilCg.summarizeSpectralPartition) {
+        var overview = utilCg.summarizeSpectralPartition(groupNotes, spectralK)
+        if (overview) {
+          listSel.append('div')
+            .text(overview)
+            .st({
+              fontSize: '10px', color: '#444', lineHeight: '1.4',
+              padding: '6px 8px', marginBottom: '4px',
+              background: '#FBFAF5', border: '1px solid #E4E2D8',
+              borderRadius: '4px',
+            })
+        }
+      }
 
       groups.forEach((grp, gi) => {
         var members = grp.slice(1)
@@ -3436,22 +3474,53 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
           .text(spectralFocusGroup === gi ? 'clear' : 'focus')
           .st({fontSize: '9px', color: '#0D7377'})
 
-        var top = members.slice(0, spectralFocusGroup === gi ? 14 : 5)
-        top.forEach(id => {
+        var note = groupNotes[gi]
+        if (note && note.headline) {
+          card.append('div')
+            .text(note.headline)
+            .st({
+              fontSize: '10px', color: '#444', lineHeight: '1.4',
+              margin: '0 0 6px 0', padding: '5px 7px',
+              background: '#fff', borderRadius: '3px',
+              borderLeft: '3px solid ' + modeColors[gi % modeColors.length],
+            })
+        }
+
+        var previewN = spectralFocusGroup === gi ? 14 : 8
+        var expanded = !!spectralExpandedGroups[gi]
+        var shown = expanded ? members : members.slice(0, previewN)
+        var list = card.append('div').st({
+          maxHeight: expanded ? '220px' : null,
+          overflowY: expanded ? 'auto' : 'visible',
+          paddingRight: expanded ? '4px' : 0,
+        })
+        shown.forEach(id => {
           var node = idToNode[id]
           var label = featureLabel(node, id)
-          if (label.length > 48) label = label.slice(0, 46) + '…'
-          card.append('div')
+          list.append('div')
             .text(label)
+            .at({title: node ? ((node.localClerp || node.clerp || '') + '\n' + (node.nodeId || id)) : id})
             .st({
               fontSize: '10px', color: '#444', cursor: node ? 'pointer' : 'default',
               padding: '1px 0', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
             })
             .on('click', () => { if (node) focusSvdFeature(node) })
         })
-        if (members.length > top.length) {
-          card.append('div').text('… +' + (members.length - top.length) + ' more')
-            .st({fontSize: '10px', color: '#999'})
+        if (members.length > previewN) {
+          card.append('div')
+            .text(expanded
+              ? 'show fewer'
+              : 'show all ' + members.length + ' · scroll')
+            .st({
+              fontSize: '10px', color: '#0D7377', cursor: 'pointer',
+              marginTop: '3px', userSelect: 'none',
+              borderBottom: '1px dotted #0D7377', display: 'inline-block',
+            })
+            .on('click', ev => {
+              ev.stopPropagation()
+              spectralExpandedGroups[gi] = !expanded
+              redraw()
+            })
         }
       })
     }
