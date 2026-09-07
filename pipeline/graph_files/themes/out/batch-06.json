@@ -1,0 +1,162 @@
+{
+  "gemma-fact-dallas-austin#3f1166de": {
+    "theme": "Factual assertion and truth markers",
+    "summary": "Members are features for phrases that flag something as established truth: \"let's be honest\", \"we all know\", \"case in point\", affirmative declarations in English, Spanish and Danish, and language about scientific findings that are already well known. A secondary thread covers question-and-answer and hedging/uncertainty phrasing."
+  },
+  "gemma-fact-dallas-austin#24b281b1": {
+    "theme": "Copula \"is\" and definitional syntax",
+    "summary": "Almost every interpretation is about the verb \"to be\" \u2014 occurrences of \"is\" in particular lexical contexts, auxiliary verbs and function words, and sentences in which something is defined or described. A few members instead pick up the numbers, dates and measurements that such definitional sentences tend to contain."
+  },
+  "gemma-fact-dallas-austin#5b83b968": {
+    "theme": "Scientific, code, and business vocabulary",
+    "summary": "A first-layer token group whose three recurring subject matters are biological/chemical research terminology, code-related terms from multiple programming languages, and money/business transaction words, plus a couple of generic proper-noun features."
+  },
+  "gemma-fact-dallas-austin#57c4ba93": {
+    "theme": "Dallas-area places, law, and TV",
+    "summary": "Three interlocking subject matters: Texas geography (Dallas, Texas place names, addresses), legal material (court references, legal citations, trial and document terminology), and Dallas broadcast television station callsigns. This is the fullest version of a nested family of Dallas/legal groups in this graph."
+  },
+  "gemma-fact-dallas-austin#e3c5030f": {
+    "theme": "Legal-document phrasing and abstract states",
+    "summary": "Embedding-layer features on \"capital\" and \"state\" that read as legal and patent language, abstract concepts used in legal or scientific documents, and back-references like \"above\" and \"following\". Secondary threads are words for reports, requests and states of being, and words for quantities and relative position."
+  },
+  "gemma-fact-dallas-austin#8617d531": {
+    "theme": "Texas geography with legal citations",
+    "summary": "Legal citations, court and trial terminology, and legal document formatting combined with Texas and Dallas place references and Dallas news-station callsigns. Content is essentially a subset of the larger Dallas legal/broadcast group."
+  },
+  "gemma-fact-dallas-austin#7075bfd8": {
+    "theme": "Texas place names and legal citations",
+    "summary": "Members split between Texas geography \u2014 the word \"Texas\", the abbreviation \"TX\", Dallas-area cities, schools and place names \u2014 and legal material such as legal citations, named entities in legal documents, and case identifiers. Dallas/Fort Worth television stations show up as a smaller thread."
+  },
+  "gemma-fact-dallas-austin#d604c4b7": {
+    "theme": "Capitalized titles and sentence openers",
+    "summary": "Every member is an embedding-layer feature for capitalization and title-like text: section headings, titles of creative works or legal documents, proper names and organizations, and words beginning sentences or paragraphs in technical writing. Business-flavored positive descriptors form a smaller thread."
+  },
+  "gemma-fact-dallas-austin#78a656a7": {
+    "theme": "Dallas news callsigns and court terms",
+    "summary": "A tight set combining Dallas broadcast/news station callsigns with legal citations, court references and legal document terminology, anchored by features for Texas and the surrounding area. Nearly identical in content to the other Dallas legal/broadcast groups here."
+  },
+  "gemma-fact-dallas-austin#63bc4d2c": {
+    "theme": "Scientific and technical terminology",
+    "summary": "Dominated by features for biological and chemical research terms, scientific/medical abbreviations, and technical measurements, with a secondary thread of programming-language and technical-documentation tokens."
+  },
+  "gemma-fact-dallas-austin#dbff2d07": {
+    "theme": "Title-case headings and proper names",
+    "summary": "All members fire on capitalized, title-like text: section titles, titles of creative works and legal documents, capitalized names of locations and organizations, and words that open sentences in technical documents. A few business/marketing-flavored descriptors round it out."
+  },
+  "gemma-fact-dallas-austin#be43952a": {
+    "theme": "Geographic locations and place descriptions",
+    "summary": "Uniformly location semantics: place names, geographical references, US and international locations in scientific writing, administrative districts, transportation, and travel/lifestyle blog prose describing places positively."
+  },
+  "gemma-fact-dallas-austin#cee850e3": {
+    "theme": "Capital cities and governance",
+    "summary": "Members are features for the word \"capital\" alongside cities, districts and provinces, and for administration, governance and people in positions of authority, including politicians' names. This is the group that carries the prompt's capital-city relation."
+  },
+  "gemma-fact-dallas-austin#531e0a79": {
+    "theme": "Containment and government cues",
+    "summary": "A small mixed group: two members are about containment (statements describing something being contained, starting, or to blame, including mathematical containment), two are about government, politics and nationality, and one is a generic common-phrase-fragment feature."
+  },
+  "gemma-fact-dallas-austin#9a09bc43": {
+    "theme": "Administration and capital-city terms",
+    "summary": "Five features split between administration/governance vocabulary and people in authority, and the word \"capital\" together with locations and politicians' names \u2014 a compact core of the capital-city lookup."
+  },
+  "gemma-fact-dallas-austin#d98fe97a": {
+    "theme": "Famous US and UK places",
+    "summary": "All three members share the same interpretation: references to famous cities, regions, or concepts in the USA and UK."
+  },
+  "gemma-fact-dallas-austin#f5d3d435": {
+    "theme": "Technical document data references",
+    "summary": "All three members are the same kind of feature for technical documents and data \u2014 numbers, units, and references to figures or tables."
+  },
+  "gemma-fact-dallas-austin#117f3396": {
+    "theme": "Spanish fact-stating phrases",
+    "summary": "Both members are the same feature type: Spanish-language words and phrases that point out what is still true or is a fact, matching the prompt's \"Fact:\" opener."
+  },
+  "gemma-michael-jordan#ccf00662": {
+    "theme": "Mixed names, sports, and code",
+    "summary": "A very large heterogeneous group with three recognizable threads: person-name features (\"Michael\", Michael Jackson, proper names of people), sports vocabulary (basketball, player contracts, sports reporting on players and injuries), and code/technical-writing tokens. Politics, government and finance terminology form a further scattered thread."
+  },
+  "gemma-michael-jordan#7c35881f": {
+    "theme": "Sports, programming, and finance mix",
+    "summary": "Heterogeneous grab-bag whose largest threads are sports content (organized sports and teams, football statistics, college basketball), programming and markup code (Django/Python, LaTeX, C), and economics/finance/monetary terminology, with celebrity and proper-noun features throughout."
+  },
+  "gemma-michael-jordan#3040ec85": {
+    "theme": "Basketball, code, and proper nouns",
+    "summary": "A grab-bag in which the recurring subject matters are basketball and baseball content (professional and college basketball, player statistics, American football), code snippets and technical/scientific writing, and proper nouns for people, US states and cities. Film/acting-role features appear as a smaller thread."
+  },
+  "gemma-michael-jordan#d0ebed5a": {
+    "theme": "Single-word lexical, name, sports mix",
+    "summary": "Heterogeneous residual set. Its largest recognizable threads are narrow single-word lexical features (\"mild\", \"reality\", \"cold\", \"upper\", \"wood\"), person and celebrity name features, and sports content (basketball, baseball, tennis results, sports players)."
+  },
+  "gemma-michael-jordan#cce340d2": {
+    "theme": "Names, athletics, and legal/code terms",
+    "summary": "A large mixed group with three visible threads: proper names and celebrities including hip-hop artists and British royalty, athletic content (athletic competition, sports teams and players, Air Jordan shoes, college basketball), and legal/medical/code terminology."
+  },
+  "gemma-michael-jordan#7e048788": {
+    "theme": "Code, law, finance, and sports",
+    "summary": "Heterogeneous grab-bag. The recurring subject matters are programming code and technical/scientific writing, legal and financial/economic terminology, sports teams and professional players, and generic proper-noun and person-name features."
+  },
+  "gemma-michael-jordan#96d8f876": {
+    "theme": "Names, sports, film, and science",
+    "summary": "A mixed set whose largest threads are person and celebrity name features, sports content (basketball, player contracts, athletic competition), film and stage performance (movies, plays, actors, film production), and medical/scientific research vocabulary."
+  },
+  "gemma-michael-jordan#15229838": {
+    "theme": "Sports leagues, celebrities, and code",
+    "summary": "Heterogeneous but sports-leaning: recurring content includes sports leagues, teams and player statistics (baseball, target shooting, athletes, sports categories), celebrity and public-figure names, and code/LaTeX/technical writing, with politics and legal proceedings as a further thread."
+  },
+  "gemma-michael-jordan#69a68e97": {
+    "theme": "Legal, code, and sports grab-bag",
+    "summary": "A large heterogeneous group whose three biggest threads are judicial/legal and political terminology, code snippets and scientific-technical language, and sports content that sharpens in later layers (baseball and basketball teams, athletics, college basketball, athletes turning professional)."
+  },
+  "gemma-michael-jordan#2c117800": {
+    "theme": "Basketball-leaning mix with code, law",
+    "summary": "Mixed grab-bag with a noticeable basketball spine \u2014 basketball offense and defense, baseball statistics, athletic sports, tennis and basketball player statistics in the later layers \u2014 alongside code/finance terminology and legal proceedings, plus many celebrity-name features."
+  },
+  "gemma-michael-jordan#0b5a39cc": {
+    "theme": "Code, performance roles, and sports",
+    "summary": "Heterogeneous set whose recurring subject matters are code and scientific/medical research writing, acting and performance (actors playing roles in film, television and theater), and sports content in later layers (soccer, golf, sports teams and players), with many proper-noun and place-name features."
+  },
+  "gemma-michael-jordan#7ff25998": {
+    "theme": "Law, film, and NBA-flavored mix",
+    "summary": "A grab-bag combining legal proceedings and financial/contractual language, film and artistic-performance roles including actors and film production, and NBA-centric sports content in the upper layers (NBA terminology, basketball players' performance, golf, football)."
+  },
+  "gemma-michael-jordan#7eb5d8ba": {
+    "theme": "Code, business finance, assorted sports",
+    "summary": "Heterogeneous residual set. Largest threads are code and scientific/medical technical writing, business and consumer finance (credit, loans, profits, monetary units), and a spread of sports (rugby, ice hockey, tennis, car racing, golf, NBA 2K), plus celebrity name features."
+  },
+  "gemma-michael-jordan#94b502c5": {
+    "theme": "Code, corporate finance, sports miscellany",
+    "summary": "Mixed grab-bag whose recurring content is code and LaTeX/technical markup, corporate and monetary vocabulary (company finances, corporate roles, units and monetary values), and sports material ranging from the word \"sport\" itself to sports teams, baseball, bicycle racing and college basketball."
+  },
+  "gemma-michael-jordan#51225293": {
+    "theme": "Sports reporting with code and politics",
+    "summary": "Sports reporting is the clearest thread \u2014 basketball players, teams and statistics, American football, golf, athletes turning professional, and basketball player stats at the top layers \u2014 mixed with code/chemistry technical terms, politics and government, and legal proceedings."
+  },
+  "gemma-michael-jordan#38815757": {
+    "theme": "Code, judicial language, and sports",
+    "summary": "Heterogeneous set built from three threads: programming and technical code (Python file handling, URLs, LaTeX-style and low-level jargon), judicial/legal and political terminology, and sports content (American football stats, sports leagues and player stats, tennis, college basketball, soccer)."
+  },
+  "gemma-michael-jordan#b763ceaf": {
+    "theme": "Programming, sports, and film industry",
+    "summary": "A mixed group whose recurring subject matters are programming code (Python/Django, Swift, SQL, code-related terms), sports content that strengthens with depth (football statistics, basketball statistics and player descriptions, NBA 2K, Air Jordan shoes, target shooting), and film-industry vocabulary covering production, festivals and awards."
+  },
+  "gemma-michael-jordan#667ecb5b": {
+    "theme": "Technical code, sports, celebrity names",
+    "summary": "Heterogeneous grab-bag. The largest threads are code and scientific/mathematical technical writing, sports content (American football stats, teams and athletes, ball-and-team sports, NBA 2K, basketball player statistics), and celebrity/music references including rap and hip-hop lyrics and famous people."
+  },
+  "gemma-michael-jordan#aaa011cf": {
+    "theme": "Athletics amid technical code terms",
+    "summary": "Mixed set in which sports and athletics is the strongest recurring theme \u2014 basketball content for men's teams and tournaments, soccer, athletics and exercise, recreational activity lists, NBA 2K \u2014 running alongside code/networking/technical vocabulary and a thread of political and legal terminology."
+  },
+  "gemma-michael-jordan#ca53777b": {
+    "theme": "Sports, games, and playing",
+    "summary": "Predominantly sports and recreation semantics: competitive sports in journalism, leagues and standings, soccer, ice hockey, basketball and college basketball, Air Jordan sneakers, hobbies and clubs, and many features for the word \"play\" or \"playing\". A secondary thread is generic preposition/function-word features on \"of\", plus a few code and legal-citation members."
+  },
+  "gemma-michael-jordan#c46d397a": {
+    "theme": "Team sports and competition vocabulary",
+    "summary": "Almost entirely sports semantics spanning soccer, basketball, American football, baseball, tennis, volleyball and racing, together with leagues, teams, athletic facilities and positions, and playing games or recreation. The main non-sports thread is prepositional \"of\" and function-word features."
+  },
+  "gemma-michael-jordan#25597694": {
+    "theme": "Basketball and multi-sport vocabulary",
+    "summary": "A strongly sports-focused group: basketball and the NBA, Air Jordan shoes and sports apparel, plus soccer, American football, ice hockey and baseball, sports leagues, standings, scores and statistics, and playing games or team sports at school. Prepositional \"of\" features form the only substantial non-sports thread."
+  }
+}

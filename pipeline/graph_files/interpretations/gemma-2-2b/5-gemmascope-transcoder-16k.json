@@ -1,0 +1,790 @@
+{
+ "57": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "entities and organizations related to religion, politics, and entertainment"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "politics"
+  }
+ ],
+ "982": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "phrases related to arguments in court"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "ory, dic, ary endings"
+  }
+ ],
+ "1126": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to arms and the military"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "weapons and violence"
+  }
+ ],
+ "1628": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code-related terms, especially from Java and Android"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Java code"
+  }
+ ],
+ "2074": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "XML tags, coding language syntax, and words related to academic research papers"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "contributions"
+  }
+ ],
+ "2115": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "capitalized words or acronyms that may be related to business or legal entities"
+  }
+ ],
+ "2137": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"set\" preceded by words indicating a comparison, often within the context of highly technical language and code"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "set of"
+  }
+ ],
+ "2146": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "people's names"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "court proceedings"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "proper names"
+  }
+ ],
+ "2172": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "names of people, places, media and organizations"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "famous people/events"
+  }
+ ],
+ "2267": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "law related terminology and references to specific cases or legal entities."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Acronyms and codes"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "names and acronyms"
+  }
+ ],
+ "2670": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "data related to actors and their roles in films"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "acting and characters"
+  }
+ ],
+ "3304": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "proper nouns of places and organizations, sometimes extracting surrounding words related to organizations and equipment"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "cities"
+  }
+ ],
+ "3333": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "terms related to government"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "capital"
+  }
+ ],
+ "3670": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "names of people"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "names"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "surnames"
+  }
+ ],
+ "3992": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the start of documentation blocks in code"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "/**"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "/**"
+  }
+ ],
+ "4190": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to sports, particularly team sports"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Sports"
+  }
+ ],
+ "4250": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "phrases used in scientific texts"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "play"
+  }
+ ],
+ "4260": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "places, likely cities and counties within North Carolina"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "cities"
+  }
+ ],
+ "4401": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the digit 9"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Number nine"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "9"
+  }
+ ],
+ "4426": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "cities, states, and regions"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "place names"
+  }
+ ],
+ "4868": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "baseball players, teams, and related terms"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "baseball league"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "league\n\nMethod used: 1 \u2014 Reason: MAX_ACTIVATING_TOKENS are the word \"league\" \u2014 league"
+  }
+ ],
+ "4971": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "technical or scientific information"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "technical/scientific topics"
+  }
+ ],
+ "6619": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases referencing sports teams, personnel, injuries, and statistics."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  }
+ ],
+ "6972": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to popular music and the TV shows \"Six Million Dollar Man\" and \"Bionic Woman\""
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "The Six Million Dollar Man"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581Man"
+  }
+ ],
+ "7089": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "cities or regions"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Geographic locations"
+  }
+ ],
+ "7489": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the last three letters of words."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"punctuation\"\n\nMethod used: 2 \u2014 because following tokens are punctuation \u2014 say \"punctuation\""
+  }
+ ],
+ "8496": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words or phrases enclosed in quotation marks or apostrophes, often indicating direct speech, emphasis, or mathematical and programming notations"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "quotation marks"
+  }
+ ],
+ "8922": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of the musicians Kanye West and Jay-Z"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Z"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "last names"
+  }
+ ],
+ "8981": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "math equations, particularly those being solved for a variable"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "equals sign"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "="
+  }
+ ],
+ "9048": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "math problems and math related keywords."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical equations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "math equations"
+  }
+ ],
+ "9089": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to smallness and quantity"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "small"
+  }
+ ],
+ "9266": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "lyrics from hip hop songs performed / produced by black artists."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Hip hop"
+  }
+ ],
+ "10136": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "proper names"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Artists and Authors"
+  }
+ ],
+ "10288": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "phrases involving the word \"concept\" and prepositions like \"of\" or \"to.\""
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "of"
+  }
+ ],
+ "10508": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "specific place names, including cities, states, and countries"
+  }
+ ],
+ "10551": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to taking part in recreational or athletic activities"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "play"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "play"
+  }
+ ],
+ "10801": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "proper nouns, especially related to people, organizations, and fictional works."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Famous people"
+  }
+ ],
+ "10827": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "phrases expressing questions or uncertainty using words like \"if\", \"is\", \"not\", \"how\", \"question.\"."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "punctuation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "dashes/ellipses"
+  }
+ ],
+ "11123": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "suffixes of common human descriptors whether by ethnicity, country of origin, or lifestyle"
+  }
+ ],
+ "11184": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the direction or order of items being reversed or inverted"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "reversing"
+  }
+ ],
+ "11967": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to religion and philosophy, especially of a Hindu flavor"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "ication/ified"
+  }
+ ],
+ "12393": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words referencing government and its entities like states, departments, and courts."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "state"
+  }
+ ],
+ "12865": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "names, titles, or units"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "utu"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "Capitalized words (proper names)"
+  }
+ ],
+ "12945": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of academic fields and research"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "of"
+  }
+ ],
+ "13502": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words enclosed by quotation marks and words related to language and definitions"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Quotations and word references"
+  }
+ ],
+ "13520": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "spaces after digits, often in the context of large numbers or numerical sequences"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Lists of numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "13917": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"is\" or \"are\", sometimes with additional context"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "is"
+  }
+ ],
+ "14279": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code syntax and import statements from common libraries"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "code"
+  }
+ ],
+ "14336": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "context clues that indicate the current subject is statistics, rankings, political positions, or sports teams"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "common English text"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "in"
+  }
+ ],
+ "14417": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"little,\" sometimes in the context of children"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "little"
+  }
+ ],
+ "14455": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of baseball and bubble gum."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Gum/bubblegum"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "capital W words"
+  }
+ ],
+ "14473": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases related to sports, news, and international events"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "sports\n\nMethod used: 1 \u2014 because the top activating tokens are all the word \"sports\" (or \"sport\")"
+  }
+ ],
+ "14529": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "complicated math equations, especially those with many parentheses and numbers"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical expressions"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "digits"
+  }
+ ],
+ "15019": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to sports, competition, or games"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Scraped data fragments"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "sports"
+  }
+ ],
+ "15363": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases that express the present continuous tense, and are often found in academic papers"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Technical descriptions"
+  }
+ ],
+ "15562": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to size or quantity"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "small"
+  }
+ ],
+ "15990": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "place names along with the word \"of\""
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "of"
+  }
+ ],
+ "16157": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "hexadecimal numbers"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "x"
+  }
+ ],
+ "16369": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"of\""
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "of"
+  }
+ ]
+}

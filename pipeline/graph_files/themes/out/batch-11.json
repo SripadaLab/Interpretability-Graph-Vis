@@ -1,0 +1,146 @@
+{
+  "gemma-small-big-fr#838e89f8": {
+    "theme": "French-language and technical chat cues",
+    "summary": "Almost every member detects French text specifically \u2014 common French words, question words, verb conjugations, accented characters \u2014 and a large fraction narrows that to French-language online discussion of computers, Ubuntu/Linux and software problems, with a few code-snippet detectors mixed in. This is the group that establishes 'this prompt is French' at the very start of the network."
+  },
+  "gemma-small-big-fr#d2ec42b2": {
+    "theme": "Size and magnitude adjectives",
+    "summary": "The dominant concept is physical/abstract size: features for the words 'small', 'little', 'big', 'grand', 'large', 'too/sufficiently', plus adjectives of size, quantity and importance, measurements and comparisons. Several late-layer members push toward the 'big' answer while earlier ones represent the 'petit' input."
+  },
+  "gemma-small-big-fr#c564eba8": {
+    "theme": "Quotation marks and code syntax",
+    "summary": "Two intertwined threads: features for quotation marks and quoted spans of text (double quotes, single quotes, text within quotes, quotes plus surrounding words), and features for code and markup \u2014 JavaScript snippets, import statements, documentation blocks, curly brackets, programming/legal/scientific jargon. Essentially a punctuation-and-syntax scaffolding group for the quoted-answer format."
+  },
+  "gemma-small-big-fr#c9f45ff8": {
+    "theme": "Small versus big size semantics",
+    "summary": "A near-identical size-comparison cluster: the words 'small', 'little', 'big' and 'grand', size and quantity adjectives, diminutive word forms, less-than/greater-than symbols, and measurement or threshold language. A handful of noisier members cover size in financial or mathematical framing."
+  },
+  "gemma-small-big-fr#ae506fa5": {
+    "theme": "Size antonym vocabulary",
+    "summary": "Members overwhelmingly encode size and scale words \u2014 'small'/'little' on one side, 'big'/'large'/'grand' on the other \u2014 along with diminutives, size adjectives, measurements, and mathematical size thresholds. Content mirrors the other size clusters for this antonym prompt."
+  },
+  "gemma-small-big-fr#aa0e148b": {
+    "theme": "Technical, legal and code terminology",
+    "summary": "A low-layer grab-bag dominated by legal and technical document vocabulary (names of laws, legal terms, abbreviations), programming code and file-path strings, code comments, and quoted strings, with a scattering of generic-noun and French copula ('est') detectors. No single semantic thread beyond 'formal technical/legal text'."
+  },
+  "gemma-small-big-fr#5b1c09f7": {
+    "theme": "Small/big size comparison features",
+    "summary": "Another size-semantics cluster: the words 'small', 'little', 'big', 'grand', diminutive forms, adjectives of size and importance, quantity words, measurement and comparison language, and inequality symbols. A few outliers touch on size in financial or math-jargon contexts."
+  },
+  "gemma-small-big-fr#f39c5946": {
+    "theme": "Opposition, negation and equivalence",
+    "summary": "The unifying idea is contrast and inversion: 'vice versa', 'inverse', 'reverse', words indicating disagreement or contradiction, things being opposite or contrary, plus equivalence/counterpart and symmetry terms. Secondary strands are word-definition/etymology features and mathematical notation for duals and transposes, all triggered around the French words 'contraire', 'de' and 'est'."
+  },
+  "gemma-small-big-fr#ea23aad0": {
+    "theme": "Definitions plus quotes and code",
+    "summary": "Mixes three recognizable strands: word meaning and definition features (etymology, grammar/language terms, 'words that define concepts'), quotation-mark and quoted-text features, and code/markup features (JavaScript, documentation blocks, programming keywords). A couple of odd members detect profanity or political figures."
+  },
+  "gemma-small-big-fr#9fddafcc": {
+    "theme": "Quoted text and code scaffolding",
+    "summary": "Chiefly quotation-mark and quoted-span detectors together with code, markup and documentation features (import statements, JavaScript, programming keywords, curly brackets), plus a few members for definitions of names or phrases and for conjunctions/quantifiers. Reads as format scaffolding rather than a content topic."
+  },
+  "gemma-small-big-fr#6198e508": {
+    "theme": "Legal, technical and code vocabulary",
+    "summary": "An early-layer set built around formal document language: legal and technical terms and abbreviations, software code and file-path strings, code comments and import statements, and quoted strings. Remaining members are generic-noun or section-header detectors with no shared topic."
+  },
+  "gemma-small-big-fr#5020cd69": {
+    "theme": "Copula verbs and code boilerplate",
+    "summary": "Two main strands: verb features centered on 'to be' \u2014 the word 'is', conjugated forms across languages, auxiliary and multilingual verb detectors, plus French articles like 'le/la/un' \u2014 and software boilerplate features for 'assembly/using/namespace/license', licensing and import snippets, and LaTeX/markup syntax. Several one-off detectors (the surname 'Lee', the word 'apparently') make it partly a grab-bag."
+  },
+  "gemma-small-big-fr#7ddc3585": {
+    "theme": "Quotation marks with code syntax",
+    "summary": "Quoted-text features (double and single quotes, text within quotes, quotes plus adjacent words) combined with code and documentation features (JavaScript snippets, import statements, copyright/doc blocks, programming and markup keywords). Same punctuation-and-syntax scaffolding as the other quote clusters on this prompt."
+  },
+  "gemma-small-big-fr#fd70d02b": {
+    "theme": "Proper nouns and abbreviations",
+    "summary": "An input-layer grab-bag whose largest threads are proper nouns (names of people and places, surnames), abbreviations and short prefixes in legal or medical writing, and technical/code tokens such as LaTeX, protobuf and math acronyms. A recurring member type detects bracketed percentage data in lab or medical reports."
+  },
+  "gemma-small-big-fr#8d069f37": {
+    "theme": "Software boilerplate and abbreviations",
+    "summary": "Mostly code-adjacent tokens: 'assembly/using/namespace/license' terms, licensing and import snippets, LaTeX and markup, programming errors and math acronyms, alongside abbreviations and short legal or medical word fragments. A few multilingual verb and one-off word detectors round it out."
+  },
+  "gemma-small-big-fr#66cf1e60": {
+    "theme": "Abbreviations, names and technical tokens",
+    "summary": "Input-layer features for abbreviations and word fragments, proper nouns naming people and places, technical/code tokens (LaTeX, protobuf, math acronyms), and repeatedly for bracketed percentage figures in laboratory or medical text. Heterogeneous, with token-shape rather than topic as the common factor."
+  },
+  "gemma-small-big-fr#9d742ab1": {
+    "theme": "Code, documentation and quotation marks",
+    "summary": "Combines code and markup features \u2014 JavaScript snippets, import statements, documentation and copyright blocks, programming keywords, curly brackets \u2014 with quotation-mark and quoted-text features, plus a couple of scientific/technical vocabulary detectors."
+  },
+  "gemma-small-big-fr#97a15f59": {
+    "theme": "Contradiction and inversion concepts",
+    "summary": "Centered on opposites and disagreement: 'vice versa', 'inverse', 'reverse', words signalling contradiction, mentions of things being contrary, plus equivalence, counterpart and symmetry terminology. Mathematical dual/transpose notation and medical-scientific vocabulary appear as secondary strands."
+  },
+  "gemma-small-big-fr#724ccbbc": {
+    "theme": "Programming syntax and quoted text",
+    "summary": "Code-oriented features (JavaScript and general code snippets, import statements, documentation and copyright blocks, markup keywords, curly brackets) paired with quotation-mark and quoted-span features, plus conjunction detectors. Structural rather than topical."
+  },
+  "gemma-small-big-fr#f2b40694": {
+    "theme": "Code documentation and quote punctuation",
+    "summary": "Code and markup features \u2014 programming keywords, JavaScript snippets, import statements, documentation and copyright headers, curly brackets \u2014 alongside quotation-mark and quoted-text detectors and a few computing/science vocabulary features."
+  },
+  "gemma-small-big-fr#97c4ea36": {
+    "theme": "Opposites and reversal semantics",
+    "summary": "Nearly all members concern contrast: 'vice versa', 'inverse', 'reverse', disagreement and contradiction words, things being opposite or contrary, and equivalence or symmetry terms. Mathematical equation features involving duals and transposes form the main secondary strand."
+  },
+  "gemma-small-big-fr#1af5515f": {
+    "theme": "Smallness and physical dimensions",
+    "summary": "Concentrated on the word 'small' and its neighbours \u2014 size and quantity adjectives, dimensions and measurement terms, adjectives for small physical objects \u2014 plus a matching 'grand' strand that in late layers drifts into family-relations and ancestry senses of 'grand'. Motor-sport 'Grand Prix' references appear as a homonym artifact."
+  },
+  "gemma-small-big-fr#1625a789": {
+    "theme": "Hedging words and code boilerplate",
+    "summary": "Two threads: function words that hedge or qualify \u2014 auxiliary verbs, 'latter', 'such', 'apparently', 'somewhat like but not entirely' \u2014 and software boilerplate features for 'assembly/using/namespace/license', licensing snippets and markup-heavy text. Fires mainly around the French words 'contraire' and 'est'."
+  },
+  "gemma-small-big-fr#43320274": {
+    "theme": "Verb forms and licensing code",
+    "summary": "Blends verb features (multilingual verb forms, present/past/auxiliary verbs) with software-code boilerplate ('assembly/using/namespace/license', licensing and import snippets, markup-heavy text), plus a few hedging and argument-closing word detectors."
+  },
+  "gemma-small-big-fr#f6f97d9e": {
+    "theme": "Word meaning and definition cues",
+    "summary": "A tight cluster about language about language: words enclosed in quotation marks tied to definitions, etymology features, grammar and language terminology, and features for defining concepts \u2014 exactly the machinery for a 'the opposite of X is Y' definition frame. Two profanity/slur detectors and one political-figures feature are outliers."
+  },
+  "gemma-small-big-fr#b78eb722": {
+    "theme": "Software license and namespace tokens",
+    "summary": "Repeated features for software-code boilerplate terms such as 'assembly', 'using', 'namespace' and 'license', licensing and import snippets, and markup-heavy text, with a small number of multilingual verb and single-word ('latter', 'apparently') detectors."
+  },
+  "gemma-small-big-fr#3616d2a4": {
+    "theme": "Contrary and inverse relations",
+    "summary": "A compact opposition cluster: 'vice versa', 'inverse', 'reverse', words indicating disagreement, mentions of things being opposite or contrary, and scientific symmetry/equivalence terms, with mathematical transpose and dual notation as the recurring secondary flavor."
+  },
+  "gemma-small-big-fr#14679b8a": {
+    "theme": "French conversational and technical chat",
+    "summary": "Late-layer features for French words and phrases, informal French conversation and online chat turns, especially French-language discussion of computing, internet and networking topics, plus a few multilingual grammar and code-snippet detectors. These maintain the French output register at the answer position."
+  },
+  "gemma-small-big-fr#61debdb8": {
+    "theme": "French internet chat register",
+    "summary": "Members detect French words and phrases, informal French conversation and chat turns, and French-language technical talk about computers and networking, together with multilingual grammatical-structure and question-answer formatting features."
+  },
+  "gemma-small-big-fr#3665f80c": {
+    "theme": "Reversed order and legal disagreement",
+    "summary": "Two clear strands: features for the phrase 'other way around' and for the direction or order of items being reversed or inverted, and features for formal legal and research writing about disagreement and court arguments. Comparison and symmetry features tie the two together."
+  },
+  "gemma-small-big-fr#3041bc5a": {
+    "theme": "Inverted order and formal disagreement",
+    "summary": "Small cluster combining 'other way around' and reversal-of-order features with legal/research writing features about disagreement, plus comparison and symmetry detectors \u2014 the reversal concept the antonym prompt requires."
+  },
+  "gemma-small-big-fr#4de00286": {
+    "theme": "Quotation mark detection",
+    "summary": "Every member is an input-layer quote feature: double-quote tokens, text surrounded by quotation marks, and conversation rendered within quotes, with one member also picking up quotations in legal or political disputes."
+  },
+  "gemma-small-big-fr#498843aa": {
+    "theme": "Quoted strings and titles",
+    "summary": "All members detect quoted spans \u2014 text inside quotation marks or apostrophes, code quotations and mathematical symbols in quotes, and quoted song or movie titles \u2014 at a single early layer."
+  },
+  "gemma-small-big-fr#8919d54b": {
+    "theme": "Quoted code and math strings",
+    "summary": "Four near-duplicate features for text inside quotation marks or apostrophes and for quoted code or mathematical symbols; the group is essentially one quoted-string concept."
+  },
+  "gemma-small-big-fr#8aad1a82": {
+    "theme": "Argument closure and equivalence terms",
+    "summary": "Pairs features for words that close an argument or mark mathematical and interpersonal relations with features for 'equivalent' and its 'standard' collocations, giving a small equivalence-and-conclusion cluster."
+  },
+  "gemma-small-big-fr#defff515": {
+    "theme": "Argument-ending relational words",
+    "summary": "Just two copies of the same feature: words that mark the end of an argument, are mathematical, or indicate an interpersonal connection or relationship."
+  }
+}

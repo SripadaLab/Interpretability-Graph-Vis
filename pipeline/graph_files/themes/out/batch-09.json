@@ -1,0 +1,162 @@
+{
+  "gemma-michael-jordan#eab539e7": {
+    "theme": "Broad activity and discipline categories",
+    "summary": "A loose cluster of \"domain of activity\" features: competition, skill, danger and injury, track-and-field athletes and volleyball history on one side, and academic research, scientific articles, markets and industries on the other, held together by generic \"categories, activities, organizations\" senses."
+  },
+  "gemma-michael-jordan#43e43cf7": {
+    "theme": "Code, identifiers and technical jargon",
+    "summary": "Dominated by features for code snippets and programming keywords, reference codes, abbreviations and identifiers, with a secondary thread of scientific/technical jargon and legal language from court documents."
+  },
+  "gemma-michael-jordan#16c0bd5c": {
+    "theme": "Sports teams, leagues and standings",
+    "summary": "Almost every member is about sports as an organized competition: names of teams and players, league standings, injuries and statistics, with specific football and baseball features and one on sports leagues and championships."
+  },
+  "gemma-michael-jordan#e7f75432": {
+    "theme": "Sports venues, teams and basketball",
+    "summary": "Sports-semantics features centered on teams, athletic facilities and competitive physical activity, including an explicit basketball sub-cluster and one-off features for football, baseball and Formula 1 racing."
+  },
+  "gemma-michael-jordan#b39f34b1": {
+    "theme": "Text-structure and code formatting cues",
+    "summary": "Not a content group: these are document-mechanics detectors for the first word of a paragraph or title, sentences beginning with \"It\"/\"In\", the word \"The\", large runs of whitespace and left curly brackets, alongside code documentation, import statements and programming keywords."
+  },
+  "gemma-michael-jordan#b477ece8": {
+    "theme": "Athletics, academia and nutrition mix",
+    "summary": "A grab-bag of activity-domain features: athletics (competition, skill, injury, track-and-field athletes) mixed with academic and scientific research vocabulary, financial markets, nutrition and food deficiencies, and generic organization/category senses."
+  },
+  "gemma-michael-jordan#1806ca8e": {
+    "theme": "Basketball vocabulary and player commentary",
+    "summary": "A tightly basketball-focused group: basketball teams, terms and statistics, general sports-discussion words, and repeated features for sentences criticizing a basketball player's defensive abilities."
+  },
+  "gemma-michael-jordan#5b2257c4": {
+    "theme": "The verb \"play\" and gameplay",
+    "summary": "Every member keys on playing rather than on sport specifically: gaming and gameplay vocabulary, and uses of the word \"play\"/\"plays\" alongside related words like \"music\" and \"game\"."
+  },
+  "gemma-michael-jordan#ab39644c": {
+    "theme": "General sports vocabulary",
+    "summary": "Uniformly sports-semantics features spanning several disciplines: basketball and player contracts, soccer, football, plus teams, scoring, competition and statistics."
+  },
+  "gemma-michael-jordan#b1433a7e": {
+    "theme": "Team sports and group play activities",
+    "summary": "Coherent around organized group activity: instances of group activities and challenges, team sports played in schools, and doing playful activities."
+  },
+  "gemma-michael-jordan#e4f86894": {
+    "theme": "Basketball equipment and athletic activity",
+    "summary": "A small, uniform group covering sports and athletic activities generally, plus basketball-specific text about equipment and instruction."
+  },
+  "gemma-michael-jordan#3a98cdb5": {
+    "theme": "Sports and leisure activities",
+    "summary": "Three copies of the same interpretation, all for words related to sports and leisure activities."
+  },
+  "gemma-michael-jordan#07348309": {
+    "theme": "Acting roles and casting phrases",
+    "summary": "Both members detect phrases indicating the role someone plays, especially in a movie, i.e. the theatrical rather than athletic sense of \"plays\"."
+  },
+  "gemma-small-big-fr#42c73a29": {
+    "theme": "Mixed grab-bag with French cues",
+    "summary": "A very large heterogeneous set with three recognizable threads: bulk scientific, medical and legal jargon plus code snippets at the embedding layers; French function-word features (the article \"le\", the preposition \"de\", the copula \"est\"/\"to be\"); and, in the deepest layers, French-language and code-switching detectors along with size and reversal words like \"small\", \"inverse\" and \"vice versa\"."
+  },
+  "gemma-small-big-fr#ff5b50e9": {
+    "theme": "Size adjectives amid mixed jargon",
+    "summary": "The clearest thread is physical size: the word \"small\", dimensions, adjectives for small objects, and measurement/size nouns. Around it sit a large mass of scientific, medical and legal jargon and code features, plus quotation-mark and quoted-text detectors."
+  },
+  "gemma-small-big-fr#44e9a0b1": {
+    "theme": "Antonym reversal and size opposites",
+    "summary": "Unified by opposition and scale: features for \"vice versa\", \"inverse\", \"reverse\", things being contrary to something else, and change or reversal, paired with a small-to-big axis (\"small\", \"Grand\", \"big\", \"too large\", measurement adjectives). Background noise is the usual early-layer code and scientific jargon."
+  },
+  "gemma-small-big-fr#94542751": {
+    "theme": "Quotation, French copula and size",
+    "summary": "Three intertwined threads: heavy double- and single-quote detectors and quoted-string features, French grammar (the articles \"le/la/les\", French words, the verb \"to be\"), and size/quantity adjectives, all sitting on a bed of code and scientific-document jargon."
+  },
+  "gemma-small-big-fr#441d36de": {
+    "theme": "Copula forms and size vocabulary",
+    "summary": "Recurring copula features dominate — the French form of \"to be\", \"est\" as a suffix, the verb \"to be\" across languages and German \"sein\" — combined with a size thread (\"small\", \"Grand\", dimensions, size/quantity words) and the usual legal, technical and quoted-text background."
+  },
+  "gemma-small-big-fr#5676029b": {
+    "theme": "French function words and opposition",
+    "summary": "French grammatical machinery is the backbone: \"de\", \"le/la/les\", French words and greetings, and the verb \"to be\". Layered on top are opposition features (the word \"opposite\", political opposition, negation and exceptions, reversed order) and a size/importance thread, plus lots of code and scientific jargon."
+  },
+  "gemma-small-big-fr#3142bd92": {
+    "theme": "Math notation, quotes and smallness",
+    "summary": "Mixed, but with three visible threads: mathematical and LaTeX notation plus code snippets, quotation-mark and quoted-title detectors, and a smallness thread (\"small\", \"little\" in the context of children) alongside French \"de\"/\"le\" and reversal features."
+  },
+  "gemma-small-big-fr#d1352b94": {
+    "theme": "Quoted text and academic-legal jargon",
+    "summary": "Largely quotation and citation machinery — text enclosed in quotation marks, quoted titles and names, references to academic publications, legal and journalistic writing — combined with French function words (\"de\", \"le\", \"est\") and a contrast/comparison thread."
+  },
+  "gemma-small-big-fr#c3e67749": {
+    "theme": "French-language output and technical chat",
+    "summary": "The deep layers are strongly French: French words and language identification, French internet/computer chat, questions in French, and French opera, plus code-switching and non-English code. Earlier members contribute French articles and the copula, and scientific/technical terminology."
+  },
+  "gemma-small-big-fr#a3fe2127": {
+    "theme": "French prepositions and technical noise",
+    "summary": "French grammar features recur throughout — the preposition \"de\", the copula \"est\", French conversational text — mixed with a large amount of code, URL and scientific-document noise and, in the upper layers, quoted-speech, grammatical-discussion and academic-reference detectors."
+  },
+  "gemma-small-big-fr#e9a6281f": {
+    "theme": "French articles, quotes, quantitative comparison",
+    "summary": "Heterogeneous but with recognizable threads: French articles and the copula (\"le\", \"de\", French text and \"to be\"), quotation-mark and emphasized-text detectors, and quantitative comparison features covering ratios, percentages, ranges, dimensions and size."
+  },
+  "gemma-small-big-fr#182c5f50": {
+    "theme": "Size comparison and contrast words",
+    "summary": "The consistent thread is scale and contrast: \"grand\", size/state/degree words, general importance or size, measurement adjectives, and explicit comparison-and-contrast phrases. Surrounding it are French \"de\"/\"le\" features, mathematical formulas, and multilingual code snippets."
+  },
+  "gemma-small-big-fr#2cca55b1": {
+    "theme": "Opposition, otherness and size words",
+    "summary": "Opposition is the strongest thread — the word \"other\", political opposition and disagreement, \"otherwise\", contrast and comparison — alongside a size axis (\"small\", \"grand\", small quantities) and French conversational and multilingual features."
+  },
+  "gemma-small-big-fr#e3786110": {
+    "theme": "Smallness, size and comparison terms",
+    "summary": "Size adjectives recur at every depth: \"small\", \"grand\", \"little\" in the context of children, small quantities, general importance or size, and late-layer words describing intensity, size or level. Mixed in are French text and articles, debate/legal writing, and scientific document jargon."
+  },
+  "gemma-small-big-fr#353656c0": {
+    "theme": "Multilingual cues and size adjectives",
+    "summary": "Language-identity features are prominent — German nouns and verbs, Danish text, French/Portuguese/Spanish pronouns and common words, verbs in non-English languages, translation definitions — together with a size thread (\"grand\", size adjectives, dimensions, small objects) and the usual scientific/technical jargon."
+  },
+  "gemma-small-big-fr#0308e445": {
+    "theme": "Negation, contradiction and opposites",
+    "summary": "The most semantically coherent of the large French groups: features for \"otherwise\", things being opposite or contrary, disagreement and contradiction, \"vice versa\"/\"inverse\"/\"reverse\", change or reversal, negativity and distance, and legal/military terms indicating opposition, over a background of code and scientific jargon."
+  },
+  "gemma-small-big-fr#30fe4313": {
+    "theme": "Comparison phrasing and copula forms",
+    "summary": "Comparison is the recurring subject: \"vs.\" comparisons, words used to compare one thing to another, versions and counterparts, conjunctions and quantifiers, and reversal words. These sit alongside \"est\"/\"to be\" copula features, French articles, quote detectors and code snippets."
+  },
+  "gemma-small-big-fr#5fd501b1": {
+    "theme": "French articles and opposition terms",
+    "summary": "Built around French determiners and prepositions (\"le/la/les\", \"de\" and \"de-\" prefixes, French words) plus an opposition thread (the word \"opposite\", the word \"other\", political opposition and disagreement) and size adjectives, with scientific documents and math expressions as background."
+  },
+  "gemma-small-big-fr#bd605f6a": {
+    "theme": "Multilingual text and comparison cues",
+    "summary": "Mixes multilingual detectors — French, Danish, Portuguese and Croatian text, French/Scandinavian code, French political news — with comparison and opposition features (\"vs.\", the word \"opposite\", debate and disagreement) and a smallness/quantity thread, ending in French technical chat at the top layers."
+  },
+  "gemma-small-big-fr#83a576ec": {
+    "theme": "French tech chat and code snippets",
+    "summary": "Almost entirely deep-layer French output features: French-language internet chat and casual conversation, computer networking, servers and Ubuntu troubleshooting, and code/config snippets across Java, Python, XML and C++, with side threads on French opera and international treaties."
+  },
+  "gemma-small-big-fr#aa2e3653": {
+    "theme": "French chat, opera and Linux support",
+    "summary": "A French-language output cluster: informal French conversation and discourse markers, discussions of Linux, Wine and computer networking, code snippets in multiple languages, and a distinctive classical-music and French opera thread at the embedding layer and above."
+  },
+  "gemma-small-big-fr#efe287b3": {
+    "theme": "French question-answer chat and Linux",
+    "summary": "French conversational output with a strong question-and-answer flavour: repeated features for \"reponse\" and structured question/answer text, French chat about computer problems, Linux software installation instructions, and code snippets in various programming languages."
+  },
+  "gemma-small-big-fr#7a754c4f": {
+    "theme": "French forum discussion and networking",
+    "summary": "Deep-layer French output features centered on online forums and chat: conversational French, computer networking, servers and internet communication, software installation and troubleshooting, plus code, URLs and file paths, with a smaller thread on French history, treaties and international law."
+  },
+  "gemma-small-big-fr#40172942": {
+    "theme": "French Ubuntu troubleshooting and code",
+    "summary": "French-language technical support output: Ubuntu and networking discussions, computer troubleshooting words, question-and-answer structure around \"reponse\", informal French chat, and code snippets, URLs and file paths."
+  },
+  "gemma-small-big-fr#8aa15b46": {
+    "theme": "French software-install chat and code",
+    "summary": "A near-uniform French output cluster about software installation and configuration — Linux usage instructions, menus and settings, computer troubleshooting — expressed in informal French chat, together with code snippets and general non-English-text detectors."
+  },
+  "gemma-small-big-fr#2ed676f0": {
+    "theme": "Quotation marks, code and document jargon",
+    "summary": "A shallow-layer detector cluster rather than a semantic one: many quotation-mark and quoted-string features, code snippets, programming terms and LaTeX/math symbols, legal and technical document vocabulary, proper nouns, and the French words \"le\" and \"de\"."
+  },
+  "gemma-small-big-fr#560ca0a9": {
+    "theme": "French technical support and instructions",
+    "summary": "French-language output aimed at helping someone: conversational French chat and forum turns, Linux and Ubuntu usage instructions, networking and computer troubleshooting vocabulary, question/answer structure around \"reponse\", and accompanying code and URL snippets."
+  }
+}

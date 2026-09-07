@@ -1,0 +1,562 @@
+{
+ "173": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to historical events or periods, famous people, or entertainment titles"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "names and events"
+  }
+ ],
+ "295": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of dimensions"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "size"
+  }
+ ],
+ "762": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and names associated with legal or official proceedings and documents"
+  }
+ ],
+ "1116": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to sports teams and facilities"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "sports"
+  }
+ ],
+ "1350": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "instances of a person being described as another person in a list of actors and roles"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "as"
+  }
+ ],
+ "1988": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical equations and symbols, especially those involving transposes, duals, and derivatives"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "transpose"
+  }
+ ],
+ "2051": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to dark vs light, size comparison, beams and mask creation in relation to manufacturing a device and/or in calculating kernals."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "gradations"
+  }
+ ],
+ "2254": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to sports and athletic activities"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "sports"
+  }
+ ],
+ "2534": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases related to the meaning of words"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "appropriateness of a word"
+  }
+ ],
+ "2588": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "place names including cities, states, and parks"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "place names"
+  }
+ ],
+ "3099": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets with specific coding keywords and markup tags"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "programming identifiers"
+  }
+ ],
+ "3235": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to sports teams and games, particularly football and baseball"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "sports teams and games"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "sports"
+  }
+ ],
+ "3327": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "proper nouns, especially people's names, and words associated with fame"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "celebrity names"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "celebrity surnames"
+  }
+ ],
+ "3386": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of the athletic shoe brand \"Air Jordan\" and sports apparel."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "shoes"
+  }
+ ],
+ "3815": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the digit zero"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "zero"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "0"
+  }
+ ],
+ "4327": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical expressions or code snippets"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "arithmetic, math"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "arithmetic"
+  }
+ ],
+ "4551": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text related to basketball, particularly equipment and instruction"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "basketball"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "basketball"
+  }
+ ],
+ "5268": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words relating to small, personal devices"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "size"
+  }
+ ],
+ "6028": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the names of cars, especially Volkswagens and Skodas"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Volkswagen cars"
+  }
+ ],
+ "6716": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases related to general importance or size."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "size"
+  }
+ ],
+ "7467": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "legal documents involving specific Texas locations and people"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Legal/governmental texts"
+  }
+ ],
+ "7674": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases associated with learning interesting facts"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "facts and knowledge"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "facts"
+  }
+ ],
+ "7711": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of basketball statistics, measurements, and teams."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "wing"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "basketball"
+  }
+ ],
+ "7956": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "key people such as team leaders"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "past tense \"-ed\" verbs"
+  }
+ ],
+ "9023": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases related to ending a career or activity"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "retirement"
+  }
+ ],
+ "9100": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "language related to campaign finance in politics"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "political campaign finance"
+  }
+ ],
+ "9338": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "tokens relating to geographic locations or locations within a hierarchy"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "census"
+  }
+ ],
+ "9732": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "content related to sports, mainly football"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "football"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "football"
+  }
+ ],
+ "9758": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical terms, equations, operations, and code"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical operations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "arithmetic"
+  }
+ ],
+ "11096": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words about people interacting, whether in games, dating, or conversation."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "play"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "play"
+  }
+ ],
+ "11121": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical formulas and calculations, especially sequences of numbers and equals signs."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "equations and code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "=\n\nMethod used: 1 \u2014 because max-activating tokens are all the equals sign \u2014 \"=\""
+  }
+ ],
+ "11172": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to famous cities, regions, or concepts in the USA and UK"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "cities"
+  }
+ ],
+ "12281": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "soccer teams and players."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "football clubs"
+  }
+ ],
+ "12352": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "names of people and places associated with a particular crime"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Anni Dewani murder case"
+  }
+ ],
+ "13204": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numerical values and symbols such as currency or units in the text"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "code/data snippets"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "leading space"
+  }
+ ],
+ "13670": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "grammatical terms and the verb \"sein\" (to be) in German"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "stru"
+  }
+ ],
+ "15528": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to famous people, especially those who have died"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Shakespeare, Martin Luther King"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "famous people"
+  }
+ ],
+ "16086": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to Scandinavian places, people and titles"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Schleswig-Holstein history"
+  }
+ ],
+ "16214": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "hexadecimal color codes or references and associated text"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "code/data"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"comma\""
+  }
+ ],
+ "16263": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets including filepaths and hom functions, as well as mathematical expressions and statements describing containment"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "dirname, containing"
+  }
+ ]
+}

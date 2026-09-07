@@ -1,0 +1,709 @@
+{
+ "6": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to racing (cars, drivers, etc.) and associated terminology"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "racing"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "racing"
+  }
+ ],
+ "37": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "contexts within science fiction or fantasy stories, particularly those that involve grand conflicts or battles."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Places"
+  }
+ ],
+ "411": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "location-based context clues and prepositions"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "locations and countries"
+  }
+ ],
+ "1341": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "series of numbers in a list"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "hyphens"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "1445": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "location information, including addresses, the names of cities and towns, and prepositions like \"in\" and \"of\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Downtowns of cities"
+  }
+ ],
+ "1887": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "number sequences"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Calculations with numbers"
+  }
+ ],
+ "2156": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "This neuron seems to activate on seemingly random words and punctuation in technical and medical texts, but it seems to have a bias towards words with numerical values"
+  }
+ ],
+ "2439": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text related to government funding, especially for public works projects"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Politics and government"
+  }
+ ],
+ "2550": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to language accompanied by various function words, verbs, and symbols"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "programming languages"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "tech names"
+  }
+ ],
+ "2695": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "locations in North America"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "cities"
+  }
+ ],
+ "2975": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical and legal reference strings"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Numbers and calculations"
+  }
+ ],
+ "3396": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code containing math symbols and strings"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets"
+  }
+ ],
+ "3629": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"and\" and words that might act as conjunctions"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "research excerpts"
+  }
+ ],
+ "4099": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "musical instruments and musical performance"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "musical instruments"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"instruments\" \nMethod used: 2 \u2014 tokens after max are instruments"
+  }
+ ],
+ "4102": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "superlative adjectives relating to sports numbers and lists"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "database record"
+  }
+ ],
+ "4195": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"big\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "big"
+  }
+ ],
+ "4857": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "locations or administrative territorial entities"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "capital"
+  }
+ ],
+ "4951": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words used in French-language internet chat about technical subjects"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Non-English text"
+  }
+ ],
+ "5058": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "uses of the words \"too\", \"sufficiently\", and related mathematical jargon"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "qualifying adjectives"
+  }
+ ],
+ "5566": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to college sports teams and categories"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"sports\""
+  }
+ ],
+ "5802": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "technical discussions related to computers and networking, especially concerning Ubuntu"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "solution"
+  }
+ ],
+ "6885": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "double quotes that likely indicate speech"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "quotation marks"
+  }
+ ],
+ "7210": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words or phrases related to religious beliefs and traditions"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "say \"-ism\" ending"
+  }
+ ],
+ "7300": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to basketball players' qualities and performance"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Basketball"
+  }
+ ],
+ "7326": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of \"Player of the\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "time periods"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "the"
+  }
+ ],
+ "7477": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "a collection of strings that make up a Dallas news station callsign"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Dallas"
+  }
+ ],
+ "7492": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "various symbols in mathematical/statistical contexts and number strings"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Technical data and numbers"
+  }
+ ],
+ "7590": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to doing playful activities"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "games"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "play"
+  }
+ ],
+ "7917": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numbers and math symbols"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "the number four"
+  }
+ ],
+ "8656": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "conjunctions and a few adjectives mixed with punctuation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "positive adjectives"
+  }
+ ],
+ "8658": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "language about food portions being large and reviews of King Kong"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "large size"
+  }
+ ],
+ "8755": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "single quotes and double quotes along with some words and punctuation around them."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "quotation mark"
+  }
+ ],
+ "8794": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "short words or phrases that appear frequently across diverse technical or academic texts."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Most"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "adjectives"
+  }
+ ],
+ "8824": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "lines with whitespace and numbers in the middle of text"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Code snippets"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "9410": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "figure and math references"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "figure references"
+  }
+ ],
+ "10159": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "various aspects of research papers and formatted numerical data"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"single-digit numbers\"\nMethod used: 2 \u2014 TOKENS_AFTER_MAX_ACTIVATING_TOKEN are all single-digit numbers"
+  }
+ ],
+ "10291": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "parenthesized years and other numbers, and also anything after a colon"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Numbers and formulas"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "numbers\nMethod used: 1 \u2014 because the max-activating tokens are digits/decimal"
+  }
+ ],
+ "10312": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "phrases indicating conflict or competition plus mentions of awards or achievements."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "fields of study"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"fields\""
+  }
+ ],
+ "10520": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "data or numbers separated by the word \"and\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"digits\"\nMethod used: 2 \u2014 because all tokens after the max activating token are single-digit numbers"
+  }
+ ],
+ "11373": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the digit 1 in code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "1"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "1"
+  }
+ ],
+ "12116": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "decimals or list numbers or the word \"three\"."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "the number three"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "3"
+  }
+ ],
+ "12178": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to education and intelligence"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "mathematics"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"in [topic]\""
+  }
+ ],
+ "12428": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "negative numbers or ranges of numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "numbers and sequences"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "digits\n\nMethod used: 1 \u2014 all max activating tokens are digits; explanation: digits"
+  }
+ ],
+ "13472": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words that can indicate a relationship between nouns like \"of\", \"to\", \"in\", and \"with\"."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "of"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "of"
+  }
+ ],
+ "13506": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"of\" and sometimes the phrase \"of the\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581of"
+  }
+ ],
+ "13522": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words describing sports, with some focus on ball sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "ball"
+  }
+ ],
+ "13563": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "program code and numerical expressions used in programming"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "13890": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text about pioneer settlement in the 1800's, including dates and place names"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "pioneer"
+  }
+ ],
+ "14422": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numerical data and mathematical symbols within scientific texts"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Numbers and ratios"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"numbers\""
+  }
+ ],
+ "14803": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "uses of \"says\" or related words, especially when people express opinions and beliefs"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  }
+ ],
+ "15763": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "content related to sports, particularly with a focus on soccer."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "football/soccer/basketball"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"sports\""
+  }
+ ]
+}

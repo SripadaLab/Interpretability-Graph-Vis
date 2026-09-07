@@ -1,0 +1,1497 @@
+{
+ "57": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"this\" and words associated with documentation or bureaucracy."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "start of different texts"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "This"
+  }
+ ],
+ "321": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "tokens related to sports, especially basketball games, trades and injuries"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Basketball center position"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"capitalized\"\n\nMethod used: 2 \u2014 because following tokens are capitalized names/places \u2014 say \"capitalized\""
+  }
+ ],
+ "582": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words indicating comparisons and desires and difficulties"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "more"
+  }
+ ],
+ "635": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text snippets relating to treaties and international law, including French phrases"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": ","
+  }
+ ],
+ "660": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "fragments of conversations in French and possible responses."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Chat logs"
+  }
+ ],
+ "812": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "snippets of an online conversation where the speakers are helping each other, potentially regarding a software problem"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French chat logs"
+  }
+ ],
+ "1112": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "\"is\" following \"the\" or preceding \"a\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "is"
+  }
+ ],
+ "1780": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text from computer logs."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Website/programming terms"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "French"
+  }
+ ],
+ "1843": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases in French"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French language context"
+  }
+ ],
+ "1983": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "a mix of names of people, numbers, and codes."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "IDs and numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "numbers"
+  }
+ ],
+ "2107": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numbers, including percentages, ranges, and values with decimals"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Numbers and references"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"number 7-9\""
+  }
+ ],
+ "2288": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "geographical locations in Texas"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Texas"
+  }
+ ],
+ "2388": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "French words related to technology and software"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Linux/software technical discussion"
+  }
+ ],
+ "2440": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "conversations related to computer software installation and troubleshooting, especially with references to menus, settings, and interfaces."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Technical support chat"
+  }
+ ],
+ "2557": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "sentences in French discussing learning or understanding something"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "French\n\nMethod used: 1 \u2014 because the top activating tokens are French words \u2014 French"
+  }
+ ],
+ "2592": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "French language and words related to treaties."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French/English mix"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "French verbs"
+  }
+ ],
+ "2626": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text written in French"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ],
+ "2876": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "French language text from an online chat"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "technical support in French"
+  }
+ ],
+ "2937": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets, especially in the context of chat logs or programming discussions."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "internet forum code snippets"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "French"
+  }
+ ],
+ "3015": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "content related to academic papers, particularly including titles, copyright information, and lists of authors"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "punctuation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "and"
+  }
+ ],
+ "3029": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of \"Hall of Fame\" or similar places of honor"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "of"
+  }
+ ],
+ "3264": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and punctuation found in online chats related to computers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ],
+ "3280": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "terms from scientific publications and legal documents, possibly related to research, analysis, or defect"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "punctuation"
+  }
+ ],
+ "3332": [
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French language"
+  }
+ ],
+ "3361": [
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets"
+  }
+ ],
+ "3403": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical formulas and expressions, especially those with variable names, functions, or derivatives."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "equals signs"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "="
+  }
+ ],
+ "3553": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical sequences involving polynomial equations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "digits"
+  }
+ ],
+ "3563": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "LaTeX, code, and other markup notation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "code and math"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "punctuation"
+  }
+ ],
+ "3604": [
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "games and sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "play"
+  }
+ ],
+ "3683": [
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Non-English text"
+  }
+ ],
+ "4070": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "a wide variety of date formats, numbers, and math-like syntax"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Technical and numerical content"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "-\nMethod used: 1 \u2014 because top tokens are punctuation dashes \u2014 -"
+  }
+ ],
+ "4803": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numerical digits"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Code and math"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"digits\"\n\nMethod used: 2 \u2014 reason: tokens after max are numeric digits \u2014 say \"digits\""
+  }
+ ],
+ "4909": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "people playing games or engaging in recreation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "activities and games"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "play"
+  }
+ ],
+ "5039": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words or phrases related to courts, trials, and legal proceedings, including specific titles, amounts of money, and references to familial relationships in legal battles, with a strong emphasis on citations."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "court"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"court\""
+  }
+ ],
+ "5042": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "a variety of common words, especially articles, prepositions, and pronouns, in the context of more sports-related terms or language, with a bias towards articles (\"the\", \"a\") and prepositions (\"in\", \"to\")."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  }
+ ],
+ "5188": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical and academic references and structures"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "common short words"
+  }
+ ],
+ "5458": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of playing games or sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "play"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "playing"
+  }
+ ],
+ "5517": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets, URLs, and French words within code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Code and programming context"
+  }
+ ],
+ "5621": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and characters that often appear in non-English European languages, especially French"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ],
+ "5722": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets, possibly with some elements of Russian language."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "code and foreign languages"
+  }
+ ],
+ "5835": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "locations (cities, states, countries, etc.)"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "mentions places"
+  }
+ ],
+ "5931": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "angle quotes enclosing screen names and references to code and programming"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Quotation marks"
+  }
+ ],
+ "6617": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "common short words such as prepositions, articles, conjunctions and pronouns."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Locations"
+  }
+ ],
+ "6720": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "abbreviations, citations and numbers, especially in legal and scientific documents"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "numbers in the tens"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"single digits\"\n\nMethod used: 2 \u2014 because the tokens after the max-activating tokens are all single digits \u2014 say \"single digits\""
+  }
+ ],
+ "7188": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "quotation marks and initial article \"the\"."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Quotation marks"
+  }
+ ],
+ "7590": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"is\" followed by a word that starts with a vowel, or other words used as verbs like \"were\", \"be\", \"been\", \"was\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "is"
+  }
+ ],
+ "7746": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "hexadecimal and numerical codes"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "say \"number 8\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"8\""
+  }
+ ],
+ "7801": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "French language text, particularly in conversational contexts and possibly related to technology"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "pronoun \"he\""
+  }
+ ],
+ "8012": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "snippets of legal writing with numerical references and citations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Legal/technical documents with citations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"single digits\""
+  }
+ ],
+ "8117": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "lines of code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581\u2581"
+  }
+ ],
+ "8485": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words in a French conversation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ],
+ "8488": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "common words in a variety of contexts"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "size"
+  }
+ ],
+ "8606": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases in French related to computers and software installation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "French"
+  }
+ ],
+ "8683": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the words \"too\" and \"large\", along with some other related words to size"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "size"
+  }
+ ],
+ "8748": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "phrases using preposition \"of\" to indicate belonging to a heart or core."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "of"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581of"
+  }
+ ],
+ "8855": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "descriptions of sports, especially soccer/football, including playing style and championships"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "team"
+  }
+ ],
+ "8901": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "dollar signs, along with surrounding words, and common short words such as \"to,\" \"a,\" \"is\" and \"of\" appearing near single-digit numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Numerical data and measurements"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "8967": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets, terminal commands and programming related text in conversations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Non-English and code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "Spanish/French articles"
+  }
+ ],
+ "8976": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "descriptions of dates, times, quantities or number paired with something else"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "sports teams"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "team"
+  }
+ ],
+ "9311": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of medical issues, especially in animals, and it seems to like quoted text and numbers in parentheses, maybe as part of identifying data within a medical report"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "archaic spellings"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "punctuation marks"
+  }
+ ],
+ "9338": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "subjective adjectives, particularly those of size and scale, and words/phrases that collocate nearby"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "large data processing"
+  }
+ ],
+ "9621": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases related to laws and finances in states"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "state government and politics"
+  }
+ ],
+ "9634": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mostly French words within a text"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Code and French text"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581qui"
+  }
+ ],
+ "9657": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code, math, and numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "code symbols"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "9832": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "dates and times"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "dialogue"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "9876": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases related to education, love, passion, and personal connections"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "things somebody loves"
+  }
+ ],
+ "10021": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "French language."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "multilingual chat snippets"
+  }
+ ],
+ "10032": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "scientific and medical terminology."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "punctuation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "function words\nMethod used: 1 \u2014 tokens are common function words \u2014 function words"
+  }
+ ],
+ "10088": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical expressions and calculations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "mathematical symbols"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "math operators (e.g., - / +)"
+  }
+ ],
+ "10217": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"and\" near the definite article \"a.\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "say \"a\""
+  }
+ ],
+ "10271": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numbers or percentage values"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "leading space\nMethod used: 1 \u2014 because every max token starts with a leading space \u2014 leading space"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581\n\n1 \u2014 begins with leading space \u2014 \u2581"
+  }
+ ],
+ "10513": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "a mix of numerical digits, some English text, and some French text, specifically related to questions and answers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Chatbot logs/French Q&A"
+  }
+ ],
+ "10748": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code, URLs, french words, and computer terminology, particularly related to ubuntu"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Chat logs"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "opening punctuation"
+  }
+ ],
+ "10752": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words in a conversation indicating possibility/ability/obligation"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ],
+ "10914": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words heavily used in conversations in French"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French chat logs"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"French words\""
+  }
+ ],
+ "11444": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to locations, organizations and other named entities along with prepositions."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "cities and places"
+  }
+ ],
+ "11854": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numbers, especially in legal or business documents"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "legal and technical documents"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581\nMethod used: 1 \u2014 because MAX_ACTIVATING_TOKENS are identical"
+  }
+ ],
+ "11963": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code formatting and spacing within code snippets"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "12039": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "content related to the history of car or animal racing"
+  }
+ ],
+ "12089": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "examples of code snippets, as well as words that are related to coding like class and properties"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Code snippets and foreign words"
+  }
+ ],
+ "12237": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "locations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Cities and states names"
+  }
+ ],
+ "12254": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words that often occur near prepositions, conjunctions, or articles"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "academic text"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"medical words\""
+  }
+ ],
+ "12672": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "single digit numbers preceded by a space, or the fragment \"Bu\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Swedish words"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "12918": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of locations, especially schools or universities, along with words related to governance"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Texas"
+  }
+ ],
+ "13014": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "numerical data"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Scientific data and tables"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "symbols"
+  }
+ ],
+ "13144": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words and phrases related to computer networking in French language conversations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ],
+ "13193": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "locations in Arkansas and legal terms"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Legal and Southern place names"
+  }
+ ],
+ "13244": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text related to fighting and competition"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Mixed martial arts"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "mixed martial arts"
+  }
+ ],
+ "13348": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code-switching between English and other languages like French"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French and code"
+  }
+ ],
+ "13541": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to events like festivals, ceremonies, sports and crime, with a tendency to activate more strongly for items in a list or description of a sequence of events."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "News articles"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "archaic spellings"
+  }
+ ],
+ "13548": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "this neuron seems to activate on numbers, dates, and chemical formulas as well as some common short words depending on context."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "numbers 7-12"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"digits\""
+  }
+ ],
+ "13600": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "text in French, especially discussions about Linux and Wine"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ],
+ "13679": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "informal online chat, likely in French, about computers and software"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "non-English code comments"
+  }
+ ],
+ "13757": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "lines of code or data that are not contained within conventional statements"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581"
+  }
+ ],
+ "13841": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "institution names used in articles about local news and government"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "towns and cities"
+  }
+ ],
+ "14147": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "french text, especially when mixed with numbers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Foreign language text"
+  }
+ ],
+ "14350": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "snippets of code, math forumulae, and quoted speech, possibly prioritizing negative connotations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Quotation marks/parentheses"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "opening punctuation"
+  }
+ ],
+ "14403": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "currency, measurements and sizes"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Three/Four"
+  }
+ ],
+ "15317": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words describing features of a basketball game and particularly the basketball hoop"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "sports"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "basketball\n\nMethod used: 1 \u2014 tokens mostly about basketball; explanation: basketball"
+  }
+ ],
+ "15366": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "names of southwestern US cities and regions, often preceded by \"to,\" \"from,\" or \"at.\""
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "Code snippets"
+  }
+ ],
+ "15504": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "proper nouns related to college basketball"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "sports context"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"capitalized\""
+  }
+ ],
+ "15721": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "French language text, especially numbers and words associated with questions and answers"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "responses or configurations"
+  }
+ ],
+ "15735": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "dollar signs, percentages, and mathematical notation in scientific writing."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "numerical data and code"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"digits\"\n\nMethod used: 2 \u2014 because tokens after the max-activating token are numeric digits \u2014 say \"digits\""
+  }
+ ],
+ "16226": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code snippets and related keywords from different programming languages."
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "non-English text"
+  }
+ ],
+ "16355": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words used as discourse markers in online conversations"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gemini-2.0-flash",
+   "text": "French text"
+  }
+ ]
+}

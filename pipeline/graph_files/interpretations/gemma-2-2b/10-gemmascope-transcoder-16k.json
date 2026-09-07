@@ -1,0 +1,275 @@
+{
+ "498": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "various legal terms or actions people can take"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "choices and decisions"
+  }
+ ],
+ "883": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "scientific and technical terms that end in \"-tion\" or \"-sion.\""
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "scientific and technical terms"
+  }
+ ],
+ "1037": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "capitalized words or phrases and other words that stand out"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Names"
+  }
+ ],
+ "1296": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to activities and organizations"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "categories"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "categories"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "categories"
+  }
+ ],
+ "2709": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words pertaining to competitive and physical activities"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "sports and fighting"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "sports"
+  }
+ ],
+ "3837": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "content related to scientific publications or medical procedures, possibly extracting patient data from research papers"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "technical documents/publications"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "say \"&\""
+  }
+ ],
+ "6803": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "quotation marks and parenthesis in legal or policy documents"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "quotation marks"
+  }
+ ],
+ "6804": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "ref"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "ref"
+  }
+ ],
+ "7106": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the word \"The.\""
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "the"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "The"
+  }
+ ],
+ "8686": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "references to academic publications"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "asterisk"
+  }
+ ],
+ "10290": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the phrase \"other way around\" and related sentiments"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "around"
+  }
+ ],
+ "10933": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "the first word of a paragraph or title"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Articles/pronouns starting sentences"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "sentence starters"
+  }
+ ],
+ "12232": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "code-related statements and whitespace"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "import"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "import"
+  }
+ ],
+ "12635": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words relating to legal and militaristic professions."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "job, practice"
+  }
+ ],
+ "12884": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words related to weather modification, especially cloud seeding"
+  }
+ ],
+ "13901": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "proper nouns and associated words"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Last names"
+  }
+ ],
+ "14174": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "left curly brackets"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Braces"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581{"
+  },
+  {
+   "type": "np_max-act-logits",
+   "author": "gpt-5-mini",
+   "text": "\u2581{"
+  }
+ ],
+ "14981": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "mentions of tags or labels of some kind with the word \"final\" also frequently appearing."
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Tag"
+  }
+ ],
+ "15902": [
+  {
+   "type": "oai_token-act-pair",
+   "author": "gemini-2.0-flash",
+   "text": "words describing organizations and their relationships to issues"
+  },
+  {
+   "type": "np_max-act",
+   "author": "gemini-2.0-flash",
+   "text": "Proper nouns"
+  }
+ ]
+}

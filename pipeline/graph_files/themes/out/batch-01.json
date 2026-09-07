@@ -1,0 +1,162 @@
+{
+  "gemma-addition#691f9793": {
+    "theme": "Mixed math notation and code grab-bag",
+    "summary": "The dominant threads are detectors for the plus and equals symbols and for mathematical/LaTeX notation and equations, plus programming-code and code-comment features. A long tail of unrelated single-word detectors ('flower', 'classic', 'margin', 'blood') and legal-citation features makes the group genuinely heterogeneous."
+  },
+  "gemma-addition#2dc020fe": {
+    "theme": "Arithmetic notation and number words",
+    "summary": "Combines equals/plus-sign and math-equation features with number-word and quantity detectors ('three', ordinal numbers, single digits and small numbers), together with LaTeX and code-assignment-operator features. A handful of strays about family/childcare and business mergers sit outside that core."
+  },
+  "gemma-addition#fec84484": {
+    "theme": "Plus/equals operators with math formulas",
+    "summary": "Mostly plus-sign and equals-sign detectors alongside mathematical-equation, LaTeX and code-notation features. Secondary threads cover legal citations and legal proceedings, and formatted numbers such as decimals, dates and percentages."
+  },
+  "gemma-addition#f45045de": {
+    "theme": "Math symbols, LaTeX and code",
+    "summary": "Recurring content is arithmetic operator symbols (plus, equals), LaTeX math-mode expressions and equations, and code snippets including diff headers and array-size prompts. Smaller threads cover legal citations and formatted numeric strings like dates and decimals."
+  },
+  "gemma-addition#c533e5ee": {
+    "theme": "Equation symbols and technical notation",
+    "summary": "Math equations and the equals/plus symbols dominate, together with scientific and academic notation, hexadecimal strings, and acronym/ID-like tokens. A scattering of unrelated word detectors ('perception', 'accommodation', 'conclusion') remains unexplained by that thread."
+  },
+  "gemma-addition#3692eb9e": {
+    "theme": "Heterogeneous plus-sign and math set",
+    "summary": "The core is plus-symbol and math-notation features (limits, fractions, logarithms, LaTeX equations) plus hexadecimal and programming-code features. A large minority are idiosyncratic single-word detectors ('perception', 'dream', 'classic', the French word 'La'), so the group is only loosely unified."
+  },
+  "gemma-addition#f44828b0": {
+    "theme": "Math equations and numeric statistics",
+    "summary": "Math problems, equations and LaTeX formulas run through the whole group, joined by features for statistics, percentages, totals and years in the mid and upper layers. A thinner legal-citation and academic-reference thread also recurs."
+  },
+  "gemma-addition#1c347e86": {
+    "theme": "Arithmetic notation and numeric data",
+    "summary": "Mathematical notation, equations and LaTeX dominate, with plus-sign and equals-sign detectors concentrated in the earliest layers. A strong secondary thread covers numeric data — numbers in lists, decimals, percentages and numbers in scientific citations."
+  },
+  "gemma-addition#6dba4090": {
+    "theme": "Math notation with citation numerics",
+    "summary": "Early members are plus-symbol, digit and assorted single-word detectors, while the later members are consistently about numbers in formal references: legal case citations, statistics in research papers, dates, and figure/table numbers."
+  },
+  "gemma-addition#0c260f74": {
+    "theme": "Equations, code, and formatted numbers",
+    "summary": "Math equations, LaTeX and code snippets form the core content, with a second thread of formatted numeric strings — percentages, dates, currency, hexadecimal and cryptographic constants. Assorted lexical detectors ('dream', 'classic', 'quite') dilute the theme."
+  },
+  "gemma-addition#1c87ff9b": {
+    "theme": "Code, LaTeX and currency numerics",
+    "summary": "Mixes math and LaTeX notation with code-snippet, license-agreement and code-comment features. A persistent third thread concerns currency amounts, measurements and numbers inside legal citations and case law."
+  },
+  "gemma-addition#c3a528df": {
+    "theme": "Math operators and statistical numbers",
+    "summary": "Plus/equals operator and math-equation features dominate the earlier members, giving way to features about numbers in parentheses, percentages and statistics, hexadecimal codes and cryptographic/memory constants later on."
+  },
+  "gemma-addition#c3c6aa4f": {
+    "theme": "Math notation, code and databases",
+    "summary": "Arithmetic and LaTeX notation features sit alongside code features such as assignment operators, computer-algebra expressions and SQL column definitions. Numeric-citation and statistics features (percentages, years, legal and scientific references) fill out the upper layers."
+  },
+  "gemma-addition#21d81925": {
+    "theme": "Arithmetic symbols and identifier numbers",
+    "summary": "Math notation, equations and LaTeX recur throughout, joined by hexadecimal strings and ID-number features. A legal-citation and currency thread runs through the later members."
+  },
+  "gemma-addition#886b12e6": {
+    "theme": "Math notation with reference numerics",
+    "summary": "Math equations, proof derivations ('get', 'yields', 'obtain') and LaTeX features mix with programming code. Later members focus on numbers in academic and legal references — journal citations, negative numbers, dollar amounts and percentages."
+  },
+  "gemma-addition#33e66cc3": {
+    "theme": "Plus-sign math and code documentation",
+    "summary": "Plus-symbol and mathematical-notation detectors combine with code-snippet, license-agreement and documentation/import features. Numeric features for figure references, statistics and hexadecimal codes appear among the later members."
+  },
+  "gemma-addition#ee6f5db3": {
+    "theme": "Operator symbols and math proofs",
+    "summary": "Built around plus and equals symbol detectors plus features for equations and proof derivations. Secondary threads are code and markup characters, legal citations and proceedings, and statistical/percentage numbers."
+  },
+  "gemma-addition#61a782db": {
+    "theme": "Math notation and date/number formats",
+    "summary": "Math notation, LaTeX and computer-algebra features run throughout, while the later members are heavy on date formats, numeric sequences and percentages, and on references to legal codes and statutes."
+  },
+  "gemma-addition#723a9009": {
+    "theme": "Quantitative output and citation numerics",
+    "summary": "Almost entirely numeric-output features: numbers and statistics in research papers, currency, measurements and percentages, legal case citations, hexadecimal ID strings, and mathematical expressions. Lines-of-code and terminal-command features form a smaller second thread among the topmost members."
+  },
+  "gemma-addition#8cf88c37": {
+    "theme": "Numeric results, code and markup",
+    "summary": "Features about numerical expressions, statistics and percentages sit alongside source-code, LaTeX and HTML/markup features. The topmost members include explicit arithmetic-problem and calculation detectors, which is what the prompt's answer position needs."
+  },
+  "gemma-addition#dd3b4ab3": {
+    "theme": "Numerical expressions and program code",
+    "summary": "Numbers, mathematical values and operators, and statistics in research papers dominate, alongside features for source code, LaTeX equation syntax, and hexadecimal/memory-address constants. A few members explicitly detect arithmetic problems and calculations."
+  },
+  "gemma-addition#9f24c80b": {
+    "theme": "Equations, arithmetic and math notation",
+    "summary": "A math-centric spread: equations, LaTeX markup and computer-algebra expressions recur at every depth, capped by arithmetic-problem and calculation detectors. Numeric-citation, statistics and code-snippet features make up the rest."
+  },
+  "gemma-addition#5f2d051e": {
+    "theme": "Digit and operator token detectors",
+    "summary": "Nearly all members are token-level detectors for the prompt's own characters — the digits 3 and 5, the plus symbol, the equals sign — plus LaTeX/code-notation and license-agreement features. A tail of unrelated word detectors ('dream', 'flower', 'classic', 'perception') rides along."
+  },
+  "gemma-addition#7d04c447": {
+    "theme": "Numeric data and legal citations",
+    "summary": "Consistently features for numbers in formal contexts: statistics and percentages in research papers, numeric sequences and dates, currency and measurements, legal case citations and statutes, and hexadecimal ID strings."
+  },
+  "gemma-addition#cb64784d": {
+    "theme": "Statistics, citations and number strings",
+    "summary": "The same quantitative-reference family: numbers in parentheses and statistics, numerical ranges and negative numbers, mathematical formulas, legal citations and statute references, and hexadecimal identifiers."
+  },
+  "gemma-addition#3aafdddf": {
+    "theme": "Formatted numbers and legal references",
+    "summary": "Numeric-formatting features — number sequences, percentages, currency, decimals, dates and numerical ranges — together with legal citation/statute features, mathematical formulas and hexadecimal ID strings."
+  },
+  "gemma-addition#e14406c6": {
+    "theme": "Code, markup and math output",
+    "summary": "Split between programming code (lines of code, code formatting, terminal commands, HTML, multi-language config snippets) and mathematical output (LaTeX equations, arithmetic problems, dollar-sign and exponent expressions), with numerical-digit features throughout."
+  },
+  "gemma-addition#3fcd19b2": {
+    "theme": "Math expressions and code snippets",
+    "summary": "Mathematical formulas, equations and operators paired with code features such as brackets with equals signs, array-size prompts and HTML tags. Statistics in research papers and quantitative-value features round it out."
+  },
+  "gemma-addition#d56f0a95": {
+    "theme": "Programming code with math notation",
+    "summary": "Code-oriented features — lines of code, code formatting and spacing, terminal commands, HTML, and Java/Python/XML/C++ config snippets — interleaved with LaTeX math notation, arithmetic problems and numerical-digit detectors."
+  },
+  "gemma-addition#2086f38f": {
+    "theme": "Code snippets and arithmetic expressions",
+    "summary": "The same code-and-math blend: source code, markup and code-formatting features alongside mathematical equations with dollar signs and exponents, arithmetic problems, and numeric-digit and measurement detectors."
+  },
+  "gemma-addition#39af19b8": {
+    "theme": "Quantitative references and statistics",
+    "summary": "Numbers in formal and quantitative settings: statistics and percentages in parentheses, numeric ranges and sequences, dates and court cases, legal citations, and hexadecimal identifiers. One digit-3 detector is the lone outlier."
+  },
+  "gemma-addition#7c498272": {
+    "theme": "Statistical numbers and legal citations",
+    "summary": "Mathematical formulas and statistical data in research papers, numeric sequences and dates, currency and measurements, hexadecimal codes, and references to legal case law and statutes."
+  },
+  "gemma-addition#42c8bf91": {
+    "theme": "Numeric statistics and statute references",
+    "summary": "Nearly the same quantitative-reference set: statistics and percentages, numerical ranges and formulas, dates and court cases, hexadecimal identifiers, and references to legal codes and statutes."
+  },
+  "gemma-addition#dad3f702": {
+    "theme": "Code, LaTeX and numeric output",
+    "summary": "Programming-code and markup features (lines of code, terminal commands, HTML, multi-language snippets) with LaTeX and mathematical-expression features, arithmetic problems, and numeric-digit and measurement detectors."
+  },
+  "gemma-addition#325fbb16": {
+    "theme": "Source code and documentation blocks",
+    "summary": "Overwhelmingly code-oriented: code snippets in various languages, license agreements, documentation and comment blocks, import statements, programming/markup keywords, and code-formatting cues such as whitespace, underscores and curly brackets."
+  },
+  "gemma-addition#856cc310": {
+    "theme": "Code snippets and license documentation",
+    "summary": "The same code/documentation cluster: code snippets, license agreements, documentation blocks and comments, reference codes and identifiers from technical fields, and formatting features like whitespace and curly brackets."
+  },
+  "gemma-addition#f6a8a234": {
+    "theme": "Programming code and academic notation",
+    "summary": "Features for programming-code structures and markup characters (angle brackets, quotes, colons, equals signs among brackets and slashes) combined with scientific/mathematical notation in academic papers and legal/technical document terminology."
+  },
+  "gemma-addition#51c4f87c": {
+    "theme": "Digit and equals-sign token features",
+    "summary": "Almost entirely token-level detectors for the prompt's own characters: the digits 3 and 5, the word 'three', the plus symbol and the equals sign, plus hexadecimal strings, years and numerical values after line breaks. A few legal-reference and medical word detectors are the exceptions."
+  },
+  "gemma-addition#23b1fa93": {
+    "theme": "Code, math notation and number words",
+    "summary": "Programming-code and markup features, scientific/mathematical notation in academic papers, equals signs surrounded by brackets and colons, currency-plus-math notation, and number words such as 'three' and 'fifth'."
+  },
+  "gemma-addition#b1a29843": {
+    "theme": "Digit, plus and equals detectors",
+    "summary": "A tight set of character and token detectors for the prompt itself: digits 3 and 5, the word 'three', the plus symbol, the equals sign, hexadecimal strings, years and numerical values after line breaks, with a few odd extras ('frequency', 'train', legal proceedings)."
+  }
+}

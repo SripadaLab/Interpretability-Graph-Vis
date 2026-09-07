@@ -1,0 +1,162 @@
+{
+  "gemma-michael-jordan#09e1de86": {
+    "theme": "Sports vocabulary and playing senses",
+    "summary": "The dominant thread is sports semantics of every code \u2014 basketball teams and statistics, soccer, football, baseball, ice hockey, golf, Formula 1 racing \u2014 together with features for the verb \"play\"/\"plays\" (games, video games, media playback). Toward the deeper layers this shades into generic preposition and function-word features that still sit in sports-flavored contexts."
+  },
+  "gemma-michael-jordan#3df2478d": {
+    "theme": "Multi-sport semantics with play verbs",
+    "summary": "Sports content runs through the whole group: basketball, baseball leagues and standings, soccer, track and field, Formula 1, Air Jordan sneakers, NBA 2K, and \"Hall of Fame\" honors, plus many features for the verb \"play\" and playing games. Later members add connective preposition and article detectors layered on top of that sports material."
+  },
+  "gemma-michael-jordan#3c2c01c7": {
+    "theme": "Mixed grab-bag of token detectors",
+    "summary": "Genuinely heterogeneous: the largest sub-threads are proper-noun and personal-name detectors (people, places, organizations, countries), legal/technical/patent and code-snippet vocabulary, and a long tail of single-word detectors (\"bay\", \"social\", \"deserve\", \"present\", \"the\", \"of\"). Only a handful of members are actually about basketball or sports competition."
+  },
+  "gemma-michael-jordan#4763f60d": {
+    "theme": "Possessive \"of\" phrasing with sports",
+    "summary": "Two intertwined threads: features for the preposition \"of\" and other connective function words (including set phrases like \"field of the invention\", \"Player of the\", \"Hall of Fame\"), and genuine sports topics \u2014 basketball and the NBA, soccer, golf, volleyball, racing, and sports professions. Scattered members also detect town and city names and academic or medical phrasing."
+  },
+  "gemma-michael-jordan#09247672": {
+    "theme": "Proper names and legal-technical jargon",
+    "summary": "Mostly name and entity detection \u2014 people's names, initialed names, last names that double as first names, organizations, countries \u2014 alongside legal and patent vocabulary, code snippets and citation/abbreviation formatting. A residue of idiosyncratic single-word features (\"nearby\", \"pads\", \"Christian\", \"stick\") makes this more of an early-layer grab-bag than a single topic."
+  },
+  "gemma-michael-jordan#5b59abaa": {
+    "theme": "Personal names amid formal document text",
+    "summary": "The recurring content is personal and organizational names (including \"Michael\" and \"Michael Jackson\" specifically) combined with legal, patent and courtroom vocabulary, LaTeX/mathematical writing, government and civics terms, and code snippets. Sports appears only marginally, via features for athletic competition and the word \"Cup\"."
+  },
+  "gemma-michael-jordan#8a85e76d": {
+    "theme": "Verb morphology, code and technical terms",
+    "summary": "Recurring concepts are verb forms and verb semantics (participles, past tense, speech verbs, the verb \"play\"), programming and software-license tokens, and medical/scientific/legal technical vocabulary. A secondary thread names sports teams and technology brands, plus Formula 1 racing terminology."
+  },
+  "gemma-michael-jordan#22aeac40": {
+    "theme": "Named entities and formal-document tokens",
+    "summary": "Heavily weighted toward named-entity detection \u2014 people's names, initials, organizations, European place names, countries \u2014 mixed with legal-document and patent phrasing, mathematical notation and LaTeX, and generic code tokens. Individual oddities like \"handful\", \"tender\", \"stick\" and \"colors\" round it out into a grab-bag."
+  },
+  "gemma-michael-jordan#ab78bbd4": {
+    "theme": "Sports reference through \"of\" constructions",
+    "summary": "Sports content is pervasive \u2014 soccer and football playing style and championships, basketball hoops and player statistics, volleyball, golf, sports scores \u2014 but it is carried by a large population of features for the preposition \"of\" and related connectives, including titles like \"Player of the\" and \"Hall of Fame\". Passion/enjoyment and arts-career features form a smaller side thread."
+  },
+  "gemma-michael-jordan#8165ffee": {
+    "theme": "Games and sports with connective glue",
+    "summary": "Combines sports and recreation semantics (soccer, volleyball, golf, games and sports generally, sports professions, French athletes) with a heavy population of preposition-\"of\" and function-word features. Smaller threads cover town/city names, medical professions, and cooking and food vocabulary."
+  },
+  "gemma-michael-jordan#ce6cfc9a": {
+    "theme": "Code, medical text and acting roles",
+    "summary": "Three clear sub-threads: programming/software and license-boilerplate tokens, medical and scientific technical vocabulary (treatments, chemistry, physics, lung cancer), and a distinct film and theater thread about actors, roles and performances \u2014 the \"plays\" reading of the prompt. Proper-noun detectors and Formula 1 terminology fill out the rest."
+  },
+  "gemma-michael-jordan#46e2b03c": {
+    "theme": "Verb forms, code and film roles",
+    "summary": "Built around verb semantics and morphology (present and past tense, participles, the verb \"play\" and its synonyms) plus programming and license-text tokens and technical/scientific/medical vocabulary. A recognizable minority thread is about actors playing roles in movies and theater, with a few sports-team and Formula 1 features."
+  },
+  "gemma-michael-jordan#54b7d374": {
+    "theme": "Technical jargon and performance roles",
+    "summary": "Recurring subject matter is technical and scientific writing \u2014 code snippets, chemistry and physics, medical treatments, academic papers, legal proceedings \u2014 interleaved with a movies-and-theater thread (actors, roles, performances, names of actors). Sports enters only via team brand names and Formula 1 racing."
+  },
+  "gemma-michael-jordan#50af7673": {
+    "theme": "Recreation topics in \"of\" phrases",
+    "summary": "Sports and recreation semantics (games and sports, soccer/football championships, volleyball, sports scores, hobbies and interests, French athletes) sit alongside a large body of preposition-\"of\" and connective-word features. Academic research vocabulary and town/city-name detectors form secondary threads."
+  },
+  "gemma-michael-jordan#c101814b": {
+    "theme": "Software, medical and legal vocabulary",
+    "summary": "The unifying content is formal technical language: code snippets and license text, medical conditions and treatments, courtroom and legal terminology, academic and mathematical writing. Sports appears as a thin secondary thread through sports-team brand names, competitive events and Formula 1 racing."
+  },
+  "gemma-michael-jordan#ea4989a9": {
+    "theme": "\"Of\" connectives with sports content",
+    "summary": "A large population of preposition-\"of\" and function-word features carries recurring sports and recreation material \u2014 sports and one's connection to them, volleyball, playing games, \"Hall of Fame\", French athletes, sports scores. Place names, academic research and competition/awards phrasing are the other visible threads."
+  },
+  "gemma-michael-jordan#a6eb6e08": {
+    "theme": "Proper nouns and formal-text tokens",
+    "summary": "Dominated by proper-noun and name detection (people, organizations, countries, capitalized first names, \"Michael\" itself) plus legal and patent document vocabulary, mathematical and LaTeX notation, and article/preposition detectors for \"the\" and \"of\". Idiosyncratic one-word features like \"stick\", \"ethnic\" and \"buildings\" make it a grab-bag."
+  },
+  "gemma-michael-jordan#e3b69f64": {
+    "theme": "Action verbs with technical vocabulary",
+    "summary": "Centered on verb semantics \u2014 participles, past and present tense, verbs of doing and of scientific claiming, the verb \"play\" and its synonyms \u2014 combined with code and license-text tokens and technical/medical/scientific terminology. Smaller threads cover actors' roles in film and Formula 1 racing."
+  },
+  "gemma-michael-jordan#31aa3c07": {
+    "theme": "Sports and hobbies via prepositions",
+    "summary": "Recurring semantics are sports and leisure (track and field athletes, volleyball, soccer/football playing style, school and college sports, hobbies and interests, sports scores) expressed through a dense population of preposition-\"of\" features. Academic research, place names and government/politics phrasing are the other threads."
+  },
+  "gemma-michael-jordan#56a8dbd6": {
+    "theme": "Code, science and film-role terms",
+    "summary": "The shared content is technical formal text \u2014 programming and license boilerplate, scientific and medical language, legal and courtroom terminology, academic papers \u2014 plus a consistent thread about actors playing roles in movies and theater. Sports-team brands, competitive events and Formula 1 racing appear at the edges."
+  },
+  "gemma-michael-jordan#b9ce0bfb": {
+    "theme": "Technical, medical and code jargon",
+    "summary": "Members overwhelmingly detect formal technical material: code snippets and file paths, license agreements, mathematics and physics, medical conditions and treatments, legal proceedings and government regulation. Sports-team brand names, competitive events and Formula 1 terminology form a modest secondary thread."
+  },
+  "gemma-michael-jordan#caa9bf5f": {
+    "theme": "Names, legal text and stray tokens",
+    "summary": "A grab-bag whose largest threads are personal and organizational name detection (including \"Michael\" and \"Michael Jackson\"), legal/patent and technical document vocabulary, and mathematical or code notation. It also carries many isolated word detectors (\"tender\", \"Cup\", \"stick\", \"pads\", \"ethics\") and only glancing sports content."
+  },
+  "gemma-michael-jordan#b2e7d5eb": {
+    "theme": "Name detectors and document boilerplate",
+    "summary": "Heterogeneous early-layer set. The recognizable sub-threads are proper-noun and personal-name features (last names, organizations, \"Michael\"), legal/patent and technical document language, and mathematical/LaTeX plus HTML and code notation, with a scattering of unrelated single-word detectors like \"bay\", \"social\" and \"coast\"."
+  },
+  "gemma-michael-jordan#b73d4ae6": {
+    "theme": "Proper-noun and technical-token mixture",
+    "summary": "Mostly a mixture of proper-noun and organization-name detection, legal and patent document vocabulary, and mathematical, LaTeX and code notation, alongside civics and government terms. A long tail of unrelated lexical features (\"ethnic\", \"pads\", \"soon\", \"Cup\", \"durable\") keeps it from having one clean thread."
+  },
+  "gemma-michael-jordan#c97510f4": {
+    "theme": "Sports semantics carried by prepositions",
+    "summary": "Recurring subject matter is sports and games \u2014 basketball and the NBA, soccer/football championships, volleyball, sports scores and statistics, sports professions \u2014 riding on a very large set of preposition-\"of\" and connective-word features. Place names, creative-work titles and medical professions are the visible side threads."
+  },
+  "gemma-michael-jordan#c5a9b74d": {
+    "theme": "Sports and recreation with prepositional glue",
+    "summary": "Sports content recurs throughout: basketball and the NBA, soccer/football playing style, school and college sports, sports scores, French athletes, sports and military professions. It is embedded in a dense population of \"of\"-preposition and function-word features, with town/city names and medical terminology as minor threads."
+  },
+  "gemma-michael-jordan#9610a412": {
+    "theme": "Connective \"of\" plus sports topics",
+    "summary": "The semantic content is largely sports and games \u2014 soccer teams and playing style, sports scores and statistics, recreational activities, \"Hall of Fame\", French athletes \u2014 mixed with a heavy layer of preposition-\"of\" and article features. Place names, religious traditions and medical professions appear as smaller strands."
+  },
+  "gemma-michael-jordan#ddb3339e": {
+    "theme": "Entity names and formal-document markers",
+    "summary": "Heterogeneous, with the main threads being proper-noun and personal-name detection, legal and patent document vocabulary, and mathematical/LaTeX plus code and HTML notation. Also present are section-header and citation markers and a scattering of unrelated word-level features such as \"coast\", \"Cup\" and \"ethnic\"."
+  },
+  "gemma-michael-jordan#f3a82839": {
+    "theme": "Sports and games in \"of\" contexts",
+    "summary": "Sports and recreation semantics recur strongly \u2014 soccer/football championships, games and sports, school and college sports, sports scores, French athletes, \"Hall of Fame\" \u2014 delivered by a large body of preposition-\"of\" and connective-word features. Place names, creative-work titles and political text are the secondary threads."
+  },
+  "gemma-michael-jordan#11887d7b": {
+    "theme": "Basketball, football and team sports",
+    "summary": "One of the cleanest groups: essentially every member is a sports-semantics feature, with explicit basketball, soccer, American football, baseball, cycling and Formula 1 features plus sports teams, leagues, standings, statistics and athletic facilities. Several members detect the words \"sport\"/\"sports\" directly."
+  },
+  "gemma-michael-jordan#60797f2a": {
+    "theme": "Sports topics with function-word noise",
+    "summary": "The main thread is sports content \u2014 basketball and the NBA, soccer, golf, car and animal racing, sports scores and statistics, sports professions \u2014 but it is mixed with generic function-word and prepositional-phrase features and a tail of unrelated topics (medical professions, code snippets, cooking terms). More of a late-layer topical mixture than a single concept."
+  },
+  "gemma-michael-jordan#0691ee50": {
+    "theme": "Basketball and soccer amid connectives",
+    "summary": "Sports dominates the recognizable content: basketball teams and the NBA, soccer playing style, golf, sports scores and athletic positions, player performance descriptions. These sit alongside generic prepositional and common-word features plus a residue of off-topic detectors for medicine, code and food."
+  },
+  "gemma-michael-jordan#c741ddb2": {
+    "theme": "Sports and playing semantics",
+    "summary": "Almost uniformly sports: basketball equipment and instruction, football, soccer teams and leagues, baseball standings, Formula 1, sports teams and player statistics, plus repeated detectors for the words \"sport\"/\"sports\" and the verb \"play\". A few members broaden \"play\" to theater, musical instruments and video games."
+  },
+  "gemma-michael-jordan#388e8878": {
+    "theme": "Time and evaluation words plus sports",
+    "summary": "Two distinct sub-threads. The larger is abstract discourse vocabulary \u2014 time reference (\"last\", \"present\", \"following\", past/future), comparatives, superlatives and evaluative or importance-marking words, plus legal and patent abstractions. The second is a solid block of sports features covering basketball, football, baseball, athletic facilities and Formula 1."
+  },
+  "gemma-michael-jordan#6bd303a7": {
+    "theme": "American football and basketball statistics",
+    "summary": "Strongly sports-focused, with heavy emphasis on American football (game statistics like yards, catches and sacks, teams and players) alongside basketball, soccer player movement, baseball standings and Formula 1. A recurring quirk is features that mix sports terminology with programming tokens, including Swift code."
+  },
+  "gemma-michael-jordan#f20ececb": {
+    "theme": "Team sports and athletics vocabulary",
+    "summary": "Uniformly sports semantics: basketball equipment and instruction, football, soccer teams and leagues, baseball standings, athletic facilities, sports teams, personnel, injuries and statistics, plus Formula 1 and competitive sports in journalism. Several members simply detect the words \"sport\" and \"sports\"."
+  },
+  "gemma-michael-jordan#3c8909ce": {
+    "theme": "Sports leagues, teams and competition",
+    "summary": "Another tightly sports-themed group covering basketball, football, soccer leagues and players, baseball standings, athletic facilities and leisure activities, sports statistics and injuries, and Formula 1 racing, with direct \"sport\"/\"sports\" word detectors and a late feature on sports and ethnicity."
+  },
+  "gemma-michael-jordan#1366e8c1": {
+    "theme": "Playing games, sports and instruments",
+    "summary": "Organized around the many senses of \"play\": playing games and video games, playing team sports at school and college, soccer, golf, theatrical plays, and playing musical instruments. Group activities, recreational pastimes and broadcasting/media playback round out the same semantic family."
+  },
+  "gemma-michael-jordan#8a9841ac": {
+    "theme": "Sports subject matter with mixed residue",
+    "summary": "The main recognizable thread is sports \u2014 basketball and the NBA, soccer at college and professional level, football, golf, sports scores and statistics, sports professions. It is mixed with generic prepositional and common-word features and an off-topic tail covering medical professions, code snippets and cooking vocabulary."
+  },
+  "gemma-michael-jordan#21162991": {
+    "theme": "Multi-sport athletics and group activities",
+    "summary": "Consistently sports-semantic, spanning basketball, soccer teams and players, American football and the NFL, cycling, track and field, rugby, ice hockey and tennis, plus athletic facilities, sports injuries and Formula 1. A secondary thread covers group activities, challenges and school sports, with a stray musical-performance feature."
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "graphs": [
+    {
+      "slug": "gemma-dag-demo",
+      "prompt": "The National Digital Analytics Group (",
+      "scan": "gemma-2-2b",
+      "node_threshold": 1.0,
+      "title_prefix": "Canonical \u00b7 DAG acronym"
+    },
+    {
+      "slug": "gemma-addition",
+      "prompt": "<bos>3 + 5 = ",
+      "scan": "gemma-2-2b",
+      "node_threshold": 1.0,
+      "title_prefix": "Canonical \u00b7 3 + 5"
+    },
+    {
+      "slug": "gemma-fact-dallas-austin",
+      "prompt": "<bos>Fact: The capital of the state containing Dallas is",
+      "scan": "gemma-2-2b",
+      "node_threshold": 1.0,
+      "title_prefix": "Canonical \u00b7 capital of Texas"
+    },
+    {
+      "slug": "gemma-michael-jordan",
+      "prompt": "<bos>Michael Jordan plays the sport of",
+      "scan": "gemma-2-2b",
+      "node_threshold": 1.0,
+      "title_prefix": "Canonical \u00b7 Michael Jordan"
+    },
+    {
+      "slug": "gemma-small-big-fr",
+      "prompt": "<bos>Le contraire de \"petit\" est \"",
+      "scan": "gemma-2-2b",
+      "node_threshold": 1.0,
+      "title_prefix": "Canonical \u00b7 French opposite"
+    }
+  ]
+}

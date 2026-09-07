@@ -1,0 +1,1746 @@
+{
+ "gemma-addition#0153122f": {
+  "summary": "A uniform numeric-format cluster: numerical formulas and ranges, hyphen-joined spans, digit sequences that look like dates, times or file names, and numbers in parentheses such as percentages and statistics.",
+  "theme": "Digit sequences, ranges, and percentages"
+ },
+ "gemma-addition#05525a56": {
+  "summary": "Features for numbers in many guises \u2014 decimals, negatives, ranges, percentages, totals, months, years \u2014 together with mathematical equations and expressions, chemical formulas, and several detectors for the number six specifically.",
+  "theme": "Numeric magnitudes and quantitative data"
+ },
+ "gemma-addition#0a08af0b": {
+  "summary": "Source code and configuration snippets across languages, LaTeX and other markup, code indentation and formatting, alongside bare numerical data, single digits, dates and times, and quantitative measurements.",
+  "theme": "Code markup and numerical digits"
+ },
+ "gemma-addition#0a1700c3": {
+  "summary": "The interpretations are about quantities and units of measure, dates and clock times, and mathematical expressions, equations and symbols, with a couple of superlative/size-degree features. All members sit on the operator tokens at the very start of the network.",
+  "theme": "Quantities, measurements, and math symbols"
+ },
+ "gemma-addition#0c260f74": {
+  "summary": "Math equations, LaTeX and code snippets form the core content, with a second thread of formatted numeric strings \u2014 percentages, dates, currency, hexadecimal and cryptographic constants. Assorted lexical detectors ('dream', 'classic', 'quite') dilute the theme.",
+  "theme": "Equations, code, and formatted numbers"
+ },
+ "gemma-addition#0cfd15f5": {
+  "summary": "Only two distinct interpretations: snippets of mathematical notation and math symbols indicating some form of convergence, each appearing on both the equals sign and the answer position.",
+  "theme": "Math notation and convergence symbols"
+ },
+ "gemma-addition#10783e6e": {
+  "summary": "The dominant interpretation is parenthetical numerical references and citations to literature, laws and statistics, joined by plain punctuation-mark features, periods/spaces, numbers preceded by line breaks, and one mathematical/programming code feature.",
+  "theme": "Punctuation and parenthetical numeric citations"
+ },
+ "gemma-addition#1b74fd3a": {
+  "summary": "Features for the spelled-out numbers three and fifth, the plus symbol in math formulas, equals signs, and scientific/mathematical notation in academic papers, alongside a broad set of technical-document and programming-vocabulary detectors.",
+  "theme": "Number words and math symbols"
+ },
+ "gemma-addition#1c347e86": {
+  "summary": "Mathematical notation, equations and LaTeX dominate, with plus-sign and equals-sign detectors concentrated in the earliest layers. A strong secondary thread covers numeric data \u2014 numbers in lists, decimals, percentages and numbers in scientific citations.",
+  "theme": "Arithmetic notation and numeric data"
+ },
+ "gemma-addition#1c87ff9b": {
+  "summary": "Mixes math and LaTeX notation with code-snippet, license-agreement and code-comment features. A persistent third thread concerns currency amounts, measurements and numbers inside legal citations and case law.",
+  "theme": "Code, LaTeX and currency numerics"
+ },
+ "gemma-addition#1d8f14a7": {
+  "summary": "Plain number features (including percentages, ranges and decimals) and numerical identifiers, mixed with a repeated legal-code-and-statutes feature and one about random numbers, variables and code language.",
+  "theme": "Numbers, code, and statute references"
+ },
+ "gemma-addition#1f9ab638": {
+  "summary": "Code and configuration snippets from Java, Python, XML and C++, LaTeX and markup notation, code formatting and indentation, mixed with numerical data, single digits, dates and times, and quantitative measurements.",
+  "theme": "Source code, markup and numbers"
+ },
+ "gemma-addition#1fefbcff": {
+  "summary": "Every member is mathematical notation: formulas and calculations with sequences of numbers and equals signs, notation snippets, and symbols indicating convergence.",
+  "theme": "Mathematical formulas and equals signs"
+ },
+ "gemma-addition#2086f38f": {
+  "summary": "The same code-and-math blend: source code, markup and code-formatting features alongside mathematical equations with dollar signs and exponents, arithmetic problems, and numeric-digit and measurement detectors.",
+  "theme": "Code snippets and arithmetic expressions"
+ },
+ "gemma-addition#21d81925": {
+  "summary": "Math notation, equations and LaTeX recur throughout, joined by hexadecimal strings and ID-number features. A legal-citation and currency thread runs through the later members.",
+  "theme": "Arithmetic symbols and identifier numbers"
+ },
+ "gemma-addition#23b1fa93": {
+  "summary": "Programming-code and markup features, scientific/mathematical notation in academic papers, equals signs surrounded by brackets and colons, currency-plus-math notation, and number words such as 'three' and 'fifth'.",
+  "theme": "Code, math notation and number words"
+ },
+ "gemma-addition#2dc020fe": {
+  "summary": "Combines equals/plus-sign and math-equation features with number-word and quantity detectors ('three', ordinal numbers, single digits and small numbers), together with LaTeX and code-assignment-operator features. A handful of strays about family/childcare and business mergers sit outside that core.",
+  "theme": "Arithmetic notation and number words"
+ },
+ "gemma-addition#2dd09ad8": {
+  "summary": "Mostly repeats of a parenthetical numerical citation feature (references to literature, laws and statistics) plus generic punctuation-mark features and one mathematical/programming code feature.",
+  "theme": "Parenthetical citations and punctuation"
+ },
+ "gemma-addition#2f7c0b82": {
+  "summary": "Members detect numbers, dates, percentages, decimals and mathematical/chemical notation, mixed with a repeated feature for references to legal code and statutes. This is a late-layer cluster sitting on the equals sign and the answer position.",
+  "theme": "Numeric symbols and statute references"
+ },
+ "gemma-addition#325fbb16": {
+  "summary": "Overwhelmingly code-oriented: code snippets in various languages, license agreements, documentation and comment blocks, import statements, programming/markup keywords, and code-formatting cues such as whitespace, underscores and curly brackets.",
+  "theme": "Source code and documentation blocks"
+ },
+ "gemma-addition#336e3734": {
+  "summary": "Numbers with decimals, totals, percentages, fractions, months and years, together with mathematical equations and expressions, chemical formulas, and repeated number-six detectors; a few members instead pick up code-like text and word prefixes.",
+  "theme": "Numeric quantities and equations"
+ },
+ "gemma-addition#33e66cc3": {
+  "summary": "Plus-symbol and mathematical-notation detectors combine with code-snippet, license-agreement and documentation/import features. Numeric features for figure references, statistics and hexadecimal codes appear among the later members.",
+  "theme": "Plus-sign math and code documentation"
+ },
+ "gemma-addition#3692eb9e": {
+  "summary": "The core is plus-symbol and math-notation features (limits, fractions, logarithms, LaTeX equations) plus hexadecimal and programming-code features. A large minority are idiosyncratic single-word detectors ('perception', 'dream', 'classic', the French word 'La'), so the group is only loosely unified.",
+  "theme": "Heterogeneous plus-sign and math set"
+ },
+ "gemma-addition#39af19b8": {
+  "summary": "Numbers in formal and quantitative settings: statistics and percentages in parentheses, numeric ranges and sequences, dates and court cases, legal citations, and hexadecimal identifiers. One digit-3 detector is the lone outlier.",
+  "theme": "Quantitative references and statistics"
+ },
+ "gemma-addition#3aafdddf": {
+  "summary": "Numeric-formatting features \u2014 number sequences, percentages, currency, decimals, dates and numerical ranges \u2014 together with legal citation/statute features, mathematical formulas and hexadecimal ID strings.",
+  "theme": "Formatted numbers and legal references"
+ },
+ "gemma-addition#3b6bcdbf": {
+  "summary": "Combines scientific and mathematical notation, plus-sign formulas, equals-sign expressions and number words (three, fifth) with a heterogeneous tail of legal-technical, administrative, programming and code-comment lexical features.",
+  "theme": "Numeric notation with technical vocabulary"
+ },
+ "gemma-addition#3fcd19b2": {
+  "summary": "Mathematical formulas, equations and operators paired with code features such as brackets with equals signs, array-size prompts and HTML tags. Statistics in research papers and quantitative-value features round it out.",
+  "theme": "Math expressions and code snippets"
+ },
+ "gemma-addition#429a5d5c": {
+  "summary": "Web-development documentation, code snippets and license-agreement text form one thread; the other is numbers as identifiers \u2014 percentages, ranges, decimals, numerical identifiers, and references to legal code and statutes.",
+  "theme": "License boilerplate and numeric codes"
+ },
+ "gemma-addition#42c8bf91": {
+  "summary": "Nearly the same quantitative-reference set: statistics and percentages, numerical ranges and formulas, dates and court cases, hexadecimal identifiers, and references to legal codes and statutes.",
+  "theme": "Numeric statistics and statute references"
+ },
+ "gemma-addition#4348440c": {
+  "summary": "Mathematical notation snippets, small numbers and math-related terms, and convergence symbols sit alongside a repeated block of code-snippet, license-agreement and web-documentation features, with LaTeX and Python code bridging the two.",
+  "theme": "Math notation and code boilerplate"
+ },
+ "gemma-addition#43dd484b": {
+  "summary": "Hexadecimal code, color codes and hex ID strings anchor the group, joined by digit detectors for 3 and 5, ordinal numbers, the addition operator, and numeric references in legal citations, currency and measurements.",
+  "theme": "Hexadecimal IDs and numeric references"
+ },
+ "gemma-addition#49f42762": {
+  "summary": "Mathematical formulas, statistics and numeric expressions mixed with legal and technical reference strings \u2014 citations, statutes, court cases \u2014 plus currency, measurements, hexadecimal ID strings and figure/table references.",
+  "theme": "Numbers in technical and legal writing"
+ },
+ "gemma-addition#4a23205b": {
+  "summary": "Mostly programming features: code snippets (notably JavaScript), documentation and copyright blocks, import statements, curly brackets, comment lines starting with '#', and programming/markup keywords, with a handful of mathematical-expression and scientific-terminology features mixed in.",
+  "theme": "Code snippets and documentation blocks"
+ },
+ "gemma-addition#51c4f87c": {
+  "summary": "Almost entirely token-level detectors for the prompt's own characters: the digits 3 and 5, the word 'three', the plus symbol and the equals sign, plus hexadecimal strings, years and numerical values after line breaks. A few legal-reference and medical word detectors are the exceptions.",
+  "theme": "Digit and equals-sign token features"
+ },
+ "gemma-addition#5467901e": {
+  "summary": "Three features covering number sequences and mathematical equations with statistical data as found in research papers.",
+  "theme": "Number sequences and research statistics"
+ },
+ "gemma-addition#55c9da12": {
+  "summary": "A tight set of units-of-measure and quantity features together with mathematical expression/equation features, plus time-of-day formats and size-related superlatives. Content essentially duplicates the other layer-0 operator cluster.",
+  "theme": "Measurement units and math notation"
+ },
+ "gemma-addition#5b173a9d": {
+  "summary": "Numerical and mathematical features embedded in formal writing: statistics and equations in research papers, legal citations with numeric references, currency and measurements, hexadecimal ID strings, and numeric references to figures and tables.",
+  "theme": "Numbers in legal and scientific text"
+ },
+ "gemma-addition#5f2d051e": {
+  "summary": "Nearly all members are token-level detectors for the prompt's own characters \u2014 the digits 3 and 5, the plus symbol, the equals sign \u2014 plus LaTeX/code-notation and license-agreement features. A tail of unrelated word detectors ('dream', 'flower', 'classic', 'perception') rides along.",
+  "theme": "Digit and operator token detectors"
+ },
+ "gemma-addition#5f4d8d3c": {
+  "summary": "A tight programming cluster: code snippets and JavaScript, documentation blocks, copyright and import statements, comment lines, curly brackets, programming and markup keywords, with occasional scientific/technical term and whitespace features.",
+  "theme": "Code snippets and documentation"
+ },
+ "gemma-addition#611737d6": {
+  "summary": "All members read numerical structure: formulas and numerical ranges with hyphens, digit sequences resembling dates/times and file names, parenthesized percentages and statistics, and polynomial equation sequences.",
+  "theme": "Numerical formulas, ranges, and dates"
+ },
+ "gemma-addition#61729ffb": {
+  "summary": "Numerical data as it appears in papers and legal documents: statistics, mathematical formulas and equations in research papers, citations and court cases, currency and measurements, hexadecimal ID strings, and figure/table number references.",
+  "theme": "Research and legal numeric references"
+ },
+ "gemma-addition#61a782db": {
+  "summary": "Math notation, LaTeX and computer-algebra features run throughout, while the later members are heavy on date formats, numeric sequences and percentages, and on references to legal codes and statutes.",
+  "theme": "Math notation and date/number formats"
+ },
+ "gemma-addition#6472c8c5": {
+  "summary": "Dominated by hexadecimal features (hex code, hex color codes, hex struct members) sitting alongside concrete digit detectors for 3 and 5, ordinal and quantity number words, ID numbers, years, and the plus/addition operator.",
+  "theme": "Hexadecimal strings and digit identity"
+ },
+ "gemma-addition#691f9793": {
+  "summary": "The dominant threads are detectors for the plus and equals symbols and for mathematical/LaTeX notation and equations, plus programming-code and code-comment features. A long tail of unrelated single-word detectors ('flower', 'classic', 'margin', 'blood') and legal-citation features makes the group genuinely heterogeneous.",
+  "theme": "Mixed math notation and code grab-bag"
+ },
+ "gemma-addition#6c0a5eac": {
+  "summary": "Token-level features for the operands 3 and 5, the plus symbol, equals signs embedded in bracketed expressions, and currency/scientific notation, interleaved with unrelated lexical detectors for legal-technical terminology, administrative and programming vocabulary.",
+  "theme": "Numeral and operator surface features"
+ },
+ "gemma-addition#6dba4090": {
+  "summary": "Early members are plus-symbol, digit and assorted single-word detectors, while the later members are consistently about numbers in formal references: legal case citations, statistics in research papers, dates, and figure/table numbers.",
+  "theme": "Math notation with citation numerics"
+ },
+ "gemma-addition#723a9009": {
+  "summary": "Almost entirely numeric-output features: numbers and statistics in research papers, currency, measurements and percentages, legal case citations, hexadecimal ID strings, and mathematical expressions. Lines-of-code and terminal-command features form a smaller second thread among the topmost members.",
+  "theme": "Quantitative output and citation numerics"
+ },
+ "gemma-addition#77348a25": {
+  "summary": "Numeric-semantics features covering decimals, totals, percentages, fractions, ranges, months and years, alongside mathematical equations, dollar amounts, chemical formulas, and repeated detectors for the number six.",
+  "theme": "Quantities, dates and numeric ranges"
+ },
+ "gemma-addition#7c241ec8": {
+  "summary": "Members mostly recognize numbers in context \u2014 decimals, totals, percentages, ranges, dates, dollar amounts \u2014 plus mathematical equations and expressions, chemical formulas, and several features tuned to the number six.",
+  "theme": "Numerical data and math notation"
+ },
+ "gemma-addition#7c498272": {
+  "summary": "Mathematical formulas and statistical data in research papers, numeric sequences and dates, currency and measurements, hexadecimal codes, and references to legal case law and statutes.",
+  "theme": "Statistical numbers and legal citations"
+ },
+ "gemma-addition#7d04c447": {
+  "summary": "Consistently features for numbers in formal contexts: statistics and percentages in research papers, numeric sequences and dates, currency and measurements, legal case citations and statutes, and hexadecimal ID strings.",
+  "theme": "Numeric data and legal citations"
+ },
+ "gemma-addition#80dede1a": {
+  "summary": "Interpretations combine number detection (percentages, ranges, decimals, chemical formulas, numerical identifiers) with several features about references to legal code and statutes, plus one about code-like variables.",
+  "theme": "Numbers and statute-code references"
+ },
+ "gemma-addition#81a503d3": {
+  "summary": "Numbers in identifier-like roles: date formats, percentages, ranges and decimals, hexadecimal and numerical codes, dollar signs near single digits, and repeated references to legal code and statutes, with one polynomial-sequence math feature.",
+  "theme": "Numeric identifiers, dates and statutes"
+ },
+ "gemma-addition#856cc310": {
+  "summary": "The same code/documentation cluster: code snippets, license agreements, documentation blocks and comments, reference codes and identifiers from technical fields, and formatting features like whitespace and curly brackets.",
+  "theme": "Code snippets and license documentation"
+ },
+ "gemma-addition#886b12e6": {
+  "summary": "Math equations, proof derivations ('get', 'yields', 'obtain') and LaTeX features mix with programming code. Later members focus on numbers in academic and legal references \u2014 journal citations, negative numbers, dollar amounts and percentages.",
+  "theme": "Math notation with reference numerics"
+ },
+ "gemma-addition#8a9af537": {
+  "summary": "Repeated features for code snippets, license-agreement text and web-development documentation, joined by a few small-numeral detectors (one- and two-digit sequences, the number 2) and LaTeX/Python code.",
+  "theme": "License agreements and code documentation"
+ },
+ "gemma-addition#8cf88c37": {
+  "summary": "Features about numerical expressions, statistics and percentages sit alongside source-code, LaTeX and HTML/markup features. The topmost members include explicit arithmetic-problem and calculation detectors, which is what the prompt's answer position needs.",
+  "theme": "Numeric results, code and markup"
+ },
+ "gemma-addition#938a7727": {
+  "summary": "Hexadecimal values, color codes and ID numbers combine with the plus symbol and addition operators, LaTeX math-mode expressions, chemical and mathematical formulas, digit detectors for 3 and 5, and numerical data with standard deviations.",
+  "theme": "Hexadecimal codes and math operators"
+ },
+ "gemma-addition#980858e1": {
+  "summary": "Mathematical notation and numerical comparison/question features sit alongside features for structured form completion, requests for array sizes in code, quiz wording, and phrases used to give agreement. The unifying content is 'a math question awaiting an answer'.",
+  "theme": "Math notation and answer-prompting cues"
+ },
+ "gemma-addition#9a901a58": {
+  "summary": "Code-centric features \u2014 lines of code, indentation and whitespace formatting, configuration snippets in Java/Python/XML/C++, version numbers, LaTeX markup \u2014 combined with plain numerical data, digits, dates and quantitative measurements, with one clear outlier about a Hindu deity.",
+  "theme": "Source code and numerical formatting"
+ },
+ "gemma-addition#9f24c80b": {
+  "summary": "A math-centric spread: equations, LaTeX markup and computer-algebra expressions recur at every depth, capped by arithmetic-problem and calculation detectors. Numeric-citation, statistics and code-snippet features make up the rest.",
+  "theme": "Equations, arithmetic and math notation"
+ },
+ "gemma-addition#a24b8018": {
+  "summary": "Quantity-oriented features: numbers with decimals, totals, percentages, ranges, dollar amounts, dates and years in the 1900s-2000s, and mathematical equations. Several members are magnitude detectors for the number six, and a few cover chemical formulas and code-like text.",
+  "theme": "Numbers, dates and math expressions"
+ },
+ "gemma-addition#a7befa3a": {
+  "summary": "Members are about computer programming code and its structures, the bracket/quote/colon characters used in code and web pages, and code-or-mathematical formulas. It reads the arithmetic prompt as source code.",
+  "theme": "Code syntax and formula characters"
+ },
+ "gemma-addition#abba276c": {
+  "summary": "Mathematical formulas, numerical expressions, negative numbers and number sequences, largely framed as statistics in research papers and as numbers in legal or scientific citations, with parenthesized years, dates and hexadecimal color codes.",
+  "theme": "Statistical and mathematical number strings"
+ },
+ "gemma-addition#b1a29843": {
+  "summary": "A tight set of character and token detectors for the prompt itself: digits 3 and 5, the word 'three', the plus symbol, the equals sign, hexadecimal strings, years and numerical values after line breaks, with a few odd extras ('frequency', 'train', legal proceedings).",
+  "theme": "Digit, plus and equals detectors"
+ },
+ "gemma-addition#ba670fd2": {
+  "summary": "Almost every member is about source code, LaTeX and markup notation, or bare numerical data: lines of code, indentation and formatting, version numbers, hexadecimal, dates and times, statistical measurements, and a few explicitly about arithmetic problems and mathematical formulas.",
+  "theme": "Code, markup and numeric data"
+ },
+ "gemma-addition#bf51d736": {
+  "summary": "Nearly all members are about mathematical equations \u2014 complicated parenthesized equations, equations being solved for a variable, math problems and keywords, LaTeX math-mode expressions and symbols, chemical and mathematical formulas \u2014 with a couple of legal-citation and standard-deviation outliers.",
+  "theme": "Equation solving and LaTeX math"
+ },
+ "gemma-addition#c350d5dd": {
+  "summary": "Features for numbers in lists and tables, percentages, fractions, totals, dollar amounts, months and years, together with mathematical equations, angle-bracketed code text, and acronym/ID symbols from scientific data.",
+  "theme": "Numeric data and mathematical notation"
+ },
+ "gemma-addition#c3a528df": {
+  "summary": "Plus/equals operator and math-equation features dominate the earlier members, giving way to features about numbers in parentheses, percentages and statistics, hexadecimal codes and cryptographic/memory constants later on.",
+  "theme": "Math operators and statistical numbers"
+ },
+ "gemma-addition#c3c6aa4f": {
+  "summary": "Arithmetic and LaTeX notation features sit alongside code features such as assignment operators, computer-algebra expressions and SQL column definitions. Numeric-citation and statistics features (percentages, years, legal and scientific references) fill out the upper layers.",
+  "theme": "Math notation, code and databases"
+ },
+ "gemma-addition#c3ffb5c9": {
+  "summary": "Quantitative features for decimals, totals, percentages, ranges, dates and dollar amounts, plus mathematical equations and expressions and chemical formulas, with several members responding specifically to the number six.",
+  "theme": "Numbers, totals and math notation"
+ },
+ "gemma-addition#c533e5ee": {
+  "summary": "Math equations and the equals/plus symbols dominate, together with scientific and academic notation, hexadecimal strings, and acronym/ID-like tokens. A scattering of unrelated word detectors ('perception', 'accommodation', 'conclusion') remains unexplained by that thread.",
+  "theme": "Equation symbols and technical notation"
+ },
+ "gemma-addition#c921f280": {
+  "summary": "Numbers as they appear in scholarly and legal writing: statistics and parenthesized percentages, mathematical formulas and equations in research papers, number sequences, parenthesized years, legal and scientific citations, dates and court cases.",
+  "theme": "Statistical and citation number strings"
+ },
+ "gemma-addition#cb64784d": {
+  "summary": "The same quantitative-reference family: numbers in parentheses and statistics, numerical ranges and negative numbers, mathematical formulas, legal citations and statute references, and hexadecimal identifiers.",
+  "theme": "Statistics, citations and number strings"
+ },
+ "gemma-addition#cc469bc1": {
+  "summary": "Code snippets and documentation blocks across languages, copyright and import statements, comment lines, curly brackets and programming keywords, with a few scientific/technical terminology and whitespace-formatting features.",
+  "theme": "Code documentation and syntax markers"
+ },
+ "gemma-addition#cc8102ab": {
+  "summary": "Low-level orthographic features \u2014 punctuation marks, periods and spaces, numerical values after line breaks \u2014 plus several detectors for parenthetical numerical references and citations to literature, laws and statistics, with hexadecimal strings and one stray medical-vocabulary feature.",
+  "theme": "Punctuation and parenthetical citations"
+ },
+ "gemma-addition#cd9da8af": {
+  "summary": "Math-question semantics: math problems and keywords, equations with dollar signs, exponents and lim/frac/sin/ln, numerical comparisons, and quiz wording, alongside code-snippet and form-completion features that also expect a value after an equals sign.",
+  "theme": "Math problems and answer prompts"
+ },
+ "gemma-addition#ce4d8c44": {
+  "summary": "Both members are the same interpretation: mathematical formulas and calculations, especially sequences of numbers joined by equals signs.",
+  "theme": "Equals-sign calculation features"
+ },
+ "gemma-addition#d05bdf49": {
+  "summary": "Number features covering percentages, decimals, ranges and numerical identifiers, together with repeated features for references to legal code and statutes and one for code-like variables.",
+  "theme": "Numeric identifiers and legal statutes"
+ },
+ "gemma-addition#d301046d": {
+  "summary": "Heavily weighted toward math: equations with dollar signs, exponents, lim/frac/sin/ln, LaTeX equation syntax, arithmetic problems, derivatives and variable names, plus scientific measurements. A secondary thread covers code snippets, terminal commands and HTML markup.",
+  "theme": "Mathematical equations and expressions"
+ },
+ "gemma-addition#d56f0a95": {
+  "summary": "Code-oriented features \u2014 lines of code, code formatting and spacing, terminal commands, HTML, and Java/Python/XML/C++ config snippets \u2014 interleaved with LaTeX math notation, arithmetic problems and numerical-digit detectors.",
+  "theme": "Programming code with math notation"
+ },
+ "gemma-addition#d7f2aa22": {
+  "summary": "Two threads only: mathematical notation, symbols and equations, and a repeated feature for Vietnamese names, locations and legal references with unconventional numeric formatting.",
+  "theme": "Math notation with Vietnamese-text cues"
+ },
+ "gemma-addition#d8d7cade": {
+  "summary": "Every interpretation concerns numerical form: numerical formulas and ranges, hyphenated number spans, digit sequences that look like dates or times, polynomial equations, and numbers in parentheses such as percentages and statistics.",
+  "theme": "Numeric ranges, formulas, and statistics"
+ },
+ "gemma-addition#da2eee51": {
+  "summary": "A compact cluster of hexadecimal features (hex code, color codes, hex values with struct members, ID numbers) combined with detectors for the numbers 3 and 5, ordinal number words, exponents, and math addition operators.",
+  "theme": "Hexadecimal values and small numerals"
+ },
+ "gemma-addition#dad3f702": {
+  "summary": "Programming-code and markup features (lines of code, terminal commands, HTML, multi-language snippets) with LaTeX and mathematical-expression features, arithmetic problems, and numeric-digit and measurement detectors.",
+  "theme": "Code, LaTeX and numeric output"
+ },
+ "gemma-addition#dbfc590c": {
+  "summary": "A small, very consistent cluster of mathematical expression features: formulas and calculations with equals signs, mathematical terms and operations, and math-or-code snippets.",
+  "theme": "Arithmetic expressions and equations"
+ },
+ "gemma-addition#dd3b4ab3": {
+  "summary": "Numbers, mathematical values and operators, and statistics in research papers dominate, alongside features for source code, LaTeX equation syntax, and hexadecimal/memory-address constants. A few members explicitly detect arithmetic problems and calculations.",
+  "theme": "Numerical expressions and program code"
+ },
+ "gemma-addition#e14406c6": {
+  "summary": "Split between programming code (lines of code, code formatting, terminal commands, HTML, multi-language config snippets) and mathematical output (LaTeX equations, arithmetic problems, dollar-sign and exponent expressions), with numerical-digit features throughout.",
+  "theme": "Code, markup and math output"
+ },
+ "gemma-addition#e4c25e9e": {
+  "summary": "Hexadecimal code, color codes and hex struct members dominate, paired with digit-identity features for 3 and 5, the word \"three\", ordinal numbers, ID numbers, years, and the plus/addition operator.",
+  "theme": "Hexadecimal and numeral detectors"
+ },
+ "gemma-addition#eaea0bf8": {
+  "summary": "Two main threads: quantities and units of measure (sizes, times in hh:mm format, dates, numbers in parentheses) and boilerplate technical text (code snippets, license agreements, web-development documentation, LaTeX/Python), plus a few plus-symbol and math-expression features.",
+  "theme": "Measurement units and license boilerplate"
+ },
+ "gemma-addition#eb45c466": {
+  "summary": "A two-feature pair, both interpreted as currency amounts together with some mathematical notation.",
+  "theme": "Currency amounts and math notation"
+ },
+ "gemma-addition#ec3573b5": {
+  "summary": "A mix of arithmetic surface features \u2014 the digit 3, \"fifth\"/\"five\", plus signs in math formulas, equals signs in bracketed expressions, LaTeX \u2014 and a large tail of generic document features about legal terms, section headers, figures and code comments.",
+  "theme": "Arithmetic symbols and document jargon"
+ },
+ "gemma-addition#ee6f5db3": {
+  "summary": "Built around plus and equals symbol detectors plus features for equations and proof derivations. Secondary threads are code and markup characters, legal citations and proceedings, and statistical/percentage numbers.",
+  "theme": "Operator symbols and math proofs"
+ },
+ "gemma-addition#f30f5c10": {
+  "summary": "Code documentation blocks, code snippets (especially JavaScript), import statements, copyright headers, curly brackets and programming/markup keywords, with a smaller thread of mathematical expressions, equations and operations.",
+  "theme": "Programming code and doc comments"
+ },
+ "gemma-addition#f3b0814b": {
+  "summary": "Detectors for the digits 3 and 5 and the number-words \"three\"/\"fifth\", plus-sign and equals-sign math notation, and scientific/LaTeX notation. Mixed in is a persistent grab-bag of legal-and-technical document jargon, administrative/programming vocabulary and code comments, so the group reads as raw token identity rather than arithmetic.",
+  "theme": "Digit tokens and math notation"
+ },
+ "gemma-addition#f44828b0": {
+  "summary": "Math problems, equations and LaTeX formulas run through the whole group, joined by features for statistics, percentages, totals and years in the mid and upper layers. A thinner legal-citation and academic-reference thread also recurs.",
+  "theme": "Math equations and numeric statistics"
+ },
+ "gemma-addition#f45045de": {
+  "summary": "Recurring content is arithmetic operator symbols (plus, equals), LaTeX math-mode expressions and equations, and code snippets including diff headers and array-size prompts. Smaller threads cover legal citations and formatted numeric strings like dates and decimals.",
+  "theme": "Math symbols, LaTeX and code"
+ },
+ "gemma-addition#f6a8a234": {
+  "summary": "Features for programming-code structures and markup characters (angle brackets, quotes, colons, equals signs among brackets and slashes) combined with scientific/mathematical notation in academic papers and legal/technical document terminology.",
+  "theme": "Programming code and academic notation"
+ },
+ "gemma-addition#fd0df730": {
+  "summary": "Operand-level features for the digit 3 and the words \"three\"/\"fifth\", math formulas containing plus signs, and equals-sign notation, blended with recurring code-comment, LaTeX and legal/technical document features.",
+  "theme": "Digits, plus signs and code lexicon"
+ },
+ "gemma-addition#fec84484": {
+  "summary": "Mostly plus-sign and equals-sign detectors alongside mathematical-equation, LaTeX and code-notation features. Secondary threads cover legal citations and legal proceedings, and formatted numbers such as decimals, dates and percentages.",
+  "theme": "Plus/equals operators with math formulas"
+ },
+ "gemma-fact-dallas-austin#041a18a7": {
+  "summary": "The bulk of the members are idiosyncratic early-layer word detectors with no shared meaning (\"rubber\", \"onto\", \"therapy\", colons, brackets, proper-noun capitalization). The recognizable sub-threads are government/political vocabulary and, in mid-to-upper layers, city and region place names.",
+  "theme": "Mixed grab-bag with geographic drift"
+ },
+ "gemma-fact-dallas-austin#08afd72c": {
+  "summary": "Texas-centric geography: Dallas/Fort Worth television station callsigns, southwestern US cities, geographic locations in Texas, and Texas legal citations, embedded in a broader set of place-name, government and court-case features.",
+  "theme": "Dallas, Texas places and broadcasters"
+ },
+ "gemma-fact-dallas-austin#0a1ca2e6": {
+  "summary": "Heterogeneous set dominated by one-off word detectors on \"Fact\", \"The\", \"capital\" and \"containing\" (for example \"the word 'facts'\", \"the word 'river'\", \"the word 'lift'\"), with lighter threads of legal and political vocabulary and financial \"capital\".",
+  "theme": "Miscellaneous lexical feature grab-bag"
+ },
+ "gemma-fact-dallas-austin#0b33d8ae": {
+  "summary": "A grab-bag of narrow lexical features \u2014 \"colons\", \"the\", \"The\", \"contained\", \"capital\" \u2014 whose only recurring semantic threads are legal and legislative language, business/finance senses of \"capital\", and state and government vocabulary.",
+  "theme": "Assorted single-word token detectors"
+ },
+ "gemma-fact-dallas-austin#0b9bacb4": {
+  "summary": "Texas-centric location features (city names near Texas, Arkansas locations, addresses) combined with legal citations and court documents, and with Dallas/Fort Worth television station callsigns.",
+  "theme": "Dallas law and local broadcasting"
+ },
+ "gemma-fact-dallas-austin#117f3396": {
+  "summary": "Both members are the same feature type: Spanish-language words and phrases that point out what is still true or is a fact, matching the prompt's \"Fact:\" opener.",
+  "theme": "Spanish fact-stating phrases"
+ },
+ "gemma-fact-dallas-austin#14ae5b3e": {
+  "summary": "Two clear sub-threads: features tracking the verb \"is\"/\"to be\" and its neighbouring function words in definitional sentences, and code documentation, reference-code and legal/technical writing features.",
+  "theme": "Copula 'is' and code documentation"
+ },
+ "gemma-fact-dallas-austin#15122b22": {
+  "summary": "Early-layer features for city, state and country names, with Dallas detected repeatedly, combined with terms for districts, counties and provinces and for administration and positions of authority.",
+  "theme": "Place and administrative-division semantics"
+ },
+ "gemma-fact-dallas-austin#166390e3": {
+  "summary": "Mostly features tracking 'is' and 'to be', auxiliary verbs, and definitional or explanatory sentences, with a minority about locations, dates, laws and measurements.",
+  "theme": "Copula and function-word features"
+ },
+ "gemma-fact-dallas-austin#1fdc6f22": {
+  "summary": "Blends geographic features (place names, countries and states, political subdivisions, towns and villages with local government) with \"containing\" features for present-participle verbs, legal proceedings and cell-biology writing.",
+  "theme": "Places, jurisdictions and containment verbs"
+ },
+ "gemma-fact-dallas-austin#20b056aa": {
+  "summary": "Largely a heterogeneous early-layer set of function-word, colon and one-off word detectors; its two interpretable threads are test/quiz and multiple-choice question features and geographic place-name features for cities, regions and countries.",
+  "theme": "Quiz framing and city references"
+ },
+ "gemma-fact-dallas-austin#22514680": {
+  "summary": "Mostly colon features marking questions and answers, numbered or lettered steps, bulleted lists, headers and discourse phrases, plus legal and scientific jargon, comparison sentences, and a couple of Spanish-language factual-assertion features.",
+  "theme": "Question-answer and list punctuation"
+ },
+ "gemma-fact-dallas-austin#228338e1": {
+  "summary": "Features separating governmental 'state' (bureaucracy, departments, courts, politics) from technical senses (system status, quantum state, statistics), and financial 'capital' (investment, accumulation, taxation) from the seat-of-government sense.",
+  "theme": "'State' and 'capital' polysemy"
+ },
+ "gemma-fact-dallas-austin#2458139d": {
+  "summary": "A strongly geographic group: major cities, place names, districts, provinces and counties, \"capital\" as a political center, and references to US and international locations, with a secondary thread of code, file-path and legal-identifier features.",
+  "theme": "Cities, states and political regions"
+ },
+ "gemma-fact-dallas-austin#24b281b1": {
+  "summary": "Almost every interpretation is about the verb \"to be\" \u2014 occurrences of \"is\" in particular lexical contexts, auxiliary verbs and function words, and sentences in which something is defined or described. A few members instead pick up the numbers, dates and measurements that such definitional sentences tend to contain.",
+  "theme": "Copula \"is\" and definitional syntax"
+ },
+ "gemma-fact-dallas-austin#2616becd": {
+  "summary": "Many members read \"capital\" in both its financial sense (money, investment, accumulation) and its capital-city sense, including \"Washington, D.C.\" and geographical names of political centers, alongside state/government vocabulary. Upper layers give city and country names, several specific to Texas.",
+  "theme": "Capital cities and political centers"
+ },
+ "gemma-fact-dallas-austin#262c4993": {
+  "summary": "Features for \"state\" in political, bureaucratic, statistical and quantum senses, \"capital\" in investment and finance senses, government and legal-technical terminology, plus \"fact\" detectors and some programming/acronym features.",
+  "theme": "State, government and financial capital"
+ },
+ "gemma-fact-dallas-austin#283faf31": {
+  "summary": "Place names in and around Texas, legal citations and court or trial language, and broadcast television callsigns from the Dallas area, with sports-organization and Civil War history members at the edges.",
+  "theme": "Texas legal and geographic references"
+ },
+ "gemma-fact-dallas-austin#2a904bef": {
+  "summary": "Texas and southwestern geography, addresses and metropolitan references, court and legal-citation features, and Dallas news station callsigns.",
+  "theme": "Texas locations and legal citations"
+ },
+ "gemma-fact-dallas-austin#2bdd05cc": {
+  "summary": "Cities, settlements and specific place names alongside district, province and state subdivision features and administration or governance vocabulary, with the word 'capital' and politician names recurring.",
+  "theme": "Geographic and administrative place terms"
+ },
+ "gemma-fact-dallas-austin#2e8ca953": {
+  "summary": "Geographic features focused on Texas and the surrounding southwest together with legal-document features (citations, named entities, trial text) and Dallas news station callsigns.",
+  "theme": "Texas places with court documents"
+ },
+ "gemma-fact-dallas-austin#2f0d78df": {
+  "summary": "Early layers reading cities, towns, settlements and political subdivisions, together with administration and governance terms and a few economics, development and transportation features.",
+  "theme": "Geographic and civic vocabulary"
+ },
+ "gemma-fact-dallas-austin#2f1f394c": {
+  "summary": "Government, politics and elections vocabulary and the financial sense of \"capital\" recur early; from mid layers onward the group is consistently place-name and geographic-location features (cities, counties, states, demographics), several tied to Texas legal proceedings.",
+  "theme": "Civic vocabulary and place naming"
+ },
+ "gemma-fact-dallas-austin#31f810f1": {
+  "summary": "Early-layer place-and-region features: locations, municipalities and jurisdiction types, political subdivisions, countries and states, plus travel-blog descriptions of places.",
+  "theme": "Geographic and municipal references"
+ },
+ "gemma-fact-dallas-austin#375cf7d7": {
+  "summary": "Features that mark headers and titles, numbered facts or steps, question-and-answer setups, and rhetorical lead-ins like 'let's be honest' or 'we all know' \u2014 the framing that introduces an assertion.",
+  "theme": "Colon-introduced discourse framing"
+ },
+ "gemma-fact-dallas-austin#3d6df740": {
+  "summary": "Early-layer features recognizing concrete place names (Dallas itself, major cities, countries) together with the vocabulary of political subdivisions \u2014 districts, counties, provinces, states \u2014 and administration or governance terms. A few members instead cover travel-blog descriptions of places.",
+  "theme": "Cities, states and jurisdictions"
+ },
+ "gemma-fact-dallas-austin#3f1166de": {
+  "summary": "Members are features for phrases that flag something as established truth: \"let's be honest\", \"we all know\", \"case in point\", affirmative declarations in English, Spanish and Danish, and language about scientific findings that are already well known. A secondary thread covers question-and-answer and hedging/uncertainty phrasing.",
+  "theme": "Factual assertion and truth markers"
+ },
+ "gemma-fact-dallas-austin#3fb5a329": {
+  "summary": "Features naming cities, states, regions, addresses and North American locations, together with government, election, court-case and US-politics features including governors and congressional activity.",
+  "theme": "Place names and political geography"
+ },
+ "gemma-fact-dallas-austin#46a20070": {
+  "summary": "A compact set of \"fact\"/\"facts\" detectors, legal and technical documentation terminology, business and money words, and programming, acronym and identifier features.",
+  "theme": "Factual and technical document terms"
+ },
+ "gemma-fact-dallas-austin#4767e616": {
+  "summary": "Unusually uniform in function rather than topic: features detecting time expressions, sequence and relative position, intensifiers and superlatives, and quantities or degrees, with additional legal/patent language and biological/chemical research terminology.",
+  "theme": "Time, degree and quantity modifiers"
+ },
+ "gemma-fact-dallas-austin#4afa26ef": {
+  "summary": "Features for \"fact\"/\"in fact\" and factual assertions, legal and technical document terminology, money and business words, and code/acronym detectors, with a few place-name features for Atlanta, Chicago and similar cities.",
+  "theme": "Fact assertions and technical documents"
+ },
+ "gemma-fact-dallas-austin#4c03397d": {
+  "summary": "Almost entirely copula features: the token 'is', 'to be' forms, auxiliary verbs, and sentences that define or describe something, with a few numeric and measurement members.",
+  "theme": "The verb 'is' and definitions"
+ },
+ "gemma-fact-dallas-austin#500ad20c": {
+  "summary": "Most members are unrelated layer-0 word detectors (\"reading\", \"tap\", \"spa\", \"theme\", \"soil\", colons, code syntax). The coherent sub-threads are city/country place names in mid-to-upper layers and legal-proceeding plus government-election vocabulary.",
+  "theme": "Mixed grab-bag with place names"
+ },
+ "gemma-fact-dallas-austin#50164068": {
+  "summary": "A mixture of legal/technical document terminology, money and business transaction words, code, acronym and identifier detectors, and \"fact\"/\"contain\" word detectors, with a few place-name features (Atlanta, Chicago, Texas) at the edges.",
+  "theme": "Technical documentation and business terms"
+ },
+ "gemma-fact-dallas-austin#51d99624": {
+  "summary": "Geographic features naming major cities, specific places, districts, provinces and counties, plus travel-blog style place descriptions; a secondary thread of code-snippet, documentation and reference-code features runs through it.",
+  "theme": "Major cities and place names"
+ },
+ "gemma-fact-dallas-austin#531e0a79": {
+  "summary": "A small mixed group: two members are about containment (statements describing something being contained, starting, or to blame, including mathematical containment), two are about government, politics and nationality, and one is a generic common-phrase-fragment feature.",
+  "theme": "Containment and government cues"
+ },
+ "gemma-fact-dallas-austin#537ea539": {
+  "summary": "Members fire on programming code and documentation \u2014 snippets, import statements, curly braces, copyright blocks \u2014 plus scientific and technical jargon and court-document legal language.",
+  "theme": "Code, technical and legal jargon"
+ },
+ "gemma-fact-dallas-austin#54ba7e99": {
+  "summary": "Many features fire on capitalized words, section titles, proper names and content markers like figures and headers; alongside these sit \"fact\"/\"facts\" detectors, financial \"capital\", and scientific/technical document terminology.",
+  "theme": "Titles, headers and capitalized names"
+ },
+ "gemma-fact-dallas-austin#57c4ba93": {
+  "summary": "Three interlocking subject matters: Texas geography (Dallas, Texas place names, addresses), legal material (court references, legal citations, trial and document terminology), and Dallas broadcast television station callsigns. This is the fullest version of a nested family of Dallas/legal groups in this graph.",
+  "theme": "Dallas-area places, law, and TV"
+ },
+ "gemma-fact-dallas-austin#59090b99": {
+  "summary": "The clearest thread is \"contain\"/\"containing\" semantics (containers, inclusion, containment statements), paired with state, government and political-party vocabulary. Upper layers move to city and region place names with a few quiz-question features.",
+  "theme": "Containment and state geography"
+ },
+ "gemma-fact-dallas-austin#5b3e67fb": {
+  "summary": "Headings, Q&A, numbered facts and rhetorical set-up features, plus a pair of Spanish-language features for asserting that something is still true or is a fact.",
+  "theme": "Fact-assertion and header cues"
+ },
+ "gemma-fact-dallas-austin#5b83b968": {
+  "summary": "A first-layer token group whose three recurring subject matters are biological/chemical research terminology, code-related terms from multiple programming languages, and money/business transaction words, plus a couple of generic proper-noun features.",
+  "theme": "Scientific, code, and business vocabulary"
+ },
+ "gemma-fact-dallas-austin#5b8b9fc1": {
+  "summary": "Money, business and economics features on \"capital\" (including real estate and airports) combine with \"contain\" variants, \"state\" in political, statistical and quantum senses, and code/technical-documentation detectors.",
+  "theme": "Financial capital and containment senses"
+ },
+ "gemma-fact-dallas-austin#62686b09": {
+  "summary": "Another largely lexical grab-bag; the largest recognizable threads are legal and legislative language, business and financial senses of \"capital\", and state/government terminology, sitting on top of many unrelated single-word detectors.",
+  "theme": "Prompt-word detectors and legal wording"
+ },
+ "gemma-fact-dallas-austin#631d1103": {
+  "summary": "Features that disambiguate 'state' \u2014 political state, bureaucracy, system status, quantum state, statistical state \u2014 and 'capital' \u2014 seat of government versus financial capital, accumulation and investment \u2014 plus a few Texas place and legal-citation members.",
+  "theme": "Senses of 'state' and 'capital'"
+ },
+ "gemma-fact-dallas-austin#63bc4d2c": {
+  "summary": "Dominated by features for biological and chemical research terms, scientific/medical abbreviations, and technical measurements, with a secondary thread of programming-language and technical-documentation tokens.",
+  "theme": "Scientific and technical terminology"
+ },
+ "gemma-fact-dallas-austin#6579d55c": {
+  "summary": "Early-layer features about places and regions, municipalities and types of jurisdiction, political subdivisions, and countries or states, with transportation and travel-description members alongside.",
+  "theme": "Locations and jurisdiction types"
+ },
+ "gemma-fact-dallas-austin#670734dc": {
+  "summary": "Word-sense features for \"fact\"/\"in fact\", \"contain\" and its variants, \"state\" as political entity or system status, and \"capital\" in financial and economic uses, interleaved with code and technical-documentation detectors.",
+  "theme": "Factuality, capital and containment words"
+ },
+ "gemma-fact-dallas-austin#6f571bdc": {
+  "summary": "Dominated by \"containing\" features for present-participle verbs, container nouns and legal or scientific jargon, with secondary threads of banking/investment and war/politics senses of \"capital\" and a few city and state name features.",
+  "theme": "Containment verbs and legal-scientific jargon"
+ },
+ "gemma-fact-dallas-austin#70538174": {
+  "summary": "Colon features capturing questions and answers, numbered steps, headers, bulleted lists and hedging or conversational phrases (\"let's be honest\", \"we all know\"), mixed with legal and scientific jargon and present-participle verb features.",
+  "theme": "Colon-marked Q&A and list cues"
+ },
+ "gemma-fact-dallas-austin#7075bfd8": {
+  "summary": "Members split between Texas geography \u2014 the word \"Texas\", the abbreviation \"TX\", Dallas-area cities, schools and place names \u2014 and legal material such as legal citations, named entities in legal documents, and case identifiers. Dallas/Fort Worth television stations show up as a smaller thread.",
+  "theme": "Texas place names and legal citations"
+ },
+ "gemma-fact-dallas-austin#76520bd4": {
+  "summary": "Location and transportation content (travel destinations, airports, economics and development) sits with government/politics and legal terminology; mid-to-upper layers add city, county and state place names, several specific to Texas courts.",
+  "theme": "Places, transportation, and governance"
+ },
+ "gemma-fact-dallas-austin#77554842": {
+  "summary": "Place-name and geography features (cities, states, countries, addresses, North American locations) alongside US political and legal vocabulary \u2014 states in political context, congressional activity, government funding and court cases.",
+  "theme": "US locations and political language"
+ },
+ "gemma-fact-dallas-austin#78a656a7": {
+  "summary": "A tight set combining Dallas broadcast/news station callsigns with legal citations, court references and legal document terminology, anchored by features for Texas and the surrounding area. Nearly identical in content to the other Dallas legal/broadcast groups here.",
+  "theme": "Dallas news callsigns and court terms"
+ },
+ "gemma-fact-dallas-austin#79a52dc2": {
+  "summary": "A consistent early-layer location cluster: major cities, specific place names, general geographic references, and political subdivisions such as counties, provinces and states.",
+  "theme": "Cities, regions and jurisdictions"
+ },
+ "gemma-fact-dallas-austin#7d3c8893": {
+  "summary": "Two intertwined threads: many features that simply track the verb 'is' and other 'to be' forms with neighbouring function words, and many late-layer features for locations, proper nouns and legal-governmental terms. Together they look like the machinery for emitting a place name after 'is'.",
+  "theme": "Copula 'is' with location output"
+ },
+ "gemma-fact-dallas-austin#7ffb3764": {
+  "summary": "Overwhelmingly place-name and geography features \u2014 cities, states, addresses, North American locations \u2014 paired with government, legal and political vocabulary such as governors, courts, taxes and campaigns; a handful of earlier code-documentation and Texas legal-document features round it out.",
+  "theme": "Location and government semantics"
+ },
+ "gemma-fact-dallas-austin#823a5fa5": {
+  "summary": "Layer-0 token features with no single thread. The largest recognizable sub-threads are time, sequence and duration words; intensifiers, superlatives and degree words; and legal-patent or scientific-experimental vocabulary.",
+  "theme": "Embedding-layer grab-bag"
+ },
+ "gemma-fact-dallas-austin#844ce6f8": {
+  "summary": "Early layers detecting city, state and country names, towns and villages with local government, and types of jurisdiction, with a handful of travel-description and transportation members.",
+  "theme": "Place-name and locality features"
+ },
+ "gemma-fact-dallas-austin#8617d531": {
+  "summary": "Legal citations, court and trial terminology, and legal document formatting combined with Texas and Dallas place references and Dallas news-station callsigns. Content is essentially a subset of the larger Dallas legal/broadcast group.",
+  "theme": "Texas geography with legal citations"
+ },
+ "gemma-fact-dallas-austin#8b149159": {
+  "summary": "Mixes \"contain\"/container semantics and the financial sense of \"capital\" with legal-document and Texas court/county terminology. Upper layers deliver place names, political leaders and institutions (Capitol, White House), and state-level law and finance.",
+  "theme": "Containment, capital, and state politics"
+ },
+ "gemma-fact-dallas-austin#8da4f4ec": {
+  "summary": "Final-layer features naming places (cities, states, counties, regions) and institutions or organizations, alongside legal-governmental terms, all-caps political text and generic news or biographical writing.",
+  "theme": "Late-layer locations and institutions"
+ },
+ "gemma-fact-dallas-austin#8f875214": {
+  "summary": "Combines Dallas-specific features naming Texas and the abbreviation \"TX\" with a long run of city, state and region name features, US political language (parties, Congress, governors) and court/legal references.",
+  "theme": "Texas places and US political geography"
+ },
+ "gemma-fact-dallas-austin#9039d060": {
+  "summary": "Late-layer features naming locations \u2014 cities, states, counties, regions, organizations, proper nouns \u2014 mixed with legal and governmental terminology, all-caps political text, and academic-citation features.",
+  "theme": "Final-layer place and institution output"
+ },
+ "gemma-fact-dallas-austin#909cd957": {
+  "summary": "Texas-specific cues \u2014 the word 'Texas', 'TX', nearby city names \u2014 with legal citation and case-identifier features, plus education and organization names and Dallas broadcast references.",
+  "theme": "Texas place and court references"
+ },
+ "gemma-fact-dallas-austin#9162c27a": {
+  "summary": "Members center on Texas and Dallas specifically \u2014 city names near Texas, addresses, metropolitan areas \u2014 plus a strong legal strand of citations and court or trial documents, and a distinctive set of Dallas/Fort Worth broadcast station callsign features.",
+  "theme": "Texas geography, courts and callsigns"
+ },
+ "gemma-fact-dallas-austin#974b64ea": {
+  "summary": "Another heterogeneous layer-0 set spanning time and sequence expressions, scale and intensity words, legal and patent phrasing, and technical documents full of numbers, units and figure or table references.",
+  "theme": "Mixed grab-bag"
+ },
+ "gemma-fact-dallas-austin#98f731ac": {
+  "summary": "Explicit Texas cues \u2014 the word 'Texas', the abbreviation 'TX', city names near Texas \u2014 together with legal citation and court-document features and references to schools, universities and organizations.",
+  "theme": "Texas identity and legal geography"
+ },
+ "gemma-fact-dallas-austin#99a91ead": {
+  "summary": "Names of cities, regions and metropolitan areas combined with government, election and legal-system vocabulary, including references to the Capitol, governors and court cases. Two or three outliers about code brackets and science-fiction narrative are the only breaks in the pattern.",
+  "theme": "Geographic and political entity references"
+ },
+ "gemma-fact-dallas-austin#99b72916": {
+  "summary": "Features for legal and technical document terms (names of laws, legal terminology, abbreviations), business and finance words, programming and acronym detectors, plus \"fact\" and \"contain\" word detectors.",
+  "theme": "Legal-technical documentation vocabulary"
+ },
+ "gemma-fact-dallas-austin#9a09bc43": {
+  "summary": "Five features split between administration/governance vocabulary and people in authority, and the word \"capital\" together with locations and politicians' names \u2014 a compact core of the capital-city lookup.",
+  "theme": "Administration and capital-city terms"
+ },
+ "gemma-fact-dallas-austin#9b2bd251": {
+  "summary": "Beneath a grab-bag of single-word early detectors, the repeated content is government-entity, political-party and legal terminology plus geographic place-name features (cities, counties, French place names), with a few test-taking and probability question features.",
+  "theme": "Government terms and geographic references"
+ },
+ "gemma-fact-dallas-austin#9fddf2b7": {
+  "summary": "Past a noisy layer-0 fringe, the recurring subject matter is Texas and city/county geography (the word \"Texas\", places in Texas, cities and counties, city planning) alongside government, political-institution and legal-document vocabulary.",
+  "theme": "Texas geography and government terms"
+ },
+ "gemma-fact-dallas-austin#a1b315e0": {
+  "summary": "Recurring content is the words \"fact\"/\"facts\", frequently in legal-document contexts, together with government and political-entity references and formal technical/academic language. Deeper members drift toward place names and test-question or probability features.",
+  "theme": "Factual assertion and legal-document cues"
+ },
+ "gemma-fact-dallas-austin#a2816bfc": {
+  "summary": "Dominated by features for the word 'is', other forms of 'to be', auxiliary verbs and sentences where something is defined or described, with a secondary strand covering locations, dates and numerical measurements.",
+  "theme": "Copula 'is' and predication"
+ },
+ "gemma-fact-dallas-austin#a2e99230": {
+  "summary": "Almost entirely about place names \u2014 cities, states, countries, addresses, metropolitan areas \u2014 together with government and political vocabulary covering governors, elections, courts, taxes and US congressional activity.",
+  "theme": "Locations and political institutions"
+ },
+ "gemma-fact-dallas-austin#a3b34647": {
+  "summary": "Location semantics dominate \u2014 cities, states, North American geography, metropolitan areas \u2014 interleaved with political and legal features about governors, courts, taxation and public-works funding.",
+  "theme": "Place names with governance vocabulary"
+ },
+ "gemma-fact-dallas-austin#a5719049": {
+  "summary": "Almost every member is a token-identity feature firing on a literal word or symbol of the prompt \u2014 \"of\", \"is\", \"the\", \"The\", \"facts\", \"contained\", and bare colons \u2014 with recurring side senses of \"capital\" as money/finance and scattered legal and political vocabulary.",
+  "theme": "Literal prompt-word detectors"
+ },
+ "gemma-fact-dallas-austin#a7752c14": {
+  "summary": "Heavily weighted toward colon features that mark questions, answers, numbered steps, bulleted lists, headers and editorial notes, together with \"containing\" features for present-participle verbs and legal and scientific jargon.",
+  "theme": "Colon discourse, lists and Q&A cues"
+ },
+ "gemma-fact-dallas-austin#af220f1e": {
+  "summary": "Two clear threads: layer-0 features for biological and chemical experimental terminology plus code-related technical terms, and early-layer features for major cities and specific place names.",
+  "theme": "Scientific jargon meets city names"
+ },
+ "gemma-fact-dallas-austin#b4cc994c": {
+  "summary": "Mostly literal word and colon detectors on the prompt tokens, with idiosyncratic senses such as \"capital\" as river or business and \"state\" as budget or interest rates; the tail turns into a coherent thread about states, municipalities, political subdivisions and major cities.",
+  "theme": "Lexical detectors plus jurisdiction terms"
+ },
+ "gemma-fact-dallas-austin#b58cf0f8": {
+  "summary": "A clean geographic and administrative cluster: major cities, specific place names, countries and states, districts and counties, plus administration-and-governance terminology and features linking \"capital\" with locations and politicians.",
+  "theme": "Cities, regions and governance terms"
+ },
+ "gemma-fact-dallas-austin#b96253b1": {
+  "summary": "A geographic/political cluster naming cities, states, counties and countries, alongside features for politicians and political parties, legal entities and court cases, and state-level laws and finances.",
+  "theme": "Place names and governance vocabulary"
+ },
+ "gemma-fact-dallas-austin#be43952a": {
+  "summary": "Uniformly location semantics: place names, geographical references, US and international locations in scientific writing, administrative districts, transportation, and travel/lifestyle blog prose describing places positively.",
+  "theme": "Geographic locations and place descriptions"
+ },
+ "gemma-fact-dallas-austin#c141700b": {
+  "summary": "Dallas-specific features including news-station callsigns and Dallas/Fort Worth television references, Texas geography and Texas legal citations, plus broader location, organization and government/election features.",
+  "theme": "Texas place names and broadcasters"
+ },
+ "gemma-fact-dallas-austin#c6819442": {
+  "summary": "An early-layer geography cluster: major cities, specific place names, political subdivisions, and governance and authority terms, plus travel-writing features that describe places positively.",
+  "theme": "US city and state recognition"
+ },
+ "gemma-fact-dallas-austin#cad3b62a": {
+  "summary": "Location features for cities, regions, addresses, US states and counties, paired with political and legal features about governors, courts, taxes, campaigns and state-level laws and finances.",
+  "theme": "City, state and government names"
+ },
+ "gemma-fact-dallas-austin#cee850e3": {
+  "summary": "Members are features for the word \"capital\" alongside cities, districts and provinces, and for administration, governance and people in positions of authority, including politicians' names. This is the group that carries the prompt's capital-city relation.",
+  "theme": "Capital cities and governance"
+ },
+ "gemma-fact-dallas-austin#d0f1ba0c": {
+  "summary": "Colon features for question-and-answer text, numbered steps, bulleted lists, headers and hedging phrases, alongside legal-proceeding, scientific-writing and code-documentation features.",
+  "theme": "Colon cues for questions and lists"
+ },
+ "gemma-fact-dallas-austin#d1860388": {
+  "summary": "\"Contain\"-family features and government/country vocabulary appear early, followed by a strong run of major-city and place-name features across mid and upper layers, with a secondary thread of quiz and multiple-choice question detectors.",
+  "theme": "Containment, cities, and civic terms"
+ },
+ "gemma-fact-dallas-austin#d1c62abd": {
+  "summary": "Early-layer geography: cities, states, countries, towns and villages, names of political subdivisions, and words tying places to transportation and local government.",
+  "theme": "Place names and local government"
+ },
+ "gemma-fact-dallas-austin#d604c4b7": {
+  "summary": "Every member is an embedding-layer feature for capitalization and title-like text: section headings, titles of creative works or legal documents, proper names and organizations, and words beginning sentences or paragraphs in technical writing. Business-flavored positive descriptors form a smaller thread.",
+  "theme": "Capitalized titles and sentence openers"
+ },
+ "gemma-fact-dallas-austin#d6263358": {
+  "summary": "Location features (place names, metropolitan areas, North American locations, street addresses) combined with government, election and court-case features, plus a few generic function-word and all-caps text detectors.",
+  "theme": "Geographic and governmental references"
+ },
+ "gemma-fact-dallas-austin#d7a7abc5": {
+  "summary": "Many members are features for the ambiguous word \"capital\" in its financial, governmental and capital-city senses, joined by \"contain\"-family features and colon/question-format detectors; upper layers settle on named cities and countries.",
+  "theme": "Capital-word senses and city names"
+ },
+ "gemma-fact-dallas-austin#d82adae4": {
+  "summary": "Code-snippet, documentation and markup features together with scientific or technical jargon and legal court-document language, including generic reference codes and identifiers.",
+  "theme": "Programming code and legal-scientific text"
+ },
+ "gemma-fact-dallas-austin#d98fe97a": {
+  "summary": "All three members share the same interpretation: references to famous cities, regions, or concepts in the USA and UK.",
+  "theme": "Famous US and UK places"
+ },
+ "gemma-fact-dallas-austin#dab4c8dc": {
+  "summary": "Colon, bulleted-list, section-header and scientific-paper figure/reference features dominate, paired with \"capital\" in its business/finance sense and statistics/probability/data-analysis detectors. Smaller threads cover legal citations and mentions of cities or towns.",
+  "theme": "Academic formatting and financial capital"
+ },
+ "gemma-fact-dallas-austin#dab941aa": {
+  "summary": "Three visible threads: \"fact\"/\"facts\" features often in legal contexts, programming and web-syntax features (code snippets, $scope, URLs, file paths, the abbreviation \"TX\" in code), and place-name features for cities and counties including Chicago and Texas.",
+  "theme": "Fact and code cues with cities"
+ },
+ "gemma-fact-dallas-austin#db04bcb0": {
+  "summary": "A grab-bag of layer-0 features on the ' capital' and ' state' tokens: time and duration words, intensifiers and degree markers, and legal, business or patent-style language, with scattered politics and quantity members.",
+  "theme": "Heterogeneous residual set"
+ },
+ "gemma-fact-dallas-austin#dbff2d07": {
+  "summary": "All members fire on capitalized, title-like text: section titles, titles of creative works and legal documents, capitalized names of locations and organizations, and words that open sentences in technical documents. A few business/marketing-flavored descriptors round it out.",
+  "theme": "Title-case headings and proper names"
+ },
+ "gemma-fact-dallas-austin#dc0c36fb": {
+  "summary": "Legal/legislative and government-entity features early on give way to a strong upper-layer run of geographic content: cities, counties, states, locations in North America and city planning, together with US political vocabulary such as congressional activity and state names in political contexts.",
+  "theme": "US political geography and place names"
+ },
+ "gemma-fact-dallas-austin#e012bbbf": {
+  "summary": "Beyond scattered layer-0 word detectors, the dominant thread is programming code, file paths, HTML/markup and JavaScript snippets, combined with legal, scientific and technical document jargon including Texas court language. Place names are largely absent.",
+  "theme": "Code and technical-document jargon"
+ },
+ "gemma-fact-dallas-austin#e1309621": {
+  "summary": "Code snippet, documentation, copyright and reference-code features combine with features tracking the word \"is\" in definitional sentences, plus numbers, measurements and probability markers.",
+  "theme": "Code documentation and 'is' copula"
+ },
+ "gemma-fact-dallas-austin#e2758a21": {
+  "summary": "Present-participle and present-tense auxiliary verb features paired with legal-proceeding jargon, scientific writing about cells and gene expression, and code or license text.",
+  "theme": "Progressive verbs and technical prose"
+ },
+ "gemma-fact-dallas-austin#e3023913": {
+  "summary": "Almost every member reads place names \u2014 cities, states, regions, street addresses \u2014 alongside a heavy strand of US governance and law: governors, legislatures, courts, taxes and campaign finance. These sit in the mid-to-late layers on the final ' is' token.",
+  "theme": "US places and government institutions"
+ },
+ "gemma-fact-dallas-austin#e3799dc3": {
+  "summary": "Dallas/Fort Worth broadcast callsigns, place names in and around Texas, and legal citations and court/trial terminology, together with broader features for locations, organizations and government proceedings.",
+  "theme": "Dallas-area places and court records"
+ },
+ "gemma-fact-dallas-austin#e3c5030f": {
+  "summary": "Embedding-layer features on \"capital\" and \"state\" that read as legal and patent language, abstract concepts used in legal or scientific documents, and back-references like \"above\" and \"following\". Secondary threads are words for reports, requests and states of being, and words for quantities and relative position.",
+  "theme": "Legal-document phrasing and abstract states"
+ },
+ "gemma-fact-dallas-austin#e790991c": {
+  "summary": "Layer-0 features on the ' capital' and ' state' tokens covering time and sequence expressions, intensifiers and degree words, and legal or business contrastive language; there is no single unifying topic.",
+  "theme": "Time, degree and legal wording"
+ },
+ "gemma-fact-dallas-austin#eaae1b4a": {
+  "summary": "Overwhelmingly geographic: cities, states, countries, counties, metropolitan areas and Texas/Dallas-specific content including Dallas\u2013Fort Worth television stations and southwestern US city names. Government, political and legal place references form the secondary thread.",
+  "theme": "City, state, and location names"
+ },
+ "gemma-fact-dallas-austin#ec1ad582": {
+  "summary": "Almost entirely early-layer: a large grab-bag of idiosyncratic word detectors (colons, \"The\", \"state\", \"capital\", \"contained\") unified only by a cluster of \"fact\"/\"facts\" features in layers 1\u20134, many of them in legal-document contexts.",
+  "theme": "Fact-word cues among token detectors"
+ },
+ "gemma-fact-dallas-austin#ecce03d8": {
+  "summary": "Geographic features for cities, regions, North American locations and street addresses paired with governance features about governors, elections, courts, taxes and political parties.",
+  "theme": "Locations and government references"
+ },
+ "gemma-fact-dallas-austin#ee715ae5": {
+  "summary": "Features covering the prompt's content words in several senses at once \u2014 \"fact\"/\"in fact\", \"state\" as political entity, statistical state or quantum state, and \"capital\" as finance, real estate or government \u2014 mixed with code and legal/technical document detectors.",
+  "theme": "Fact, state and capital word senses"
+ },
+ "gemma-fact-dallas-austin#ee7be557": {
+  "summary": "Texas place names and addresses, legal citations and court terminology, and Dallas/Fort Worth broadcast callsign features, with a couple of sports-organization and Civil War history members.",
+  "theme": "Dallas-area law and geography"
+ },
+ "gemma-fact-dallas-austin#ee9f3d91": {
+  "summary": "Texas-focused: Dallas news-station callsigns, geographic place names in and near Texas, and legal citations and court documents involving Texas locations, set within general location, organization and governance features.",
+  "theme": "Texas geography and legal citations"
+ },
+ "gemma-fact-dallas-austin#f5d3d435": {
+  "summary": "All three members are the same kind of feature for technical documents and data \u2014 numbers, units, and references to figures or tables.",
+  "theme": "Technical document data references"
+ },
+ "gemma-fact-dallas-austin#f5dcbf4a": {
+  "summary": "A very large heterogeneous set whose recognizable sub-threads are narrow word detectors for the prompt's content words (\"fact\", \"capital\", \"contain\", \"state\"), a Dallas/Texas place-name thread that strengthens into city, county and metropolitan-region features, and formal legal/academic/technical writing plus question-and-answer phrasing.",
+  "theme": "Mixed grab-bag with geography thread"
+ },
+ "gemma-fact-dallas-austin#fa235710": {
+  "summary": "Members split between grammatical features for '-ing' forms, present participles and the copula, and content features for legal proceedings, scientific and technical writing (cell biology, gene expression), and code snippets or file paths.",
+  "theme": "Present-tense verbs and technical jargon"
+ },
+ "gemma-fact-dallas-austin#faa403c9": {
+  "summary": "Dominated by \"capital\" features in finance and governance senses plus legal-proceeding and \"facts in legal documents\" features, with a sizeable set of question-and-answer, trivia and bulleted-list formatting detectors. Very little geographic content appears.",
+  "theme": "Capital, legal language, and Q&A framing"
+ },
+ "gemma-michael-jordan#0691ee50": {
+  "summary": "Sports dominates the recognizable content: basketball teams and the NBA, soccer playing style, golf, sports scores and athletic positions, player performance descriptions. These sit alongside generic prepositional and common-word features plus a residue of off-topic detectors for medicine, code and food.",
+  "theme": "Basketball and soccer amid connectives"
+ },
+ "gemma-michael-jordan#07348309": {
+  "summary": "Both members detect phrases indicating the role someone plays, especially in a movie, i.e. the theatrical rather than athletic sense of \"plays\".",
+  "theme": "Acting roles and casting phrases"
+ },
+ "gemma-michael-jordan#07d0c8fd": {
+  "summary": "Sports semantics throughout: teams and facilities, leagues and standings, player statistics and injuries, and named sports including basketball, football, baseball, ice hockey-adjacent terms and Formula 1. Concentrated in the middle layers.",
+  "theme": "Sports team and competition vocabulary"
+ },
+ "gemma-michael-jordan#09247672": {
+  "summary": "Mostly name and entity detection \u2014 people's names, initialed names, last names that double as first names, organizations, countries \u2014 alongside legal and patent vocabulary, code snippets and citation/abbreviation formatting. A residue of idiosyncratic single-word features (\"nearby\", \"pads\", \"Christian\", \"stick\") makes this more of an early-layer grab-bag than a single topic.",
+  "theme": "Proper names and legal-technical jargon"
+ },
+ "gemma-michael-jordan#09e1de86": {
+  "summary": "The dominant thread is sports semantics of every code \u2014 basketball teams and statistics, soccer, football, baseball, ice hockey, golf, Formula 1 racing \u2014 together with features for the verb \"play\"/\"plays\" (games, video games, media playback). Toward the deeper layers this shades into generic preposition and function-word features that still sit in sports-flavored contexts.",
+  "theme": "Sports vocabulary and playing senses"
+ },
+ "gemma-michael-jordan#0b5a39cc": {
+  "summary": "Heterogeneous set whose recurring subject matters are code and scientific/medical research writing, acting and performance (actors playing roles in film, television and theater), and sports content in later layers (soccer, golf, sports teams and players), with many proper-noun and place-name features.",
+  "theme": "Code, performance roles, and sports"
+ },
+ "gemma-michael-jordan#0e73321d": {
+  "summary": "A near-duplicate of the adjacent name/verb cluster: features for last names, initials, titles and proper nouns of people, paired with features for the verb 'play' and other action, speech and state-change verbs.",
+  "theme": "Personal names and 'play' verb forms"
+ },
+ "gemma-michael-jordan#0fee9f9e": {
+  "summary": "Nearly all members concern games and sports play \u2014 mentions of playing a game, team sports in schools and colleges, soccer, professional teams, and group activities \u2014 with a single musical-performance outlier.",
+  "theme": "Playing games and school sports"
+ },
+ "gemma-michael-jordan#11887d7b": {
+  "summary": "One of the cleanest groups: essentially every member is a sports-semantics feature, with explicit basketball, soccer, American football, baseball, cycling and Formula 1 features plus sports teams, leagues, standings, statistics and athletic facilities. Several members detect the words \"sport\"/\"sports\" directly.",
+  "theme": "Basketball, football and team sports"
+ },
+ "gemma-michael-jordan#1366e8c1": {
+  "summary": "Organized around the many senses of \"play\": playing games and video games, playing team sports at school and college, soccer, golf, theatrical plays, and playing musical instruments. Group activities, recreational pastimes and broadcasting/media playback round out the same semantic family.",
+  "theme": "Playing games, sports and instruments"
+ },
+ "gemma-michael-jordan#15229838": {
+  "summary": "Heterogeneous but sports-leaning: recurring content includes sports leagues, teams and player statistics (baseball, target shooting, athletes, sports categories), celebrity and public-figure names, and code/LaTeX/technical writing, with politics and legal proceedings as a further thread.",
+  "theme": "Sports leagues, celebrities, and code"
+ },
+ "gemma-michael-jordan#16c0bd5c": {
+  "summary": "Almost every member is about sports as an organized competition: names of teams and players, league standings, injuries and statistics, with specific football and baseball features and one on sports leagues and championships.",
+  "theme": "Sports teams, leagues and standings"
+ },
+ "gemma-michael-jordan#1806ca8e": {
+  "summary": "A tightly basketball-focused group: basketball teams, terms and statistics, general sports-discussion words, and repeated features for sentences criticizing a basketball player's defensive abilities.",
+  "theme": "Basketball vocabulary and player commentary"
+ },
+ "gemma-michael-jordan#193cd117": {
+  "summary": "Sports and athletic-activity features \u2014 basketball equipment, soccer leagues, football, the literal words 'sport' and 'sports' \u2014 together with recreation-oriented members about hobbies, clubs, classes, leisure and sports news.",
+  "theme": "Sports, hobbies, and leisure activities"
+ },
+ "gemma-michael-jordan#1f4d2b26": {
+  "summary": "Tightly sports-specific: basketball including player contracts and college/pro play, American football teams and numeric game statistics, soccer, tournaments, scoring and winning, and teams-and-players vocabulary. A few members double as code-token detectors.",
+  "theme": "Sports terminology and team statistics"
+ },
+ "gemma-michael-jordan#21162991": {
+  "summary": "Consistently sports-semantic, spanning basketball, soccer teams and players, American football and the NFL, cycling, track and field, rugby, ice hockey and tennis, plus athletic facilities, sports injuries and Formula 1. A secondary thread covers group activities, challenges and school sports, with a stray musical-performance feature.",
+  "theme": "Multi-sport athletics and group activities"
+ },
+ "gemma-michael-jordan#22aeac40": {
+  "summary": "Heavily weighted toward named-entity detection \u2014 people's names, initials, organizations, European place names, countries \u2014 mixed with legal-document and patent phrasing, mathematical notation and LaTeX, and generic code tokens. Individual oddities like \"handful\", \"tender\", \"stick\" and \"colors\" round it out into a grab-bag.",
+  "theme": "Named entities and formal-document tokens"
+ },
+ "gemma-michael-jordan#25597694": {
+  "summary": "A strongly sports-focused group: basketball and the NBA, Air Jordan shoes and sports apparel, plus soccer, American football, ice hockey and baseball, sports leagues, standings, scores and statistics, and playing games or team sports at school. Prepositional \"of\" features form the only substantial non-sports thread.",
+  "theme": "Basketball and multi-sport vocabulary"
+ },
+ "gemma-michael-jordan#29018142": {
+  "summary": "Features for games and playing (often past tense), team sports played at school and college, soccer, professional teams, and group activities or challenges. One member is about musical instruments and performance.",
+  "theme": "Games, sports, and group activities"
+ },
+ "gemma-michael-jordan#2c117800": {
+  "summary": "Mixed grab-bag with a noticeable basketball spine \u2014 basketball offense and defense, baseball statistics, athletic sports, tennis and basketball player statistics in the later layers \u2014 alongside code/finance terminology and legal proceedings, plus many celebrity-name features.",
+  "theme": "Basketball-leaning mix with code, law"
+ },
+ "gemma-michael-jordan#2f5c1ad0": {
+  "summary": "Early-layer sports vocabulary features naming particular sports: American football teams and statistics, basketball including player contracts, soccer, tournaments and scoring, plus general teams-and-players references. Some members also respond to code tokens.",
+  "theme": "Football, basketball, and soccer terms"
+ },
+ "gemma-michael-jordan#3040ec85": {
+  "summary": "A grab-bag in which the recurring subject matters are basketball and baseball content (professional and college basketball, player statistics, American football), code snippets and technical/scientific writing, and proper nouns for people, US states and cities. Film/acting-role features appear as a smaller thread.",
+  "theme": "Basketball, code, and proper nouns"
+ },
+ "gemma-michael-jordan#31aa3c07": {
+  "summary": "Recurring semantics are sports and leisure (track and field athletes, volleyball, soccer/football playing style, school and college sports, hobbies and interests, sports scores) expressed through a dense population of preposition-\"of\" features. Academic research, place names and government/politics phrasing are the other threads.",
+  "theme": "Sports and hobbies via prepositions"
+ },
+ "gemma-michael-jordan#38815757": {
+  "summary": "Heterogeneous set built from three threads: programming and technical code (Python file handling, URLs, LaTeX-style and low-level jargon), judicial/legal and political terminology, and sports content (American football stats, sports leagues and player stats, tennis, college basketball, soccer).",
+  "theme": "Code, judicial language, and sports"
+ },
+ "gemma-michael-jordan#388e8878": {
+  "summary": "Two distinct sub-threads. The larger is abstract discourse vocabulary \u2014 time reference (\"last\", \"present\", \"following\", past/future), comparatives, superlatives and evaluative or importance-marking words, plus legal and patent abstractions. The second is a solid block of sports features covering basketball, football, baseball, athletic facilities and Formula 1.",
+  "theme": "Time and evaluation words plus sports"
+ },
+ "gemma-michael-jordan#3a98cdb5": {
+  "summary": "Three copies of the same interpretation, all for words related to sports and leisure activities.",
+  "theme": "Sports and leisure activities"
+ },
+ "gemma-michael-jordan#3c2c01c7": {
+  "summary": "Genuinely heterogeneous: the largest sub-threads are proper-noun and personal-name detectors (people, places, organizations, countries), legal/technical/patent and code-snippet vocabulary, and a long tail of single-word detectors (\"bay\", \"social\", \"deserve\", \"present\", \"the\", \"of\"). Only a handful of members are actually about basketball or sports competition.",
+  "theme": "Mixed grab-bag of token detectors"
+ },
+ "gemma-michael-jordan#3c8909ce": {
+  "summary": "Another tightly sports-themed group covering basketball, football, soccer leagues and players, baseball standings, athletic facilities and leisure activities, sports statistics and injuries, and Formula 1 racing, with direct \"sport\"/\"sports\" word detectors and a late feature on sports and ethnicity.",
+  "theme": "Sports leagues, teams and competition"
+ },
+ "gemma-michael-jordan#3df2478d": {
+  "summary": "Sports content runs through the whole group: basketball, baseball leagues and standings, soccer, track and field, Formula 1, Air Jordan sneakers, NBA 2K, and \"Hall of Fame\" honors, plus many features for the verb \"play\" and playing games. Later members add connective preposition and article detectors layered on top of that sports material.",
+  "theme": "Multi-sport semantics with play verbs"
+ },
+ "gemma-michael-jordan#40e783b9": {
+  "summary": "Sports features centred on teams and players \u2014 baseball teams and players, professional baseball standings, football content, leagues and championships \u2014 together with player statistics, injuries and background information.",
+  "theme": "Baseball, football, and league standings"
+ },
+ "gemma-michael-jordan#43e43cf7": {
+  "summary": "Dominated by features for code snippets and programming keywords, reference codes, abbreviations and identifiers, with a secondary thread of scientific/technical jargon and legal language from court documents.",
+  "theme": "Code, identifiers and technical jargon"
+ },
+ "gemma-michael-jordan#464f1a5f": {
+  "summary": "Members converge on team sport play \u2014 school and college teams, leagues and positions, soccer and basketball, ball sports, sports injuries \u2014 plus a recurring 'group activities and challenges' framing. One outlier is about musical instruments and performance.",
+  "theme": "Team sports and group activities"
+ },
+ "gemma-michael-jordan#46761d53": {
+  "summary": "Sports-domain features naming particular sports \u2014 basketball, football and baseball, soccer, ice hockey, cycling, Formula 1, the NFL \u2014 along with teams, leagues, standings, athletic facilities and even retro Air Jordan shoes. A couple of members drift to military or interpersonal vocabulary.",
+  "theme": "Specific sports, teams, and equipment"
+ },
+ "gemma-michael-jordan#46e2b03c": {
+  "summary": "Built around verb semantics and morphology (present and past tense, participles, the verb \"play\" and its synonyms) plus programming and license-text tokens and technical/scientific/medical vocabulary. A recognizable minority thread is about actors playing roles in movies and theater, with a few sports-team and Formula 1 features.",
+  "theme": "Verb forms, code and film roles"
+ },
+ "gemma-michael-jordan#4763f60d": {
+  "summary": "Two intertwined threads: features for the preposition \"of\" and other connective function words (including set phrases like \"field of the invention\", \"Player of the\", \"Hall of Fame\"), and genuine sports topics \u2014 basketball and the NBA, soccer, golf, volleyball, racing, and sports professions. Scattered members also detect town and city names and academic or medical phrasing.",
+  "theme": "Possessive \"of\" phrasing with sports"
+ },
+ "gemma-michael-jordan#50af7673": {
+  "summary": "Sports and recreation semantics (games and sports, soccer/football championships, volleyball, sports scores, hobbies and interests, French athletes) sit alongside a large body of preposition-\"of\" and connective-word features. Academic research vocabulary and town/city-name detectors form secondary threads.",
+  "theme": "Recreation topics in \"of\" phrases"
+ },
+ "gemma-michael-jordan#51225293": {
+  "summary": "Sports reporting is the clearest thread \u2014 basketball players, teams and statistics, American football, golf, athletes turning professional, and basketball player stats at the top layers \u2014 mixed with code/chemistry technical terms, politics and government, and legal proceedings.",
+  "theme": "Sports reporting with code and politics"
+ },
+ "gemma-michael-jordan#5419afee": {
+  "summary": "Almost identical content to the neighbouring team-sport cluster: features about playing team sports, college and professional teams, leagues and positions, soccer and basketball, and recreational group activities. Concentrated in the middle and upper layers.",
+  "theme": "Team sports, leagues, and playing"
+ },
+ "gemma-michael-jordan#54b7d374": {
+  "summary": "Recurring subject matter is technical and scientific writing \u2014 code snippets, chemistry and physics, medical treatments, academic papers, legal proceedings \u2014 interleaved with a movies-and-theater thread (actors, roles, performances, names of actors). Sports enters only via team brand names and Formula 1 racing.",
+  "theme": "Technical jargon and performance roles"
+ },
+ "gemma-michael-jordan#56a8dbd6": {
+  "summary": "The shared content is technical formal text \u2014 programming and license boilerplate, scientific and medical language, legal and courtroom terminology, academic papers \u2014 plus a consistent thread about actors playing roles in movies and theater. Sports-team brands, competitive events and Formula 1 racing appear at the edges.",
+  "theme": "Code, science and film-role terms"
+ },
+ "gemma-michael-jordan#5b2257c4": {
+  "summary": "Every member keys on playing rather than on sport specifically: gaming and gameplay vocabulary, and uses of the word \"play\"/\"plays\" alongside related words like \"music\" and \"game\".",
+  "theme": "The verb \"play\" and gameplay"
+ },
+ "gemma-michael-jordan#5b59abaa": {
+  "summary": "The recurring content is personal and organizational names (including \"Michael\" and \"Michael Jackson\" specifically) combined with legal, patent and courtroom vocabulary, LaTeX/mathematical writing, government and civics terms, and code snippets. Sports appears only marginally, via features for athletic competition and the word \"Cup\".",
+  "theme": "Personal names amid formal document text"
+ },
+ "gemma-michael-jordan#60797f2a": {
+  "summary": "The main thread is sports content \u2014 basketball and the NBA, soccer, golf, car and animal racing, sports scores and statistics, sports professions \u2014 but it is mixed with generic function-word and prepositional-phrase features and a tail of unrelated topics (medical professions, code snippets, cooking terms). More of a late-layer topical mixture than a single concept.",
+  "theme": "Sports topics with function-word noise"
+ },
+ "gemma-michael-jordan#667ecb5b": {
+  "summary": "Heterogeneous grab-bag. The largest threads are code and scientific/mathematical technical writing, sports content (American football stats, teams and athletes, ball-and-team sports, NBA 2K, basketball player statistics), and celebrity/music references including rap and hip-hop lyrics and famous people.",
+  "theme": "Technical code, sports, celebrity names"
+ },
+ "gemma-michael-jordan#69a68e97": {
+  "summary": "A large heterogeneous group whose three biggest threads are judicial/legal and political terminology, code snippets and scientific-technical language, and sports content that sharpens in later layers (baseball and basketball teams, athletics, college basketball, athletes turning professional).",
+  "theme": "Legal, code, and sports grab-bag"
+ },
+ "gemma-michael-jordan#6bd303a7": {
+  "summary": "Strongly sports-focused, with heavy emphasis on American football (game statistics like yards, catches and sacks, teams and players) alongside basketball, soccer player movement, baseball standings and Formula 1. A recurring quirk is features that mix sports terminology with programming tokens, including Swift code.",
+  "theme": "American football and basketball statistics"
+ },
+ "gemma-michael-jordan#72f40951": {
+  "summary": "Members detect code and markup snippets, code documentation and import statements, scientific and technical word forms, and reference codes or identifiers, with a secondary legal-document thread and some layout features such as whitespace and paragraph-initial words.",
+  "theme": "Programming code and scientific terminology"
+ },
+ "gemma-michael-jordan#778b6154": {
+  "summary": "The unifying content is film and theater: actors' names and last names, actors playing roles, film production, festivals and awards, movies and plays. It is interleaved with general proper-name features, including political and military figures and publication names.",
+  "theme": "Film acting roles and people's names"
+ },
+ "gemma-michael-jordan#7c35881f": {
+  "summary": "Heterogeneous grab-bag whose largest threads are sports content (organized sports and teams, football statistics, college basketball), programming and markup code (Django/Python, LaTeX, C), and economics/finance/monetary terminology, with celebrity and proper-noun features throughout.",
+  "theme": "Sports, programming, and finance mix"
+ },
+ "gemma-michael-jordan#7e048788": {
+  "summary": "Heterogeneous grab-bag. The recurring subject matters are programming code and technical/scientific writing, legal and financial/economic terminology, sports teams and professional players, and generic proper-noun and person-name features.",
+  "theme": "Code, law, finance, and sports"
+ },
+ "gemma-michael-jordan#7eb5d8ba": {
+  "summary": "Heterogeneous residual set. Largest threads are code and scientific/medical technical writing, business and consumer finance (credit, loans, profits, monetary units), and a spread of sports (rugby, ice hockey, tennis, car racing, golf, NBA 2K), plus celebrity name features.",
+  "theme": "Code, business finance, assorted sports"
+ },
+ "gemma-michael-jordan#7eb62460": {
+  "summary": "Rather than sports, these features track abstract discourse vocabulary: references to time ('last', 'present', 'following', past/future), evaluative and comparative words, superlatives, and legal or patent language. A few members detect people's names and the bare words 'the' and 'of'.",
+  "theme": "Abstract time, comparison, legal wording"
+ },
+ "gemma-michael-jordan#7f2f62b7": {
+  "summary": "Sports terminology at the earliest layers, covering football game statistics, basketball and player contracts, soccer, athletic tournaments, scoring and winning, and organized teams and players; a couple of members mix in Swift/code terminology.",
+  "theme": "Sport-specific vocabulary and statistics"
+ },
+ "gemma-michael-jordan#7ff25998": {
+  "summary": "A grab-bag combining legal proceedings and financial/contractual language, film and artistic-performance roles including actors and film production, and NBA-centric sports content in the upper layers (NBA terminology, basketball players' performance, golf, football).",
+  "theme": "Law, film, and NBA-flavored mix"
+ },
+ "gemma-michael-jordan#8165ffee": {
+  "summary": "Combines sports and recreation semantics (soccer, volleyball, golf, games and sports generally, sports professions, French athletes) with a heavy population of preposition-\"of\" and function-word features. Smaller threads cover town/city names, medical professions, and cooking and food vocabulary.",
+  "theme": "Games and sports with connective glue"
+ },
+ "gemma-michael-jordan#82ef8cb3": {
+  "summary": "Consistently non-sports: code and markup snippets, programming keywords, code documentation, reference codes and abbreviations, and scientific or technical jargon, with a legal court-language member and several whitespace/paragraph-position features.",
+  "theme": "Technical reference codes and code snippets"
+ },
+ "gemma-michael-jordan#8a85e76d": {
+  "summary": "Recurring concepts are verb forms and verb semantics (participles, past tense, speech verbs, the verb \"play\"), programming and software-license tokens, and medical/scientific/legal technical vocabulary. A secondary thread names sports teams and technology brands, plus Formula 1 racing terminology.",
+  "theme": "Verb morphology, code and technical terms"
+ },
+ "gemma-michael-jordan#8a9841ac": {
+  "summary": "The main recognizable thread is sports \u2014 basketball and the NBA, soccer at college and professional level, football, golf, sports scores and statistics, sports professions. It is mixed with generic prepositional and common-word features and an off-topic tail covering medical professions, code snippets and cooking vocabulary.",
+  "theme": "Sports subject matter with mixed residue"
+ },
+ "gemma-michael-jordan#8b0be888": {
+  "summary": "The same jargon-detecting set: cellular biology and gene expression, chemistry and materials, medical and military terminology, scientific notation and code-related terms, plus several members keyed to societal and political vocabulary.",
+  "theme": "Biomedical and technical terminology"
+ },
+ "gemma-michael-jordan#8b52bc7f": {
+  "summary": "Embedding-layer features for formal technical language: biological and chemical research terms, chemistry and pharmaceutical vocabulary, medical devices and procedures, scientific measurement notation, and code or Java-specific jargon. A secondary strand fires on societal and political issues.",
+  "theme": "Scientific and medical technical jargon"
+ },
+ "gemma-michael-jordan#8eef51ec": {
+  "summary": "Uniformly grammatical: features that fire on the preposition 'of' and neighbouring function words, often in specific frames such as place names ('city/town of'), 'Hall of Fame', 'Player of the', 'field of the invention', and titles of creative works or famous people.",
+  "theme": "Preposition 'of' and its collocations"
+ },
+ "gemma-michael-jordan#91b22f3e": {
+  "summary": "Athletic and sports-activity features including basketball equipment, soccer teams and leagues, sports leagues and championships, and the literal words 'sport'/'sports', mixed with recreation vocabulary about hobbies, clubs, classes and sports news.",
+  "theme": "Sports and recreational activity words"
+ },
+ "gemma-michael-jordan#94b502c5": {
+  "summary": "Mixed grab-bag whose recurring content is code and LaTeX/technical markup, corporate and monetary vocabulary (company finances, corporate roles, units and monetary values), and sports material ranging from the word \"sport\" itself to sports teams, baseball, bicycle racing and college basketball.",
+  "theme": "Code, corporate finance, sports miscellany"
+ },
+ "gemma-michael-jordan#9610a412": {
+  "summary": "The semantic content is largely sports and games \u2014 soccer teams and playing style, sports scores and statistics, recreational activities, \"Hall of Fame\", French athletes \u2014 mixed with a heavy layer of preposition-\"of\" and article features. Place names, religious traditions and medical professions appear as smaller strands.",
+  "theme": "Connective \"of\" plus sports topics"
+ },
+ "gemma-michael-jordan#96d8f876": {
+  "summary": "A mixed set whose largest threads are person and celebrity name features, sports content (basketball, player contracts, athletic competition), film and stage performance (movies, plays, actors, film production), and medical/scientific research vocabulary.",
+  "theme": "Names, sports, film, and science"
+ },
+ "gemma-michael-jordan#97d31ae4": {
+  "summary": "Members cover playing games (often past tense), team sports at school and college level, soccer, professional teams and leagues, ball sports and group challenges, with a lone musical-instrument feature.",
+  "theme": "Team sports and playful activities"
+ },
+ "gemma-michael-jordan#9ea51a0a": {
+  "summary": "Early-layer sports vocabulary: football teams, players and statistics, basketball including contracts and college play, soccer, athletic tournaments, scoring and competition, and general references to organized sports teams and players.",
+  "theme": "Organized sports teams and scoring"
+ },
+ "gemma-michael-jordan#a6eb6e08": {
+  "summary": "Dominated by proper-noun and name detection (people, organizations, countries, capitalized first names, \"Michael\" itself) plus legal and patent document vocabulary, mathematical and LaTeX notation, and article/preposition detectors for \"the\" and \"of\". Idiosyncratic one-word features like \"stick\", \"ethnic\" and \"buildings\" make it a grab-bag.",
+  "theme": "Proper nouns and formal-text tokens"
+ },
+ "gemma-michael-jordan#a77ad786": {
+  "summary": "Upper-layer features about playing sports and games: athletes and their performance (basketball players' qualities, athletes turning professional, injuries), specific sports like golf, soccer, racing and college/professional teams. A few members are about musical performance, gambling or education.",
+  "theme": "Playing sports, athletes, and games"
+ },
+ "gemma-michael-jordan#a974a473": {
+  "summary": "The dominant thread is broad sports vocabulary (football, soccer, basketball equipment, competition, teams and statistics) mixed with a secondary strand about 'playing' in the sense of games, video games, theater and broadcasting. Spans early through late layers, so it reads as the model's generic sports/recreation concept rather than one specific sport.",
+  "theme": "General sports and play semantics"
+ },
+ "gemma-michael-jordan#aaa011cf": {
+  "summary": "Mixed set in which sports and athletics is the strongest recurring theme \u2014 basketball content for men's teams and tournaments, soccer, athletics and exercise, recreational activity lists, NBA 2K \u2014 running alongside code/networking/technical vocabulary and a thread of political and legal terminology.",
+  "theme": "Athletics amid technical code terms"
+ },
+ "gemma-michael-jordan#ab39644c": {
+  "summary": "Uniformly sports-semantics features spanning several disciplines: basketball and player contracts, soccer, football, plus teams, scoring, competition and statistics.",
+  "theme": "General sports vocabulary"
+ },
+ "gemma-michael-jordan#ab78bbd4": {
+  "summary": "Sports content is pervasive \u2014 soccer and football playing style and championships, basketball hoops and player statistics, volleyball, golf, sports scores \u2014 but it is carried by a large population of features for the preposition \"of\" and related connectives, including titles like \"Player of the\" and \"Hall of Fame\". Passion/enjoyment and arts-career features form a smaller side thread.",
+  "theme": "Sports reference through \"of\" constructions"
+ },
+ "gemma-michael-jordan#b1433a7e": {
+  "summary": "Coherent around organized group activity: instances of group activities and challenges, team sports played in schools, and doing playful activities.",
+  "theme": "Team sports and group play activities"
+ },
+ "gemma-michael-jordan#b2e7d5eb": {
+  "summary": "Heterogeneous early-layer set. The recognizable sub-threads are proper-noun and personal-name features (last names, organizations, \"Michael\"), legal/patent and technical document language, and mathematical/LaTeX plus HTML and code notation, with a scattering of unrelated single-word detectors like \"bay\", \"social\" and \"coast\".",
+  "theme": "Name detectors and document boilerplate"
+ },
+ "gemma-michael-jordan#b39f34b1": {
+  "summary": "Not a content group: these are document-mechanics detectors for the first word of a paragraph or title, sentences beginning with \"It\"/\"In\", the word \"The\", large runs of whitespace and left curly brackets, alongside code documentation, import statements and programming keywords.",
+  "theme": "Text-structure and code formatting cues"
+ },
+ "gemma-michael-jordan#b477ece8": {
+  "summary": "A grab-bag of activity-domain features: athletics (competition, skill, injury, track-and-field athletes) mixed with academic and scientific research vocabulary, financial markets, nutrition and food deficiencies, and generic organization/category senses.",
+  "theme": "Athletics, academia and nutrition mix"
+ },
+ "gemma-michael-jordan#b73d4ae6": {
+  "summary": "Mostly a mixture of proper-noun and organization-name detection, legal and patent document vocabulary, and mathematical, LaTeX and code notation, alongside civics and government terms. A long tail of unrelated lexical features (\"ethnic\", \"pads\", \"soon\", \"Cup\", \"durable\") keeps it from having one clean thread.",
+  "theme": "Proper-noun and technical-token mixture"
+ },
+ "gemma-michael-jordan#b763ceaf": {
+  "summary": "A mixed group whose recurring subject matters are programming code (Python/Django, Swift, SQL, code-related terms), sports content that strengthens with depth (football statistics, basketball statistics and player descriptions, NBA 2K, Air Jordan shoes, target shooting), and film-industry vocabulary covering production, festivals and awards.",
+  "theme": "Programming, sports, and film industry"
+ },
+ "gemma-michael-jordan#b9ce0bfb": {
+  "summary": "Members overwhelmingly detect formal technical material: code snippets and file paths, license agreements, mathematics and physics, medical conditions and treatments, legal proceedings and government regulation. Sports-team brand names, competitive events and Formula 1 terminology form a modest secondary thread.",
+  "theme": "Technical, medical and code jargon"
+ },
+ "gemma-michael-jordan#bdecad42": {
+  "summary": "Recurring content is source code and markup (code snippets, JavaScript, import statements, documentation and copyright blocks, curly brackets), scientific and technical terminology, and reference codes or abbreviations. A smaller legal-document strand (court filings, attorneys, jails) and several pure formatting features (whitespace, first word of a paragraph) round it out.",
+  "theme": "Code and technical document jargon"
+ },
+ "gemma-michael-jordan#c101814b": {
+  "summary": "The unifying content is formal technical language: code snippets and license text, medical conditions and treatments, courtroom and legal terminology, academic and mathematical writing. Sports appears as a thin secondary thread through sports-team brand names, competitive events and Formula 1 racing.",
+  "theme": "Software, medical and legal vocabulary"
+ },
+ "gemma-michael-jordan#c39e4aa9": {
+  "summary": "Combines sports-and-games features (playing a game, player performance, soccer, volleyball, the word 'game') with an affective strand about passion, love, enjoyment and hobbies such as crafts and sewing. Sits in the upper layers, where 'sport' seems to be read as something one loves to do.",
+  "theme": "Playing sports and enthusiastic pursuits"
+ },
+ "gemma-michael-jordan#c46d397a": {
+  "summary": "Almost entirely sports semantics spanning soccer, basketball, American football, baseball, tennis, volleyball and racing, together with leagues, teams, athletic facilities and positions, and playing games or recreation. The main non-sports thread is prepositional \"of\" and function-word features.",
+  "theme": "Team sports and competition vocabulary"
+ },
+ "gemma-michael-jordan#c5a9b74d": {
+  "summary": "Sports content recurs throughout: basketball and the NBA, soccer/football playing style, school and college sports, sports scores, French athletes, sports and military professions. It is embedded in a dense population of \"of\"-preposition and function-word features, with town/city names and medical terminology as minor threads.",
+  "theme": "Sports and recreation with prepositional glue"
+ },
+ "gemma-michael-jordan#c741ddb2": {
+  "summary": "Almost uniformly sports: basketball equipment and instruction, football, soccer teams and leagues, baseball standings, Formula 1, sports teams and player statistics, plus repeated detectors for the words \"sport\"/\"sports\" and the verb \"play\". A few members broaden \"play\" to theater, musical instruments and video games.",
+  "theme": "Sports and playing semantics"
+ },
+ "gemma-michael-jordan#c97510f4": {
+  "summary": "Recurring subject matter is sports and games \u2014 basketball and the NBA, soccer/football championships, volleyball, sports scores and statistics, sports professions \u2014 riding on a very large set of preposition-\"of\" and connective-word features. Place names, creative-work titles and medical professions are the visible side threads.",
+  "theme": "Sports semantics carried by prepositions"
+ },
+ "gemma-michael-jordan#ca53777b": {
+  "summary": "Predominantly sports and recreation semantics: competitive sports in journalism, leagues and standings, soccer, ice hockey, basketball and college basketball, Air Jordan sneakers, hobbies and clubs, and many features for the word \"play\" or \"playing\". A secondary thread is generic preposition/function-word features on \"of\", plus a few code and legal-citation members.",
+  "theme": "Sports, games, and playing"
+ },
+ "gemma-michael-jordan#caa9bf5f": {
+  "summary": "A grab-bag whose largest threads are personal and organizational name detection (including \"Michael\" and \"Michael Jackson\"), legal/patent and technical document vocabulary, and mathematical or code notation. It also carries many isolated word detectors (\"tender\", \"Cup\", \"stick\", \"pads\", \"ethics\") and only glancing sports content.",
+  "theme": "Names, legal text and stray tokens"
+ },
+ "gemma-michael-jordan#cce340d2": {
+  "summary": "A large mixed group with three visible threads: proper names and celebrities including hip-hop artists and British royalty, athletic content (athletic competition, sports teams and players, Air Jordan shoes, college basketball), and legal/medical/code terminology.",
+  "theme": "Names, athletics, and legal/code terms"
+ },
+ "gemma-michael-jordan#ccf00662": {
+  "summary": "A very large heterogeneous group with three recognizable threads: person-name features (\"Michael\", Michael Jackson, proper names of people), sports vocabulary (basketball, player contracts, sports reporting on players and injuries), and code/technical-writing tokens. Politics, government and finance terminology form a further scattered thread.",
+  "theme": "Mixed names, sports, and code"
+ },
+ "gemma-michael-jordan#cd977b02": {
+  "summary": "The same preposition-focused set: 'of' plus adjacent determiners and conjunctions, with recurring sub-patterns for towns and cities, honours like 'Hall of Fame', and titles of artistic works. Purely syntactic content with no sports semantics.",
+  "theme": "'of' constructions in names and places"
+ },
+ "gemma-michael-jordan#cdc048ce": {
+  "summary": "Members are about playing games and sports, school and college team sports, soccer, college and professional team categories, and group activities, alongside one feature for musical instruments.",
+  "theme": "Sports play and team categories"
+ },
+ "gemma-michael-jordan#ce6cfc9a": {
+  "summary": "Three clear sub-threads: programming/software and license-boilerplate tokens, medical and scientific technical vocabulary (treatments, chemistry, physics, lung cancer), and a distinct film and theater thread about actors, roles and performances \u2014 the \"plays\" reading of the prompt. Proper-noun detectors and Formula 1 terminology fill out the rest.",
+  "theme": "Code, medical text and acting roles"
+ },
+ "gemma-michael-jordan#d0ebed5a": {
+  "summary": "Heterogeneous residual set. Its largest recognizable threads are narrow single-word lexical features (\"mild\", \"reality\", \"cold\", \"upper\", \"wood\"), person and celebrity name features, and sports content (basketball, baseball, tennis results, sports players).",
+  "theme": "Single-word lexical, name, sports mix"
+ },
+ "gemma-michael-jordan#d2805e8a": {
+  "summary": "Sports and athletic-activity features, including basketball equipment and instruction, soccer teams and leagues, football, and the literal words 'sport'/'sports', blended with a leisure strand about hobbies, clubs, classes and sports news coverage.",
+  "theme": "Athletic activities and leisure vocabulary"
+ },
+ "gemma-michael-jordan#d4564aca": {
+  "summary": "Sports and athletic-activity features covering basketball equipment and instruction, soccer teams and leagues, competitive sports in journalism, and the word 'sports' itself, alongside leisure vocabulary about hobbies, clubs and classes.",
+  "theme": "Athletic activity and sports news"
+ },
+ "gemma-michael-jordan#d48ec546": {
+  "summary": "Most members are features for sports organizations and venues: teams and stadiums, leagues and standings, and specific sports including soccer, basketball, ice hockey, cycling, track and field, Formula 1 and the NFL. A handful of off-thread members fire on academic, financial or military vocabulary.",
+  "theme": "Sports teams, leagues, and facilities"
+ },
+ "gemma-michael-jordan#d8113092": {
+  "summary": "Features for code snippets and programming/markup keywords, code documentation and copyright headers, scientific and technical terms, and generic reference identifiers, plus a few formatting detectors for whitespace and paragraph openings.",
+  "theme": "Code documentation and jargon tokens"
+ },
+ "gemma-michael-jordan#d9bad2f5": {
+  "summary": "Early-layer sports-journalism vocabulary: football game statistics and teams, soccer player movement and performance, basketball at the professional and college level, and reporting language about contracts and injuries. Two members also respond to Swift and other code terms.",
+  "theme": "Sports reporting: players, contracts, stats"
+ },
+ "gemma-michael-jordan#da2e9c07": {
+  "summary": "All members are embedding-layer features on abstract vocabulary: time reference ('last', 'present', 'past', 'following'), evaluation, comparison and superlatives, importance and scale, plus legal and patent language. No sports content at all.",
+  "theme": "Abstract temporal and evaluative words"
+ },
+ "gemma-michael-jordan#ddb3339e": {
+  "summary": "Heterogeneous, with the main threads being proper-noun and personal-name detection, legal and patent document vocabulary, and mathematical/LaTeX plus code and HTML notation. Also present are section-header and citation markers and a scattering of unrelated word-level features such as \"coast\", \"Cup\" and \"ethnic\".",
+  "theme": "Entity names and formal-document markers"
+ },
+ "gemma-michael-jordan#e1860b03": {
+  "summary": "All members are sports features: teams and athletic facilities, leagues and standings, competitive and physical activities, and named sports such as basketball, football, baseball and Formula 1 racing.",
+  "theme": "Competitive team sports and venues"
+ },
+ "gemma-michael-jordan#e3b69f64": {
+  "summary": "Centered on verb semantics \u2014 participles, past and present tense, verbs of doing and of scientific claiming, the verb \"play\" and its synonyms \u2014 combined with code and license-text tokens and technical/medical/scientific terminology. Smaller threads cover actors' roles in film and Formula 1 racing.",
+  "theme": "Action verbs with technical vocabulary"
+ },
+ "gemma-michael-jordan#e4f86894": {
+  "summary": "A small, uniform group covering sports and athletic activities generally, plus basketball-specific text about equipment and instruction.",
+  "theme": "Basketball equipment and athletic activity"
+ },
+ "gemma-michael-jordan#e57c89a4": {
+  "summary": "Sports vocabulary features naming specific sports and their statistics \u2014 basketball and player contracts, football teams and game events, soccer, tournaments, scoring and winning \u2014 plus generic references to organized teams and players.",
+  "theme": "Basketball, football, and soccer references"
+ },
+ "gemma-michael-jordan#e7f75432": {
+  "summary": "Sports-semantics features centered on teams, athletic facilities and competitive physical activity, including an explicit basketball sub-cluster and one-off features for football, baseball and Formula 1 racing.",
+  "theme": "Sports venues, teams and basketball"
+ },
+ "gemma-michael-jordan#ea4989a9": {
+  "summary": "A large population of preposition-\"of\" and function-word features carries recurring sports and recreation material \u2014 sports and one's connection to them, volleyball, playing games, \"Hall of Fame\", French athletes, sports scores. Place names, academic research and competition/awards phrasing are the other visible threads.",
+  "theme": "\"Of\" connectives with sports content"
+ },
+ "gemma-michael-jordan#eab539e7": {
+  "summary": "A loose cluster of \"domain of activity\" features: competition, skill, danger and injury, track-and-field athletes and volleyball history on one side, and academic research, scientific articles, markets and industries on the other, held together by generic \"categories, activities, organizations\" senses.",
+  "theme": "Broad activity and discipline categories"
+ },
+ "gemma-michael-jordan#f20ececb": {
+  "summary": "Uniformly sports semantics: basketball equipment and instruction, football, soccer teams and leagues, baseball standings, athletic facilities, sports teams, personnel, injuries and statistics, plus Formula 1 and competitive sports in journalism. Several members simply detect the words \"sport\" and \"sports\".",
+  "theme": "Team sports and athletics vocabulary"
+ },
+ "gemma-michael-jordan#f2645a2d": {
+  "summary": "Sports features for teams, games and athletic facilities, with a strong basketball presence, football and baseball terms, Formula 1 racing, and two members that specifically detect retro Air Jordan shoes.",
+  "theme": "Basketball, football, and Air Jordans"
+ },
+ "gemma-michael-jordan#f30321c6": {
+  "summary": "Two intertwined threads: personal-name detection (last names, initials, titles, proper nouns of people/places/organizations, names in legal documents) and forms of the verb 'play' alongside other present-tense action and speech verbs. Sits at the embedding layer, essentially lexical rather than conceptual.",
+  "theme": "Proper names and action verbs"
+ },
+ "gemma-michael-jordan#f3a82839": {
+  "summary": "Sports and recreation semantics recur strongly \u2014 soccer/football championships, games and sports, school and college sports, sports scores, French athletes, \"Hall of Fame\" \u2014 delivered by a large body of preposition-\"of\" and connective-word features. Place names, creative-work titles and political text are the secondary threads.",
+  "theme": "Sports and games in \"of\" contexts"
+ },
+ "gemma-michael-jordan#fa0f77ea": {
+  "summary": "Consistently about playing sports: games and playing, school and college team sports, soccer, ball sports, and professional team categories, framed several times as group activities and challenges. One member is a musical-performance feature.",
+  "theme": "Sports playing and group activities"
+ },
+ "gemma-michael-jordan#faa62b3e": {
+  "summary": "The group is organized around the many meanings of 'play' \u2014 playing video games, playing musical instruments, theater and plays, recreational and athletic participation \u2014 plus adjacent features for broadcasting, media consumption and colloquial conversation.",
+  "theme": "Senses of the verb 'play'"
+ },
+ "gemma-small-big-fr#0093cbd2": {
+  "summary": "Overwhelmingly French-language features \u2014 French words, French online chat, and technical support forums \u2014 with computers, Linux/Ubuntu and software installation as the recurring subject matter, plus assorted code and URL detectors.",
+  "theme": "French language and computing chat"
+ },
+ "gemma-small-big-fr#02a802ea": {
+  "summary": "Casual and conversational French throughout, most often French technical-support chat about Ubuntu, software configuration and computer issues. Minor strands cover French opera lyrics, treaty and international-law phrasing, and programming-language code snippets.",
+  "theme": "French chat about software problems"
+ },
+ "gemma-small-big-fr#0308e445": {
+  "summary": "The most semantically coherent of the large French groups: features for \"otherwise\", things being opposite or contrary, disagreement and contradiction, \"vice versa\"/\"inverse\"/\"reverse\", change or reversal, negativity and distance, and legal/military terms indicating opposition, over a background of code and scientific jargon.",
+  "theme": "Negation, contradiction and opposites"
+ },
+ "gemma-small-big-fr#03b91163": {
+  "summary": "Dominated by French-language features \u2014 French words and phrases, question-and-answer vocabulary, and French chat about computer networking, software installation and Linux \u2014 with recurring code, URL and XML snippet detectors mixed in.",
+  "theme": "French words in technical discussion"
+ },
+ "gemma-small-big-fr#0743b293": {
+  "summary": "Dominated by French function words ('de', 'le', 'est'), code snippet and LaTeX-math detectors, and legal or citation features, but with enough unrelated single-word detectors \u2014 'giant', 'arrest', 'coffee', 'fair' \u2014 that no single theme fits.",
+  "theme": "Mixed grab-bag"
+ },
+ "gemma-small-big-fr#085a9c3f": {
+  "summary": "Two threads: French text features (French common words, question words and verb conjugations, accented characters, chat about Ubuntu problems) and size features for 'small', 'big', 'Grand', diminutives and measurement or comparison words.",
+  "theme": "French cues and size adjectives"
+ },
+ "gemma-small-big-fr#08a6db18": {
+  "summary": "Layer-0 and layer-1 features that recognize French words and short function words (le, de, est), French internet-chat fragments with usernames and emoticons, and French discussion of Linux/Ubuntu problems. A few accented-character and code-snippet detectors sit alongside them.",
+  "theme": "Early French detection in chat"
+ },
+ "gemma-small-big-fr#0a4489bc": {
+  "summary": "French text detection dominates: French words and phrases, informal French conversation, and code-switching between French and English. Most members tie that French text to computer networking, software installation and Ubuntu troubleshooting, with a handful of code and XML snippet features.",
+  "theme": "French tech-support conversation cues"
+ },
+ "gemma-small-big-fr#14226b7f": {
+  "summary": "Heterogeneous collection whose largest strands are quotation-mark and quoted-text detectors, programming and LaTeX code snippets, and French function words ('le', 'de'). Stray legal-proceeding, proper-noun and laboratory-percentage features make up the remainder.",
+  "theme": "Mixed grab-bag"
+ },
+ "gemma-small-big-fr#14679b8a": {
+  "summary": "Late-layer features for French words and phrases, informal French conversation and online chat turns, especially French-language discussion of computing, internet and networking topics, plus a few multilingual grammar and code-snippet detectors. These maintain the French output register at the answer position.",
+  "theme": "French conversational and technical chat"
+ },
+ "gemma-small-big-fr#1625a789": {
+  "summary": "Two threads: function words that hedge or qualify \u2014 auxiliary verbs, 'latter', 'such', 'apparently', 'somewhat like but not entirely' \u2014 and software boilerplate features for 'assembly/using/namespace/license', licensing snippets and markup-heavy text. Fires mainly around the French words 'contraire' and 'est'.",
+  "theme": "Hedging words and code boilerplate"
+ },
+ "gemma-small-big-fr#182c5f50": {
+  "summary": "The consistent thread is scale and contrast: \"grand\", size/state/degree words, general importance or size, measurement adjectives, and explicit comparison-and-contrast phrases. Surrounding it are French \"de\"/\"le\" features, mathematical formulas, and multilingual code snippets.",
+  "theme": "Size comparison and contrast words"
+ },
+ "gemma-small-big-fr#19e1c587": {
+  "summary": "A near-uniform set of vocabulary detectors for scientific and medical research terms, biology and chemistry, legal and court jargon, mathematical formulas and programming terms, rounded out by proper-noun and non-English word features.",
+  "theme": "Technical and academic terminology"
+ },
+ "gemma-small-big-fr#1af5515f": {
+  "summary": "Concentrated on the word 'small' and its neighbours \u2014 size and quantity adjectives, dimensions and measurement terms, adjectives for small physical objects \u2014 plus a matching 'grand' strand that in late layers drifts into family-relations and ancestry senses of 'grand'. Motor-sport 'Grand Prix' references appear as a homonym artifact.",
+  "theme": "Smallness and physical dimensions"
+ },
+ "gemma-small-big-fr#2047cdef": {
+  "summary": "A compact size-semantics group: features for 'small', 'little', 'big' and 'Grand', diminutives, size and quantity adjectives, and measurement or comparison words, plus limit and threshold language from mathematical text.",
+  "theme": "Small versus big vocabulary"
+ },
+ "gemma-small-big-fr#2598df2b": {
+  "summary": "Distinguished by features about reversal and opposition \u2014 'the other way around', direction or order being inverted, words indicating change or reversal, legal and political opposition \u2014 combined with a large body of quotation, definition and formal-writing features.",
+  "theme": "Opposition, reversal and quoted definitions"
+ },
+ "gemma-small-big-fr#273e7153": {
+  "summary": "No single thread holds this set together. The largest strands are quotation-mark and quoted-text detectors, code and LaTeX/programming-syntax snippets, and French function words ('de', 'le', the verb 'est'), with many idiosyncratic one-off lexical features such as 'prime', 'friendly' and 'latter'.",
+  "theme": "Mixed grab-bag"
+ },
+ "gemma-small-big-fr#28ca250b": {
+  "summary": "Nearly every member is about size: 'small' and 'big', diminutive word parts, adjectives of size, quantity or importance, measurements and comparisons, and 'Grand'. A few extend size language into financial and mathematical threshold contexts.",
+  "theme": "Size and scale adjectives"
+ },
+ "gemma-small-big-fr#2cca55b1": {
+  "summary": "Opposition is the strongest thread \u2014 the word \"other\", political opposition and disagreement, \"otherwise\", contrast and comparison \u2014 alongside a size axis (\"small\", \"grand\", small quantities) and French conversational and multilingual features.",
+  "theme": "Opposition, otherness and size words"
+ },
+ "gemma-small-big-fr#2d35e65f": {
+  "summary": "Combines features for 'small', dimensions and size/quantity adjectives with a large body of quotation and definition features. French chat, comparison-and-contrast wording and family-relation terms appear as smaller threads.",
+  "theme": "Smallness vocabulary with quoted text"
+ },
+ "gemma-small-big-fr#2ed676f0": {
+  "summary": "A shallow-layer detector cluster rather than a semantic one: many quotation-mark and quoted-string features, code snippets, programming terms and LaTeX/math symbols, legal and technical document vocabulary, proper nouns, and the French words \"le\" and \"de\".",
+  "theme": "Quotation marks, code and document jargon"
+ },
+ "gemma-small-big-fr#3041bc5a": {
+  "summary": "Small cluster combining 'other way around' and reversal-of-order features with legal/research writing features about disagreement, plus comparison and symmetry detectors \u2014 the reversal concept the antonym prompt requires.",
+  "theme": "Inverted order and formal disagreement"
+ },
+ "gemma-small-big-fr#30fe4313": {
+  "summary": "Comparison is the recurring subject: \"vs.\" comparisons, words used to compare one thing to another, versions and counterparts, conjunctions and quantifiers, and reversal words. These sit alongside \"est\"/\"to be\" copula features, French articles, quote detectors and code snippets.",
+  "theme": "Comparison phrasing and copula forms"
+ },
+ "gemma-small-big-fr#3142bd92": {
+  "summary": "Mixed, but with three visible threads: mathematical and LaTeX notation plus code snippets, quotation-mark and quoted-title detectors, and a smallness thread (\"small\", \"little\" in the context of children) alongside French \"de\"/\"le\" and reversal features.",
+  "theme": "Math notation, quotes and smallness"
+ },
+ "gemma-small-big-fr#3468fc18": {
+  "summary": "A tight set of French-language features \u2014 French words, question words and verb conjugations, accented characters, and online chat about Ubuntu and software problems \u2014 very often described together with code snippets and XML question-and-answer markup.",
+  "theme": "French text and code snippets"
+ },
+ "gemma-small-big-fr#353656c0": {
+  "summary": "Language-identity features are prominent \u2014 German nouns and verbs, Danish text, French/Portuguese/Spanish pronouns and common words, verbs in non-English languages, translation definitions \u2014 together with a size thread (\"grand\", size adjectives, dimensions, small objects) and the usual scientific/technical jargon.",
+  "theme": "Multilingual cues and size adjectives"
+ },
+ "gemma-small-big-fr#3616d2a4": {
+  "summary": "A compact opposition cluster: 'vice versa', 'inverse', 'reverse', words indicating disagreement, mentions of things being opposite or contrary, and scientific symmetry/equivalence terms, with mathematical transpose and dual notation as the recurring secondary flavor.",
+  "theme": "Contrary and inverse relations"
+ },
+ "gemma-small-big-fr#3665f80c": {
+  "summary": "Two clear strands: features for the phrase 'other way around' and for the direction or order of items being reversed or inverted, and features for formal legal and research writing about disagreement and court arguments. Comparison and symmetry features tie the two together.",
+  "theme": "Reversed order and legal disagreement"
+ },
+ "gemma-small-big-fr#38cba6d3": {
+  "summary": "Two clear strands: features for the word 'small' and other size, dimension and quantity adjectives, and features for quoted text, definitions and comparison/contrast wording. Smaller threads cover French internet chat and family-relationship vocabulary.",
+  "theme": "Size adjectives and quoted definitions"
+ },
+ "gemma-small-big-fr#40172942": {
+  "summary": "French-language technical support output: Ubuntu and networking discussions, computer troubleshooting words, question-and-answer structure around \"reponse\", informal French chat, and code snippets, URLs and file paths.",
+  "theme": "French Ubuntu troubleshooting and code"
+ },
+ "gemma-small-big-fr#42c73a29": {
+  "summary": "A very large heterogeneous set with three recognizable threads: bulk scientific, medical and legal jargon plus code snippets at the embedding layers; French function-word features (the article \"le\", the preposition \"de\", the copula \"est\"/\"to be\"); and, in the deepest layers, French-language and code-switching detectors along with size and reversal words like \"small\", \"inverse\" and \"vice versa\".",
+  "theme": "Mixed grab-bag with French cues"
+ },
+ "gemma-small-big-fr#43320274": {
+  "summary": "Blends verb features (multilingual verb forms, present/past/auxiliary verbs) with software-code boilerplate ('assembly/using/namespace/license', licensing and import snippets, markup-heavy text), plus a few hedging and argument-closing word detectors.",
+  "theme": "Verb forms and licensing code"
+ },
+ "gemma-small-big-fr#441d36de": {
+  "summary": "Recurring copula features dominate \u2014 the French form of \"to be\", \"est\" as a suffix, the verb \"to be\" across languages and German \"sein\" \u2014 combined with a size thread (\"small\", \"Grand\", dimensions, size/quantity words) and the usual legal, technical and quoted-text background.",
+  "theme": "Copula forms and size vocabulary"
+ },
+ "gemma-small-big-fr#44e9a0b1": {
+  "summary": "Unified by opposition and scale: features for \"vice versa\", \"inverse\", \"reverse\", things being contrary to something else, and change or reversal, paired with a small-to-big axis (\"small\", \"Grand\", \"big\", \"too large\", measurement adjectives). Background noise is the usual early-layer code and scientific jargon.",
+  "theme": "Antonym reversal and size opposites"
+ },
+ "gemma-small-big-fr#498843aa": {
+  "summary": "All members detect quoted spans \u2014 text inside quotation marks or apostrophes, code quotations and mathematical symbols in quotes, and quoted song or movie titles \u2014 at a single early layer.",
+  "theme": "Quoted strings and titles"
+ },
+ "gemma-small-big-fr#4b7a45d9": {
+  "summary": "Heterogeneous set whose recognizable strands are French function words ('le', 'de', 'est'), code and math-notation snippets (JSON, backticks, LaTeX), and citation or laboratory-percentage detectors. Many members are idiosyncratic single-word features such as 'giant', 'coffee' and 'friendly'.",
+  "theme": "Mixed grab-bag"
+ },
+ "gemma-small-big-fr#4de00286": {
+  "summary": "Every member is an input-layer quote feature: double-quote tokens, text surrounded by quotation marks, and conversation rendered within quotes, with one member also picking up quotations in legal or political disputes.",
+  "theme": "Quotation mark detection"
+ },
+ "gemma-small-big-fr#4f900d76": {
+  "summary": "Detectors of specialized vocabulary: medical and clinical research, biology and chemistry, scientific measurement and notation, mathematics, and legal/court jargon, with proper nouns and programming terms as side threads.",
+  "theme": "Scientific and legal terminology"
+ },
+ "gemma-small-big-fr#5020cd69": {
+  "summary": "Two main strands: verb features centered on 'to be' \u2014 the word 'is', conjugated forms across languages, auxiliary and multilingual verb detectors, plus French articles like 'le/la/un' \u2014 and software boilerplate features for 'assembly/using/namespace/license', licensing and import snippets, and LaTeX/markup syntax. Several one-off detectors (the surname 'Lee', the word 'apparently') make it partly a grab-bag.",
+  "theme": "Copula verbs and code boilerplate"
+ },
+ "gemma-small-big-fr#560ca0a9": {
+  "summary": "French-language output aimed at helping someone: conversational French chat and forum turns, Linux and Ubuntu usage instructions, networking and computer troubleshooting vocabulary, question/answer structure around \"reponse\", and accompanying code and URL snippets.",
+  "theme": "French technical support and instructions"
+ },
+ "gemma-small-big-fr#5676029b": {
+  "summary": "French grammatical machinery is the backbone: \"de\", \"le/la/les\", French words and greetings, and the verb \"to be\". Layered on top are opposition features (the word \"opposite\", political opposition, negation and exceptions, reversed order) and a size/importance thread, plus lots of code and scientific jargon.",
+  "theme": "French function words and opposition"
+ },
+ "gemma-small-big-fr#5adb3105": {
+  "summary": "Reversal and inversion semantics (direction or order reversed, 'other way around', words signalling change) combined with quoted-text, definition and legal formal-writing features, plus code documentation and mathematical notation detectors.",
+  "theme": "Opposites and quotation handling"
+ },
+ "gemma-small-big-fr#5b1c09f7": {
+  "summary": "Another size-semantics cluster: the words 'small', 'little', 'big', 'grand', diminutive forms, adjectives of size and importance, quantity words, measurement and comparison language, and inequality symbols. A few outliers touch on size in financial or math-jargon contexts.",
+  "theme": "Small/big size comparison features"
+ },
+ "gemma-small-big-fr#5fd501b1": {
+  "summary": "Built around French determiners and prepositions (\"le/la/les\", \"de\" and \"de-\" prefixes, French words) plus an opposition thread (the word \"opposite\", the word \"other\", political opposition and disagreement) and size adjectives, with scientific documents and math expressions as background.",
+  "theme": "French articles and opposition terms"
+ },
+ "gemma-small-big-fr#6198e508": {
+  "summary": "An early-layer set built around formal document language: legal and technical terms and abbreviations, software code and file-path strings, code comments and import statements, and quoted strings. Remaining members are generic-noun or section-header detectors with no shared topic.",
+  "theme": "Legal, technical and code vocabulary"
+ },
+ "gemma-small-big-fr#61debdb8": {
+  "summary": "Members detect French words and phrases, informal French conversation and chat turns, and French-language technical talk about computers and networking, together with multilingual grammatical-structure and question-answer formatting features.",
+  "theme": "French internet chat register"
+ },
+ "gemma-small-big-fr#65b366b6": {
+  "summary": "Size semantics dominate: 'small', dimensions, adjectives of size or importance, and several features for 'Grand' including Grand Prix motorsport. These sit alongside quotation and definition features and a smaller family-relations strand.",
+  "theme": "Size adjectives and 'grand'"
+ },
+ "gemma-small-big-fr#66cf1e60": {
+  "summary": "Input-layer features for abbreviations and word fragments, proper nouns naming people and places, technical/code tokens (LaTeX, protobuf, math acronyms), and repeatedly for bracketed percentage figures in laboratory or medical text. Heterogeneous, with token-shape rather than topic as the common factor.",
+  "theme": "Abbreviations, names and technical tokens"
+ },
+ "gemma-small-big-fr#6a6d798d": {
+  "summary": "A grab-bag with three visible threads: French function words ('le', 'de', 'est'), programming and mathematical snippet detectors, and legal-proceeding or citation features. Scattered idiosyncratic word detectors ('prime', 'friendly', 'coffee', 'import') fill the rest.",
+  "theme": "Assorted French and code detectors"
+ },
+ "gemma-small-big-fr#724ccbbc": {
+  "summary": "Code-oriented features (JavaScript and general code snippets, import statements, documentation and copyright blocks, markup keywords, curly brackets) paired with quotation-mark and quoted-span features, plus conjunction detectors. Structural rather than topical.",
+  "theme": "Programming syntax and quoted text"
+ },
+ "gemma-small-big-fr#73e5da6a": {
+  "summary": "Layer-0 vocabulary features for specialized terminology: medicine and clinical studies, biology, chemistry and scientific measurement, mathematical formulas, and legal/court language. Proper names and programming/code terminology form secondary threads.",
+  "theme": "Scientific, medical and legal jargon"
+ },
+ "gemma-small-big-fr#795984bd": {
+  "summary": "Code-centric: snippets from Java, Python, XML and C++, configuration files, URLs and file paths, plus hyphenated and bracketed tokens. Non-English text features, including French pronouns and contractions, form the secondary thread.",
+  "theme": "Source code and punctuation strings"
+ },
+ "gemma-small-big-fr#7a754c4f": {
+  "summary": "Deep-layer French output features centered on online forums and chat: conversational French, computer networking, servers and internet communication, software installation and troubleshooting, plus code, URLs and file paths, with a smaller thread on French history, treaties and international law.",
+  "theme": "French forum discussion and networking"
+ },
+ "gemma-small-big-fr#7ddc3585": {
+  "summary": "Quoted-text features (double and single quotes, text within quotes, quotes plus adjacent words) combined with code and documentation features (JavaScript snippets, import statements, copyright/doc blocks, programming and markup keywords). Same punctuation-and-syntax scaffolding as the other quote clusters on this prompt.",
+  "theme": "Quotation marks with code syntax"
+ },
+ "gemma-small-big-fr#7faf6e1f": {
+  "summary": "Early-layer features for the French definite article 'le', the preposition 'de' and the verb 'est', alongside legal and technical document vocabulary (names of laws, courtroom verbs), proper nouns, and code/programming term detectors.",
+  "theme": "French articles and formal vocabulary"
+ },
+ "gemma-small-big-fr#838e89f8": {
+  "summary": "Almost every member detects French text specifically \u2014 common French words, question words, verb conjugations, accented characters \u2014 and a large fraction narrows that to French-language online discussion of computers, Ubuntu/Linux and software problems, with a few code-snippet detectors mixed in. This is the group that establishes 'this prompt is French' at the very start of the network.",
+  "theme": "French-language and technical chat cues"
+ },
+ "gemma-small-big-fr#83a576ec": {
+  "summary": "Almost entirely deep-layer French output features: French-language internet chat and casual conversation, computer networking, servers and Ubuntu troubleshooting, and code/config snippets across Java, Python, XML and C++, with side threads on French opera and international treaties.",
+  "theme": "French tech chat and code snippets"
+ },
+ "gemma-small-big-fr#86203d8b": {
+  "summary": "Uniformly French-language: French words, articles, prepositions and pronouns, plus informal French chat and IRC-style fragments with usernames and emoticons. The recurring topic is Linux/Ubuntu servers, networking and asking for technical help.",
+  "theme": "French internet chat about computers"
+ },
+ "gemma-small-big-fr#862d15d1": {
+  "summary": "Features about opposition and inversion \u2014 'other way around', direction or order reversed, words indicating change, legal and military opposition \u2014 mixed with quotation, definition and formal-writing detectors and some code documentation features.",
+  "theme": "Reversal and quoted formal language"
+ },
+ "gemma-small-big-fr#8919d54b": {
+  "summary": "Four near-duplicate features for text inside quotation marks or apostrophes and for quoted code or mathematical symbols; the group is essentially one quoted-string concept.",
+  "theme": "Quoted code and math strings"
+ },
+ "gemma-small-big-fr#8aa15b46": {
+  "summary": "A near-uniform French output cluster about software installation and configuration \u2014 Linux usage instructions, menus and settings, computer troubleshooting \u2014 expressed in informal French chat, together with code snippets and general non-English-text detectors.",
+  "theme": "French software-install chat and code"
+ },
+ "gemma-small-big-fr#8aad1a82": {
+  "summary": "Pairs features for words that close an argument or mark mathematical and interpersonal relations with features for 'equivalent' and its 'standard' collocations, giving a small equivalence-and-conclusion cluster.",
+  "theme": "Argument closure and equivalence terms"
+ },
+ "gemma-small-big-fr#8d069f37": {
+  "summary": "Mostly code-adjacent tokens: 'assembly/using/namespace/license' terms, licensing and import snippets, LaTeX and markup, programming errors and math acronyms, alongside abbreviations and short legal or medical word fragments. A few multilingual verb and one-off word detectors round it out.",
+  "theme": "Software boilerplate and abbreviations"
+ },
+ "gemma-small-big-fr#94542751": {
+  "summary": "Three intertwined threads: heavy double- and single-quote detectors and quoted-string features, French grammar (the articles \"le/la/les\", French words, the verb \"to be\"), and size/quantity adjectives, all sitting on a bed of code and scientific-document jargon.",
+  "theme": "Quotation, French copula and size"
+ },
+ "gemma-small-big-fr#97a15f59": {
+  "summary": "Centered on opposites and disagreement: 'vice versa', 'inverse', 'reverse', words signalling contradiction, mentions of things being contrary, plus equivalence, counterpart and symmetry terminology. Mathematical dual/transpose notation and medical-scientific vocabulary appear as secondary strands.",
+  "theme": "Contradiction and inversion concepts"
+ },
+ "gemma-small-big-fr#97c4ea36": {
+  "summary": "Nearly all members concern contrast: 'vice versa', 'inverse', 'reverse', disagreement and contradiction words, things being opposite or contrary, and equivalence or symmetry terms. Mathematical equation features involving duals and transposes form the main secondary strand.",
+  "theme": "Opposites and reversal semantics"
+ },
+ "gemma-small-big-fr#9b2bc200": {
+  "summary": "Two intertwined threads: size vocabulary ('small', 'big', 'Grand', diminutives, much-less-than symbols, measurements and comparisons) and features about definitions, etymology and the meaning of words. A couple of profanity and political-figure detectors are outliers.",
+  "theme": "Smallness, size and word definitions"
+ },
+ "gemma-small-big-fr#9d742ab1": {
+  "summary": "Combines code and markup features \u2014 JavaScript snippets, import statements, documentation and copyright blocks, programming keywords, curly brackets \u2014 with quotation-mark and quoted-text features, plus a couple of scientific/technical vocabulary detectors.",
+  "theme": "Code, documentation and quotation marks"
+ },
+ "gemma-small-big-fr#9fddafcc": {
+  "summary": "Chiefly quotation-mark and quoted-span detectors together with code, markup and documentation features (import statements, JavaScript, programming keywords, curly brackets), plus a few members for definitions of names or phrases and for conjunctions/quantifiers. Reads as format scaffolding rather than a content topic.",
+  "theme": "Quoted text and code scaffolding"
+ },
+ "gemma-small-big-fr#a3fe2127": {
+  "summary": "French grammar features recur throughout \u2014 the preposition \"de\", the copula \"est\", French conversational text \u2014 mixed with a large amount of code, URL and scientific-document noise and, in the upper layers, quoted-speech, grammatical-discussion and academic-reference detectors.",
+  "theme": "French prepositions and technical noise"
+ },
+ "gemma-small-big-fr#aa0e148b": {
+  "summary": "A low-layer grab-bag dominated by legal and technical document vocabulary (names of laws, legal terms, abbreviations), programming code and file-path strings, code comments, and quoted strings, with a scattering of generic-noun and French copula ('est') detectors. No single semantic thread beyond 'formal technical/legal text'.",
+  "theme": "Technical, legal and code terminology"
+ },
+ "gemma-small-big-fr#aa2e3653": {
+  "summary": "A French-language output cluster: informal French conversation and discourse markers, discussions of Linux, Wine and computer networking, code snippets in multiple languages, and a distinctive classical-music and French opera thread at the embedding layer and above.",
+  "theme": "French chat, opera and Linux support"
+ },
+ "gemma-small-big-fr#ae506fa5": {
+  "summary": "Members overwhelmingly encode size and scale words \u2014 'small'/'little' on one side, 'big'/'large'/'grand' on the other \u2014 along with diminutives, size adjectives, measurements, and mathematical size thresholds. Content mirrors the other size clusters for this antonym prompt.",
+  "theme": "Size antonym vocabulary"
+ },
+ "gemma-small-big-fr#b78eb722": {
+  "summary": "Repeated features for software-code boilerplate terms such as 'assembly', 'using', 'namespace' and 'license', licensing and import snippets, and markup-heavy text, with a small number of multilingual verb and single-word ('latter', 'apparently') detectors.",
+  "theme": "Software license and namespace tokens"
+ },
+ "gemma-small-big-fr#bd605f6a": {
+  "summary": "Mixes multilingual detectors \u2014 French, Danish, Portuguese and Croatian text, French/Scandinavian code, French political news \u2014 with comparison and opposition features (\"vs.\", the word \"opposite\", debate and disagreement) and a smallness/quantity thread, ending in French technical chat at the top layers.",
+  "theme": "Multilingual text and comparison cues"
+ },
+ "gemma-small-big-fr#c2d7037e": {
+  "summary": "French words and character strings, accented characters, and French chat about computer problems, mixed with code-snippet, XML questionnaire and general technical-writing detectors.",
+  "theme": "French chat and technical writing"
+ },
+ "gemma-small-big-fr#c3e67749": {
+  "summary": "The deep layers are strongly French: French words and language identification, French internet/computer chat, questions in French, and French opera, plus code-switching and non-English code. Earlier members contribute French articles and the copula, and scientific/technical terminology.",
+  "theme": "French-language output and technical chat"
+ },
+ "gemma-small-big-fr#c564eba8": {
+  "summary": "Two intertwined threads: features for quotation marks and quoted spans of text (double quotes, single quotes, text within quotes, quotes plus surrounding words), and features for code and markup \u2014 JavaScript snippets, import statements, documentation blocks, curly brackets, programming/legal/scientific jargon. Essentially a punctuation-and-syntax scaffolding group for the quoted-answer format.",
+  "theme": "Quotation marks and code syntax"
+ },
+ "gemma-small-big-fr#c57af786": {
+  "summary": "Mostly quotation and definition features \u2014 quoted text, definitions of proper nouns, translated words being defined \u2014 plus comparison and contrast wording, quantitative comparisons like ratios and percentages, and code snippet and German-language detectors.",
+  "theme": "Quoted definitions and comparisons"
+ },
+ "gemma-small-big-fr#c9f45ff8": {
+  "summary": "A near-identical size-comparison cluster: the words 'small', 'little', 'big' and 'grand', size and quantity adjectives, diminutive word forms, less-than/greater-than symbols, and measurement or threshold language. A handful of noisier members cover size in financial or mathematical framing.",
+  "theme": "Small versus big size semantics"
+ },
+ "gemma-small-big-fr#ca3eb474": {
+  "summary": "Late-layer features for source code, configuration files, file paths, URLs and HTML tags, alongside hyphenated words and punctuation. A non-English strand covers French contractions and pronouns plus Chinese and Japanese characters, with some legal and mathematical notation.",
+  "theme": "Code, URLs and hyphenated strings"
+ },
+ "gemma-small-big-fr#caa286f9": {
+  "summary": "Most members detect quoted text and quotation punctuation \u2014 definitions of names or phrases, quoted speech, quoting in legal and policy documents \u2014 interleaved with code snippet, file path and mathematical notation features, ending in late-layer hyphenation and URL detectors.",
+  "theme": "Quotation marks and code punctuation"
+ },
+ "gemma-small-big-fr#d1352b94": {
+  "summary": "Largely quotation and citation machinery \u2014 text enclosed in quotation marks, quoted titles and names, references to academic publications, legal and journalistic writing \u2014 combined with French function words (\"de\", \"le\", \"est\") and a contrast/comparison thread.",
+  "theme": "Quoted text and academic-legal jargon"
+ },
+ "gemma-small-big-fr#d2ec42b2": {
+  "summary": "The dominant concept is physical/abstract size: features for the words 'small', 'little', 'big', 'grand', 'large', 'too/sufficiently', plus adjectives of size, quantity and importance, measurements and comparisons. Several late-layer members push toward the 'big' answer while earlier ones represent the 'petit' input.",
+  "theme": "Size and magnitude adjectives"
+ },
+ "gemma-small-big-fr#d37de770": {
+  "summary": "Jargon detectors spanning medicine, biology, chemistry, statistics, law and computer programming, together with proper names and non-English word features. The unifying meaning is 'specialized technical vocabulary' rather than any single field.",
+  "theme": "Specialized domain vocabulary"
+ },
+ "gemma-small-big-fr#d4618659": {
+  "summary": "A heterogeneous early-layer set whose recognizable strands are quotation-mark and quoted-text detectors, code and LaTeX snippets (JSON structures, shell variables, backticks), and the French function words 'le' and 'de'. Assorted proper-noun and legal-proceeding features fill out the rest.",
+  "theme": "Mixed grab-bag"
+ },
+ "gemma-small-big-fr#d58c5da1": {
+  "summary": "Specialized vocabulary throughout: scientific measurement and notation, medical and biological research terminology, legal case language, mathematical formulas, and code-related terms, plus proper-noun detectors.",
+  "theme": "Technical, medical and legal jargon"
+ },
+ "gemma-small-big-fr#dbb6885e": {
+  "summary": "Almost all members are code, URL and file-path detectors or hyphenation and punctuation features. Smaller threads cover non-English text (French capitalized abbreviations, Chinese and Japanese characters) and medical, legal and academic notation.",
+  "theme": "Code snippets and hyphenated tokens"
+ },
+ "gemma-small-big-fr#dec527d2": {
+  "summary": "French-language features \u2014 common French words, question words and verb conjugations, accented characters, and chat about Ubuntu problems \u2014 alongside code snippets and XML question-and-answer markup detectors.",
+  "theme": "French words with code snippets"
+ },
+ "gemma-small-big-fr#defff515": {
+  "summary": "Just two copies of the same feature: words that mark the end of an argument, are mathematical, or indicate an interpersonal connection or relationship.",
+  "theme": "Argument-ending relational words"
+ },
+ "gemma-small-big-fr#e1847063": {
+  "summary": "Jargon features spanning medicine, biology, chemistry, statistics, law and programming, with proper names, capitalized terms and multilingual word detectors as recurring secondary threads.",
+  "theme": "Specialized scientific and legal vocabulary"
+ },
+ "gemma-small-big-fr#e3786110": {
+  "summary": "Size adjectives recur at every depth: \"small\", \"grand\", \"little\" in the context of children, small quantities, general importance or size, and late-layer words describing intensity, size or level. Mixed in are French text and articles, debate/legal writing, and scientific document jargon.",
+  "theme": "Smallness, size and comparison terms"
+ },
+ "gemma-small-big-fr#e9a6281f": {
+  "summary": "Heterogeneous but with recognizable threads: French articles and the copula (\"le\", \"de\", French text and \"to be\"), quotation-mark and emphasized-text detectors, and quantitative comparison features covering ratios, percentages, ranges, dimensions and size.",
+  "theme": "French articles, quotes, quantitative comparison"
+ },
+ "gemma-small-big-fr#ea23aad0": {
+  "summary": "Mixes three recognizable strands: word meaning and definition features (etymology, grammar/language terms, 'words that define concepts'), quotation-mark and quoted-text features, and code/markup features (JavaScript, documentation blocks, programming keywords). A couple of odd members detect profanity or political figures.",
+  "theme": "Definitions plus quotes and code"
+ },
+ "gemma-small-big-fr#ea3d584d": {
+  "summary": "Nearly every member is a French-language feature: French words and stopwords, conversational French from forums and IRC-style chat, and question/answer vocabulary such as 'reponse'. The recurring subject matter is computer troubleshooting, software installation and Linux/Ubuntu, with a smaller strand of generic code-snippet detectors.",
+  "theme": "French-language computer help chat"
+ },
+ "gemma-small-big-fr#efe287b3": {
+  "summary": "French conversational output with a strong question-and-answer flavour: repeated features for \"reponse\" and structured question/answer text, French chat about computer problems, Linux software installation instructions, and code snippets in various programming languages.",
+  "theme": "French question-answer chat and Linux"
+ },
+ "gemma-small-big-fr#eff7d07e": {
+  "summary": "A grab-bag whose largest threads are French function-word detectors ('le', 'de', 'est'), code and LaTeX-math snippet features, and parenthetical citation and percentage features. The remainder are one-off word detectors like 'giant', 'arrest', 'personally' and 'coffee'.",
+  "theme": "Heterogeneous early lexical set"
+ },
+ "gemma-small-big-fr#f22e6511": {
+  "summary": "Early-layer features for the French article 'le', preposition 'de' and verb 'est', together with legal and technical document vocabulary, proper nouns of people and places, and code/programming term detectors.",
+  "theme": "French function words and legal terms"
+ },
+ "gemma-small-big-fr#f2b40694": {
+  "summary": "Code and markup features \u2014 programming keywords, JavaScript snippets, import statements, documentation and copyright headers, curly brackets \u2014 alongside quotation-mark and quoted-text detectors and a few computing/science vocabulary features.",
+  "theme": "Code documentation and quote punctuation"
+ },
+ "gemma-small-big-fr#f39c5946": {
+  "summary": "The unifying idea is contrast and inversion: 'vice versa', 'inverse', 'reverse', words indicating disagreement or contradiction, things being opposite or contrary, plus equivalence/counterpart and symmetry terms. Secondary strands are word-definition/etymology features and mathematical notation for duals and transposes, all triggered around the French words 'contraire', 'de' and 'est'.",
+  "theme": "Opposition, negation and equivalence"
+ },
+ "gemma-small-big-fr#f6f97d9e": {
+  "summary": "A tight cluster about language about language: words enclosed in quotation marks tied to definitions, etymology features, grammar and language terminology, and features for defining concepts \u2014 exactly the machinery for a 'the opposite of X is Y' definition frame. Two profanity/slur detectors and one political-figures feature are outliers.",
+  "theme": "Word meaning and definition cues"
+ },
+ "gemma-small-big-fr#fd70d02b": {
+  "summary": "An input-layer grab-bag whose largest threads are proper nouns (names of people and places, surnames), abbreviations and short prefixes in legal or medical writing, and technical/code tokens such as LaTeX, protobuf and math acronyms. A recurring member type detects bracketed percentage data in lab or medical reports.",
+  "theme": "Proper nouns and abbreviations"
+ },
+ "gemma-small-big-fr#ff5b50e9": {
+  "summary": "The clearest thread is physical size: the word \"small\", dimensions, adjectives for small objects, and measurement/size nouns. Around it sit a large mass of scientific, medical and legal jargon and code features, plus quotation-mark and quoted-text detectors.",
+  "theme": "Size adjectives amid mixed jargon"
+ }
+}
