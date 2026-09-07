@@ -3425,8 +3425,15 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
         overflow: 'visible',
         boxSizing: 'border-box',
       })
+      // Themes are LLM summaries of the members' Neuronpedia interpretations,
+      // precomputed per k in metadata.spectral_clusters.themes.
+      var groupThemes = (spec.themes && spec.themes[String(spectralK)]) || []
+
       groupIntro.append('div')
-        .text('Groups at k=' + spectralK + ' · ' + groups.length + ' groups · notes from layer / token / repeated feature IDs')
+        .text('Groups at k=' + spectralK + ' · ' + groups.length + ' groups · '
+          + (groupThemes.length
+            ? 'themes summarized from feature interpretations'
+            : 'notes from layer / token / repeated feature IDs'))
         .st({
           fontSize: '12px', fontWeight: 600, margin: '4px 0 6px',
         })
@@ -3494,15 +3501,30 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
           .text(spectralFocusGroup === gi ? 'clear' : 'focus')
           .st({fontSize: '9px', color: '#0D7377'})
 
+        var theme = groupThemes[gi]
+        if (theme && theme.theme) {
+          var themeBox = card.append('div').st({
+            margin: '0 0 5px 0', padding: '5px 7px',
+            background: '#fff', borderRadius: '3px',
+            borderLeft: '3px solid ' + modeColors[gi % modeColors.length],
+          })
+          themeBox.append('div')
+            .text(theme.theme)
+            .st({fontSize: '11px', fontWeight: 600, color: '#222', lineHeight: '1.3'})
+          if (theme.summary) {
+            themeBox.append('div')
+              .text(theme.summary)
+              .st({fontSize: '10px', color: '#444', lineHeight: '1.4', marginTop: '3px'})
+          }
+        }
+
         var note = groupNotes[gi]
         if (note && note.headline) {
           card.append('div')
             .text(note.headline)
             .st({
-              fontSize: '10px', color: '#444', lineHeight: '1.4',
-              margin: '0 0 6px 0', padding: '5px 7px',
-              background: '#fff', borderRadius: '3px',
-              borderLeft: '3px solid ' + modeColors[gi % modeColors.length],
+              fontSize: '9px', color: '#777', lineHeight: '1.35',
+              margin: '0 0 6px 0',
             })
         }
 
@@ -3511,27 +3533,43 @@ window.initCgSvdPanel = function ({visState, renderAll, data, cgSel}) {
         var expanded = !!spectralExpandedGroups[gi]
         var previewN = spectralFocusGroup === gi ? 12 : 6
         var shown = expanded ? members : members.slice(0, previewN)
+        var interpOf = id => {
+          var node = idToNode[id]
+          return ((node && (node.localClerp || node.clerp)) || '').trim()
+        }
+        // Interpretations need room to read, so widen the columns when present.
+        var withInterp = shown.some(interpOf)
         var cols = shown.length > 12
         var scrolls = expanded && shown.length > 60
         var list = card.append('div').st({
           display: cols ? 'grid' : 'block',
-          gridTemplateColumns: cols ? 'repeat(auto-fill, minmax(94px, 1fr))' : 'none',
-          columnGap: '10px',
+          gridTemplateColumns: cols
+            ? 'repeat(auto-fill, minmax(' + (withInterp ? 250 : 94) + 'px, 1fr))'
+            : 'none',
+          columnGap: '12px',
           maxHeight: scrolls ? '260px' : 'none',
           overflowY: scrolls ? 'auto' : 'visible',
           paddingRight: scrolls ? '4px' : '0px',
         })
         shown.forEach(id => {
           var node = idToNode[id]
-          var label = featureLabel(node, id)
-          list.append('div')
-            .text(label)
-            .at({title: node ? ((node.localClerp || node.clerp || '') + '\n' + (node.nodeId || id)) : id})
+          var interp = interpOf(id)
+          var row = list.append('div')
+            .at({title: (interp ? interp + '\n' : '') + ((node && node.nodeId) || id)})
             .st({
               fontSize: '10px', color: '#444', cursor: node ? 'pointer' : 'default',
-              padding: '1px 0', overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap',
+              padding: '1px 0', display: 'flex', gap: '5px',
+              overflow: 'hidden', whiteSpace: 'nowrap',
             })
             .on('click', () => { if (node) focusSvdFeature(node) })
+          row.append('span')
+            .text(featureLabel(node, id))
+            .st({color: '#8a8a8a', flexShrink: 0})
+          if (interp) {
+            row.append('span')
+              .text(interp)
+              .st({overflow: 'hidden', textOverflow: 'ellipsis'})
+          }
         })
         if (members.length > previewN) {
           card.append('div')

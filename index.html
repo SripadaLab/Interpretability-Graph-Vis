@@ -45,12 +45,13 @@ if (!location.pathname.endsWith('/') && !/\.[a-zA-Z0-9]+$/.test(location.pathnam
 <script src='./attribution_graph/init-cg-feature-scatter.js?v=20260812b'></script>
 <script src='./attribution_graph/svd-spectrum.js?v=20260828a'></script>
 <script src='./attribution_graph/init-cg-subgraph.js?v=20260904b'></script>
-<script src='./attribution_graph/init-cg-svd-panel.js?v=20260904g'></script>
+<script src='./attribution_graph/init-cg-svd-panel.js?v=20260907a'></script>
 <script src='./attribution_graph/init-cg.js?v=20260812b'></script>
 
 <script>
 window.init = async function(){
   window.isLocalServing = true;
+  window.isStaticPages = true;
   var {graphs} = await util.getFile('./data/graph-metadata.json', false)
 
   window.visState = window.visState || {
